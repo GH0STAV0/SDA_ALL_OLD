@@ -1,4 +1,0 @@
-1637758350703	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-59.0b9/firefox/firefox" "-marionette" "--width=1024" "--height=600" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewj2pSG"
-1637758351783	Marionette	INFO	Enabled via --marionette
-1637758355655	Marionette	INFO	Listening on port 43271
-1637758355738	Marionette	WARN	TLS certificate errors will be ignored for this session
