@@ -62,7 +62,7 @@ def lets_play(serv,ops):
 
 	try:
 #		print("OPEN DISPLAY  WEB-SITE ...... ",end='',flush=True)
-		# display = Display(visible=1, size=(width,height)).start()
+		
 		print(emoji.emojize("Ok "' :check_mark_button: :alien:'))
 
 	except Exception as error:
@@ -150,6 +150,7 @@ def ads_class(driver):
 		time.sleep(10)
 		driver.get("https://click.a-ads.com/1847449/148128/")
 		time.sleep(5)
+		print("ok")
 
 		# driver.get(urls_BVB)
 		# time.sleep(10)
@@ -157,7 +158,7 @@ def ads_class(driver):
 		time.sleep(1)
 		driver.switch_to.window(driver.window_handles[1])
 		time.sleep(1)
-		input('zzzz')
+		# input('zzzz')
 	except Exception as e:
 		print(e)
 		
@@ -174,6 +175,7 @@ def starting_tasks():
 		# os.system("curl -sx socks5://127.0.0.1:9050 ifconfig.co | grep -oP '(?<=Your IP</span>: ).*(?=</span>)'")
 		mod_vpn2.fnc_vpn ()
 		# mod_vpn.renew_connection()
+		display = Display(visible=0, size=(width,height)).start()
 		serv,ops=mod_driver.build_driver(width ,height)
 		lets_play(serv,ops)
 		clean_up()
