@@ -39,6 +39,7 @@ def clean_up():
 	os.system("rm -rf /tmp/*")
 	os.system("rm geckodriver.log")
 	os.system("rm -rf rm -rf __pycache__/")
+	init_fire()
 
 
 
@@ -115,7 +116,9 @@ def init_fire():
 		os.system("ps aux | grep -i geckodriver13 | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 		os.system("ps aux | grep -i geckodriver22 | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 		os.system("ps aux | grep -i Xvfb | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
-		os.system("rm -rf /tmp/*") 
+		os.system("rm -rf /tmp/*")
+		os.system("rm /var/log/openvpn/openvpn.log")
+		#
 		time.sleep(5)
 		print(" OK !!!")
 		#os.system("ps aux | grep -i firefox | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
@@ -128,6 +131,7 @@ def init_fire():
 def stage_1():
 	try:
 		#print (urls_BVB)
+		init_fire()
 		os.system("rm -rf /tmp/*") 
 		os.system("clear && sleep 1") 
 		print ( "-------------------------------------------------------")
@@ -177,115 +181,14 @@ def starting_tasks():
 		# os.system("curl -sx socks5://127.0.0.1:9050 ifconfig.co | grep -oP '(?<=Your IP</span>: ).*(?=</span>)'")
 		mod_vpn2.fnc_vpn ()
 		# mod_vpn.renew_connection()
-		display = Display(visible=0, size=(width,height)).start()
+		display = Display(visible=1, size=(width,height)).start()
 		serv,ops=mod_driver.build_driver(width ,height)
 		lets_play(serv,ops)
+		display.stop()
 		clean_up()
 
 	except Exception as error:
 		print (str(error))
-
-
-
-
-
-def user_information():
-	arry_user_all_info=[]
-
-	arry_usr_info=t00l_.generate_name_add()
-	# print(arry_usr_info)
-	full_name=arry_usr_info[1].split(" ")
-	# print(full_name)
-	date_off_birthday=arry_usr_info[2].split("-")
-
-
-	password =   arry_usr_info[0]
-	first_name = full_name[0]
-	last_name =  full_name[1]
-	dd_birth =   date_off_birthday[0]
-	mm_birth =   date_off_birthday[1]
-	yy_birth =   date_off_birthday[2]
-	post_code = arry_usr_info[3]
-	email_usr = arry_usr_info[4]
-	arry_user_all_info.extend((email_usr,first_name,last_name,post_code))
-	# print(arry_user_all_info)
-	# for i in arry_user_all_info:
-	# 	print(i)
-	return arry_user_all_info #password,first_name,last_name,dd_birth,mm_birth,yy_birth,post_code
-
-
-
-
-
-
-
-
-def read_the_last_bin():
-	# file_bin=open('last_bin' ,'w')
-	with open("last_bin") as file_bin:
-		lines=file_bin.readlines()
-	v_last_bin=lines[0].replace("\n","")
-	return v_last_bin
-
-def generate_card_from_bin(bin_number):
-	arry_card_bin_info=[]
-	# print("GENERATE CARD  OF BIN [ "+bin_number+" ]            ",end='',flush=True)
-	print("GENERATE CARD  OF BIN       : ",end='',flush=True)
-	time.sleep(1)
-	bin_all_card=bin00.generator_bin(bin_number,1)
-	# print(bin_all_card)
-	arry_bin=bin_all_card[0].split("#")
-	card_num=arry_bin[0]
-	card_date=arry_bin[1]
-	card_date=card_date.replace('|','/')
-	card_ccv=arry_bin[2]
-	arry_card_bin_info.extend((card_num,card_date,card_ccv))
-	print(arry_card_bin_info)
-	return arry_card_bin_info
-
-
-
-
-
-def bin_operation():
-	# print("-------------------------------------------------------------------------------------")
-	print("GET THE LAST BIN         ",end='',flush=True)
-	arry_card_all_info=[]
-	the_last_bin=read_the_last_bin()
-	time.sleep(1)
-	print("   : [  "+the_last_bin+"  ]")
-	arry_card_bin_info=generate_card_from_bin(the_last_bin)
-	# arry_card_all_info.extend((card_num,card_date,card_ccv))
-	# print(card_num,card_date,card_ccv)
-	# print(arry_card_bin_info)
-	return arry_card_bin_info
-
-
-
-def add_to_last_bin():
-	l_bin=read_the_last_bin()
-	print(l_bin)
-	new_bin=int(l_bin)+1
-	binani=str(new_bin)
-	#################
-	with open("last_bin","w") as file_bin:
-		file_bin.write(binani)
-
-def save_successed_bin(card_numer):
-	# l_bin=read_the_last_bin()
-	print(card_numer)
-	# new_bin=int(l_bin)+1
-	# binani=str(new_bin)
-	#################
-	with open("succed_bin","a") as file_bin:
-		file_bin.write(card_numer+"\n")
-
-
-
-
-
-
-
 
 
 
