@@ -181,7 +181,7 @@ def starting_tasks():
 		# os.system("curl -sx socks5://127.0.0.1:9050 ifconfig.co | grep -oP '(?<=Your IP</span>: ).*(?=</span>)'")
 		mod_vpn2.fnc_vpn ()
 		# mod_vpn.renew_connection()
-		display = Display(visible=1, size=(width,height)).start()
+		display = Display(visible=0, size=(width,height)).start()
 		serv,ops=mod_driver.build_driver(width ,height)
 		lets_play(serv,ops)
 		display.stop()
