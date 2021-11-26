@@ -37,7 +37,7 @@ sys_use_agent=re.findall('\(.*?\)',user_agent)[0]
 
 def clean_up():
 	os.system("rm -rf /tmp/*")
-	os.system("rm geckodriver.log")
+	os.system("rm geckodriver.log && rm ipifo.json")
 	os.system("rm -rf rm -rf __pycache__/")
 	init_fire()
 
