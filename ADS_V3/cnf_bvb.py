@@ -1,4 +1,4 @@
-import random , os
+import random , os ,requests
 import json
 
 user_agent_list = [
@@ -20349,6 +20349,16 @@ user_agent_list = [
 #p_vpn_g="/root/install_add/moya/yserverListTCP/"
 #
 ############################# VPN ##################################""
+
+def send_msg(text):
+   token = "2137513961:AAGENlwIUQnfvbKZX64-fZ72R_oStto8oFo"
+   chat_id = "-643828126"
+   url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + text 
+   results = requests.get(url_req)
+   print(results.json())
+
+
+
 def testt():
 	print("this is imported def")
 

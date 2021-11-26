@@ -95,7 +95,9 @@ def fnc_vpn():
 			print ("OK !!!!!")
 			ac_ip,tz,loc=cnf_bvb.iip()
 			os.environ['TZ'] = tz
-			print("VPN STATUS = OK || "+ random_vpn +"||"+ ac_ip+"||"+ tz)
+			meddas="VPN STATUS = OK || "+ random_vpn +"||"+ ac_ip+"||"+ tz
+			print(meddas)
+			cnf_bvb.send_msg(meddas)
 			return [x ,True]
 		else :
 			print("")
