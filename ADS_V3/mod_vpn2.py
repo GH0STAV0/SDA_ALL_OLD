@@ -82,12 +82,13 @@ def fnc_vpn():
 	os.system("ps aux | grep -i openvpn | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 	time.sleep(3)
 	os.system("rm -rf /var/log/openvpn/openvpn.log")
+	time.sleep(1)
 	os.system("touch /var/log/openvpn/openvpn.log")
 	print ("OK !!!!!")
 	print("STARTING VPN " , end="")
 	x = subprocess.Popen(['openvpn', '--auth-nocache', '--config',final_vpn , '--log' , '/var/log/openvpn/openvpn.log'])
 	remove_from_list_running(random_vpn)
-	time.sleep(12)
+	time.sleep(15)
 	print("["+random_vpn+"]" , end="")
 	with open ('/var/log/openvpn/openvpn.log', "r") as logfile:
 		if logfile.read().find('Sequence Completed') !=-1:
