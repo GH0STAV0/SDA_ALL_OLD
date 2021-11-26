@@ -20436,7 +20436,7 @@ new_driver_path = '/usr/bin/geckodriver22'
 
 def random_fir():
 	# firefox_version=['53.0.2','53.0b9']
-	firefox_version=['57.0.1','58.0.1','59.0b9','60.0.1esr']
+	firefox_version=['57.0.1','58.0.1','59.0.1','60.0.1esr']
 	random_firefox_version=random.choice(firefox_version)
 	print("[ "+random_firefox_version +" ]", end=" ")
 	new_binary_path="/root/EXTRAT/firefox-"+random_firefox_version+"/firefox/firefox"
