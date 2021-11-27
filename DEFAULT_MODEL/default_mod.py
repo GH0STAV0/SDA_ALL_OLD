@@ -21,8 +21,10 @@ import json
 # urls_BVB=cnf_bvb.random_url
 #####################################
 # urls_BVB="https://wild-beauty.weebly.com/about.html"
-url_1="https://bitcoin-chat-news-and-games.netlify.app/"
-url_2="https://elated-nobel-943d26.netlify.app/index.html"
+url_1="https://cryptocurency-space.netlify.app/"
+url_2="https://bitcoin-chat-news-and-games.netlify.app/"
+
+url_3="https://elated-nobel-943d26.netlify.app/index.html"
 # random_display_chose=cnf_bvb.random_display_chose
 # width=cnf_bvb.width
 # height=cnf_bvb.height
@@ -144,6 +146,12 @@ def ads_class(driver):
 		driver.switch_to.window(driver.window_handles[1])
 		driver.get(url_2)
 		print(" [ "+url_2+" ]")
+		print("OPEN AND VISITE WEB-SITE [ 3 ]...... ",end='',flush=True)
+		driver.execute_script("window.open('');")
+		# time.sleep(3)
+		driver.switch_to.window(driver.window_handles[2])
+		driver.get(url_3)
+		print(" [ "+url_3+" ]")
 		# driver.get("https://elated-nobel-943d26.netlify.app/index.html")
 		# driver.get("https://click.a-ads.com/1847449/147974/")
 		time.sleep(11)
