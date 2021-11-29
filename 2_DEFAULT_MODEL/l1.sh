@@ -7,5 +7,5 @@ trap "echo oh;exit" SIGTERM SIGINT
 while true
 do
 	echo "NEW ..............."
-	timeout 3m python3 default_mod.py
+	timeout 3m python3 2_default_mod.py
 done
