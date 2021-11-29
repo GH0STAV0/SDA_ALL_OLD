@@ -20361,8 +20361,8 @@ random_ads=random.choice(ads)
 hostname_os=socket.getfqdn()
 
 def send_msg(text):
+
 	msg_telegram="[ "+hostname_os +" ]"+text
-	print socket.getfqdn()
 	token = "2137513961:AAGENlwIUQnfvbKZX64-fZ72R_oStto8oFo"
 	chat_id = "-643828126"
 	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
