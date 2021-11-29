@@ -1,13 +1,18 @@
 import os ,random ,subprocess,time 
 
 import cnf_bvb
+# import socket
 
+# hostname= socket.getfqdn()
 
 ########################### VPN  #############################/N0RD/WORKING_CONFIG/
 
 file_list_1='NORD_list_1'
 # file_list_1='NCH_list_1'
 # 
+# telrgram_vpn_text=[]
+
+
 
 pwd = os.path.dirname(os.path.realpath( __file__ ))
 

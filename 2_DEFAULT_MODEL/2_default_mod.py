@@ -16,6 +16,7 @@ from selenium.webdriver import ActionChains
 import json
 # import pickle
 
+telrgram_text=[]
 
 ###########global urls_BVB
 # urls_BVB=cnf_bvb.random_url

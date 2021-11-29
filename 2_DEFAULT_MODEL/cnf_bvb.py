@@ -1,5 +1,7 @@
 import random , os ,requests
 import json
+import socket
+
 
 user_agent_list = [
 'AppleCoreMedia/1.0.0.12B466 (Apple TV; U; CPU OS 8_1_3 like Mac OS X; en_us)'
@@ -20356,12 +20358,16 @@ ads=['148554','148477','148709','143423','146817','147629','147257','148786','14
 
 random_ads=random.choice(ads)
 
+hostname_os=socket.getfqdn()
+
 def send_msg(text):
-   token = "2137513961:AAGENlwIUQnfvbKZX64-fZ72R_oStto8oFo"
-   chat_id = "-643828126"
-   url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + text 
-   results = requests.get(url_req)
-   # print(results.json())
+	msg_telegram="[ "+hostname_os +" ]"+text
+	print socket.getfqdn()
+	token = "2137513961:AAGENlwIUQnfvbKZX64-fZ72R_oStto8oFo"
+	chat_id = "-643828126"
+	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
+	results = requests.get(url_req)
+	# print(results.json())
 
 
 
@@ -20433,8 +20439,8 @@ user_agent = random.choice(user_agent_list)
 
 ##URLS 
 #firefox_options_binary = "/root/EXTRA/firefox-49.0b9/firefox/firefox"
-# new_driver_path = '/usr/bin/geckodriver13'
-new_driver_path = '/usr/bin/geckodriver22'
+new_driver_path = '/usr/bin/geckodriver13'
+# new_driver_path = '/usr/bin/geckodriver22'
 # new_binary_path = '/root/EXTRA/firefox-53.0b9/firefox/firefox'
 
 ########################
@@ -20451,53 +20457,12 @@ new_driver_path = '/usr/bin/geckodriver22'
 # new_binary_path = '/root/EXTRA/firefox-59.0b9/firefox/firefox'
 
 def random_fir():
-	# firefox_version=['53.0.2','53.0b9']
-	firefox_version=['57.0.1','58.0.1','59.0.1','60.0.1esr']
+	firefox_version=['53.0.2','53.0b9']
+	# firefox_version=['57.0.1','58.0.1','59.0.1','60.0.1esr']
 	random_firefox_version=random.choice(firefox_version)
 	print("[ "+random_firefox_version +" ]", end=" ")
 	new_binary_path="/root/EXTRAT/firefox-"+random_firefox_version+"/firefox/firefox"
 	return new_binary_path
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
