@@ -77,7 +77,7 @@ def get_random_vpn():
 
 ##############################################################
 
-def change_time_zon(tz):
+def change_time_zon(t_z):
 	# t_z=get_time_zon()
 	print("Changing Time Zone ", end="")
 	x = subprocess.Popen(['timedatectl', 'set-timezone', t_z])
