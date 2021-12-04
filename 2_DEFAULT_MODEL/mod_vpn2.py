@@ -77,7 +77,12 @@ def get_random_vpn():
 
 ##############################################################
 
-
+def change_time_zon(tz):
+	# t_z=get_time_zon()
+	print("Changing Time Zone ", end="")
+	x = subprocess.Popen(['timedatectl', 'set-timezone', t_z])
+	print('OK'+t_z)
+	time.sleep(3)
 
 def fnc_vpn():
 
@@ -99,6 +104,7 @@ def fnc_vpn():
 		if logfile.read().find('Sequence Completed') !=-1:
 			print ("OK !!!!!")
 			ac_ip,tz,loc=cnf_bvb.iip()
+			change_time_zon(tz)
 			os.environ['TZ'] = tz
 			meddas="VPN STATUS = OK || "+ random_vpn +"||"+ ac_ip+"||"+ tz
 			print(meddas)
