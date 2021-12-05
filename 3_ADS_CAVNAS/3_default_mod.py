@@ -36,7 +36,7 @@ sys_use_agent=re.findall('\(.*?\)',user_agent)[0]
 
 
 random_ads=cnf_bvb.random_ads
-url_click_ads="https://click.a-ads.com/1852771/"+random_ads+"/"
+url_click_ads="https://click.a-ads.com/1851529/"+random_ads+"/"
 ########################################################################################################################################
 
 
@@ -165,7 +165,7 @@ def starting_tasks():
 	try:
 		stage_1()### CLEAR
 		mod_vpn2.fnc_vpn ()
-		display = Display(visible=0, size=(width,height)).start()
+		display = Display(visible=0, size=(width,height), use_xauth=False).start()
 		driver=mod_driver2.build_driver(width ,height)
 		lets_play(driver)
 		display.stop()
