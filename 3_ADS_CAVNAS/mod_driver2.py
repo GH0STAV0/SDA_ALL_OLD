@@ -109,7 +109,7 @@ def build_driver(width,height):
 		# driver.set_page_load_timeout(79)
 		driver.set_page_load_timeout(79)
 		driver.maximize_window()
-		driver.install_addon(extension_path, True)
+		# driver.install_addon(extension_path, True)
 		# print(emoji.emojize("Ok "' :check_mark_button: :alien:'))
 
 		#driver = webdriver.Firefox(service=serv, options=ops)
