@@ -21,8 +21,11 @@ telrgram_text=[]
 ###########global urls_BVB
 # urls_BVB=cnf_bvb.random_url
 #####################################
+
+random_ads=cnf_bvb.random_ads
+url_click_ads="https://click.a-ads.com/1859460/"+random_ads+"/"
 # urls_BVB="https://wild-beauty.weebly.com/about.html"
-url_1="https://bitcoin-chat-news-and-games.netlify.app/index.html"
+url_1="https://bitcoin-chat-news-and-games.netlify.app/regiter.html"
 # url_1="https://cryptocurency-space.netlify.app/index.html"
 
 # url_3="https://elated-nobel-943d26.netlify.app/index.html"
@@ -34,9 +37,6 @@ user_agent = cnf_bvb.user_agent
 sys_use_agent=re.findall('\(.*?\)',user_agent)[0]
 
 
-
-random_ads=cnf_bvb.random_ads
-url_click_ads="https://click.a-ads.com/1851529/"+random_ads+"/"
 ########################################################################################################################################
 
 
