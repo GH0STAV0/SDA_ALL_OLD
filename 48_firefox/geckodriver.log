@@ -1,0 +1,17 @@
+1638862873100	geckodriver	INFO	Listening on 127.0.0.1:53803
+1638862874189	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.gLVMczI5L3vb
+1638862874192	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-49.0b9/firefox/firefox with args ["--width=750", "--height=1334"]
+1638862874195	geckodriver::marionette	INFO	Connecting to Marionette on localhost:33957
+1638862875390	Marionette	INFO	Listening on port 33957
+1638862879192	Marionette	INFO	startBrowser c6a16de1-4809-4d9e-bdee-58672ec639d3
+
+(firefox:1336225): GLib-GObject-CRITICAL **: 02:42:23.537: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:1336225): GLib-GObject-CRITICAL **: 02:42:23.538: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:1336225): GLib-GObject-CRITICAL **: 02:42:23.538: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:1336225): GLib-GObject-CRITICAL **: 02:42:23.839: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+JavaScript error: https://bitkong.com/en?p=a-ads&d=62848_1859747, line 9: TypeError: document.querySelectorAll(...).forEach is not a function
+
+(firefox:1336225): GLib-GObject-CRITICAL **: 02:42:36.011: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
