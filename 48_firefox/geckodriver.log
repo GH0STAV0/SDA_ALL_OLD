@@ -1,0 +1,6 @@
+1638862996703	geckodriver	INFO	Listening on 127.0.0.1:33741
+1638862997810	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.JC6AHk4332hm
+1638862997814	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-49.0b9/firefox/firefox with args ["--width=1080", "--height=1920"]
+1638862997816	geckodriver::marionette	INFO	Connecting to Marionette on localhost:35113
+1638862998887	Marionette	INFO	Listening on port 35113
+1638863002347	Marionette	INFO	startBrowser 40bc74e9-1ccf-4b58-91dc-3ae843a24ecd
