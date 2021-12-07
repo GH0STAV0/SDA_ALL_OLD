@@ -155,6 +155,7 @@ def ads_class(driver):
 
 	except Exception as e:
 		print(e)
+	driver.delete_all_cookies()
 		
 def starting_tasks():
 	width ,height=cnf_bvb.resolution_func()
