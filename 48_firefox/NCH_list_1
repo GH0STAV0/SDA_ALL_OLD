@@ -13,14 +13,12 @@ NCVPN-RO-Bucharest-UDP.ovpn
 NCVPN-AU-Perth-TCP.ovpn
 NCVPN-ES-Madrid-TCP.ovpn
 NCVPN-KR-Seoul-TCP.ovpn
-NCVPN-US-Chicago-UDP.ovpn
 NCVPN-IE-Dublin-UDP.ovpn
 NCVPN-CO-Bogota-UDP.ovpn
 NCVPN-CL-Santiago-UDP.ovpn
 NCVPN-US-Phoenix-TCP.ovpn
 NCVPN-AL-Tirana-UDP.ovpn
 NCVPN-US-Seattle-UDP.ovpn
-NCVPN-EE-Tallinn-TCP.ovpn
 NCVPN-NO-Oslo-TCP.ovpn
 NCVPN-AU-Sydney-TCP.ovpn
 NCVPN-EE-Tallinn-UDP.ovpn
@@ -43,7 +41,6 @@ NCVPN-US-Atlanta-UDP.ovpn
 NCVPN-CA-Toronto-TCP.ovpn
 NCVPN-US-Charlotte-UDP.ovpn
 NCVPN-AU-Brisbane-UDP.ovpn
-NCVPN-US-Miami-UDP.ovpn
 NCVPN-US-Ashburn-TCP.ovpn
 NCVPN-US-Los_Angeles-TCP.ovpn
 NCVPN-US-San_Jose-UDP.ovpn
@@ -51,7 +48,6 @@ NCVPN-CL-Santiago-TCP.ovpn
 NCVPN-US-Miami-TCP.ovpn
 NCVPN-TW-Taipei-UDP.ovpn
 NCVPN-US-New_Orleans-UDP.ovpn
-NCVPN-IL-Tel_Aviv-TCP.ovpn
 NCVPN-MY-Kuala_Lumpur-UDP.ovpn
 NCVPN-US-Denver-TCP.ovpn
 NCVPN-CH-Zurich-UDP.ovpn

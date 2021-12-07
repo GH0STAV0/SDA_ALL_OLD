@@ -1,11 +1,12 @@
 {
-  "ip": "5.154.174.50",
-  "city": "Lisbon",
-  "region": "Lisbon",
-  "country": "PT",
-  "loc": "38.7167,-9.1333",
-  "org": "AS203020 HostRoyale Technologies Pvt Ltd",
-  "postal": "1099-042",
-  "timezone": "Europe/Lisbon",
+  "ip": "173.245.202.172",
+  "hostname": "unknown.puregig.net",
+  "city": "Chicago",
+  "region": "Illinois",
+  "country": "US",
+  "loc": "41.8500,-87.6500",
+  "org": "AS12989 StackPath LLC",
+  "postal": "60666",
+  "timezone": "America/Chicago",
   "readme": "https://ipinfo.io/missingauth"
 }
