@@ -142,8 +142,9 @@ def ads_class(driver):
 		
 		driver.get("https://shell.cloud.google.com/?cloudshell=true&show=terminal")
 		time.sleep(25)
-		gmail_id_input=WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.XPATH, '//*[@id="mat-tab-label-0-0"]/div/span')))
-		gmail_id_input.send_keys(Keys.TAB*7,"lol",Keys.ENTER)
+		gmail_id_input=WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.XPATH, '//*[@id="cloudshell"]/div/horizontal-split/div[2]/devshell/terminal-container/div/xterm-terminal-tab/div/xterm-terminal/div')))
+		# gmail_id_input.send_keys(Keys.TAB*7,"lol",Keys.ENTER)
+		gmail_id_input.send_keys("./start.sh",Keys.ENTER)
 		input('google login')
 		driver.refresh()
 		time.sleep(5)

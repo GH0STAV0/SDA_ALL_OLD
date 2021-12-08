@@ -57,7 +57,6 @@ NCVPN-IL-Tel_Aviv-UDP.ovpn
 NCVPN-GR-Athens-TCP.ovpn
 NCVPN-DK-Copenhagen-UDP.ovpn
 NCVPN-PL-Warsaw-UDP.ovpn
-NCVPN-US-Phoenix-UDP.ovpn
 NCVPN-ZA-Johannesburg-UDP.ovpn
 NCVPN-US-Cincinnati-UDP.ovpn
 NCVPN-ES-Madrid-UDP.ovpn
@@ -76,7 +75,6 @@ NCVPN-NG-Lagos-UDP.ovpn
 NCVPN-BG-Sofia-UDP.ovpn
 NCVPN-US-San_Jose-TCP.ovpn
 NCVPN-CA-Toronto-TCP.ovpn
-NCVPN-US-Charlotte-UDP.ovpn
 NCVPN-NZ-Auckland-UDP.ovpn
 NCVPN-AU-Brisbane-UDP.ovpn
 NCVPN-US-Ashburn-UDP.ovpn
