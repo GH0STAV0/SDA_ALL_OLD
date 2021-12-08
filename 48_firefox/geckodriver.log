@@ -1,6 +1,0 @@
-1638878306431	geckodriver	INFO	Listening on 127.0.0.1:56525
-1638878307531	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.XamoFu6ELrTf
-1638878307534	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-49.0b9/firefox/firefox with args ["--width=1440", "--height=3200"]
-1638878307537	geckodriver::marionette	INFO	Connecting to Marionette on localhost:42389
-1638878308730	Marionette	INFO	Listening on port 42389
-1638878311730	Marionette	INFO	startBrowser 7525ef41-ff79-4e34-ab3b-ee40f367fb8b
