@@ -52,7 +52,7 @@ profile_name=get_firefox_profile_dir()
 
 firefox_options = Firefox_Options()
 #firefox_options.binary = "/root/EXTRA/firefox-49.0b9/firefox/firefox";
-display = Display(visible=1, size=(860, 860))
+display = Display(visible=0, size=(860, 860))
 #mouse=PyMouse()
 #display.start
 
