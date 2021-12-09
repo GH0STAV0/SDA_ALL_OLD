@@ -1,33 +1,4 @@
-1638953942627	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-57.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileoWLa6A"
-1638953943594	Marionette	INFO	Enabled via --marionette
-1638953946780	Marionette	INFO	Listening on port 36771
-1638953946924	Marionette	WARN	TLS certificate errors will be ignored for this session
-1638953947047	Marionette	DEBUG	Register listener.js for window 2147483649
-1638953951625	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1638953953147	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1638953953147	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-1638953954224	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=1209600&osid=1&continue=https://console.cloud.google.com/&followup=https://console.cloud.google.com/"
-1638953954998	Marionette	DEBUG	Received DOM event "pageshow" for "https://accounts.google.com/signin/v2/identifier?service=cloudconsole&passive=1209600&osid=1&continue=https%3A%2F%2Fconsole.cloud.google.com%2F&followup=https%3A%2F%2Fconsole.cloud.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
-1638953963391	Marionette	DEBUG	Received DOM event "beforeunload" for "https://console.cloud.google.com/"
-1638953963911	Marionette	DEBUG	Received DOM event "pagehide" for "https://console.cloud.google.com/"
-1638953963912	Marionette	DEBUG	Received DOM event "unload" for "https://console.cloud.google.com/"
-1638953963920	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal&followup=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal"
-1638953963929	Marionette	DEBUG	Received DOM event "pageshow" for "https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal&followup=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal"
-JavaScript error: resource://gre/modules/BrowserUtils.jsm, line 526: IndexSizeError: Index or size is negative or greater than the allowed amount
-[Child 1957244, Chrome_ChildThread] WARNING: pipe error (19): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
-1638954300059	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-57.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVtEh3M"
-1638954300917	Marionette	INFO	Enabled via --marionette
-1638954304280	Marionette	INFO	Listening on port 33719
-1638954304484	Marionette	WARN	TLS certificate errors will be ignored for this session
-1638954304599	Marionette	DEBUG	Register listener.js for window 2147483649
-1638954309206	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1638954310601	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1638954310602	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-1638954311610	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=1209600&osid=1&continue=https://console.cloud.google.com/&followup=https://console.cloud.google.com/"
-1638954312305	Marionette	DEBUG	Received DOM event "pageshow" for "https://accounts.google.com/signin/v2/identifier?service=cloudconsole&passive=1209600&osid=1&continue=https%3A%2F%2Fconsole.cloud.google.com%2F&followup=https%3A%2F%2Fconsole.cloud.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
-1638954320735	Marionette	DEBUG	Received DOM event "beforeunload" for "https://console.cloud.google.com/"
-1638954322027	Marionette	DEBUG	Received DOM event "pagehide" for "https://console.cloud.google.com/"
-1638954322027	Marionette	DEBUG	Received DOM event "unload" for "https://console.cloud.google.com/"
-1638954322038	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal&followup=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal"
-1638954322048	Marionette	DEBUG	Received DOM event "pageshow" for "https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal&followup=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal"
-[Child 1959267, Chrome_ChildThread] WARNING: pipe error (19): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1639033823448	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-58.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemdY1zs"
+1639033828302	Marionette	INFO	Enabled via --marionette
+1639033835583	Marionette	INFO	Listening on port 36595
+1639033835674	Marionette	WARN	TLS certificate errors will be ignored for this session

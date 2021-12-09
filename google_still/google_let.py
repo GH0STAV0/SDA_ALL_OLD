@@ -122,6 +122,22 @@ def stage_1():
 	except Exception as error:
 		print (str(error))
 
+###########################################################################
+def check_reconect(driver):
+	print("OPEN AND VISITE WEB-SITE [ 1 ]...... ",end='',flush=True)
+	try:
+		reconnect_button=WebDriverWait(driver, 60).until(EC.presence_of_element_located((By.XPATH, '//*[@id="cloudshell"]/div/horizontal-split/div[2]/devshell/terminal-container/terminal-status-bar/status-message/mat-toolbar/button[2]')))
+		reconnect_button.click()
+		print("syeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee!!!!!!")
+		pass
+		
+	except Exception as e:
+		print("still  not  fucking  reconect!!!!!!")
+		open_login_button=WebDriverWait(driver, 18).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
+		open_login_button.click()
+		open_login_button.send_keys("clear && docker ps",Keys.ENTER)
+		time.sleep(300)
+		check_reconect(driver)
 
 
 
@@ -142,33 +158,43 @@ def ads_class(driver):
 		
 		driver.get("https://shell.cloud.google.com/?cloudshell=true&show=terminal")
 		time.sleep(25)
-		gmail_id_input=WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.XPATH, '//*[@id="cloudshell"]/div/horizontal-split/div[2]/devshell/terminal-container/div/xterm-terminal-tab/div/xterm-terminal/div')))
+		# input('google loginAAAAAAAAAAAA')
+		open_login_button=WebDriverWait(driver, 18).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
+		open_login_button.click()
+		open_login_button.send_keys("clear && docker ps",Keys.ENTER)
+		open_login_button.send_keys("./start.sh",Keys.ENTER)
+		# input('google loginBBBBBBBBBBBBB')
+
+		# gmail_id_input=WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.XPATH, '//*[@id="cloudshell"]/div/horizontal-split/div[2]/devshell/terminal-container/div/xterm-terminal-tab/div/xterm-terminal/div')))
+		# active-terminal-frame ng-star-inserted
 		# gmail_id_input.send_keys(Keys.TAB*7,"lol",Keys.ENTER)
-		gmail_id_input.send_keys("./start.sh",Keys.ENTER)
-		input('google login')
-		driver.refresh()
-		time.sleep(5)
-		print("CLICK  AND VISITE WEB-SITE [ 1 ]...... ",end='',flush=True)
-		getLink_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.ID, 'rightbox')))
-		time.sleep(5)
-		print(emoji.emojize("Ok "' :check_mark_button: :alien:'))
-		action = ActionChains(driver)
-		action.move_to_element(getLink_button)# .perform()
-		time.sleep(25)
+		# open_login_button.send_keys("docker ps",Keys.ENTER)
+		# input('google login')
+		# driver.refresh()
+		# time.sleep(5)
+		# print("CLICK  AND VISITE WEB-SITE [ 1 ]...... ",end='',flush=True)
+		# getLink_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.ID, 'rightbox')))
+		# time.sleep(5)
+		# print(emoji.emojize("Ok "' :check_mark_button: :alien:'))
+		# action = ActionChains(driver)
+		# action.move_to_element(getLink_button)# .perform()
+		# time.sleep(25)
 		
-		getLink_button.click()
+		# getLink_button.click()
 
 
 
-		print("CLICK  AND VISITE WEB-SITE [ 2 ]...... ",end='',flush=True)
+		# print("CLICK  AND VISITE WEB-SITE [ 2 ]...... ",end='',flush=True)
 
-		driver.get(url_click_ads)
+		# driver.get(url_click_ads)
 
 		time.sleep(25)
+		check_reconect(driver)
 
 	except Exception as e:
 		print(e)
-	driver.delete_all_cookies()
+	# driver.delete_all_cookies()
+	
 		
 def starting_tasks():
 	width ,height=cnf_bvb.resolution_func()
