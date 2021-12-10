@@ -129,7 +129,7 @@ def check_reconect(driver):
 		reconnect_button=WebDriverWait(driver, 60).until(EC.presence_of_element_located((By.XPATH, '//*[@id="cloudshell"]/div/horizontal-split/div[2]/devshell/terminal-container/terminal-status-bar/status-message/mat-toolbar/button[2]')))
 		reconnect_button.click()
 		print("syeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee!!!!!!")
-		pass
+		starting_tasks()
 		
 	except Exception as e:
 		print("still  not  fucking  reconect!!!!!!")
@@ -149,11 +149,13 @@ def ads_class(driver):
 		driver.get(url_1)
 		print(" [ "+url_1+" ]")
 		gmail_id_input=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="identifierId"]')))
-		gmail_id_input.send_keys("ramitamer613",Keys.ENTER)
+		gmail_id_input.send_keys("quarinamouslou",Keys.ENTER)
+		#ramitamer613
 		time.sleep(5)
 		gmail_id_input=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="password"]/div[1]/div/div[1]/input')))
 		gmail_id_input.send_keys("agoon007",Keys.ENTER)
 		time.sleep(3)
+		# input('')
 
 		
 		driver.get("https://shell.cloud.google.com/?cloudshell=true&show=terminal")
