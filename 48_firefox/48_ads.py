@@ -25,7 +25,8 @@ telrgram_text=[]
 #url_1="https://bitcoin-chat-news-and-games.netlify.app/index.html"
 # url_1="https://cryptocurency-space.netlify.app/index.html"
 # url_1="https://brave-brown-e09c81.netlify.app/"
-url_1="https://elated-nobel-943d26.netlify.app/index.html"
+url_1="https://serene-keller-a6f116.netlify.app/index.html"
+# https://elated-nobel-943d26.netlify.app/index.html"
 
 # url_3="https://elated-nobel-943d26.netlify.app/index.html"
 # random_display_chose=cnf_bvb.random_display_chose
