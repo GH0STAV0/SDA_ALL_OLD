@@ -654,11 +654,12 @@ hostname_os=socket.getfqdn()
 def send_msg(text):
 
 	msg_telegram="[ "+hostname_os +" ]"+text
-	token = "2137513961:AAGENlwIUQnfvbKZX64-fZ72R_oStto8oFo"
-	chat_id = "-643828126"
+	# token = "2137513961:AAGENlwIUQnfvbKZX64-fZ72R_oStto8oFo"
+	token="5035848854:AAG9a-7bHDYTOXiNEdjXRsnM-gbkdw9TCfE"
+	chat_id = "-1001616252735"
 	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
 	results = requests.get(url_req)
-	# print(results.json())
+	print(results.json())
 
 
 
@@ -780,3 +781,7 @@ def random_fir():
 #visibility="visible=1"
 #
 #p_vpn_g="/root/OUOIO/project_04_a_ads/NORD_CONFIG/ovpn_tcp/"
+
+
+
+# send_msg("text")
