@@ -32,3 +32,17 @@ Sandbox: seccomp sandbox violation: pid 3139902, tid 3140015, syscall 203, args 
 Sandbox: seccomp sandbox violation: pid 3139902, tid 3140016, syscall 203, args 3140016 128 140336768462176 8 140336768464448 1.
 Sandbox: seccomp sandbox violation: pid 3139902, tid 3140013, syscall 203, args 3140013 128 140336793640288 140336896520208 140336793642560 1.
 Sandbox: seccomp sandbox violation: pid 3139902, tid 3140014, syscall 203, args 3140014 128 140336785247584 0 140336785249856 1.
+1639158813028	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecBJztY"
+1639158819514	Marionette	INFO	Listening on port 33299
+1639158819575	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sandbox: seccomp sandbox violation: pid 3236183, tid 3236448, syscall 203, args 3236448 128 140196137655648 8 140196137657920 1.
+Sandbox: seccomp sandbox violation: pid 3236183, tid 3236451, syscall 203, args 3236451 128 140196112477536 8 140196112479808 1.
+Sandbox: seccomp sandbox violation: pid 3236183, tid 3236449, syscall 203, args 3236449 128 140196129262944 8 140196129265216 1.
+Sandbox: seccomp sandbox violation: pid 3236183, tid 3236450, syscall 203, args 3236450 128 140196120870240 8 140196120872512 1.
+1639186715140	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelSpf9v"
+1639186721139	Marionette	INFO	Listening on port 35451
+1639186721188	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sandbox: seccomp sandbox violation: pid 3423428, tid 3423526, syscall 203, args 3423526 128 140363213561184 8 140363213563456 1.
+Sandbox: seccomp sandbox violation: pid 3423428, tid 3423527, syscall 203, args 3423527 128 140363205168480 8 140363205170752 1.
+Sandbox: seccomp sandbox violation: pid 3423428, tid 3423528, syscall 203, args 3423528 128 140363196775776 8 140363196778048 1.
+Sandbox: seccomp sandbox violation: pid 3423428, tid 3423529, syscall 203, args 3423529 128 140363188383072 8 140363188385344 1.
