@@ -1,33 +1,61 @@
-1639422768271	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-57.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVL8T4q"
-1639422770031	Marionette	INFO	Enabled via --marionette
-1639422776916	Marionette	INFO	Listening on port 41375
-1639422777265	Marionette	WARN	TLS certificate errors will be ignored for this session
-1639422777483	Marionette	DEBUG	Register listener.js for window 2147483649
-1639422782348	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1639422783609	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1639422783610	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-1639422785360	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://accounts.google.com/signin/v2/identifier?service=cloudconsole&passive=1209600&osid=1&continue=https%3A%2F%2Fconsole.cloud.google.com%2F&followup=https%3A%2F%2Fconsole.cloud.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
-1639422786697	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
-1639422786748	Marionette	DEBUG	Received DOM event "pageshow" for "https://accounts.google.com/signin/v2/identifier?service=cloudconsole&passive=1209600&osid=1&continue=https%3A%2F%2Fconsole.cloud.google.com%2F&followup=https%3A%2F%2Fconsole.cloud.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
-1639422795619	Marionette	DEBUG	Received DOM event "beforeunload" for "https://accounts.google.com/CheckCookie?continue=https%3A%2F%2Fconsole.cloud.google.com%2F&service=cloudconsole&hl=fr&checkedDomains=youtube&checkConnection=youtube%3A750%3A1&pstMsg=1&osid=1&ifkv=AU9NCcyS0VpGPDOBC46mncWa61jqq8NBXN6j3AdRBPCn7W8MYbUd923tQihWmO4ZDj2jI-b3jtHCgA&chtml=LoginDoneHtml&gidl=EgIIAA"
-1639422796090	Marionette	DEBUG	Received DOM event "pagehide" for "https://accounts.google.com/CheckCookie?continue=https%3A%2F%2Fconsole.cloud.google.com%2F&service=cloudconsole&hl=fr&checkedDomains=youtube&checkConnection=youtube%3A750%3A1&pstMsg=1&osid=1&ifkv=AU9NCcyS0VpGPDOBC46mncWa61jqq8NBXN6j3AdRBPCn7W8MYbUd923tQihWmO4ZDj2jI-b3jtHCgA&chtml=LoginDoneHtml&gidl=EgIIAA"
-1639422796091	Marionette	DEBUG	Received DOM event "unload" for "https://accounts.google.com/CheckCookie?continue=https%3A%2F%2Fconsole.cloud.google.com%2F&service=cloudconsole&hl=fr&checkedDomains=youtube&checkConnection=youtube%3A750%3A1&pstMsg=1&osid=1&ifkv=AU9NCcyS0VpGPDOBC46mncWa61jqq8NBXN6j3AdRBPCn7W8MYbUd923tQihWmO4ZDj2jI-b3jtHCgA&chtml=LoginDoneHtml&gidl=EgIIAA"
-1639422796113	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal&followup=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal"
-1639422796147	Marionette	DEBUG	Received DOM event "pageshow" for "https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal&followup=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal"
-1639422821523	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1639422908170	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1639423269408	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1639423630958	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1639423992272	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1639424353557	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1639424714823	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1639425076127	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1639425437377	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1639425798561	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1639426160204	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1639426521905	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1639426883141	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1639427244873	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1639427606544	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1639427967808	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1639428329089	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639466256247	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-57.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOpaHpS"
+1639466262205	Marionette	INFO	Enabled via --marionette
+1639466269419	Marionette	INFO	Listening on port 39395
+1639466269683	Marionette	WARN	TLS certificate errors will be ignored for this session
+1639466269956	Marionette	DEBUG	Register listener.js for window 2147483649
+1639466274779	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1639466276133	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1639466276134	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1639466277698	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=1209600&osid=1&continue=https://console.cloud.google.com/&followup=https://console.cloud.google.com/"
+1639466278325	Marionette	DEBUG	Received DOM event "pageshow" for "https://accounts.google.com/signin/v2/identifier?service=cloudconsole&passive=1209600&osid=1&continue=https%3A%2F%2Fconsole.cloud.google.com%2F&followup=https%3A%2F%2Fconsole.cloud.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+1639466287343	Marionette	DEBUG	Received DOM event "beforeunload" for "https://console.cloud.google.com/"
+1639466288004	Marionette	DEBUG	Received DOM event "pagehide" for "https://console.cloud.google.com/"
+1639466288005	Marionette	DEBUG	Received DOM event "unload" for "https://console.cloud.google.com/"
+1639466288014	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal&followup=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal"
+1639466288025	Marionette	DEBUG	Received DOM event "pageshow" for "https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal&followup=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal"
+1639466313318	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639466400011	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639466761493	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639467123029	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639467484495	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639467845911	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639468207348	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639468568929	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639468930429	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639469292031	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639469653568	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639470014983	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639470376450	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639470737961	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639471099469	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639471461027	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639471822597	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639472184144	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639472545601	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639472907191	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639473268725	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639473630257	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639473991774	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639474353334	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639474714819	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639475076355	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639475437835	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639475799237	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639476100377	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639476107265	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-57.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileF5EdfN"
+1639476108584	Marionette	INFO	Enabled via --marionette
+1639476113226	Marionette	INFO	Listening on port 46285
+1639476113290	Marionette	WARN	TLS certificate errors will be ignored for this session
+1639476113463	Marionette	DEBUG	Register listener.js for window 2147483649
+1639476118261	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1639476120086	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1639476120088	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1639476121341	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=1209600&osid=1&continue=https://console.cloud.google.com/&followup=https://console.cloud.google.com/"
+1639476122402	Marionette	DEBUG	Received DOM event "pageshow" for "https://accounts.google.com/signin/v2/identifier?service=cloudconsole&passive=1209600&osid=1&continue=https%3A%2F%2Fconsole.cloud.google.com%2F&followup=https%3A%2F%2Fconsole.cloud.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+1639476131220	Marionette	DEBUG	Received DOM event "beforeunload" for "https://console.cloud.google.com/"
+1639476131737	Marionette	DEBUG	Received DOM event "pagehide" for "https://console.cloud.google.com/"
+1639476131738	Marionette	DEBUG	Received DOM event "unload" for "https://console.cloud.google.com/"
+1639476131775	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal&followup=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal"
+1639476131829	Marionette	DEBUG	Received DOM event "pageshow" for "https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal&followup=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal"
+1639476157179	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639476244033	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
