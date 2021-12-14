@@ -59,3 +59,10 @@
 1639476131829	Marionette	DEBUG	Received DOM event "pageshow" for "https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal&followup=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal"
 1639476157179	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
 1639476244033	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639476605358	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639476966738	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639477328304	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639477689961	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639478051491	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639478413313	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639478774894	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
