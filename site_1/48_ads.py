@@ -137,7 +137,7 @@ def ads_class(driver):
 		# print(driver.execute_script("return navigator.userAgent;"))
 		driver.get(url_1)
 		print(" [ "+url_1+" ]")
-		time.sleep(12)
+		time.sleep(20)
 		driver.refresh()
 		time.sleep(5)
 		print("CLICK  AND VISITE WEB-SITE [ 1 ]...... ",end='',flush=True)
