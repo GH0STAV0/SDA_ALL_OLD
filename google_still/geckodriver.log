@@ -6,3 +6,4 @@ Sandbox: seccomp sandbox violation: pid 772689, tid 772797, syscall 203, args 77
 Sandbox: seccomp sandbox violation: pid 772689, tid 772799, syscall 203, args 772799 128 140306239176032 8 140306239178304 1.
 Sandbox: seccomp sandbox violation: pid 772689, tid 772800, syscall 203, args 772800 128 140306230783328 8 140306230785600 1.
 Sandbox: seccomp sandbox violation: pid 772689, tid 772798, syscall 203, args 772798 128 140306247568736 8 140306247571008 1.
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
