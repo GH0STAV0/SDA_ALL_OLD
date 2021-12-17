@@ -635,7 +635,7 @@ user_agent_list = [
 
 
 
-url_1="http://romanian.ueuo.com/index.html"
+url_1="http://crypto-world.is-great.org/index.html"
 url_2=url_1.replace("http://","")
 url_2=url_2.replace("/index.html","")
 
