@@ -1,9 +1,0 @@
-1639638428218	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5JET3Y"
-console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 337)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:337:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:330:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:354:11\nwrite@resource:///modules/sessionstore/SessionFile.jsm:394:19\nwrite@resource:///modules/sessionstore/SessionFile.jsm:66:12\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:357:12\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:295:12\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:341:5\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:192:9\n"
-1639638441648	Marionette	INFO	Listening on port 37093
-1639638441712	Marionette	WARN	TLS certificate errors will be ignored for this session
-Sandbox: seccomp sandbox violation: pid 772689, tid 772797, syscall 203, args 772797 128 140306255961440 8 140306255963712 1.
-Sandbox: seccomp sandbox violation: pid 772689, tid 772799, syscall 203, args 772799 128 140306239176032 8 140306239178304 1.
-Sandbox: seccomp sandbox violation: pid 772689, tid 772800, syscall 203, args 772800 128 140306230783328 8 140306230785600 1.
-Sandbox: seccomp sandbox violation: pid 772689, tid 772798, syscall 203, args 772798 128 140306247568736 8 140306247571008 1.
-console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
