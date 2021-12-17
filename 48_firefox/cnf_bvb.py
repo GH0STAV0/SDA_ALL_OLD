@@ -636,11 +636,11 @@ user_agent_list = [
 
 
 url_1="http://romanian.ueuo.com/index.html"
-url_2=url_1.replce("http://","")
-url_2=url_2.replce("/index.html","")
+url_2=url_1.replace("http://","")
+url_2=url_2.replace("/index.html","")
 
 
-
+print(url_1)
 #p_vpn_g="/root/install_add/moya/yserverListTCP/"
 #
 ############################# VPN ##################################""
