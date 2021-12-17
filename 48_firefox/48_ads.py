@@ -17,7 +17,7 @@ import json
 # import pickle
 
 telrgram_text=[]
-
+url_1=cnf_bvb.url_1
 ###########global urls_BVB
 # urls_BVB=cnf_bvb.random_url
 #####################################
@@ -28,7 +28,7 @@ telrgram_text=[]
 # url_1="https://serene-keller-a6f116.netlify.app/index.html"
 # https://elated-nobel-943d26.netlify.app/index.html"
 # url_1="https://jovial-villani-44d38c.netlify.app/index.html"
-url_1="https://dark-market-crypto.tk/index.html"
+# url_1="https://dark-market-crypto.tk/index.html"
 
 # url_3="https://elated-nobel-943d26.netlify.app/index.html"
 # random_display_chose=cnf_bvb.random_display_chose
