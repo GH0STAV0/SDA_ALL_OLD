@@ -658,9 +658,13 @@ def send_msg(text):
 
 	msg_telegram="[ "+hostname_os +" ]"+text+" [ "+url_2+" ]"
 	# token = "2137513961:AAGENlwIUQnfvbKZX64-fZ72R_oStto8oFo"
+	#-609247805
 	token="5035848854:AAG9a-7bHDYTOXiNEdjXRsnM-gbkdw9TCfE"
-	chat_id = "-1001616252735"
-	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
+	chat_id = "-609247805"
+	# chat_id = "-1001616252735"
+	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram
+	# url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
+
 	results = requests.get(url_req)
 	# print(results.json())
 
