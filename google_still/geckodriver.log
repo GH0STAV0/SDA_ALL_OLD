@@ -74,3 +74,6 @@ console.error:
   Message: Unix error 2 during operation open on file /tmp/rust_mozprofileudQKTf/sessionstore-backups/recovery.jsonlz4.tmp (No such file or directory)
   
 1639864492171	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639864853181	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639865214429	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639865575621	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
