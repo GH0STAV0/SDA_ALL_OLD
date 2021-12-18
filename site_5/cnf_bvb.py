@@ -5,6 +5,8 @@ import socket
 
 url_1="https://it-the-3h.nl.eu.org/index.html"
 
+url_2=url_1.replace("https://","")
+url_2=url_2.replace("/index.html","")
 
 user_agent_list = [
 'AppleCoreMedia/1.0.0.12B466 (Apple TV; U; CPU OS 8_1_3 like Mac OS X; en_us)'
@@ -633,8 +635,6 @@ user_agent_list = [
 
 
 
-url_2=url_1.replace("https://","")
-url_2=url_2.replace("/index.html","")
 
 
 
