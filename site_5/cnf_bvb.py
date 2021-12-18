@@ -632,6 +632,9 @@ user_agent_list = [
 
 
 
+url_1="http://dark-market.eu3.org/index.html"
+url_2=url_1.replace("http://","")
+url_2=url_2.replace("/index.html","")
 
 
 
@@ -653,7 +656,7 @@ hostname_os=socket.getfqdn()
 
 def send_msg(text):
 
-	msg_telegram="[ "+hostname_os +" ]"+text+" [ romanian.ueuo.com ]"
+	msg_telegram="[ "+hostname_os +" ]"+text+" [ "+url_2+" ]"
 	# token = "2137513961:AAGENlwIUQnfvbKZX64-fZ72R_oStto8oFo"
 	token="5035848854:AAG9a-7bHDYTOXiNEdjXRsnM-gbkdw9TCfE"
 	chat_id = "-1001616252735"

@@ -30,9 +30,9 @@ telrgram_text=[]
 # url_1="https://jovial-villani-44d38c.netlify.app/index.html"
 # url_1="https://dark-market-crypto.tk/index.html"
 # url_1="http://free-coin.nichesite.org/index.html"
-url_1="http://romanian.ueuo.com/index.html"
+# url_1="http://romanian.ueuo.com/index.html"
 # url_1="http://crypto-world.is-great.org/index.html"
-
+url_1=cnf_bvb.url_1
 # url_3="https://elated-nobel-943d26.netlify.app/index.html"
 # random_display_chose=cnf_bvb.random_display_chose
 # width=cnf_bvb.width

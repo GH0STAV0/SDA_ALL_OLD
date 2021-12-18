@@ -15,7 +15,7 @@ import random,datetime,string , os ,time ,subprocess , sys , requests ,re
 from selenium.webdriver import ActionChains
 import json
 # import pickle
-
+# xamiramogdan 
 telrgram_text=[]
 
 ###########global urls_BVB
@@ -149,12 +149,16 @@ def ads_class(driver):
 		driver.get(url_1)
 		print(" [ "+url_1+" ]")
 		gmail_id_input=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="identifierId"]')))
-		gmail_id_input.send_keys("xamiramogdan",Keys.ENTER)
+		# gmail_id_input.send_keys("xamiramogdan",Keys.ENTER)
 		# gmail_id_input.send_keys("quarinamouslou",Keys.ENTER)
+		gmail_id_input.send_keys("zakohmidan",Keys.ENTER)
 		#ramitamer613
 		time.sleep(5)
 		gmail_id_input=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="password"]/div[1]/div/div[1]/input')))
-		gmail_id_input.send_keys("testpassw0rdDZ*",Keys.ENTER)
+		# gmail_id_input.send_keys("testpassw0rdDZ*",Keys.ENTER)
+		# gmail_id_input.send_keys("agoon007",Keys.ENTER)
+		gmail_id_input.send_keys("testpassw0rdDZ",Keys.ENTER)
+
 		time.sleep(3)
 		# input('')
 

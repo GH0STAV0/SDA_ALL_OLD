@@ -1,0 +1,14 @@
+1639789375655	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileeiH34g"
+1639789380032	Marionette	INFO	Listening on port 33191
+1639789380079	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sandbox: seccomp sandbox violation: pid 123249, tid 123333, syscall 203, args 123333 128 140371519331680 140371562045440 140371519333952 1.
+Sandbox: seccomp sandbox violation: pid 123249, tid 123334, syscall 203, args 123334 128 140371510938976 8 140371510941248 1.
+Sandbox: seccomp sandbox violation: pid 123249, tid 123336, syscall 203, args 123336 128 140371494153568 0 140371494155840 1.
+Sandbox: seccomp sandbox violation: pid 123249, tid 123335, syscall 203, args 123335 128 140371502546272 8 140371502548544 1.
+1639833141062	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4760Ov"
+1639833151307	Marionette	INFO	Listening on port 42719
+1639833151417	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sandbox: seccomp sandbox violation: pid 174093, tid 174184, syscall 203, args 174184 128 140479947332960 8 140479947335232 1.
+Sandbox: seccomp sandbox violation: pid 174093, tid 174185, syscall 203, args 174185 128 140479938940256 8 140479938942528 1.
+Sandbox: seccomp sandbox violation: pid 174093, tid 174186, syscall 203, args 174186 128 140479930547552 8 140479930549824 1.
+Sandbox: seccomp sandbox violation: pid 174093, tid 174187, syscall 203, args 174187 128 140479922154848 8 140479922157120 1.
