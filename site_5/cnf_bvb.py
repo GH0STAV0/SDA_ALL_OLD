@@ -3,6 +3,7 @@ import json
 import socket
 
 
+url_1="https://it-the-3h.nl.eu.org/index.html"
 
 
 user_agent_list = [
@@ -632,8 +633,7 @@ user_agent_list = [
 
 
 
-url_1="http://dark-market.eu3.org/index.html"
-url_2=url_1.replace("http://","")
+url_2=url_1.replace("https://","")
 url_2=url_2.replace("/index.html","")
 
 
