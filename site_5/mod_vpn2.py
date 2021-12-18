@@ -8,7 +8,7 @@ import cnf_bvb
 ########################### VPN  #############################/N0RD/WORKING_CONFIG/
 pwd = os.path.dirname(os.path.realpath( __file__ ))
 
-vpn_type="N"
+vpn_type="C"
 
 
 if "N" in vpn_type:
@@ -24,14 +24,7 @@ if "C" in vpn_type:
 
 
 
-# file_list_1='NCH_list_1'
-# 
-# telrgram_vpn_text=[]
 
-
-
-
-# vpn_folder=pwd+"/CHEAP_VPN/"
 
 all_vpn_config_file=os.listdir(vpn_folder)
 
