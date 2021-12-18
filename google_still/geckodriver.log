@@ -53,3 +53,24 @@
 1639861964562	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
 1639862325584	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
 1639862686536	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639863047443	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639863408809	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1639863769543	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+console.error: 
+  Could not write session state file 
+  Message: Unix error 2 during operation open on file /tmp/rust_mozprofileudQKTf/sessionstore-backups/recovery.jsonlz4.tmp (No such file or directory)
+  
+console.error: 
+  Could not write session state file 
+  Message: Unix error 2 during operation open on file /tmp/rust_mozprofileudQKTf/sessionstore-backups/recovery.jsonlz4.tmp (No such file or directory)
+  
+console.error: 
+  Could not write session state file 
+  Message: Unix error 2 during operation open on file /tmp/rust_mozprofileudQKTf/sessionstore-backups/recovery.jsonlz4.tmp (No such file or directory)
+  
+1639864130844	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+console.error: 
+  Could not write session state file 
+  Message: Unix error 2 during operation open on file /tmp/rust_mozprofileudQKTf/sessionstore-backups/recovery.jsonlz4.tmp (No such file or directory)
+  
+1639864492171	Marionette	DEBUG	Canceled page load listener because no navigation has been detected

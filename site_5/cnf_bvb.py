@@ -8,6 +8,11 @@ url_1="https://it-the-3h.nl.eu.org/index.html"
 url_2=url_1.replace("https://","")
 url_2=url_2.replace("/index.html","")
 
+# N= norrd
+vpn_type="C"
+
+
+
 user_agent_list = [
 'AppleCoreMedia/1.0.0.12B466 (Apple TV; U; CPU OS 8_1_3 like Mac OS X; en_us)'
 ,'Mozilla/5.0 (Android 7.0; Mobile; LG-M150; rv:68.0) Gecko/68.0 Firefox/68.0'

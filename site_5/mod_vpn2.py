@@ -8,9 +8,8 @@ import cnf_bvb
 ########################### VPN  #############################/N0RD/WORKING_CONFIG/
 pwd = os.path.dirname(os.path.realpath( __file__ ))
 
-vpn_type="N"
 
-
+vpn_type=cnf_bvb.vpn_type
 if "N" in vpn_type:
 	file_list_1='NORD_list_1'
 	vpn_folder=pwd+"/N0RD/WORKING_CONFIG/"
