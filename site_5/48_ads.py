@@ -139,6 +139,7 @@ def ads_class(driver):
 		# print(driver.execute_script("return navigator.userAgent;"))
 		driver.get(url_1)
 		print(" [ "+url_1+" ]")
+		cnf_bvb.send_msg("oooooooooooooooooooo")
 		time.sleep(20)
 		# driver.refresh()
 		time.sleep(5)
