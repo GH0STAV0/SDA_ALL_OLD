@@ -146,13 +146,13 @@ def ads_class(driver):
 		# driver.refresh()
 		time.sleep(5)
 		print("CLICK  AND VISITE WEB-SITE [ 2 ]...... ",end='',flush=True)
-		getLink_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.ID, 'rightbox')))
-		time.sleep(5)
-		print(emoji.emojize("Ok "' :check_mark_button: :alien:'))
-		action = ActionChains(driver)
-		action.move_to_element(getLink_button)# .perform()
-		time.sleep(25)
-		cnf_bvb.send_msg("2222222222222222222222")
+		# getLink_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.ID, 'rightbox')))
+		# time.sleep(5)
+		# print(emoji.emojize("Ok "' :check_mark_button: :alien:'))
+		# action = ActionChains(driver)
+		# action.move_to_element(getLink_button)# .perform()
+		# time.sleep(25)
+		
 		
 		# getLink_button.click()
 
@@ -160,8 +160,9 @@ def ads_class(driver):
 
 		print("CLICK  AND VISITE WEB-SITE [ 2 ]...... ",end='',flush=True)
 
-		driver.get(url_click_ads)
+		# driver.get(url_click_ads)
 		driver.get("https://www.iblogger.nl.eu.org/")
+		cnf_bvb.send_msg("2222222222222222222222")
 
 		time.sleep(25)
 
