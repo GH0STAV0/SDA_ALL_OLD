@@ -9,7 +9,7 @@ url_2=url_1.replace("https://","")
 url_2=url_2.replace("/index.html","")
 
 # N= norrd
-vpn_type="N"
+vpn_type="C"
 # vpn_type="C"
 
 
@@ -778,23 +778,6 @@ def random_fir():
 
 
 
-
-
-
-
-
-
-#['A9eUDU','NSpuuT','QgAzfX','jcrQpf','Z43671L','qjyP9X','Lz5rZS','j4g90O','brEiiVC','m503b','Gt2SxI','JOGiue4','8TYNXx','tL9Djz','rRYTiWV','PAvn1b','MwJeqF','ojwCL6y','5FGm7h','oXLIpl','L9jF4q','k3ml8RT','HbY3VOi','tGEKGa','stpEoEW','nKrKHc','ckStn2','UW56O4j','3VVPaa','Vvg0AB','DAzYNN','wEQ1j5','WYUA3CJ','C3g3NK','J6s9otD','7EtS006','UgZFoh','S2AMic','PhViZ1','LAza9z','Oddviy','HdPv9G','C9rRrE6','OUtWAW','QtCv7B','houxkS','EgQNIl','hMnyaa','PH4skF','McVohw','vi4BLYl','jaICfMC','8kQsQv','qvnsbY','d74rYIU','rXGRT8k','QujMcAw','qT1Y4T','G6xg8C','Radrdm','Oy7TqVC','hXnY2DM','o3DUu4','4wSzSD','xCDZ9N','yx50ta','ed4IGa','caUu5s','IZJjJZ','lEad2tu','su6CfC','CJ39da','3vEkmK','vWtD4WF','NrAPc9','8GesGO','OhJe4H','OGOUq2T','oU80T6','R4Ktpr','tL5vN9','Njl1h7N','7Kwu0k','Euf3eTN','0MZii60','LBWpwj','qFICk6','7RR01e','klzHsV0','ehxxXf','J1RzVe']
-#urls_GH=['8vfvjW','fimNJ0','LUUizyf','Wl6Zu4','wAsxdjj','hLhdpy','Fon7Ana','KgaSIF','DL5t0cE','VKAdw5e','oS8SKW','u93gAN','6qQ4uz','Ml3q2N','2GQCv2','mVlIaZ','mODth7j','g79adj','Ogm9Fe','pbB4FW','Wb4G42','vxsmiu','LtsqzD','W1dSue','NfLgjN','Ncvmrn','dsXNeT','JJzyo6i','qBsgAZc','cmhj27','LGfo9ZI','2T52Bt','R5DAtXN','oqPFU5','VQEqp9','0xrm94','v7AH3F','8vfvjW','fimNJ0','LUUizyf','Wl6Zu4','wAsxdjj','hLhdpy','Fon7Ana','KgaSIF','DL5t0cE','VKAdw5e','oS8SKW','u93gAN','6qQ4uz','Ml3q2N','2GQCv2','mVlIaZ','mODth7j','g79adj','Ogm9Fe','pbB4FW','Wb4G42','vxsmiu','LtsqzD','W1dSue','NfLgjN','Ncvmrn','dsXNeT','JJzyo6i','qBsgAZc','cmhj27','LGfo9ZI','2T52Bt','R5DAtXN','oqPFU5','VQEqp9','0xrm94','v7AH3F','8vfvjW','fimNJ0','LUUizyf','Wl6Zu4','wAsxdjj','hLhdpy','Fon7Ana','KgaSIF','DL5t0cE','VKAdw5e','oS8SKW','u93gAN','6qQ4uz','Ml3q2N','2GQCv2','mVlIaZ','mODth7j','khnRUV']
-#user_agent_list = cnf.user_agent_list
-#urls_GH=['8vfvjW','fimNJ0','LUUizyf','Wl6Zu4','wAsxdjj','hLhdpy','Fon7Ana','KgaSIF','DL5t0cE','VKAdw5e','oS8SKW','u93gAN','6qQ4uz','Ml3q2N','2GQCv2','mVlIaZ','mODth7j','g79adj','Ogm9Fe','pbB4FW','Wb4G42','vxsmiu','LtsqzD','W1dSue','NfLgjN','Ncvmrn','dsXNeT','JJzyo6i','qBsgAZc','cmhj27','LGfo9ZI','2T52Bt','R5DAtXN','oqPFU5','VQEqp9','0xrm94','v7AH3F','8vfvjW','fimNJ0','LUUizyf','Wl6Zu4','wAsxdjj','hLhdpy','Fon7Ana','KgaSIF','DL5t0cE','VKAdw5e','oS8SKW','u93gAN','6qQ4uz','Ml3q2N','2GQCv2','mVlIaZ','mODth7j','g79adj','Ogm9Fe','pbB4FW','Wb4G42','vxsmiu','LtsqzD','W1dSue','NfLgjN','Ncvmrn','dsXNeT','JJzyo6i','qBsgAZc','cmhj27','LGfo9ZI','2T52Bt','R5DAtXN','oqPFU5','VQEqp9','0xrm94','v7AH3F','8vfvjW','fimNJ0','LUUizyf','Wl6Zu4','wAsxdjj','hLhdpy','Fon7Ana','KgaSIF','DL5t0cE','VKAdw5e','oS8SKW','u93gAN','6qQ4uz','Ml3q2N','2GQCv2','mVlIaZ','mODth7j','khnRUV']
-#["sn2vgs","M8BX8A","EyHrD3","ZZzgb1l","MdTnsuI","gN1mJQ","mI1T0i","l9jANS","8TPX61g","q1phNNH","5MIExQ","Xv9Nkf","2utWpm","zTStzf","JQmh5fX","tuT54V","KADHzC","jLCRoA","cMHri7","oyaoulR","9z5KG6","oVrrNo","njEU7u","Ttbmqjj","hPfQsN","Dooegb","UXeGw4m","zM7ygn","TeVc5QR","KQ6vNo","AphqLR","N5OG6Z","O2FzPd","kXo8RS","TS0YkTN","Le6NaU","7QPGmV","5OjOVA","2Nb0TO","fBWF3B","Yk3PlM"]
-#urls_GH=['kLposqf','2i6AK3','gVWSZi','hdFVGw','rFzcZY','8puju4','8bQMlRe','3LLjtm','B6W2GN','anAEGH','0OL88G','VbbhP3','gYYy1H','ttdkQ7','ZZyy2Fq','5dWeY27','uOsF3c','z3AgxI','8vuydD','Y24S8OJ','BV99fG','Paeqqo0','7kXMXL','qtZ9Ad','0agPaL7','AtZvno','P8FFPV','LvIGpy','kiAKGIx','Xjq6xs','hW7bdb','WQr8hj','0kLLTYd','wA5YS59','PjZjirc','0clpiZ','Ge2aAp','w21z4S','anqbTw','47TdEQ','1jc2AM','1nstCv','2InzVhX','5tmZut','xFT51W','QGaIM5','TYG15ub','A0hp3o','VUiQHXQ','x5GL0w','i32bpO','wJgUHO','W6TNFn','iwUa9sU','RiVjQ7','XFx1W8','k7A2U8','xJnGcw3','NbJcOQ','UHIFBzy','huj9BE','bB55K9k','b9MfOd','wAy0VDp','sRmH9kk']
-#p_vpn_dead="/root/OUOIO/project_02/NORD_CONFIG/DEAD_CONFIG_TCP/"
-##  DEAD_CONFIG_TCP dead config path yserverListTCP
-#visibility="visible=1"
-#
-#p_vpn_g="/root/OUOIO/project_04_a_ads/NORD_CONFIG/ovpn_tcp/"
 
 
 
