@@ -137,9 +137,11 @@ def ads_class(driver):
 	try:
 		print("OPEN AND VISITE WEB-SITE [ 1 ]...... ",end='',flush=True)
 		# print(driver.execute_script("return navigator.userAgent;"))
-		driver.get(url_1)
-		print(" [ "+url_1+" ]")
 		cnf_bvb.send_msg("oooooooooooooooooooo")
+		driver.get(url_1)
+		# input("pa")
+		print(" [ "+url_1+" ]")
+		# cnf_bvb.send_msg(meddas)
 		time.sleep(20)
 		# driver.refresh()
 		time.sleep(5)
@@ -150,7 +152,7 @@ def ads_class(driver):
 		action = ActionChains(driver)
 		action.move_to_element(getLink_button)# .perform()
 		time.sleep(25)
-		cnf_bvb.send_msg("oooooooooooooooooooo")
+		cnf_bvb.send_msg("2222222222222222222222")
 		
 		# getLink_button.click()
 

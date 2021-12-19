@@ -1,7 +1,6 @@
-1639867515773	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileML541Y"
-1639867523249	Marionette	INFO	Listening on port 45349
-1639867523369	Marionette	WARN	TLS certificate errors will be ignored for this session
-Sandbox: seccomp sandbox violation: pid 261092, tid 261195, syscall 203, args 261195 128 140209673719136 8 140209673721408 1.
-Sandbox: seccomp sandbox violation: pid 261092, tid 261194, syscall 203, args 261194 128 140209682111840 8 140209682114112 1.
-Sandbox: seccomp sandbox violation: pid 261092, tid 261197, syscall 203, args 261197 128 140209656933728 8 140209656936000 1.
-Sandbox: seccomp sandbox violation: pid 261092, tid 261196, syscall 203, args 261196 128 140209665326432 8 140209665328704 1.
+1639886530359	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-57.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQvyROD"
+1639886531309	Marionette	INFO	Enabled via --marionette
+1639886535544	Marionette	INFO	Listening on port 41803
+1639886535588	Marionette	WARN	TLS certificate errors will be ignored for this session
+1639886535708	Marionette	DEBUG	Register listener.js for window 2147483649
+1639886540498	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
