@@ -9,7 +9,7 @@ url_2=url_1.replace("https://","")
 url_2=url_2.replace("/index.html","")
 
 # N= norrd
-vpn_type="C"
+vpn_type="N"
 # vpn_type="C"
 
 
