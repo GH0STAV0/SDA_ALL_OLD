@@ -11,7 +11,7 @@ url_2=url_2.replace("/index.html","")
 
 # N= norrd
 vpn_type="N"
-# vpn_type="C"
+# vpn_type="C" b
 
 
 
