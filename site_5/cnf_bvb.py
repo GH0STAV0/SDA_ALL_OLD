@@ -3,7 +3,7 @@ import json
 import socket
 
 
-# url_1="https://www.it-the-3h.nl.eu.org/index.html"
+# url_1="https://www.it-the-3h.nl.eu.org/index.html"kk
 url_1="http://dark-market.ueuo.com/index.html"
 
 url_2=url_1.replace("http://","")
