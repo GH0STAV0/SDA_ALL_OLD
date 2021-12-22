@@ -20,12 +20,12 @@ from datetime import datetime
 
 
 
-mydb = mysql.connector.connect(host="remotemysql.com",user="f6V3kVwxvH",passwd="sOVnW1130i",database="f6V3kVwxvH")
 
 ###############################################################################################
 
 
 def check_connect_mysql():
+	mydb = mysql.connector.connect(host="remotemysql.com",user="f6V3kVwxvH",passwd="sOVnW1130i",database="f6V3kVwxvH")
 	print(" CHECK SQL  CONNECTION       : ",end='',flush=True)
 	try:
 		
@@ -71,7 +71,7 @@ def get_value_cnf(fresh_config):
 ###############################################################################################
 
 def get_fresh_config():
-
+	mydb = mysql.connector.connect(host="remotemysql.com",user="f6V3kVwxvH",passwd="sOVnW1130i",database="f6V3kVwxvH")
 	print(" RANDOM_FRESH CONFIG   : ",end='',flush=True)
 	mycursor = mydb.cursor()
 	sql = "SELECT * FROM `nord_list2` WHERE (`used`='n') ORDER BY RAND() LIMIT 1"
@@ -85,6 +85,7 @@ def get_fresh_config():
 
 
 def update_to_db_as_used(cnf_name):
+	mydb = mysql.connector.connect(host="remotemysql.com",user="f6V3kVwxvH",passwd="sOVnW1130i",database="f6V3kVwxvH")
 	check_connect_mysql()
 	print(" UPDATE_SQL STATUS CONFIG [ "+cnf_name+" ] : ",end='',flush=True)
 	mycursor = mydb.cursor()
@@ -95,10 +96,10 @@ def update_to_db_as_used(cnf_name):
 	print("[ SUCCED ] ")
 	# get_value_cnf(cnf_name)
 ##########################################################################################
-fresh_config=get_fresh_config()
-print(fresh_config)
+# fresh_config=get_fresh_config()
+# print(fresh_config)
 # get_value_cnf()
-update_to_db_as_used(fresh_config)
+# update_to_db_as_used(fresh_config)
 # get_value_cnf()
 
 #

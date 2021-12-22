@@ -1,5 +1,5 @@
 import os ,random ,subprocess,time 
-import vpn_sql
+
 import cnf_bvb
 # import socket
 
@@ -73,27 +73,13 @@ def remove_from_list_running(vpn_name):
 
 ##############################################################
 
-# def get_random_vpn():
-# 	check_list_vpn_lengh()
-# 	arry_vv=read_current_list_vpn()
-# 	random_vpn=random.choice(arry_vv)
-# 	random_vpn=random_vpn.replace('\n','')
-# 	final_vpn=vpn_folder+random_vpn
-# 	# print(random_vpn)
-# 	return final_vpn , random_vpn
-
-
-##############################################################
-
 def get_random_vpn():
-	fresh_config=vpn_sql.get_fresh_config()
-	print(fresh_config)
-	# check_list_vpn_lengh()
-	# arry_vv=read_current_list_vpn()
-	# random_vpn=random.choice(arry_vv)
-	random_vpn=fresh_config
+	check_list_vpn_lengh()
+	arry_vv=read_current_list_vpn()
+	random_vpn=random.choice(arry_vv)
+	random_vpn=random_vpn.replace('\n','')
 	final_vpn=vpn_folder+random_vpn
-	# # print(random_vpn)
+	# print(random_vpn)
 	return final_vpn , random_vpn
 
 ##############################################################
@@ -118,7 +104,7 @@ def fnc_vpn():
 	print ("OK !!!!!")
 	print("STARTING VPN " , end="")
 	x = subprocess.Popen(['openvpn', '--auth-nocache', '--config',final_vpn , '--log' , '/var/log/openvpn/openvpn.log'])
-	# remove_from_list_running(random_vpn)
+	remove_from_list_running(random_vpn)
 	time.sleep(15)
 	print("["+random_vpn+"]" , end="")
 	with open ('/var/log/openvpn/openvpn.log', "r") as logfile:
@@ -128,7 +114,6 @@ def fnc_vpn():
 			change_time_zon(tz)
 			os.environ['TZ'] = tz
 			meddas="VPN STATUS = OK || "+ random_vpn +"||"+ ac_ip+"||"+ tz
-			vpn_sql.update_to_db_as_used(random_vpn)
 			print(meddas)
 			cnf_bvb.send_msg(meddas)
 			return [x ,True]
@@ -149,7 +134,6 @@ def fnc_vpn():
 
 
 ################################
-fnc_vpn()
-# get_random_vpn()
+
 #cnf_bvb.testt()
 # fnc_vpn ()
