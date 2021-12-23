@@ -115,7 +115,7 @@ def counting_left():
 
 
 
-restored_fresh_sql_table()
+# restored_fresh_sql_table()
 
 
 ##########################################################################################
