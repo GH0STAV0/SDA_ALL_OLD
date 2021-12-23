@@ -123,6 +123,6 @@ def build_driver(width,height):
 	except Exception as error:
 		print("    Error !!!!! ----->"+str(error))
 		text_add="    Error !!!!! ----->"+str(error)
-	append_to_l0g(text_add)
+	cnf_bvb.append_to_l0g(text_add)
 
 	return driver
