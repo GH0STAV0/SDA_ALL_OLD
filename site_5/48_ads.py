@@ -49,7 +49,7 @@ url_click_ads="https://click.a-ads.com/1859747/"+random_ads+"/"
 ##############################################################
 l05_00='l05_00'
 def append_to_l0g(text_add):
-	with open(l05_00,'w') as fw:
+	with open(l05_00,'a') as fw:
 		fw.write(text_add+"\n")
 	# 	# for i in all_vpn_config_file:
 
