@@ -176,7 +176,7 @@ def ads_class(driver):
 		# driver.get(url_click_ads)
 		driver.get("https://www.iblogger.nl.eu.org/")
 		lines=read_current_l0g()
-		cnf_bvb.send_msg(lines)
+		cnf_bvb.send_msg(str(lines))
 		append_to_l0g("  CLICK  AND VISITE WEB-SITE [ 2 ] OK  ")
 
 		time.sleep(25)
