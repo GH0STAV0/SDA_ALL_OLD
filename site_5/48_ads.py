@@ -175,7 +175,7 @@ def ads_class(driver):
 		#print("CLICK  AND VISITE WEB-SITE [ 2 ]...... ",end='',flush=True)
 		# driver.get(url_click_ads)
 		driver.get("https://www.iblogger.nl.eu.org/")
-		cnf_bvb.send_msg("oooooooooooooooooooo")
+		# cnf_bvb.send_msg("oooooooooooooooooooo")
 		lines=read_current_l0g()
 		cnf_bvb.send_msg(str(lines))
 		append_to_l0g("  CLICK  AND VISITE WEB-SITE [ 2 ] OK  ")
