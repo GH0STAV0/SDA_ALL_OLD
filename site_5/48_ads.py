@@ -75,6 +75,22 @@ def clean_up():
 	init_fire()
 
 
+def stage_1():
+	try:
+		#print (url_1)
+		init_fire()
+		os.system("rm -rf /tmp/* && rm l05_00") 
+		os.system("clear && sleep 1") 
+		print ( "-------------------------------------------------------")
+		print(emoji.emojize("Website    : "+url_1+' :check_mark_button: :alien:'))
+		print("System     : "+sys_use_agent)
+		print ( "-------------------------------------------------------")
+	except Exception as error:
+		print (str(error))
+
+
+
+
 
 
 
@@ -83,7 +99,26 @@ def clean_up():
 	#starting_tasks()
 ############################################################################################
 
+#####################################
 
+def init_fire():
+	print("############################################################")
+	print("INIT TASKS ..... ", end='')
+	try:
+		os.system("ps aux | grep -i firefox | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
+		#
+		os.system("ps aux | grep -i openvpn | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
+		os.system("ps aux | grep -i Xephyr | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
+		os.system("ps aux | grep -i geckodriver_15 | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
+		os.system("ps aux | grep -i geckodriver22 | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
+		os.system("ps aux | grep -i Xvfb | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
+		os.system("rm -rf /tmp/*")
+		os.system("rm /var/log/openvpn/openvpn.log > /dev/null 2>&1")
+		#
+		time.sleep(5)
+		print(" OK !!!")
+	except:
+		print(" NO  some_Error init_fire")
 
 
 
@@ -110,43 +145,8 @@ def lets_play(driver) :
 	except:
 		pass
 
-#####################################
 
-def init_fire():
-	print("############################################################")
-	print("INIT TASKS ..... ", end='')
-	try:
-		os.system("ps aux | grep -i firefox | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
-		#
-		os.system("ps aux | grep -i openvpn | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
-		os.system("ps aux | grep -i Xephyr | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
-		os.system("ps aux | grep -i geckodriver_15 | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
-		os.system("ps aux | grep -i geckodriver22 | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
-		os.system("ps aux | grep -i Xvfb | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
-		os.system("rm -rf /tmp/*")
-		os.system("rm /var/log/openvpn/openvpn.log > /dev/null 2>&1")
-		#
-		time.sleep(5)
-		print(" OK !!!")
-	except:
-		print(" NO  some_Error init_fire")
 ###################################################################################################
-
-
-def stage_1():
-	try:
-		#print (url_1)
-		init_fire()
-		os.system("rm -rf /tmp/* && rm l05_00") 
-		os.system("clear && sleep 1") 
-		print ( "-------------------------------------------------------")
-		print(emoji.emojize("Website    : "+url_1+' :check_mark_button: :alien:'))
-		print("System     : "+sys_use_agent)
-		print ( "-------------------------------------------------------")
-	except Exception as error:
-		print (str(error))
-
-
 
 
 
@@ -196,7 +196,7 @@ def starting_tasks():
 	try:
 		stage_1()### CLEAR
 		mod_vpn2.fnc_vpn ()
-		display = Display(visible=1, size=(width,height)).start()
+		display = Display(visible=0, size=(width,height)).start()
 		driver=mod_driver2.build_driver(width ,height)
 		lets_play(driver)
 		display.stop()
