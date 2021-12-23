@@ -59,7 +59,9 @@ def append_to_l0g(text_add):
 def read_current_l0g():
 	with open(l05_00,'r') as file:
 		lines = file.readlines()
-	return lines
+		for i in lines:
+			final_msg=final_msg + i
+	return final_msg
 ############################################################################
 
 
