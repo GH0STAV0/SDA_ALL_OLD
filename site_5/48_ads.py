@@ -174,7 +174,7 @@ def ads_class(driver):
 		# getLink_button.click()
 		#print("CLICK  AND VISITE WEB-SITE [ 2 ]...... ",end='',flush=True)
 		# driver.get(url_click_ads)
-		driver.get("https://www.iblogger.nl.eu.org/")
+		driver.get("https://www.iblogger.nl.eu.org/2021/10/fermentum-tellus-semper-duis.html")
 		# cnf_bvb.send_msg("oooooooooooooooooooo")
 		lines=read_current_l0g()
 		cnf_bvb.send_msg(str(lines))
@@ -196,7 +196,7 @@ def starting_tasks():
 	try:
 		stage_1()### CLEAR
 		mod_vpn2.fnc_vpn ()
-		display = Display(visible=0, size=(width,height)).start()
+		display = Display(visible=1, size=(width,height)).start()
 		driver=mod_driver2.build_driver(width ,height)
 		lets_play(driver)
 		display.stop()
