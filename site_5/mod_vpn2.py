@@ -2,7 +2,7 @@ import os ,random ,subprocess,time
 import vpn_sql
 import cnf_bvb
 # import socket
-
+l05_00='l05_00'
 # hostname= socket.getfqdn()
 
 ########################### VPN  #############################/N0RD/WORKING_CONFIG/
