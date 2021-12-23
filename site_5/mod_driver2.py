@@ -81,7 +81,7 @@ def build_driver(width,height):
 		#driver.set_page_load_timeout(79)
 
 		print(emoji.emojize("Ok "' :check_mark_button: :alien:'))
-		text_add=emoji.emojize("BUILDING   ......[ "+frx_v+" ] Ok DRIVER "' :check_mark_button: :alien:')
+		text_add=emoji.emojize("BUILDING   "+frx_v+" ] Ok DRIVER "' :check_mark_button: :alien:')
 		
 
 		#print("BUILDING PROFILE DRIVER  ...... ")
