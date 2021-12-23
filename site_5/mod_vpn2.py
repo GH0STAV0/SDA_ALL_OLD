@@ -131,7 +131,7 @@ def fnc_vpn():
 			ac_ip,tz,loc=cnf_bvb.iip()
 			change_time_zon(tz)
 			os.environ['TZ'] = tz
-			meddas="\n"+" [ CONNECTED VPN] :"+ random_vpn  +"\n"+"|| IP : [ "+ ac_ip+" ] || TIME_Z : ["+ tz+" ]"+"\n"
+			meddas="\n"+" [ CONNECTED VPN] : [ "+ random_vpn  +" ] \n"+"|| [ IP ] : [ "+ ac_ip+" ] || [ TIME_Z ] : ["+ tz+" ]"+"\n"
 			# " [ "+url_1+" ]"
 			append_to_l0g(meddas)
 			vpn_sql.update_to_db_as_used(random_vpn)
