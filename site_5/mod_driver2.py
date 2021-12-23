@@ -115,7 +115,14 @@ def build_driver(width,height):
 		#driver.set_page_load_timeout(79)
 
 		print(emoji.emojize("Ok "' :check_mark_button: :alien:'))
+		text_add=emoji.emojize("BUILDING PROFILE DRIVER  ...... Ok DRIVER "' :check_mark_button: :alien:')
+		
+
+		#print("BUILDING PROFILE DRIVER  ...... ")
 		#print(new_binary_path)
 	except Exception as error:
 		print("    Error !!!!! ----->"+str(error))
+		text_add="    Error !!!!! ----->"+str(error)
+	append_to_l0g(text_add)
+
 	return driver
