@@ -642,7 +642,13 @@ user_agent_list = [
 ]
 
 
+l05_00='l05_00'
+def append_to_l0g(text_add):
+	with open(l05_00,'a') as fw:
+		fw.write(text_add+"\n")
+	# 	# for i in all_vpn_config_file:
 
+##############################################################
 
 
 
