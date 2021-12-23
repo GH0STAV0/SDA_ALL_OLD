@@ -210,8 +210,8 @@ os.system("rm -rf /tmp/*")
 
 
 def main():
-	# starting_tasks()
-	append_to_l0g("text_add")
+	starting_tasks()
+	# append_to_l0g("text_add")
 
 
 if __name__ == '__main__':
