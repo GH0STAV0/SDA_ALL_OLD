@@ -127,7 +127,7 @@ def fnc_vpn():
 			ac_ip,tz,loc=cnf_bvb.iip()
 			change_time_zon(tz)
 			os.environ['TZ'] = tz
-			meddas="\n"+"VPN STATUS = OK || "+ random_vpn +"||"+ ac_ip+"||"+ tz
+			meddas="\n"+ random_vpn  +"\n"+"||"+ ac_ip+"||"+ tz
 			vpn_sql.update_to_db_as_used(random_vpn)
 			print(meddas)
 			cnf_bvb.send_msg(meddas)
