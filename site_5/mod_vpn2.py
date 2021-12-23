@@ -21,6 +21,10 @@ if "C" in vpn_type:
 	
 
 
+def append_to_l0g(text_add):
+	with open(l05_00,'a') as fw:
+		fw.write(text_add+"\n")
+	# 	# for i in all_vpn_config_file:
 
 
 
@@ -129,9 +133,10 @@ def fnc_vpn():
 			os.environ['TZ'] = tz
 			meddas="\n"+ random_vpn  +"\n"+"||"+ ac_ip+"||"+ tz
 			# " [ "+url_1+" ]"
+			append_to_l0g(meddas)
 			vpn_sql.update_to_db_as_used(random_vpn)
 			print(meddas)
-			cnf_bvb.send_msg(meddas)
+			# cnf_bvb.send_msg(meddas)
 			return [x ,True]
 		else :
 			print("")
