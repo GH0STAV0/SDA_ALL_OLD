@@ -44,7 +44,7 @@ def build_driver(width,height):
 	moz_hig="--height="+str(height)
 	try:
 		new_driver_path = cnf_bvb.new_driver_path
-		new_binary_path = cnf_bvb.random_fir()
+		new_binary_path ,frx_v = cnf_bvb.random_fir()
 		#print(new_binary_path)
 		serv = Service(new_driver_path)
 		fp = webdriver.FirefoxProfile()
@@ -53,40 +53,6 @@ def build_driver(width,height):
 		#firefox_options = Firefox_Options()
 		ops.add_argument(moz_wid)
 		ops.add_argument(moz_hig)
-		# my_proxy="127.0.01:9050"
-		# ipp,pport=my_proxy.split(':')
-		######################################
-		# fp.set_preference('browser.sessionhistory.max_total_viewers', 0)
-		# #fp.set_preference('browser.cache.memory.enable', False)
-		# #fp.set_preference('browser.cache.offline.enable', False)
-		# #fp.set_preference('browser.cache.disk.enable', False)
-		# fp.set_preference('browser.safebrowsing.enabled', False)
-		# fp.set_preference('browser.shell.checkDefaultBrowser', False)
-		# fp.set_preference('browser.startup.page', 0)
-		# fp.set_preference('dom.ipc.plugins.enabled.timeoutSecs', 15)
-		# fp.set_preference('dom.max_script_run_time', 10)
-		# fp.set_preference('extensions.checkCompatibility', False)
-		# fp.set_preference('extensions.checkUpdateSecurity', False)
-		# fp.set_preference('extensions.update.autoUpdateEnabled', False)
-		# fp.set_preference('extensions.update.enabled', False)
-		# fp.set_preference('network.http.max-connections-per-server', 30)
-		# fp.set_preference('network.prefetch-next', False)
-		# fp.set_preference('plugin.default_plugin_disabled', False)
-		# fp.set_preference('print.postscript.enabled', False)
-		# fp.set_preference('toolkit.storage.synchronous', 0)
-		# fp.set_preference('image.animation_mode', 'none')
-		# fp.set_preference('images.dither', False)
-		# fp.set_preference('content.notify.interval', 1000000)
-		# fp.set_preference('content.switch.treshold', 100000)
-		# fp.set_preference('nglayout.initialpaint.delay', 1000000)
-		# fp.set_preference('network.dnscacheentries', 200)
-		# fp.set_preference('network.dnscacheexpiration', 600)
-		# #######################################
-		# # fp.set_preference('network.proxy.type', 1)
-		# # fp.set_preference('network.proxy.socks', ipp)
-		# # fp.set_preference('network.proxy.socks_port', int(pport))
-		# # fp.set_preference('network.proxy.socks', '127.0.0.1')
-		# # fp.set_preference('network.proxy.socks_port', 9150)
 		fp.set_preference("dom.webdriver.enabled", False)
 		fp.set_preference('useAutomationExtension', False)
 		# #fp.set_preference("http.response.timeout",95)
@@ -115,7 +81,7 @@ def build_driver(width,height):
 		#driver.set_page_load_timeout(79)
 
 		print(emoji.emojize("Ok "' :check_mark_button: :alien:'))
-		text_add=emoji.emojize("BUILDING PROFILE DRIVER  ...... Ok DRIVER "' :check_mark_button: :alien:')
+		text_add=emoji.emojize("BUILDING PROFILE DRIVER  ......[ "+frx_v+" ] Ok DRIVER "' :check_mark_button: :alien:')
 		
 
 		#print("BUILDING PROFILE DRIVER  ...... ")

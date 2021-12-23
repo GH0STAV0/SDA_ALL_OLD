@@ -782,9 +782,9 @@ def random_fir():
 	random_firefox_version=random.choice(firefox_version)
 	text_add="[ "+random_firefox_version +" ]"
 	print(text_add)
-	append_to_l0g(text_add)
+	# append_to_l0g(text_add)
 	new_binary_path="/root/EXTRAT/firefox-"+random_firefox_version+"/firefox/firefox"
-	return new_binary_path
+	return new_binary_path ,text_add
 
 
 
