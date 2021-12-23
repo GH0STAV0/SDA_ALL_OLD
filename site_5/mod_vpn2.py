@@ -114,7 +114,7 @@ def fnc_vpn():
 	final_vpn,random_vpn=get_random_vpn()
 	print("###################################################")
 	print("KILLING OPENVPN ....",end=' ')
-	os.system("ps aux | grep -i openvpn | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
+	os.system("ps aux | grep  openvpn | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 	time.sleep(3)
 	os.system("rm -rf /var/log/openvpn/openvpn.log")
 	time.sleep(1)
