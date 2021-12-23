@@ -137,7 +137,7 @@ def stage_1():
 	try:
 		#print (url_1)
 		init_fire()
-		os.system("rm -rf /tmp/*") 
+		os.system("rm -rf /tmp/* && rm l05_00") 
 		os.system("clear && sleep 1") 
 		print ( "-------------------------------------------------------")
 		print(emoji.emojize("Website    : "+url_1+' :check_mark_button: :alien:'))
