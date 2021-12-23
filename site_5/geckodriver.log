@@ -1,8 +1,0 @@
-1640301387226	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1280" "--height=800" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJXGBfk"
-Sandbox: seccomp sandbox violation: pid 301132, tid 301132, syscall 315, args 301132 140442450037632 56 0 140442450034752 140442450037632.
-Sandbox: seccomp sandbox violation: pid 301132, tid 301132, syscall 332, args 33 140442667885362 4096 1 140726078392416 140442430004688.
-Sandbox: unsupported fd-relative fstatat(33, "", 0x7FFD57E9C6B0, 4096)
-Sandbox: seccomp sandbox violation: pid 301132, tid 301132, syscall 262, args 33 140442667885362 140726078391984 4096 4096 1.
-console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 337)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:337:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:330:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:354:11\nwrite@resource:///modules/sessionstore/SessionFile.jsm:394:19\nwrite@resource:///modules/sessionstore/SessionFile.jsm:66:12\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:357:12\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:295:12\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:341:5\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:192:9\n"
-1640301397451	Marionette	INFO	Listening on port 34593
-1640301397527	Marionette	WARN	TLS certificate errors will be ignored for this session
