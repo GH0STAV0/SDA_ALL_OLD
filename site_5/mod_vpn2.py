@@ -149,7 +149,7 @@ def fnc_vpn():
 
 
 ################################
-fnc_vpn()
+# fnc_vpn()
 # get_random_vpn()
 #cnf_bvb.testt()
 # fnc_vpn ()

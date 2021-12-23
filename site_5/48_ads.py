@@ -46,6 +46,21 @@ sys_use_agent=re.findall('\(.*?\)',user_agent)[0]
 random_ads=cnf_bvb.random_ads
 url_click_ads="https://click.a-ads.com/1859747/"+random_ads+"/"
 ########################################################################################################################################
+##############################################################
+l05_00='l05_00'
+def append_to_l0g(text_add):
+	with open(l05_00,'w') as fw:
+		fw.write(text_add+"\n")
+	# 	# for i in all_vpn_config_file:
+
+##############################################################
+
+
+def read_current_l0g():
+	with open(l05_00,'r') as file:
+		lines = file.readlines()
+	return lines
+############################################################################
 
 
 
@@ -131,6 +146,7 @@ def stage_1():
 
 
 
+
 #################################"MAIN STARTING"##############################
 def ads_class(driver):
 	try:
@@ -141,6 +157,7 @@ def ads_class(driver):
 		# input("pa")
 		print(" [ "+url_1+" ]")
 		# cnf_bvb.send_msg(meddas)
+		append_to_l0g("  [ "+url_1+" ]")
 		time.sleep(20)
 		# driver.refresh()
 		time.sleep(5)
@@ -152,11 +169,12 @@ def ads_class(driver):
 		# action.move_to_element(getLink_button)# .perform()
 		# time.sleep(25)
 		# getLink_button.click()
-		print("CLICK  AND VISITE WEB-SITE [ 2 ]...... ",end='',flush=True)
-
+		#print("CLICK  AND VISITE WEB-SITE [ 2 ]...... ",end='',flush=True)
 		# driver.get(url_click_ads)
 		driver.get("https://www.iblogger.nl.eu.org/")
-		cnf_bvb.send_msg("2222222222222222222222")
+		lines=read_current_l0g()
+		cnf_bvb.send_msg(lines)
+		append_to_l0g("  CLICK  AND VISITE WEB-SITE [ 2 ] OK  ")
 
 		time.sleep(25)
 
@@ -192,7 +210,8 @@ os.system("rm -rf /tmp/*")
 
 
 def main():
-	starting_tasks()
+	# starting_tasks()
+	append_to_l0g("text_add")
 
 
 if __name__ == '__main__':
