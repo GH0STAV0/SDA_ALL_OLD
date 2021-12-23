@@ -128,6 +128,7 @@ def fnc_vpn():
 			change_time_zon(tz)
 			os.environ['TZ'] = tz
 			meddas="\n"+ random_vpn  +"\n"+"||"+ ac_ip+"||"+ tz
+			# " [ "+url_1+" ]"
 			vpn_sql.update_to_db_as_used(random_vpn)
 			print(meddas)
 			cnf_bvb.send_msg(meddas)
