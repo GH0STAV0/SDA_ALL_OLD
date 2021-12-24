@@ -53,16 +53,17 @@ def get_value_cnf(fresh_config):
 
 def get_fresh_config():
 	mydb = mysql.connector.connect(host="remotemysql.com",user="f6V3kVwxvH",passwd="sOVnW1130i",database="f6V3kVwxvH")
-	print(" RANDOM_FRESH CONFIG   : ",end='',flush=True)
+	# print(" RANDOM_FRESH CONFIG   : ",end='',flush=True)
 	mycursor = mydb.cursor()
 	sql = "SELECT * FROM `nord_list2` WHERE (`used`='n') ORDER BY RAND() LIMIT 1"
 	mycursor.execute(sql)
 	record = mycursor.fetchall()
-	count=mycursor.rowcount
-	print(str(count))
+	#count=mycursor.rowcount
+	int_count=counting_used_config_config()
+	# print(str(int_count))
 	for row in record:
 		fresh_config=str(row[1])
-	return fresh_config
+	return fresh_config ,int_count
 
 #################################################################################################
 
@@ -113,6 +114,23 @@ def counting_left():
 # counting_left()
 
 
+###############################################################################################
+
+def counting_used_config_config():
+	mydb = mysql.connector.connect(host="remotemysql.com",user="f6V3kVwxvH",passwd="sOVnW1130i",database="f6V3kVwxvH")
+	# print(" counting_used_config_config  : ",end='',flush=True)
+	mycursor = mydb.cursor()
+	sql = "SELECT * FROM `nord_list2` WHERE `used` LIKE 'y'"
+	mycursor.execute(sql)
+	record = mycursor.fetchall()
+	count=mycursor.rowcount
+	# print(str(count))
+	# for row in record:
+	# 	fresh_config=str(row[1])
+	return count
+
+#################################################################################################
+# get_fresh_config()
 
 
 # restored_fresh_sql_table()

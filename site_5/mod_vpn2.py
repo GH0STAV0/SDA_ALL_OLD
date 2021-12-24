@@ -90,15 +90,15 @@ def remove_from_list_running(vpn_name):
 ##############################################################
 
 def get_random_vpn():
-	fresh_config=vpn_sql.get_fresh_config()
-	print(fresh_config)
+	fresh_config,int_used=vpn_sql.get_fresh_config()
+	# print(fresh_config,int_used)
 	# check_list_vpn_lengh()
 	# arry_vv=read_current_list_vpn()
 	# random_vpn=random.choice(arry_vv)
 	random_vpn=fresh_config
 	final_vpn=vpn_folder+random_vpn
 	# # print(random_vpn)
-	return final_vpn , random_vpn
+	return final_vpn , random_vpn ,int_used
 
 ##############################################################
 
@@ -111,7 +111,7 @@ def change_time_zon(t_z):
 
 def fnc_vpn():
 
-	final_vpn,random_vpn=get_random_vpn()
+	final_vpn,random_vpn,int_used=get_random_vpn()
 	print("###################################################")
 	print("KILLING OPENVPN ....",end=' ')
 	os.system("ps aux | grep  openvpn | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
@@ -131,7 +131,7 @@ def fnc_vpn():
 			ac_ip,tz,loc=cnf_bvb.iip()
 			change_time_zon(tz)
 			os.environ['TZ'] = tz
-			meddas="\n"+" [ CONNECTED VPN] : [ "+ random_vpn  +" ] \n"+"|| [ IP ] : [ "+ ac_ip+" ] || [ TIME_Z ] : ["+ tz+" ]"+"\n"
+			meddas="\n"+" [ CONNECTED VPN] [ "+str(int_used)+" ] : [ "+ random_vpn  +" ] \n"+"|| [ IP ] : [ "+ ac_ip+" ] || [ TIME_Z ] : ["+ tz+" ]"+"\n"
 			# " [ "+url_1+" ]"
 			append_to_l0g(meddas)
 			vpn_sql.update_to_db_as_used(random_vpn)
@@ -160,3 +160,4 @@ def fnc_vpn():
 # get_random_vpn()
 #cnf_bvb.testt()
 # fnc_vpn ()
+# get_random_vpn()
