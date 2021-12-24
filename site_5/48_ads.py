@@ -33,6 +33,10 @@ telrgram_text=[]
 # url_1="http://romanian.ueuo.com/index.html"
 # url_1="http://crypto-world.is-great.org/index.html"
 url_1=cnf_bvb.url_1
+
+url_site_2=cnf_bvb.url_site_2
+
+
 # url_3="https://elated-nobel-943d26.netlify.app/index.html"
 # random_display_chose=cnf_bvb.random_display_chose
 # width=cnf_bvb.width
@@ -72,7 +76,7 @@ def clean_up():
 	os.system("rm -rf /tmp/*")
 	os.system("rm geckodriver.log && rm ipifo.json > /dev/null 2>&1")
 	os.system("rm -rf rm -rf __pycache__/ && echo -e 'nameserver 8.8.8.8\nnameserver 8.8.4.4' >  /etc/resolv.conf")
-	os.system("service openvpn retart")
+	os.system("service openvpn restart")
 
 	init_fire()
 
@@ -183,7 +187,7 @@ def ads_class(driver):
 		# getLink_button.click()
 		#print("CLICK  AND VISITE WEB-SITE [ 2 ]...... ",end='',flush=True)
 		# driver.get(url_click_ads)
-		driver.get("https://www.iblogger.nl.eu.org/2021/10/fermentum-tellus-semper-duis.html")
+		driver.get(url_2)
 		# cnf_bvb.send_msg("oooooooooooooooooooo")
 		append_to_l0g("  CLICK  AND VISITE WEB-SITE [ 2 ] OK  ")
 

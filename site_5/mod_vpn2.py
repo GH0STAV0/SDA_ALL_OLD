@@ -141,7 +141,7 @@ def fnc_vpn():
 		else :
 			print("")
 			print("VPN STATUS = OFF || "+ random_vpn )
-			os.system("service openvpn retart")
+			os.system("service openvpn restart")
 			fnc_vpn ()
 			return [x ,False]
 
