@@ -181,9 +181,9 @@ def ads_class(driver):
 		# getLink_button.click()
 		#print("CLICK  AND VISITE WEB-SITE [ 2 ]...... ",end='',flush=True)
 		# driver.get(url_click_ads)
-		driver.get(url_site_2)
+		driver.get("https://www.iblogger.nl.eu.org/2021/12/getting-hostname-in-bash-in-linux.html")
 		# cnf_bvb.send_msg("oooooooooooooooooooo")
-		append_to_l0g("VISITE WEB-SITE [ 2 ] : [ "+url_site_2+" ]  OK")
+		append_to_l0g("VISITE WEB-SITE [ 2 ] : [ www.iblogger.nl.eu.org ]  OK")
 
 
 		time.sleep(25)
