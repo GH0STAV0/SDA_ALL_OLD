@@ -189,7 +189,7 @@ def ads_class(driver):
 		# driver.get(url_click_ads)
 		driver.get(url_site_2)
 		# cnf_bvb.send_msg("oooooooooooooooooooo")
-		append_to_l0g("  CLICK  AND VISITE WEB-SITE [ 2 ] OK  ")
+		append_to_l0g("  CLICK  AND VISITE WEB-SITE [ 2 ] OK [ "+url_site_2+" ] ")
 
 
 		time.sleep(25)
