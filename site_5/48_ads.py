@@ -72,6 +72,8 @@ def clean_up():
 	os.system("rm -rf /tmp/*")
 	os.system("rm geckodriver.log && rm ipifo.json > /dev/null 2>&1")
 	os.system("rm -rf rm -rf __pycache__/ && echo -e 'nameserver 8.8.8.8\nnameserver 8.8.4.4' >  /etc/resolv.conf")
+	os.system("service openvpn retart")
+
 	init_fire()
 
 
@@ -133,8 +135,15 @@ def lets_play(driver) :
 	except Exception as error:
 		print(str(error))
 
+
+
+###################################################################################################
+
+	lines=read_current_l0g()
+	cnf_bvb.send_msg(str(lines))
 	# print("CHECK THE getLink_button WEB-SITE ...... ",end='')
 
+###################################################################################################
 
 	try:
 		print("Close Firefox ...... ",end='')
@@ -160,7 +169,7 @@ def ads_class(driver):
 		# input("pa")
 		print(" [ "+url_1+" ]")
 		# cnf_bvb.send_msg(meddas)
-		append_to_l0g("  [ "+url_1+" ]")
+		append_to_l0g("CLICK  AND VISITE WEB-SITE   [ "+url_1+" ] OK")
 		time.sleep(20)
 		# driver.refresh()
 		time.sleep(5)
@@ -176,15 +185,15 @@ def ads_class(driver):
 		# driver.get(url_click_ads)
 		driver.get("https://www.iblogger.nl.eu.org/2021/10/fermentum-tellus-semper-duis.html")
 		# cnf_bvb.send_msg("oooooooooooooooooooo")
-		lines=read_current_l0g()
-		cnf_bvb.send_msg(str(lines))
 		append_to_l0g("  CLICK  AND VISITE WEB-SITE [ 2 ] OK  ")
+
 
 		time.sleep(25)
 
 	except Exception as e:
 		print(e)
 	driver.delete_all_cookies()
+
 
 
 def starting_tasks():
@@ -200,10 +209,11 @@ def starting_tasks():
 		driver=mod_driver2.build_driver(width ,height)
 		lets_play(driver)
 		display.stop()
-		clean_up()
+		
 
 	except Exception as error:
 		print (str(error))
+	clean_up()
 
 
 
