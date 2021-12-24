@@ -12,7 +12,9 @@ pwd = os.path.dirname(os.path.realpath( __file__ ))
 rnd_yek=[
 # "byJpsYp2LoBnceFkYBg1BWRH:TsUpTFjhQVFjTn3mQDi47JgC",       
 # "vCDzcaPACh6yarnvfN32k1Tj:KmjVMf3YeFjRWoDNVdPJKJvF",         
-# "r9ALwcyVetNrvq9xHSuNuQGg:DTSfshiZ98S6Y6iPx99iKnY8",         
+# "r9ALwcyVetNrvq9xHSuNuQGg:DTSfshiZ98S6Y6iPx99iKnY8", 
+"DYKRGvMhHet8CXWXBaCPRJtm:QDzzxrptNc38MnUW43MgDUf4",
+"sLvXctwJ7kdPCSyyZvSpHrX7:iKsZTfHFbUWAubnwunpyh3wD",       
 "sLvXctwJ7kdPCSyyZvSpHrX7:iKsZTfHFbUWAubnwunpyh3wD"]        
 # "GWaURqBcXMjHyuExDTEAtVR1:9JSemjxgWvxHUB7cXw9xrWQs"]
 
@@ -201,7 +203,7 @@ def fnc_vpn():
 
 
 ################################
-fnc_vpn()
+# fnc_vpn()
 # get_random_vpn()
 #cnf_bvb.testt()
 # fnc_vpn ()
