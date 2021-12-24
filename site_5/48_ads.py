@@ -33,7 +33,7 @@ telrgram_text=[]
 # url_1="http://romanian.ueuo.com/index.html"
 # url_1="http://crypto-world.is-great.org/index.html"
 url_1=cnf_bvb.url_1
-
+print (url_1)
 url_site_2=cnf_bvb.url_site_4
 
 
@@ -126,12 +126,6 @@ def init_fire():
 	except:
 		print(" NO  some_Error init_fire")
 
-
-
-
-
-
-
 def lets_play(driver) :
 	time.sleep(1)
 	try:
@@ -209,7 +203,7 @@ def starting_tasks():
 	try:
 		stage_1()### CLEAR
 		mod_vpn2.fnc_vpn ()
-		display = Display(visible=0, size=(width,height)).start()
+		display = Display(visible=1, size=(width,height)).start()
 		driver=mod_driver2.build_driver(width ,height)
 		lets_play(driver)
 		display.stop()

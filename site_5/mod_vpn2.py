@@ -9,16 +9,17 @@ l05_00='l05_00'
 pwd = os.path.dirname(os.path.realpath( __file__ ))
 
 # rnd_yek=["GWaURqBcXMjHyuExDTEAtVR1\n9JSemjxgWvxHUB7cXw9xrWQs","GWaURqBcXMjHyuExDTEAtVR1\n9JSemjxgWvxHUB7cXw9xrWQs" ,"byJpsYp2LoBnceFkYBg1BWRH\nTsUpTFjhQVFjTn3mQDi47JgC" , "vCDzcaPACh6yarnvfN32k1Tj\nKmjVMf3YeFjRWoDNVdPJKJvF"  , , ,]
-rnd_yek=["SisHM2SwPizsMgkbnk6UrFGk:32mQ7rFguPGWSJubqPh4Cgg1",
+rnd_yek=["SisHM2SwPizsMgkbnk6UrFGk:32mQ7rFguPGWSJubqPh4Cgg1","DYKRGvMhHet8CXWXBaCPRJtm:QDzzxrptNc38MnUW43MgDUf4","sLvXctwJ7kdPCSyyZvSpHrX7:iKsZTfHFbUWAubnwunpyh3wD",       
+"sLvXctwJ7kdPCSyyZvSpHrX7:iKsZTfHFbUWAubnwunpyh3wD"]
 # "byJpsYp2LoBnceFkYBg1BWRH:TsUpTFjhQVFjTn3mQDi47JgC",       
 # "vCDzcaPACh6yarnvfN32k1Tj:KmjVMf3YeFjRWoDNVdPJKJvF",         
 # "r9ALwcyVetNrvq9xHSuNuQGg:DTSfshiZ98S6Y6iPx99iKnY8", 
-"DYKRGvMhHet8CXWXBaCPRJtm:QDzzxrptNc38MnUW43MgDUf4",
-"sLvXctwJ7kdPCSyyZvSpHrX7:iKsZTfHFbUWAubnwunpyh3wD",       
-"sLvXctwJ7kdPCSyyZvSpHrX7:iKsZTfHFbUWAubnwunpyh3wD"]        
+
+      
 # "GWaURqBcXMjHyuExDTEAtVR1:9JSemjxgWvxHUB7cXw9xrWQs"]
 
 def random_pass():
+	os.system("ps aux | grep  openvpn | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 	random_ads=random.choice(rnd_yek)
 	# print("random paa ! "+random_ads)
 	# cmmd='echo -e "'+random_ads+'"  > '+pwd+'nord_pass.txt'
@@ -33,6 +34,7 @@ def random_pass():
 		# writ_new=v_user+"\n"+v_paww
 		fw.write(v_user+"\n"+v_paww)
 	os.system("cat nord_pass.txt")
+	print("\n")
 
 
 
@@ -177,9 +179,10 @@ def fnc_vpn():
 			# cnf_bvb.send_msg(meddas)
 			return [x ,True]
 		if logfile.read().find('AUTH_FAILED'):
-			print("AUTH_FAILED")
+			print("\nAUTH_FAILED")
 			os.system("echo '' > /var/log/openvpn/openvpn.log")
 			random_pass()
+			time.sleep(3)
 			fnc_vpn ()
 			return [x ,False]
 
