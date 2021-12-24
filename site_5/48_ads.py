@@ -34,7 +34,7 @@ telrgram_text=[]
 # url_1="http://crypto-world.is-great.org/index.html"
 url_1=cnf_bvb.url_1
 
-url_site_2=cnf_bvb.url_site_2
+url_site_2=cnf_bvb.url_site_4
 
 
 # url_3="https://elated-nobel-943d26.netlify.app/index.html"

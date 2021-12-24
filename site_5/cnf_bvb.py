@@ -9,7 +9,9 @@ url_1="https://darkos-market.eu.org/index.html"
 url_site_2="https://www.iblogger.nl.eu.org/2021/12/getting-hostname-in-bash-in-linux.html"
 url_2=url_1.replace("https://","")
 url_2=url_2.replace("/index.html","")
-
+# url_site_2
+url_site_4=url_site_2.replace("https://","")
+url_site_4=url_site_4.replace("/index.html","")
 # N= norrd
 vpn_type="N"
 # vpn_type="C" b
