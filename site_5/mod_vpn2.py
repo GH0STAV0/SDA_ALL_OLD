@@ -5,6 +5,40 @@ import cnf_bvb
 l05_00='l05_00'
 # hostname= socket.getfqdn()
 
+
+pwd = os.path.dirname(os.path.realpath( __file__ ))
+
+# rnd_yek=["GWaURqBcXMjHyuExDTEAtVR1\n9JSemjxgWvxHUB7cXw9xrWQs","GWaURqBcXMjHyuExDTEAtVR1\n9JSemjxgWvxHUB7cXw9xrWQs" ,"byJpsYp2LoBnceFkYBg1BWRH\nTsUpTFjhQVFjTn3mQDi47JgC" , "vCDzcaPACh6yarnvfN32k1Tj\nKmjVMf3YeFjRWoDNVdPJKJvF"  , , ,]
+rnd_yek=[
+# "byJpsYp2LoBnceFkYBg1BWRH:TsUpTFjhQVFjTn3mQDi47JgC",       
+# "vCDzcaPACh6yarnvfN32k1Tj:KmjVMf3YeFjRWoDNVdPJKJvF",         
+# "r9ALwcyVetNrvq9xHSuNuQGg:DTSfshiZ98S6Y6iPx99iKnY8",         
+"sLvXctwJ7kdPCSyyZvSpHrX7:iKsZTfHFbUWAubnwunpyh3wD"]        
+# "GWaURqBcXMjHyuExDTEAtVR1:9JSemjxgWvxHUB7cXw9xrWQs"]
+
+def random_pass():
+	random_ads=random.choice(rnd_yek)
+	# print("random paa ! "+random_ads)
+	# cmmd='echo -e "'+random_ads+'"  > '+pwd+'nord_pass.txt'
+	cmmd="rm nord_pass.txt"
+	# print(cmmd)
+	os.system(cmmd)
+	sspl_t=random_ads.split(":")
+	v_user=sspl_t[0]
+	v_paww=sspl_t[1]
+	# os.system('cat '+pwd+'nord_pass.txt && service openvpn restart')
+	with open("nord_pass.txt",'a') as fw:
+		# writ_new=v_user+"\n"+v_paww
+		fw.write(v_user+"\n"+v_paww)
+	os.system("cat nord_pass.txt")
+
+
+
+
+
+
+
+
 ########################### VPN  #############################/N0RD/WORKING_CONFIG/
 pwd = os.path.dirname(os.path.realpath( __file__ ))
 
@@ -110,22 +144,24 @@ def change_time_zon(t_z):
 	time.sleep(3)
 
 def fnc_vpn():
-
+	os.system("echo '' > /var/log/openvpn/openvpn.log")
 	final_vpn,random_vpn,int_used=get_random_vpn()
 	print("###################################################")
 	print("KILLING OPENVPN ....",end=' ')
 	os.system("ps aux | grep  openvpn | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
+	# time.sleep(3)
+	# os.system("rm -rf /var/log/openvpn/openvpn.log")
 	time.sleep(3)
-	os.system("rm -rf /var/log/openvpn/openvpn.log")
-	time.sleep(1)
-	os.system("touch /var/log/openvpn/openvpn.log")
+	# os.system("touch /var/log/openvpn/openvpn.log")
 	print ("OK !!!!!")
+	print("\n")
 	print("STARTING VPN " , end="")
 	x = subprocess.Popen(['openvpn', '--auth-nocache', '--config',final_vpn , '--log' , '/var/log/openvpn/openvpn.log'])
 	# remove_from_list_running(random_vpn)
-	time.sleep(15)
 	print("["+random_vpn+"]" , end="")
+	time.sleep(18)
 	with open ('/var/log/openvpn/openvpn.log', "r") as logfile:
+
 		if logfile.read().find('Sequence Completed') !=-1:
 			print ("OK !!!!!")
 			ac_ip,tz,loc=cnf_bvb.iip()
@@ -138,12 +174,21 @@ def fnc_vpn():
 			print(meddas)
 			# cnf_bvb.send_msg(meddas)
 			return [x ,True]
+		if logfile.read().find('AUTH_FAILED'):
+			print("AUTH_FAILED")
+			os.system("echo '' > /var/log/openvpn/openvpn.log")
+			random_pass()
+			fnc_vpn ()
+			return [x ,False]
+
+
 		else :
 			print("")
 			print("VPN STATUS = OFF || "+ random_vpn )
 			os.system("service openvpn restart")
 			fnc_vpn ()
 			return [x ,False]
+
 
 	time.sleep(5)
 	os.system("echo '' > /var/log/openvpn/openvpn.log")
@@ -156,7 +201,7 @@ def fnc_vpn():
 
 
 ################################
-# fnc_vpn()
+fnc_vpn()
 # get_random_vpn()
 #cnf_bvb.testt()
 # fnc_vpn ()
