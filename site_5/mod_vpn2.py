@@ -6,8 +6,8 @@ l05_00='l05_00'
 # hostname= socket.getfqdn()
 
 
-pwd = os.path.dirname(os.path.realpath( __file__ ))
-
+# pwd = os.path.dirname(os.path.realpath( __file__ ))
+pwd="/root/VPN"
 # rnd_yek=["GWaURqBcXMjHyuExDTEAtVR1\n9JSemjxgWvxHUB7cXw9xrWQs","GWaURqBcXMjHyuExDTEAtVR1\n9JSemjxgWvxHUB7cXw9xrWQs" ,"byJpsYp2LoBnceFkYBg1BWRH\nTsUpTFjhQVFjTn3mQDi47JgC" , "vCDzcaPACh6yarnvfN32k1Tj\nKmjVMf3YeFjRWoDNVdPJKJvF"  , , ,]
 rnd_yek=["33goQfhs6hfDauLzafL5PErP:3hx1mG2twanKEfQYsMPBZ6aw"]
 #,"DYKRGvMhHet8CXWXBaCPRJtm:QDzzxrptNc38MnUW43MgDUf4","sLvXctwJ7kdPCSyyZvSpHrX7:iKsZTfHFbUWAubnwunpyh3wD", "sLvXctwJ7kdPCSyyZvSpHrX7:iKsZTfHFbUWAubnwunpyh3wD"]
@@ -44,7 +44,7 @@ def random_pass():
 
 
 ########################### VPN  #############################/N0RD/WORKING_CONFIG/
-pwd = os.path.dirname(os.path.realpath( __file__ ))
+# pwd = os.path.dirname(os.path.realpath( __file__ ))
 
 
 vpn_type=cnf_bvb.vpn_type
