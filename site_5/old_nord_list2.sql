@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Dec 24, 2021 at 03:26 AM
+-- Generation Time: Dec 21, 2021 at 09:56 AM
 -- Server version: 8.0.13-4
 -- PHP Version: 7.2.24-0ubuntu0.18.04.10
 
@@ -30,8 +30,8 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `nord_list2` (
   `id` int(11) NOT NULL,
-  `cnf_names` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `used` varchar(11) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL
+  `cnf_names` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL,
+  `used` varchar(11) COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --

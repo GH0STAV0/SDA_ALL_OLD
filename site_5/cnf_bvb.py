@@ -651,13 +651,17 @@ user_agent_list = [
 
 ##############################################################################################
 
+def hostname_os_val():
+	hostname_os=socket.getfqdn()
+	print(hostname_os[-1])
+	b_v=hostname_os[-1]
+	return b_v
 
 
 
 
 
-
-
+hostname_os_val()
 
 
 

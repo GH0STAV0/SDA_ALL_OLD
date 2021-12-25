@@ -6,10 +6,10 @@ from datetime import datetime
 
 
 
-# vpn_folder="/root/VPN/N0RD/WORKING_CONFIG/"
+vpn_folder="/root/VPN/N0RD/WORKING_CONFIG/"
 
 
-# all_vpn_config_file=os.listdir(vpn_folder)
+all_vpn_config_file=os.listdir(vpn_folder)
 # # print(str(len(all_vpn_config_file)))
 
 # def creat_list_of_vpn():
@@ -39,10 +39,10 @@ def check_connect_mysql():
 #######################################################################################
 def insert_to_db(cnf_name):
 	mycursor = mydb.cursor()
-	sql = "INSERT INTO nord_list (cnf_names, used) VALUES (%s, %s)"
+	sql = "INSERT INTO nord_list2 (cnf_names, used) VALUES (%s, %s)"
 	val = (cnf_name, "n")
 	mycursor.execute(sql, val)
-	time.sleep(2)
+	# time.sleep(2)
 
 	mydb.commit()
 
@@ -95,13 +95,29 @@ def update_to_db_as_used(cnf_name):
 	print("[ SUCCED ] ")
 	# get_value_cnf(cnf_name)
 ##########################################################################################
-fresh_config=get_fresh_config()
-print(fresh_config)
-# get_value_cnf()
-update_to_db_as_used(fresh_config)
+# fresh_config=get_fresh_config()
+# print(fresh_config)
+# # get_value_cnf()
+# update_to_db_as_used(fresh_config)
 # get_value_cnf()
 
 #
 # check_connect_mysql()
 # loop_conf()
 # SELECT * FROM `nord_list2` WHERE (`used`='n') ORDER BY RAND() LIMIT 1
+
+
+
+
+
+def drop_sql_table():
+	print(" drop_sql_table  OF  : ",end='',flush=True)
+	mydb = mysql.connector.connect(host="remotemysql.com",user="f6V3kVwxvH",passwd="sOVnW1130i",database="f6V3kVwxvH")
+	mycursor = mydb.cursor()
+	sql = "DROP TABLE IF EXISTS nord_list2"
+	mycursor.execute(sql)
+	print("[ SUCCED ] ")
+
+# drop_sql_table()
+
+loop_conf()
