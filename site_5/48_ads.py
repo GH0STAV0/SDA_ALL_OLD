@@ -45,9 +45,9 @@ url_site_2=cnf_bvb.url_site_4
 user_agent = cnf_bvb.user_agent
 sys_use_agent=re.findall('\(.*?\)',user_agent)[0]
 
+random_ads=""
 
-
-random_ads=cnf_bvb.random_ads
+# random_ads=cnf_bvb.random_ads
 url_click_ads="https://click.a-ads.com/1859747/"+random_ads+"/"
 ########################################################################################################################################
 ##############################################################
