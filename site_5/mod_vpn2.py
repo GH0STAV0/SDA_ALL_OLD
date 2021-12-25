@@ -181,7 +181,7 @@ def fnc_vpn():
 		if logfile.read().find('AUTH_FAILED'):
 			print("\nAUTH_FAILED")
 			os.system("echo '' > /var/log/openvpn/openvpn.log")
-			random_pass()
+			# random_pass()
 			time.sleep(3)
 			fnc_vpn ()
 			return [x ,False]
