@@ -783,7 +783,8 @@ def iip ():
 ########################################################################################################################################
 
 
-pwd = os.path.dirname(os.path.realpath( __file__ ))
+# pwd = os.path.dirname(os.path.realpath( __file__ ))
+pwd="/root/VPN"
 p_vpn_g=pwd+"/CHEAP_VPN/"
 file_vpn_dead=pwd+"/DEAD_CONFIG_TCP/"
 # 	p_vpn_g=pwd+"/N0RD/WORKING_CONFIG/"
