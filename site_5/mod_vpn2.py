@@ -9,7 +9,7 @@ l05_00='l05_00'
 pwd = os.path.dirname(os.path.realpath( __file__ ))
 
 # rnd_yek=["GWaURqBcXMjHyuExDTEAtVR1\n9JSemjxgWvxHUB7cXw9xrWQs","GWaURqBcXMjHyuExDTEAtVR1\n9JSemjxgWvxHUB7cXw9xrWQs" ,"byJpsYp2LoBnceFkYBg1BWRH\nTsUpTFjhQVFjTn3mQDi47JgC" , "vCDzcaPACh6yarnvfN32k1Tj\nKmjVMf3YeFjRWoDNVdPJKJvF"  , , ,]
-rnd_yek=["PJuBxB6Vqw2YFRjW1drY8a2W:P32ranMFwgTUoMkU6ccBzM7U"]
+rnd_yek=["33goQfhs6hfDauLzafL5PErP:3hx1mG2twanKEfQYsMPBZ6aw"]
 #,"DYKRGvMhHet8CXWXBaCPRJtm:QDzzxrptNc38MnUW43MgDUf4","sLvXctwJ7kdPCSyyZvSpHrX7:iKsZTfHFbUWAubnwunpyh3wD", "sLvXctwJ7kdPCSyyZvSpHrX7:iKsZTfHFbUWAubnwunpyh3wD"]
 # "byJpsYp2LoBnceFkYBg1BWRH:TsUpTFjhQVFjTn3mQDi47JgC",       
 # "vCDzcaPACh6yarnvfN32k1Tj:KmjVMf3YeFjRWoDNVdPJKJvF",         
@@ -181,7 +181,7 @@ def fnc_vpn():
 		if logfile.read().find('AUTH_FAILED'):
 			print("\nAUTH_FAILED")
 			os.system("echo '' > /var/log/openvpn/openvpn.log")
-			random_pass()
+			# random_pass()
 			time.sleep(3)
 			fnc_vpn ()
 			return [x ,False]
