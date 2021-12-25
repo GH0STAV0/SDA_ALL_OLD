@@ -9,12 +9,12 @@ l05_00='l05_00'
 pwd = os.path.dirname(os.path.realpath( __file__ ))
 
 # rnd_yek=["GWaURqBcXMjHyuExDTEAtVR1\n9JSemjxgWvxHUB7cXw9xrWQs","GWaURqBcXMjHyuExDTEAtVR1\n9JSemjxgWvxHUB7cXw9xrWQs" ,"byJpsYp2LoBnceFkYBg1BWRH\nTsUpTFjhQVFjTn3mQDi47JgC" , "vCDzcaPACh6yarnvfN32k1Tj\nKmjVMf3YeFjRWoDNVdPJKJvF"  , , ,]
-rnd_yek=["SisHM2SwPizsMgkbnk6UrFGk:32mQ7rFguPGWSJubqPh4Cgg1","DYKRGvMhHet8CXWXBaCPRJtm:QDzzxrptNc38MnUW43MgDUf4","sLvXctwJ7kdPCSyyZvSpHrX7:iKsZTfHFbUWAubnwunpyh3wD",       
-"sLvXctwJ7kdPCSyyZvSpHrX7:iKsZTfHFbUWAubnwunpyh3wD"]
+rnd_yek=["r9ALwcyVetNrvq9xHSuNuQGg:DTSfshiZ98S6Y6iPx99iKnY8"]
+#,"DYKRGvMhHet8CXWXBaCPRJtm:QDzzxrptNc38MnUW43MgDUf4","sLvXctwJ7kdPCSyyZvSpHrX7:iKsZTfHFbUWAubnwunpyh3wD", "sLvXctwJ7kdPCSyyZvSpHrX7:iKsZTfHFbUWAubnwunpyh3wD"]
 # "byJpsYp2LoBnceFkYBg1BWRH:TsUpTFjhQVFjTn3mQDi47JgC",       
 # "vCDzcaPACh6yarnvfN32k1Tj:KmjVMf3YeFjRWoDNVdPJKJvF",         
 # "r9ALwcyVetNrvq9xHSuNuQGg:DTSfshiZ98S6Y6iPx99iKnY8", 
-
+# "SisHM2SwPizsMgkbnk6UrFGk:32mQ7rFguPGWSJubqPh4Cgg1"
       
 # "GWaURqBcXMjHyuExDTEAtVR1:9JSemjxgWvxHUB7cXw9xrWQs"]
 
@@ -33,7 +33,7 @@ def random_pass():
 	with open("nord_pass.txt",'a') as fw:
 		# writ_new=v_user+"\n"+v_paww
 		fw.write(v_user+"\n"+v_paww)
-	os.system("cat nord_pass.txt")
+	os.system("cat nord_pass.txt &&  sed -i '/^$/d' nord_pass.txt ")
 	print("\n")
 
 
