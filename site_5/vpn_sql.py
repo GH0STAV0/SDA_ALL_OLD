@@ -154,10 +154,10 @@ def counting_used_config_config():
 
 
 
-vpn_folder="/root/VPN/N0RD/WORKING_CONFIG/"
+# vpn_folder="/root/VPN/N0RD/WORKING_CONFIG/"
 
 
-all_vpn_config_file=os.listdir(vpn_folder)
+# all_vpn_config_file=os.listdir(vpn_folder)
 # # print(str(len(all_vpn_config_file)))
 
 # def creat_list_of_vpn():

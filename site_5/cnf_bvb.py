@@ -3,6 +3,10 @@ import json
 import socket
 
 
+vversion="1.0"
+hostname_os=socket.getfqdn()
+
+telegram_tokens_bot=["0","5036803152:AAGs0ES1OmEdy86MNJDp7mp19BB5IQhcVHU","5099462819:AAEndTxvXaSqBQ6E_EpiCN02a81ROGPMgr0","5001651751:AAGzzbUfJXWHZz-FKJyLSUxzg-JiRMO5v-Q","5041058138:AAFRher-cMwnRI476iW24tT6Kt8lvC0bmLc","5051743922:AAEOHJTRzv2WIxZ8bR-VrVYNA6io6qB1Ltw"]
 
 
 url_1=" http://free-coin.nichesite.org/index.html"
@@ -11,6 +15,7 @@ url_1=" http://free-coin.nichesite.org/index.html"
 # url_1="https://darkos-market.eu.org/index.html"
 url_site_2="https://www.iblogger.nl.eu.org/2021/12/getting-hostname-in-bash-in-linux.html"
 url_2=url_1.replace("https://","")
+url_2=url_1.replace("http://","")
 url_2=url_2.replace("/index.html","")
 # url_site_2
 url_site_4=url_site_2.replace("https://","")
@@ -646,29 +651,54 @@ user_agent_list = [
 
 ]
 
-
-
-
 ##############################################################################################
 
 def hostname_os_val():
 	hostname_os=socket.getfqdn()
-	print(hostname_os[-1])
+	# print(hostname_os[-1])
 	b_v=hostname_os[-1]
 	return b_v
 
 
 
+def get_tokens():
+	bot_name=hostname_os_val()
+	# print(bot_name)
+	if "1" in bot_name:
+		tokens=telegram_tokens_bot[1]
+	if "2" in bot_name:
+		tokens=telegram_tokens_bot[2]
+	if "3" in bot_name:
+		tokens=telegram_tokens_bot[3]
+	if "4" in bot_name:
+		tokens=telegram_tokens_bot[4]
+	if "5" in bot_name:
+		tokens=telegram_tokens_bot[5]
+	print(tokens)
+	return tokens
+# hostname_os_val()
+# get_tokens()
 
+def alias_send_msg(text):
 
-hostname_os_val()
+	msg_telegram="[ "+hostname_os +" ] [ "+vversion+" ] [ "+text+" ] [ "+url_2+" ]"
+	# token = "2137513961:AAGENlwIUQnfvbKZX64-fZ72R_oStto8oFo"
+	#-609247805
+	token=get_tokens()
+	# token="5086890807:AAEEM2OhQaR9mB7KUZvwkE60mHvoSY4BhOQ"
+	# token="5035848854:AAG9a-7bHDYTOXiNEdjXRsnM-gbkdw9TCfE"
+	chat_id = "-615987943"
+	# chat_id = "-1001616252735"
+	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram
+	# url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
 
-
+	results = requests.get(url_req)
+	# print(results.json())
 
 
 ##############################################################################################
 
-
+alias_send_msg("STARTING")
 
 
 
@@ -705,11 +735,11 @@ def append_to_l0g(text_add):
 
 
 
-ads=['148554','148477','148709','143423','146817','147629','147257','148786','146991','148787','148066','148643','148283','144375','148279','144442','148555','148264','148804','148556','147277','147415','146209','148523','148680','144002','148540','147710','144323','144498','148758','144525','148263','146622','142824','146831','147535','148510','148600','145992','148482','139001','148628','148784','148685','147791','148059','144604','147966','146160','139480','148498','148760','148657','148721','148577','146708','148761','148762','139705','146145','143247','148717','148677','148539','148749','145585','148476','148522','147370','139134','148471','148759','148061','147081','145096','148242']
+# ads=['148554','148477','148709','143423','146817','147629','147257','148786','146991','148787','148066','148643','148283','144375','148279','144442','148555','148264','148804','148556','147277','147415','146209','148523','148680','144002','148540','147710','144323','144498','148758','144525','148263','146622','142824','146831','147535','148510','148600','145992','148482','139001','148628','148784','148685','147791','148059','144604','147966','146160','139480','148498','148760','148657','148721','148577','146708','148761','148762','139705','146145','143247','148717','148677','148539','148749','145585','148476','148522','147370','139134','148471','148759','148061','147081','145096','148242']
 
-random_ads=random.choice(ads)
+# random_ads=random.choice(ads)
 
-hostname_os=socket.getfqdn()
+
 
 def send_msg(text):
 
