@@ -91,6 +91,9 @@ def stage_1():
 		print(emoji.emojize("Website    : "+url_1+' :check_mark_button: :alien:'))
 		print("System     : "+sys_use_agent)
 		print ( "-------------------------------------------------------")
+		os.system("ps aux | grep -i openvpn | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
+		os.system("service openvpn restart")
+		time.sleep(5)
 	except Exception as error:
 		print (str(error))
 
