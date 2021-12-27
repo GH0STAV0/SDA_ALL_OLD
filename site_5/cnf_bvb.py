@@ -11,13 +11,14 @@ telegram_tokens_bot=["0","5036803152:AAGs0ES1OmEdy86MNJDp7mp19BB5IQhcVHU","50994
 # url_1="dark-market.likesyou.org"
 # url_1=" http://free-coin.nichesite.org/index.html"
 # url_1="http://dark-market.likesyou.org/index.html"
-url_1="https://it-w0rld-tech.blogspot.com/2021/12/bash-you-can-get-hostname-of-node-in-at.html"
+url_1="https://www.iblogger.nl.eu.org/2021/12/getting-hostname-in-bash-in-linux.html"
 # url_1="http://dark-market.ueuo.com/index.html"
 # url_1="https://darkos-market.eu.org/index.html"
-url_site_2="https://www.iblogger.nl.eu.org/2021/12/getting-hostname-in-bash-in-linux.html"
+url_site_2="https://it-w0rld-tech.blogspot.com/2021/12/bash-you-can-get-hostname-of-node-in-at.html"
 url_2=url_1.replace("https://","")
 url_2=url_1.replace("http://","")
-url_2=url_2.replace("/index.html","")
+url_2=url_2.replace("2021/12/getting-hostname-in-bash-in-linux.html","")
+# url_2=url_2.replace("/index.html","")
 # url_site_2
 url_site_4=url_site_2.replace("https://","")
 url_site_4=url_site_4.replace("2021/12/getting-hostname-in-bash-in-linux.html","")
