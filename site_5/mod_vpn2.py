@@ -183,6 +183,7 @@ def fnc_vpn():
 			os.system("echo '' > /var/log/openvpn/openvpn.log")
 			# random_pass()
 			time.sleep(3)
+			x.kill()
 			fnc_vpn ()
 			return [x ,False]
 
