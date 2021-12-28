@@ -133,7 +133,7 @@ def counting_used_config_config():
 # get_fresh_config()
 
 
-restored_fresh_sql_table()
+# restored_fresh_sql_table()
 
 
 ##########################################################################################
