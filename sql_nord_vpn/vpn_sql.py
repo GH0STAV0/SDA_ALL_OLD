@@ -6,8 +6,10 @@ from datetime import datetime
 
 
 
-vpn_folder="/root/VPN/N0RD/WORKING_CONFIG/"
+# vpn_folder="/root/VPN/N0RD/WORKING_CONFIG/"
 
+
+vpn_folder="/root/VPN/CHEAP_VPN/"
 
 all_vpn_config_file=os.listdir(vpn_folder)
 # # print(str(len(all_vpn_config_file)))
@@ -46,12 +48,23 @@ def insert_to_db(cnf_name):
 
 	mydb.commit()
 
+
+
+def insert_to_db_chap(cnf_name):
+	mycursor = mydb.cursor()
+	sql = "INSERT INTO name_cheap (cnf_names, used) VALUES (%s, %s)"
+	val = (cnf_name, "n")
+	mycursor.execute(sql, val)
+	# time.sleep(2)
+
+	mydb.commit()
 ##############################################################################################
 
 def loop_conf():
 	for i in all_vpn_config_file:
 		print(i)
-		insert_to_db(i)
+		# insert_to_db(i)
+		insert_to_db_chap(i)
 
 ###############################################################################################
 
