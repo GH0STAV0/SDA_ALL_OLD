@@ -1,12 +1,30 @@
 import random , os ,requests
 import json
 import socket
+import urllib.parse
+import emoji
 
-vversion="5.00 NORD_VPN"
-hostname_os=socket.getfqdn()
+
+
+vpn_type="N"
+total_l0g=[]
+vversion="7.00 NORD_VPN"
 telegram_tokens_bot=["0","5036803152:AAGs0ES1OmEdy86MNJDp7mp19BB5IQhcVHU","5099462819:AAEndTxvXaSqBQ6E_EpiCN02a81ROGPMgr0","5001651751:AAGzzbUfJXWHZz-FKJyLSUxzg-JiRMO5v-Q","5041058138:AAFRher-cMwnRI476iW24tT6Kt8lvC0bmLc","5051743922:AAEOHJTRzv2WIxZ8bR-VrVYNA6io6qB1Ltw"]
-# url_1="dark-market.likesyou.org"
+hostname_os=socket.getfqdn()
+
+def ap_2_l0g(gms):
+	total_l0g.append(gms)
+
+
+
+
 url_1="https://dark0s-market.eu.org/index.html"#"http://free-coin.nichesite.org/index.html"
+
+
+
+
+
+# url_1="dark-market.likesyou.org"
 # url_1="https://dark-market-crypto.tk/"
 
 # url_1="http://dark-market.likesyou.org/index.html"
@@ -25,9 +43,14 @@ url_site_4=url_site_4.replace("/2021/12/bash-you-can-get-hostname-of-node-in-at.
 
 second_2_visit='https://www.iblogger.nl.eu.org/2021/12/getting-hostname-in-bash-in-linux.html'
 
+parssed_url_1=urllib.parse.urlparse(url_1).netloc
+# parssed_url_1=parssed_url_1
+parssed_url_2=urllib.parse.urlparse(url_site_2).netloc
+# parssed_url_2=parssed_url_2
+print(parssed_url_2)
+
 
 # vpn_type="C"
-vpn_type="N"
 
 # vpn_type="C" b
 
@@ -684,11 +707,33 @@ def get_tokens():
 	print(tokens)
 	return tokens
 # hostname_os_val()
-# get_tokens()
+# get_tokens()check_mark_button
 
 def alias_send_msg(text):
+	mp=emoji.emojize(" "'  :pager:'+"[ "+hostname_os +" ] "':pager:'+" "':gear:'+" ] [ "+vversion+" ] "':gear:')
+	msg_telegram=mp+"  "+text+" ] [ "+parssed_url_1+" ] [ "+parssed_url_2+" ] [  OK ]"
+	# token = "2137513961:AAGENlwIUQnfvbKZX64-fZ72R_oStto8oFo"
+	#-609247805
+	token=get_tokens()
+	# token="5086890807:AAEEM2OhQaR9mB7KUZvwkE60mHvoSY4BhOQ"
+	# token="5035848854:AAG9a-7bHDYTOXiNEdjXRsnM-gbkdw9TCfE"
+	chat_id = "-615987943"
+	# chat_id = "-1001616252735"
+	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram
+	# url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
 
-	msg_telegram="[ "+hostname_os +" ] [ "+vversion+" ] [ "+text+" ] [ "+url_2+" ] [ "+url_site_4+" ]"
+	results = requests.get(url_req)
+	# print(results.json())
+
+
+##############################################################################################
+def alias_send_msg_2():
+	mmgg=""
+	for x in total_l0g :
+		mmgg=mmgg+x+"\n"
+		pass
+
+	msg_telegram="[ "+hostname_os +" ] [ "+vversion+" ] [ "+mmgg+" ] [ "+parssed_url_1+" ] [ "+parssed_url_2+" ] [ 000000 OK ]"
 	# token = "2137513961:AAGENlwIUQnfvbKZX64-fZ72R_oStto8oFo"
 	#-609247805
 	token=get_tokens()
@@ -705,7 +750,8 @@ def alias_send_msg(text):
 
 ##############################################################################################
 
-alias_send_msg("STARTING")
+mp=emoji.emojize("STARTING Ok "' :check_mark_button: :alien:')
+alias_send_msg(mp)
 
 
 

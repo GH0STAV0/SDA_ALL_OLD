@@ -90,5 +90,6 @@ def build_driver(width,height):
 		print("    Error !!!!! ----->"+str(error))
 		text_add="    Error !!!!! ----->"+str(error)
 	cnf_bvb.append_to_l0g(text_add)
+	cnf_bvb.ap_2_l0g(text_add)
 
 	return driver

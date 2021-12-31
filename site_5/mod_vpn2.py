@@ -178,6 +178,7 @@ def fnc_vpn():
 			append_to_l0g(meddas)
 			vpn_sql.update_to_db_as_used(random_vpn,typ0)
 			print(meddas)
+			cnf_bvb.ap_2_l0g(meddas)
 			cnf_bvb.alias_send_msg(meddas)
 			return [x ,True]
 		if logfile.read().find('AUTH_FAILED'):
