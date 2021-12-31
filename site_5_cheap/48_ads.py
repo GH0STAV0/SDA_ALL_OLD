@@ -175,6 +175,8 @@ def ads_class(driver):
 		# time.sleep(20)
 		# driver.refresh()
 		time.sleep(15)
+
+
 		print("CLICK  AND VISITE WEB-SITE [ 2 ]...... ",end='',flush=True)
 		# getLink_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.ID, 'rightbox')))
 		# print(emoji.emojize("Ok "' :check_mark_button: :alien:'))
@@ -186,15 +188,15 @@ def ads_class(driver):
 		# driver.get(url_click_ads)
 		# input("")
 		driver.get(second_2_visit)
-		driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.ID, 'sidebar2'))))
-		time.sleep(5)
+		driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.CSS_SELECTOR, '.post_ad_top'))))
+		time.sleep(8)
 		driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.ID, 'yass-search-box'))))
 		time.sleep(5)
 		driver.execute_script("window.scrollTo(0, document.body.scrollHeight/4.2);window.scrollTo(0, document.body.scrollHeight/4.5);")
 		# getLink_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.ID, 'content-wrapper')))
 		# getLink_button.send_keys(Keys.TAB*8)
 		#yass-search-box
-		time.sleep(5)
+		# time.sleep(5)
 		# search-wrapper
 		driver.execute_script("window.scrollTo(0, 0);window.scrollTo(0, 0);")
 
@@ -220,7 +222,7 @@ def starting_tasks():
 	try:
 		stage_1()### CLEAR
 		mod_vpn2.fnc_vpn ()
-		display = Display(visible=0, size=(width,height)).start()
+		display = Display(visible=1, size=(width,height)).start()
 		driver=mod_driver2.build_driver(width ,height)
 		lets_play(driver)
 		display.stop()

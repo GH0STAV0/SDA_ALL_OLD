@@ -103,24 +103,29 @@ def update_to_db_as_used(cnf_name,typ0):
 	# get_value_cnf(cnf_name)
 ##########################################################################################
 
-def drop_sql_table():
+def drop_sql_table(name_cheap):
 	print(" drop_sql_table  OF  : ",end='',flush=True)
 	mydb = mysql.connector.connect(host="remotemysql.com",user="f6V3kVwxvH",passwd="sOVnW1130i",database="f6V3kVwxvH")
 	mycursor = mydb.cursor()
-	sql = "DROP TABLE IF EXISTS nord_list2"
+	sql = "DROP TABLE IF EXISTS "+name_cheap
 	mycursor.execute(sql)
+	#sql = "CREATE TABLE "+name_cheap
+	#mycursor.execute(sql)
 	print("[ SUCCED ] ")
 
 
 def restored_fresh_sql_table():
-	drop_sql_table()
+	drop_sql_table("nord_list2")
 	print(" restored_fresh_sql_table  OF nord_list2 nord_list2.sql : ",end='',flush=True)
 	os.system("mysql -h remotemysql.com -u f6V3kVwxvH -psOVnW1130i f6V3kVwxvH < nord_list2.sql")
 	print("[ SUCCED ] ")
 
 
-
-
+def restored_fresh_sql_table_name_cheap(name_cheap):
+	drop_sql_table(name_cheap)
+	print(" restored_fresh_sql_table  OF name_cheap name_cheap.sql : ",end='',flush=True)
+	os.system("mysql -h remotemysql.com -u f6V3kVwxvH -psOVnW1130i f6V3kVwxvH < name_cheap.sql")
+	print("[ SUCCED ] ")
 
 
 def counting_left():
@@ -147,9 +152,14 @@ def counting_used_config_config(typ0):
 	mycursor.execute(sql)
 	record = mycursor.fetchall()
 	count=mycursor.rowcount
-	# print(str(count))
+	print(str(count))
 	# for row in record:
 	# 	fresh_config=str(row[1])
+	if "name_cheap" in this_table:
+		if (count==158):
+			print('fullllllllll')
+			restored_fresh_sql_table_name_cheap("name_cheap")
+
 	return count
 
 #################################################################################################
@@ -157,8 +167,8 @@ def counting_used_config_config(typ0):
 
 # 
 # restored_fresh_sql_table()
-
-
+# restored_fresh_sql_table_name_cheap("name_cheap")
+# counting_used_config_config("C")
 ##########################################################################################
 ##########################################################################################
 # fresh_config=get_fresh_config()
