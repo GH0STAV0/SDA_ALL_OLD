@@ -167,7 +167,7 @@ def counting_used_config_config(typ0):
 
 # 
 # restored_fresh_sql_table()
-restored_fresh_sql_table_name_cheap("name_cheap")
+# restored_fresh_sql_table_name_cheap("name_cheap")
 # counting_used_config_config("C")
 ##########################################################################################
 ##########################################################################################
