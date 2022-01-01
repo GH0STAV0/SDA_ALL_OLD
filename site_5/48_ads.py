@@ -185,8 +185,11 @@ def ads_class(driver):
 		#print("CLICK  AND VISITE WEB-SITE [ 2 ]...... ",end='',flush=True)
 		# driver.get(url_click_ads)
 		# input("")
+		#//*[@id="Blog1_blog-pager-older-link"]
+		# //*[@id="post-body-4310463428394459903"]/div[1]
 		driver.get(second_2_visit)
-		driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.ID, 'sidebar2'))))
+		driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.XPATH, '//*[@id="post-body-4310463428394459903"]/div[1]'))))
+		print("UUUUU")
 		time.sleep(5)
 		driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.ID, 'yass-search-box'))))
 		time.sleep(5)
