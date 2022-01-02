@@ -8,7 +8,7 @@ import emoji
 
 vpn_type="N"
 total_l0g=[]
-vversion="25.0 MAC+ NRD_AUTO-UP *"
+vversion="30.0 MAC+ NRD_AUTO-UP *"
 telegram_tokens_bot=["0","5036803152:AAGs0ES1OmEdy86MNJDp7mp19BB5IQhcVHU","5099462819:AAEndTxvXaSqBQ6E_EpiCN02a81ROGPMgr0","5001651751:AAGzzbUfJXWHZz-FKJyLSUxzg-JiRMO5v-Q","5041058138:AAFRher-cMwnRI476iW24tT6Kt8lvC0bmLc","5051743922:AAEOHJTRzv2WIxZ8bR-VrVYNA6io6qB1Ltw"]
 hostname_os=socket.getfqdn()
 
@@ -21,8 +21,6 @@ def ap_2_l0g(gms):
 # url_1="https://dark0s-market.eu.org/index.html"
 
 url_1="http://free-coin.nichesite.org/index.html"
-
-
 
 
 
@@ -98,8 +96,9 @@ def get_tokens():
 # get_tokens()check_mark_button
 
 def alias_send_msg(text):
-	mp=emoji.emojize(" "'  :pager:'+"[ "+hostname_os +" ] "':pager:'+" "':gear:'+" ] [ "+vversion+" ] "':gear:')
-	msg_telegram=mp+"  "+text+" ] [ "+parssed_url_1+" ] [ "+parssed_url_2+" ] [  OK ]"
+	pol=emoji.emojize(""':man_genie:')
+	mp=emoji.emojize(" "'  :dizzy:'+"[ "+hostname_os +" ] "':dizzy:'+" \n"''+"  [ "+vversion+" ] "'')
+	msg_telegram=mp+" \n"+text+" ] \n "+pol+" [ "+parssed_url_1+" ] \n "+pol+"[ "+parssed_url_2+" ] "
 	# token = "2137513961:AAGENlwIUQnfvbKZX64-fZ72R_oStto8oFo"
 	#-609247805
 	token=get_tokens()
@@ -116,7 +115,8 @@ def alias_send_msg(text):
 
 ##############################################################################################
 def alias_send_msg_2():
-	mmgg=""
+	mmgg.emojize(" "' :ghost: :alien:')
+	# mmgg=""
 	for x in total_l0g :
 		mmgg=mmgg+x+"\n"
 		pass
@@ -138,7 +138,7 @@ def alias_send_msg_2():
 
 ##############################################################################################
 
-mp=emoji.emojize("STARTING Ok "' :check_mark_button: :alien:')
+mp=emoji.emojize("STARTING Ok "' :: :alien:')
 alias_send_msg(mp)
 
 
