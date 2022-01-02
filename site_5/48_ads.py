@@ -224,7 +224,7 @@ def starting_tasks():
 		stage_1()### CLEAR
 		mod_vpn2.fnc_vpn ()
 		# cnf_bvb.alias_send_msg_2()
-		display = Display(visible=1, size=(width,height)).start()
+		display = Display(visible=0, size=(width,height)).start()
 		driver=mod_driver2.build_driver(width ,height)
 		lets_play(driver)
 		display.stop()

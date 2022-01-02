@@ -181,7 +181,10 @@ def fnc_vpn():
 			change_time_zon(tz)
 			os.environ['TZ'] = tz
 			bass=read_pass()
-			meddas=bass"\n"+" [ CONNECTED VPN] [ "+str(int_used)+" ] : [ "+ random_vpn  +" ] \n"+"|| [ IP ] : [ "+ ac_ip+" ] || [ TIME_Z ] : ["+ tz+" ]"+"\n"
+			mm=""
+			for i in bass:
+				mm=mm+i
+			meddas=mm+" [ CONNECTED VPN] [ "+str(int_used)+" ] : [ "+ random_vpn  +" ] \n"+"|| [ IP ] : [ "+ ac_ip+" ] || [ TIME_Z ] : ["+ tz+" ]"+"\n"
 			# " [ "+url_1+" ]"
 			append_to_l0g(meddas)
 			vpn_sql.update_to_db_as_used(random_vpn,typ0)
