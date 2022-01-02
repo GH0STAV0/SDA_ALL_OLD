@@ -98,6 +98,13 @@ def read_current_list_vpn():
 		lines = file.readlines()
 	return lines
 
+
+
+def read_pass():
+	# def read_current_list_vpn():
+	with open('0nord_pass','r') as file:
+		lines = file.readlines()
+	return lines
 ##############################################################
 
 def write_new_list(new_vpn_arry):
@@ -173,7 +180,8 @@ def fnc_vpn():
 			ac_ip,tz,loc=cnf_bvb.iip()
 			change_time_zon(tz)
 			os.environ['TZ'] = tz
-			meddas="\n"+" [ CONNECTED VPN] [ "+str(int_used)+" ] : [ "+ random_vpn  +" ] \n"+"|| [ IP ] : [ "+ ac_ip+" ] || [ TIME_Z ] : ["+ tz+" ]"+"\n"
+			bass=read_pass()
+			meddas=bass"\n"+" [ CONNECTED VPN] [ "+str(int_used)+" ] : [ "+ random_vpn  +" ] \n"+"|| [ IP ] : [ "+ ac_ip+" ] || [ TIME_Z ] : ["+ tz+" ]"+"\n"
 			# " [ "+url_1+" ]"
 			append_to_l0g(meddas)
 			vpn_sql.update_to_db_as_used(random_vpn,typ0)

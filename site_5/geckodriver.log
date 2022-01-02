@@ -1,0 +1,7 @@
+1641118322197	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1080" "--height=1920" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyalgtL"
+Sandbox: seccomp sandbox violation: pid 2146355, tid 2146355, syscall 315, args 2146355 140634042776640 56 0 140634042773568 140634042776640.
+Sandbox: seccomp sandbox violation: pid 2146355, tid 2146355, syscall 332, args 33 140634224554802 4096 1 140729890442768 140633986977280.
+Sandbox: unsupported fd-relative fstatat(33, "", 0x7FFE3B210C60, 4096)
+Sandbox: seccomp sandbox violation: pid 2146355, tid 2146355, syscall 262, args 33 140634224554802 140729890442336 4096 4096 1.
+1641118327326	Marionette	INFO	Listening on port 40323
+1641118327454	Marionette	WARN	TLS certificate errors will be ignored for this session
