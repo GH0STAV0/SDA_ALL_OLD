@@ -1,0 +1,6 @@
+1641120090734	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-58.0.1/firefox/firefox" "-marionette" "--width=1920" "--height=1080" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiler0KDsu"
+1641120092009	Marionette	INFO	Enabled via --marionette
+Sandbox: seccomp sandbox violation: pid 2152126, tid 2152126, syscall 315, args 2152126 140672339951168 56 0 140672339947584 140672339951168.
+Sandbox: seccomp sandbox violation: pid 2152126, tid 2152126, syscall 332, args 40 140672514544434 4096 1 140723663831120 140672261884624.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFCC7FE7EA0, 4096)
+Sandbox: seccomp sandbox violation: pid 2152126, tid 2152126, syscall 262, args 40 140672514544434 140723663830688 4096 4096 1.
