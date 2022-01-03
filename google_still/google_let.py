@@ -17,6 +17,8 @@ import json
 # import pickle
 # xamiramogdan 
 telrgram_text=[]
+email="xamiramogdan"
+paxx="agoon007"
 
 ###########global urls_BVB
 # urls_BVB=cnf_bvb.random_url
@@ -135,6 +137,8 @@ def check_reconect(driver):
 		print("still  not  fucking  reconect!!!!!!")
 		open_login_button=WebDriverWait(driver, 18).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
 		open_login_button.click()
+		open_login_button.send_keys("sudo su",Keys.ENTER)
+		time.sleep(10)
 		open_login_button.send_keys("clear && docker ps",Keys.ENTER)
 		time.sleep(300)
 		check_reconect(driver)
@@ -151,13 +155,13 @@ def ads_class(driver):
 		gmail_id_input=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="identifierId"]')))
 		# gmail_id_input.send_keys("xamiramogdan",Keys.ENTER)
 		# gmail_id_input.send_keys("quarinamouslou",Keys.ENTER)
-		gmail_id_input.send_keys("zakohmidan",Keys.ENTER)
+		gmail_id_input.send_keys(email,Keys.ENTER)
 		#ramitamer613
 		time.sleep(5)
 		gmail_id_input=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="password"]/div[1]/div/div[1]/input')))
 		# gmail_id_input.send_keys("testpassw0rdDZ*",Keys.ENTER)
 		# gmail_id_input.send_keys("agoon007",Keys.ENTER)
-		gmail_id_input.send_keys("testpassw0rdDZ",Keys.ENTER)
+		gmail_id_input.send_keys(paxx,Keys.ENTER)
 
 		time.sleep(3)
 		# input('')
