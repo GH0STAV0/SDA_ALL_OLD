@@ -1,0 +1,24 @@
+1641169864683	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-59.0.1/firefox/firefox" "-marionette" "--width=1440" "--height=2560" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHoVZdP"
+1641169865904	Marionette	INFO	Enabled via --marionette
+Sandbox: seccomp sandbox violation: pid 2307495, tid 2307495, syscall 315, args 2307495 140714994596544 56 0 2688 140714994596544.
+Sandbox: seccomp sandbox violation: pid 2307495, tid 2307495, syscall 332, args 35 140715167847218 4096 1 140736895673984 140714919261920.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFFDCAC64D0, 4096)
+Sandbox: seccomp sandbox violation: pid 2307495, tid 2307495, syscall 262, args 35 140715167847218 140736895673552 4096 4096 1.
+1641169869916	Marionette	INFO	Listening on port 46531
+1641169870012	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: 
+  Could not write session state file 
+  Message: Unix error 2 during operation open on file /tmp/rust_mozprofileHoVZdP/sessionstore-backups/recovery.jsonlz4.tmp (No such file or directory)
+  
+console.error: 
+  Could not write session state file 
+  Message: Unix error 2 during operation open on file /tmp/rust_mozprofileHoVZdP/sessionstore-backups/recovery.jsonlz4.tmp (No such file or directory)
+  
+console.error: 
+  Could not write session state file 
+  Message: Unix error 2 during operation open on file /tmp/rust_mozprofileHoVZdP/sessionstore-backups/recovery.jsonlz4.tmp (No such file or directory)
+  
+console.error: 
+  Could not write session state file 
+  Message: Unix error 2 during operation open on file /tmp/rust_mozprofileHoVZdP/sessionstore-backups/recovery.jsonlz4.tmp (No such file or directory)
+  
