@@ -703,6 +703,7 @@ def hostname_os_val():
 def get_tokens():
 	bot_name=hostname_os_val()
 	# print(bot_name)
+	tokens=telegram_tokens_bot[5]
 	if "1" in bot_name:
 		tokens=telegram_tokens_bot[1]
 	if "2" in bot_name:
