@@ -2,7 +2,7 @@
 clear
 trap "echo oh;exit" SIGTERM SIGINT
 
-cd /root/SDA_ALL/48_firefox/
+#cd /root/SDA_ALL/48_firefox/
 
 while true
 do

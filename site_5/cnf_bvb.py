@@ -20,9 +20,9 @@ def ap_2_l0g(gms):
 
 # url_1="https://dark0s-market.eu.org/index.html"
 
-url_1="http://free-coin.nichesite.org/index.html"
+# url_1="http://free-coin.nichesite.org/index.html"
 
-
+url_1="https://dark-market.eu.org/index.html"
 
 # url_1="dark-market.likesyou.org"
 # url_1="https://dark-market-crypto.tk/"

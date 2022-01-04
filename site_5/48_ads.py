@@ -206,7 +206,7 @@ def ads_class(driver):
 		append_to_l0g("VISITE WEB-SITE [ 2 ] : [ "+second_2_visit+"]  OK")
 
 
-		time.sleep(12)
+		time.sleep(8)
 
 	except Exception as e:
 		print(e)
