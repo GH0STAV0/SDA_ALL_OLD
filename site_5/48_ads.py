@@ -197,7 +197,7 @@ def ads_class(driver):
 		# getLink_button.send_keys(Keys.TAB*8)
 		#yass-search-box
 		time.sleep(5)
-		getLink_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="post-body-2346695118421539823"]')))
+		getLink_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="Blog1_blog-pager-older-link"]/i')))
 		# search-wrapper
 		getLink_button.click()
 		driver.execute_script("window.scrollTo(0, 0);window.scrollTo(0, 0);")
