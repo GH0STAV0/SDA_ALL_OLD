@@ -188,17 +188,18 @@ def ads_class(driver):
 		#//*[@id="Blog1_blog-pager-older-link"]
 		# //*[@id="post-body-4310463428394459903"]/div[1]
 		driver.get(second_2_visit)
-		driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.XPATH, '//*[@id="post-body-4310463428394459903"]/div[1]'))))
+		driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.XPATH, '//*[@id="post-body-2346695118421539823"]'))))
 		print("UUUUU")
 		time.sleep(5)
 		driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.ID, 'yass-search-box'))))
 		time.sleep(5)
 		driver.execute_script("window.scrollTo(0, document.body.scrollHeight/4.2);window.scrollTo(0, document.body.scrollHeight/4.5);")
-		# getLink_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.ID, 'content-wrapper')))
 		# getLink_button.send_keys(Keys.TAB*8)
 		#yass-search-box
 		time.sleep(5)
+		getLink_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="post-body-2346695118421539823"]')))
 		# search-wrapper
+		getLink_button.click()
 		driver.execute_script("window.scrollTo(0, 0);window.scrollTo(0, 0);")
 
 
