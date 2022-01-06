@@ -174,7 +174,7 @@ def ads_class(driver):
 		append_to_l0g("CLICK  AND VISITE WEB-SITE   [ "+url_1+" ] OK")
 		# time.sleep(20)
 		# driver.refresh()
-		time.sleep(15)
+		time.sleep(20)
 		print("CLICK  AND VISITE WEB-SITE [ 2 ]...... ",end='',flush=True)
 		# getLink_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.ID, 'rightbox')))
 		# print(emoji.emojize("Ok "' :check_mark_button: :alien:'))
@@ -207,7 +207,7 @@ def ads_class(driver):
 		append_to_l0g("VISITE WEB-SITE [ 2 ] : [ "+second_2_visit+"]  OK")
 
 
-		time.sleep(8)
+		time.sleep(2)
 
 	except Exception as e:
 		print(e)
