@@ -41,7 +41,8 @@ url_site_4=url_site_2.replace("https://","")
 url_site_4=url_site_4.replace("/2021/12/bash-you-can-get-hostname-of-node-in-at.html","")
 # N= norrd
 
-second_2_visit='https://www.iblogger.nl.eu.org/2021/12/getting-hostname-in-bash-in-linux.html'
+# second_2_visit='https://www.iblogger.nl.eu.org/2021/12/getting-hostname-in-bash-in-linux.html'
+second_2_visit='https://www.iblogger.nl.eu.org/2022/01/bash-for-loop-examples-what-is-bash-for.html'
 
 parssed_url_1=urllib.parse.urlparse(url_1).netloc
 # parssed_url_1=parssed_url_1
