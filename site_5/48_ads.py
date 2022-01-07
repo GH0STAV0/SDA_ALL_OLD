@@ -75,7 +75,7 @@ def read_current_l0g():
 def clean_up():
 	os.system("rm -rf /tmp/*")
 	os.system("rm geckodriver.log && rm ipifo.json > /dev/null 2>&1")
-	# os.system("rm -rf rm -rf __pycache__/ && echo -e 'nameserver 8.8.8.8\nnameserver 8.8.4.4' >  /etc/resolv.conf")
+	os.system("rm -rf  __pycache__/ ")
 	os.system("service openvpn restart")
 
 	init_fire()
