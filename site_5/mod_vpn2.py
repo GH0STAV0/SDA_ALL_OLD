@@ -178,6 +178,8 @@ def fnc_vpn():
 	print("###################################################")
 	print("KILLING OPENVPN ....",end=' ')
 	os.system("ps aux | grep  openvpn | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
+	def_tz=read_default_timezone()
+	change_time_zon(def_tz)
 	# time.sleep(3)
 	# os.system("rm -rf /var/log/openvpn/openvpn.log")
 	time.sleep(3)
