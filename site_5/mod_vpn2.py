@@ -93,10 +93,24 @@ def creat_list_of_vpn():
 
 ##############################################################
 
+
 def read_current_list_vpn():
 	with open(file_list_1,'r') as file:
 		lines = file.readlines()
 	return lines
+
+
+################################################################################
+
+
+def read_default_timezone():
+	# def read_current_list_vpn():
+	with open('/root/test707','r') as file:
+		titi_zon = file.readlines()
+	return titi_zon
+
+
+##############################################################
 
 
 
@@ -181,10 +195,11 @@ def fnc_vpn():
 			change_time_zon(tz)
 			os.environ['TZ'] = tz
 			bass=read_pass()
+			def_titi=read_default_timezone()
 			mm=""
 			for i in bass:
 				mm=mm+i
-			meddas=mm+" [ CONNECTED VPN] [ "+str(int_used)+" ] : [ "+ random_vpn  +" ] \n"+"|| [ IP ] : [ "+ ac_ip+" ] || [ TIME_Z ] : ["+ tz+" ]"+"\n"
+			meddas=mm+def_titi+" [ CONNECTED VPN] [ "+str(int_used)+" ] : [ "+ random_vpn  +" ] \n"+"|| [ IP ] : [ "+ ac_ip+" ] || [ TIME_Z ] : ["+ tz+" ]"+"\n"
 			# " [ "+url_1+" ]"
 			append_to_l0g(meddas)
 			vpn_sql.update_to_db_as_used(random_vpn,typ0)
