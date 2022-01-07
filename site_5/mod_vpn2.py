@@ -107,8 +107,10 @@ def read_default_timezone():
 	# def read_current_list_vpn():
 	with open('/root/test707','r') as file:
 		titi_zon = file.readlines()
+		titi_zon=titi_zon[0].replace("\n","")
+		print(titi_zon)
 	return titi_zon
-
+# read_default_timezone()
 
 ##############################################################
 
