@@ -2,8 +2,18 @@ import random , os ,requests
 import json
 import socket
 
-vversion="5.00 CHEAP_VPN"
+
 hostname_os=socket.getfqdn()
+visible_v=0
+
+if "hgfgh" in hostname_os:
+	print(hostname_os)
+	visible_v=1
+
+
+
+vversion="5.00 CHEAP_VPN"
+# hostname_os=socket.getfqdn()
 telegram_tokens_bot=["0","5036803152:AAGs0ES1OmEdy86MNJDp7mp19BB5IQhcVHU","5099462819:AAEndTxvXaSqBQ6E_EpiCN02a81ROGPMgr0","5001651751:AAGzzbUfJXWHZz-FKJyLSUxzg-JiRMO5v-Q","5041058138:AAFRher-cMwnRI476iW24tT6Kt8lvC0bmLc","5051743922:AAEOHJTRzv2WIxZ8bR-VrVYNA6io6qB1Ltw"]
 # url_1="dark-market.likesyou.org"
 # url_1=" http://free-coin.nichesite.org/index.html"
