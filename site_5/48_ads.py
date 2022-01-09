@@ -163,6 +163,8 @@ def lets_play(driver) :
 #################################"MAIN STARTING"##############################
 def ads_class(driver):
 	try:
+		#cookieChoiceInfo
+		# cookieChoiceDismiss
 		###############################################################################################
 		print("OPEN AND VISITE WEB-SITE [ 1 ]...... ",end='',flush=True)
 		# print(driver.execute_script("return navigator.userAgent;"))
@@ -173,8 +175,42 @@ def ads_class(driver):
 		# cnf_bvb.send_msg(meddas)
 		append_to_l0g("CLICK  AND VISITE WEB-SITE   [ "+url_1+" ] OK")
 		# time.sleep(20)
+		try:
+			accept_coockies=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.ID, 'cookieChoiceDismiss')))
+			accept_coockies.click()
+			print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+		except Exception as e:
+			print("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 		# driver.refresh()
+		# input("")
 		time.sleep(20)
+		driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.ID, 'PopularPosts1'))))
+		time.sleep(8)
+		# HTML4
+		driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.ID, 'HTML4'))))
+		time.sleep(5)
+		driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.ID, 'HTML2'))))
+		time.sleep(5)
+		# //*[@id="PopularPosts1"]/div/ul/li[1]/div[1]/div[2]/a
+		post1_coockies=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="PopularPosts1"]/div/ul/li[1]/div[1]/div[2]/a')))
+		post1_coockies.click()
+		print("1111111111111111111111111")
+		# //*[@id="PopularPosts1"]/div/ul/li[2]/div[1]/div[2]
+		time.sleep(5)
+		post2_coockies=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="PopularPosts1"]/div/ul/li[2]/div[1]/div[2]/a')))
+		post2_coockies.click()
+		print("22222222222222222222222222222222")
+
+		time.sleep(8)
+
+		post3_coockies=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="PopularPosts1"]/div/ul/li[3]/div[1]/div[2]/a')))
+		post3_coockies.click()
+		print("X3333333333333333333")
+
+		time.sleep(8)
+
+
+
 		print("CLICK  AND VISITE WEB-SITE [ 2 ]...... ",end='',flush=True)
 		# getLink_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.ID, 'rightbox')))
 		# print(emoji.emojize("Ok "' :check_mark_button: :alien:'))
