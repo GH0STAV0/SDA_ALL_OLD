@@ -224,6 +224,12 @@ def ads_class(driver):
 		#//*[@id="Blog1_blog-pager-older-link"]
 		# //*[@id="post-body-4310463428394459903"]/div[1]
 		driver.get(second_2_visit)
+		try:
+			accept_coockies=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.ID, 'cookieChoiceDismiss')))
+			accept_coockies.click()
+			print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+		except Exception as e:
+			print("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 		driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.XPATH, '//*[@id="post-body-2346695118421539823"]'))))
 		print("UUUUU")
 		time.sleep(5)
