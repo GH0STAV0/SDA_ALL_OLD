@@ -240,6 +240,7 @@ def ads_class(driver):
 		# input("")
 		#//*[@id="Blog1_blog-pager-older-link"]
 		# //*[@id="post-body-4310463428394459903"]/div[1]
+		driver.delete_all_cookies()
 
 		driver.get(second_2_visit)
 		try:
@@ -294,6 +295,7 @@ def starting_tasks():
 		display = Display(visible=visible_v, size=(width,height)).start()
 		driver=mod_driver2.build_driver(width ,height)
 		lets_play(driver)
+		#driver.delete_all_cookies()
 		display.stop()
 		
 

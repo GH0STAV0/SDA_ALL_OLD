@@ -180,9 +180,9 @@ def fnc_vpn():
 	os.system("ps aux | grep  openvpn | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 	def_tz=read_default_timezone()
 
-	# change_time_zon(def_tz)
+	change_time_zon(def_tz)
 
-	# time.sleep(3)
+	time.sleep(3)
 	# os.system("rm -rf /var/log/openvpn/openvpn.log")
 	time.sleep(3)
 	# os.system("touch /var/log/openvpn/openvpn.log")
@@ -199,7 +199,7 @@ def fnc_vpn():
 			print ("OK !!!!!")
 			ac_ip,tz,loc=cnf_bvb.iip()
 			
-			# change_time_zon(tz)
+			change_time_zon(tz)
 			
 			os.environ['TZ'] = tz
 			bass=read_pass()
