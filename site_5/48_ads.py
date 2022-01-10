@@ -162,6 +162,7 @@ def lets_play(driver) :
 
 #################################"MAIN STARTING"##############################
 def ads_class(driver):
+
 	try:
 		#cookieChoiceInfo
 		# cookieChoiceDismiss
@@ -176,41 +177,57 @@ def ads_class(driver):
 		append_to_l0g("CLICK  AND VISITE WEB-SITE   [ "+url_1+" ] OK")
 		# time.sleep(20)
 		try:
-			accept_coockies=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.ID, 'cookieChoiceDismiss')))
+			accept_coockies=WebDriverWait(driver, 7).until(EC.presence_of_element_located((By.ID, 'cookieChoiceDismiss')))
 			accept_coockies.click()
 			print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 		except Exception as e:
 			print("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 		# driver.refresh()
 		# input("")
-		time.sleep(20)
-		driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.ID, 'PopularPosts1'))))
-		time.sleep(8)
-		# HTML4
+		time.sleep(3)
 		driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.ID, 'HTML4'))))
 		time.sleep(5)
+		driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.ID, 'PopularPosts1'))))
+		time.sleep(2)
 		driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.ID, 'HTML2'))))
+		time.sleep(5)
+		driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.ID, 'HTML3'))))
 		time.sleep(5)
 		# //*[@id="PopularPosts1"]/div/ul/li[1]/div[1]/div[2]/a
 		post1_coockies=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="PopularPosts1"]/div/ul/li[1]/div[1]/div[2]/a')))
 		post1_coockies.click()
 		print("1111111111111111111111111")
 		# //*[@id="PopularPosts1"]/div/ul/li[2]/div[1]/div[2]
+		time.sleep(3)
+		driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.ID, 'HTML4'))))
 		time.sleep(5)
+		driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.ID, 'PopularPosts1'))))
+		time.sleep(2)
+		driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.ID, 'HTML2'))))
+		time.sleep(5)
+		driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.ID, 'HTML3'))))
+		time.sleep(5)
+		# time.sleep(5)
 		post2_coockies=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="PopularPosts1"]/div/ul/li[2]/div[1]/div[2]/a')))
 		post2_coockies.click()
 		print("22222222222222222222222222222222")
+		driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.ID, 'HTML3'))))
+		time.sleep(5)
 
-		time.sleep(8)
+		#time.sleep(4)
 
 		post3_coockies=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="PopularPosts1"]/div/ul/li[3]/div[1]/div[2]/a')))
 		post3_coockies.click()
 		print("X3333333333333333333")
+		# input('')
+		time.sleep(3)
+		#driver.switch_to.window(driver.window_handles[0])
+		time.sleep(3)
 
-		time.sleep(8)
-
-
-
+		# time.sleep(1)
+		driver.execute_script("window.open('');")
+		time.sleep(3)
+		driver.switch_to.window(driver.window_handles[1])
 		print("CLICK  AND VISITE WEB-SITE [ 2 ]...... ",end='',flush=True)
 		# getLink_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.ID, 'rightbox')))
 		# print(emoji.emojize("Ok "' :check_mark_button: :alien:'))
@@ -223,22 +240,23 @@ def ads_class(driver):
 		# input("")
 		#//*[@id="Blog1_blog-pager-older-link"]
 		# //*[@id="post-body-4310463428394459903"]/div[1]
+
 		driver.get(second_2_visit)
 		try:
-			accept_coockies=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.ID, 'cookieChoiceDismiss')))
+			accept_coockies=WebDriverWait(driver, 7).until(EC.presence_of_element_located((By.ID, 'cookieChoiceDismiss')))
 			accept_coockies.click()
 			print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 		except Exception as e:
 			print("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 		driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.XPATH, '//*[@id="post-body-2346695118421539823"]'))))
 		print("UUUUU")
-		time.sleep(5)
+		time.sleep(10)
 		driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.ID, 'yass-search-box'))))
-		time.sleep(5)
+		time.sleep(10)
 		driver.execute_script("window.scrollTo(0, document.body.scrollHeight/4.2);window.scrollTo(0, document.body.scrollHeight/4.5);")
 		# getLink_button.send_keys(Keys.TAB*8)
 		#yass-search-box
-		time.sleep(5)
+		time.sleep(10)
 		getLink_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="Blog1_blog-pager-older-link"]/i')))
 		# search-wrapper
 		getLink_button.click()
@@ -247,9 +265,13 @@ def ads_class(driver):
 
 		# cnf_bvb.send_msg("oooooooooooooooooooo")
 		append_to_l0g("VISITE WEB-SITE [ 2 ] : [ "+second_2_visit+"]  OK")
-
-
 		time.sleep(2)
+		driver.execute_script("window.open('');")
+		driver.switch_to.window(driver.window_handles[2])
+		driver.get("http://dark-market.ueuo.com/index.html")
+		time.sleep(8)
+		# time.sleep(3)
+
 
 	except Exception as e:
 		print(e)

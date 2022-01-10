@@ -179,7 +179,9 @@ def fnc_vpn():
 	print("KILLING OPENVPN ....",end=' ')
 	os.system("ps aux | grep  openvpn | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 	def_tz=read_default_timezone()
-	change_time_zon(def_tz)
+
+	# change_time_zon(def_tz)
+
 	# time.sleep(3)
 	# os.system("rm -rf /var/log/openvpn/openvpn.log")
 	time.sleep(3)
@@ -196,7 +198,9 @@ def fnc_vpn():
 		if logfile.read().find('Sequence Completed') !=-1:
 			print ("OK !!!!!")
 			ac_ip,tz,loc=cnf_bvb.iip()
-			change_time_zon(tz)
+			
+			# change_time_zon(tz)
+			
 			os.environ['TZ'] = tz
 			bass=read_pass()
 			def_titi=read_default_timezone()
