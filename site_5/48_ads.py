@@ -247,7 +247,7 @@ def ads_class(driver):
 		# input("")
 		#//*[@id="Blog1_blog-pager-older-link"]
 		# //*[@id="post-body-4310463428394459903"]/div[1]
-		driver.delete_all_cookies()
+		# driver.delete_all_cookies()
 
 		driver.get(second_2_visit)
 		try:
@@ -256,19 +256,23 @@ def ads_class(driver):
 			print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 		except Exception as e:
 			print("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-		driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.XPATH, '//*[@id="post-body-2346695118421539823"]'))))
-		print("UUUUU")
-		time.sleep(10)
-		driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.ID, 'yass-search-box'))))
-		time.sleep(10)
-		driver.execute_script("window.scrollTo(0, document.body.scrollHeight/4.2);window.scrollTo(0, document.body.scrollHeight/4.5);")
-		# getLink_button.send_keys(Keys.TAB*8)
-		#yass-search-box
-		time.sleep(10)
-		getLink_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="Blog1_blog-pager-older-link"]/i')))
-		# search-wrapper
-		getLink_button.click()
-		driver.execute_script("window.scrollTo(0, 0);window.scrollTo(0, 0);")
+
+		try:
+			driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.XPATH, '//*[@id="post-body-2346695118421539823"]'))))
+			print("UUUUU")
+			time.sleep(10)
+			driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.ID, 'yass-search-box'))))
+			time.sleep(10)
+			driver.execute_script("window.scrollTo(0, document.body.scrollHeight/4.2);window.scrollTo(0, document.body.scrollHeight/4.5);")
+			# getLink_button.send_keys(Keys.TAB*8)
+			#yass-search-box
+			time.sleep(10)
+			getLink_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="Blog1_blog-pager-older-link"]/i')))
+			# search-wrapper
+			getLink_button.click()
+			driver.execute_script("window.scrollTo(0, 0);window.scrollTo(0, 0);")
+		except Exception as e:
+			print("YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY")
 
 
 		# cnf_bvb.send_msg("oooooooooooooooooooo")
