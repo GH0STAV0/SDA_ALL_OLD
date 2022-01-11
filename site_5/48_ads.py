@@ -165,7 +165,7 @@ def ads_class(driver):
 
 	try:
 		driver.get("http://c0rner-bit.eu.org/index.html")
-		time.sleep(8)
+		time.sleep(20)
 		#cookieChoiceInfo
 		# cookieChoiceDismiss
 		###############################################################################################
@@ -237,6 +237,7 @@ def ads_class(driver):
 		driver.execute_script("window.open('');")
 		time.sleep(3)
 		driver.switch_to.window(driver.window_handles[1])
+		time.sleep(3)
 		print("CLICK  AND VISITE WEB-SITE [ 2 ]...... ",end='',flush=True)
 		# getLink_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.ID, 'rightbox')))
 		# print(emoji.emojize("Ok "' :check_mark_button: :alien:'))

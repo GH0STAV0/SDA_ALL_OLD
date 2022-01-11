@@ -1,0 +1,14 @@
+1641913843831	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-58.0.1/firefox/firefox" "-marionette" "--width=1080" "--height=1920" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileuuu2sl"
+1641913846541	Marionette	INFO	Enabled via --marionette
+Sandbox: seccomp sandbox violation: pid 376671, tid 376671, syscall 315, args 376671 140074983911296 56 0 140074983907392 140074983911296.
+Sandbox: seccomp sandbox violation: pid 376671, tid 376671, syscall 332, args 40 140075232199474 4096 1 140727264458000 140074980407968.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFD9E9BB360, 4096)
+Sandbox: seccomp sandbox violation: pid 376671, tid 376671, syscall 262, args 40 140075232199474 140727264457568 4096 4096 1.
+1641913851946	Marionette	INFO	Listening on port 38941
+1641913851967	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js, line 870: SyntaxError: invalid identity escape in regular expression
+JavaScript error: https://www.bit-plazza.nl.eu.org/, line 1263: ReferenceError: hljs is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js, line 870: SyntaxError: invalid identity escape in regular expression
+JavaScript error: https://www.bit-plazza.nl.eu.org/2022/01/docker-systemed-dockerfile.html, line 937: ReferenceError: hljs is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js, line 870: SyntaxError: invalid identity escape in regular expression
+JavaScript error: https://www.bit-plazza.nl.eu.org/2022/01/there-are-number-of-tools-specifically.html, line 872: ReferenceError: hljs is not defined
