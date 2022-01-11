@@ -164,6 +164,8 @@ def lets_play(driver) :
 def ads_class(driver):
 
 	try:
+		driver.get("http://c0rner-bit.eu.org/index.html")
+		time.sleep(8)
 		#cookieChoiceInfo
 		# cookieChoiceDismiss
 		###############################################################################################
