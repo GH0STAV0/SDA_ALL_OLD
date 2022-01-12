@@ -172,6 +172,10 @@ def ads_class(driver):
 		print(" [ "+url_1+" ]")
 		append_to_l0g("CLICK  AND VISITE WEB-SITE   [ "+url_1+" ] OK")
 		time.sleep(25)
+		ain_button=WebDriverWait(driver, 2).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.top-banner')))
+		ain_button.click()
+		time.sleep(25)
+
 		# try:
 		# 	accept_coockies=WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.ID, 'cookieChoiceDismiss')))
 		# 	accept_coockies.click()
