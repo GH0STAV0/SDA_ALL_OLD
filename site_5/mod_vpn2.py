@@ -5,7 +5,7 @@ import cnf_bvb
 l05_00='l05_00'
 # hostname= socket.getfqdn()
 
-
+retry_count=0
 # pwd = os.path.dirname(os.path.realpath( __file__ ))
 pwd="/root/VPN"
 # rnd_yek=["GWaURqBcXMjHyuExDTEAtVR1\n9JSemjxgWvxHUB7cXw9xrWQs","GWaURqBcXMjHyuExDTEAtVR1\n9JSemjxgWvxHUB7cXw9xrWQs" ,"byJpsYp2LoBnceFkYBg1BWRH\nTsUpTFjhQVFjTn3mQDi47JgC" , "vCDzcaPACh6yarnvfN32k1Tj\nKmjVMf3YeFjRWoDNVdPJKJvF"  , , ,]
@@ -219,6 +219,8 @@ def fnc_vpn():
 			print("\nAUTH_FAILED")
 			os.system("echo '' > /var/log/openvpn/openvpn.log")
 			# random_pass()
+			retry_count=retry_count+1
+			print(str(retry_count))
 			time.sleep(3)
 			x.kill()
 			fnc_vpn ()
