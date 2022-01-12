@@ -5,7 +5,8 @@ import cnf_bvb
 l05_00='l05_00'
 # hostname= socket.getfqdn()
 
-retry_count=0
+# global retry_count
+retry_count=[]
 # pwd = os.path.dirname(os.path.realpath( __file__ ))
 pwd="/root/VPN"
 # rnd_yek=["GWaURqBcXMjHyuExDTEAtVR1\n9JSemjxgWvxHUB7cXw9xrWQs","GWaURqBcXMjHyuExDTEAtVR1\n9JSemjxgWvxHUB7cXw9xrWQs" ,"byJpsYp2LoBnceFkYBg1BWRH\nTsUpTFjhQVFjTn3mQDi47JgC" , "vCDzcaPACh6yarnvfN32k1Tj\nKmjVMf3YeFjRWoDNVdPJKJvF"  , , ,]
@@ -173,6 +174,7 @@ def change_time_zon(t_z):
 	time.sleep(3)
 
 def fnc_vpn():
+
 	os.system("echo '' > /var/log/openvpn/openvpn.log")
 	final_vpn,random_vpn,int_used=get_random_vpn()
 	print("###################################################")
@@ -181,6 +183,7 @@ def fnc_vpn():
 	def_tz=read_default_timezone()
 
 	change_time_zon(def_tz)
+	print(str(len(retry_count)))
 
 	time.sleep(3)
 	# os.system("rm -rf /var/log/openvpn/openvpn.log")
@@ -219,8 +222,9 @@ def fnc_vpn():
 			print("\nAUTH_FAILED")
 			os.system("echo '' > /var/log/openvpn/openvpn.log")
 			# random_pass()
-			retry_count=retry_count+1
-			print(str(retry_count))
+
+			retry_count.append("")
+			print(str(len(retry_count)))
 			time.sleep(3)
 			x.kill()
 			fnc_vpn ()

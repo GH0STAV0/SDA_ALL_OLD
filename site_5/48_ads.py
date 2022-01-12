@@ -164,13 +164,14 @@ def lets_play(driver) :
 def ads_class(driver):
 
 	try:
-		driver.get("http://c0rner-bit.eu.org/index.html")
-		time.sleep(25)
-		###############################################################################################
-		# print("OPEN AND VISITE WEB-SITE [ 1 ]...... ",end='',flush=True)
+		# driver.get("http://c0rner-bit.eu.org/index.html")
 		# driver.get(url_1)
-		# print(" [ "+url_1+" ]")
-		# append_to_l0g("CLICK  AND VISITE WEB-SITE   [ "+url_1+" ] OK")
+		###############################################################################################
+		print("OPEN AND VISITE WEB-SITE [ 1 ]...... ",end='',flush=True)
+		driver.get(url_1)
+		print(" [ "+url_1+" ]")
+		append_to_l0g("CLICK  AND VISITE WEB-SITE   [ "+url_1+" ] OK")
+		time.sleep(25)
 		# try:
 		# 	accept_coockies=WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.ID, 'cookieChoiceDismiss')))
 		# 	accept_coockies.click()
@@ -254,7 +255,7 @@ def ads_class(driver):
 
 
 		# cnf_bvb.send_msg("oooooooooooooooooooo")
-		# append_to_l0g("VISITE WEB-SITE [ 2 ] : [ "+second_2_visit+"]  OK")
+		append_to_l0g("VISITE WEB-SITE [ 2 ] : [ +second_2_visit+]  OK")
 		# time.sleep(2)
 		# driver.execute_script("window.open('');")
 		# driver.switch_to.window(driver.window_handles[2])

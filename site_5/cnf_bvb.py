@@ -26,8 +26,10 @@ def ap_2_l0g(gms):
 #,"https://dark0s-market.eu.org/index.html"]
 # urls=["http://free-coin.nichesite.org/index.html"]
 # urls=["https://www.iblogger.nl.eu.org/2021/12/getting-hostname-in-bash-in-linux.html"]
-urls=["https://www.bit-plazza.nl.eu.org"]
+urls=["http://we.fast-page.org"]
 #
+# urls=["https://www.bit-plazza.nl.eu.org"]
+
 def set_url():
 	random_url=random.choice(urls)
 	return random_url
