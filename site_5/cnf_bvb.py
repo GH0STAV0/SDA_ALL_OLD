@@ -29,7 +29,7 @@ def ap_2_l0g(gms):
 urls=["http://we.fast-page.org/index.html"]
 #
 # urls=["https://www.bit-plazza.nl.eu.org"]
-
+url_6="https://www.bit-plazza.nl.eu.org/?m=0"
 def set_url():
 	random_url=random.choice(urls)
 	return random_url
