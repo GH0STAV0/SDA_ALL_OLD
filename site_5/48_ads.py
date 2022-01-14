@@ -168,17 +168,20 @@ def ads_class(driver):
 		# driver.get("http://c0rner-bit.eu.org/index.html")
 		###############################################################################################
 		print("OPEN AND VISITE WEB-SITE [ 1 ]...... ",end='',flush=True)
-		driver.get(url_1)
-		print(" [ "+url_1+" ]")
-		append_to_l0g("CLICK  AND VISITE WEB-SITE   [ "+url_1+" ] OK")
-		time.sleep(25)
-		try:
-			ain_button=WebDriverWait(driver, 2).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.top-banner')))
-			ain_button.click()
-			time.sleep(25)
-		# driver.get(url_6)
-		except Exception as e:
-			print("error scrol 1")
+		# driver.get("http://c0rner-bit.eu.org/index.html")
+		# time.sleep(25)
+		# driver.get(url_1)
+		# print(" [ "+url_1+" ]")
+		# append_to_l0g("CLICK  AND VISITE WEB-SITE   [ "+url_1+" ] OK")
+		# time.sleep(25)
+
+		# try:
+		# 	ain_button=WebDriverWait(driver, 2).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.top-banner')))
+		# 	ain_button.click()
+		# 	time.sleep(25)
+		# # driver.get(url_6)
+		# except Exception as e:
+		# 	print("error scrol 1")
 		#####################################################################################
 		driver.get(url_6)
 		time.sleep(5)

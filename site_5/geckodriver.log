@@ -1,0 +1,9 @@
+1642199154939	geckodriver	INFO	Listening on 127.0.0.1:35221
+1642199156001	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.WMx1MZFojIcR
+1642199156004	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-49.0b9/firefox/firefox with args ["--width=2560", "--height=1440"]
+1642199156007	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36037
+1642199157097	Marionette	INFO	Listening on port 36037
+1642199160173	Marionette	INFO	startBrowser d009400f-c862-4c69-add3-b5d610ac8716
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js, line 16: SyntaxError: missing = in const declaration
+JavaScript error: https://www.bit-plazza.nl.eu.org/?m=0, line 1268: ReferenceError: hljs is not defined
+JavaScript error: https://cdn.ampproject.org/v0.js, line 1: Error: Failed to load: https://i.ibb.co/fN5h1Vc/plazza.png
