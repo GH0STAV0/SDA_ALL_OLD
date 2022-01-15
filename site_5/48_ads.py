@@ -175,13 +175,14 @@ def ads_class(driver):
 		# append_to_l0g("CLICK  AND VISITE WEB-SITE   [ "+url_1+" ] OK")
 		# time.sleep(25)
 
-		# try:
-		# 	ain_button=WebDriverWait(driver, 2).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.top-banner')))
-		# 	ain_button.click()
-		# 	time.sleep(25)
-		# # driver.get(url_6)
-		# except Exception as e:
-		# 	print("error scrol 1")
+		try:
+			ain_button=WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.top-banner')))
+			ain_button.click()
+			print('ok click')
+			time.sleep(25)
+		# driver.get(url_6)
+		except Exception as e:
+			print("error scrol 1")
 		#####################################################################################
 		driver.get(url_6)
 		time.sleep(5)
@@ -244,7 +245,7 @@ def ads_class(driver):
 		# time.sleep(3)
 	except Exception as e:
 		print(e)
-		print("CLICK  AND VISITE WEB-SITE [ 2 ]...... ",end='',flush=True)
+	print("CLICK  AND VISITE WEB-SITE [ 2 ]...... ",end='',flush=True)
 
 		# driver.get(second_2_visit)
 		# try:
@@ -271,7 +272,7 @@ def ads_class(driver):
 
 
 		# cnf_bvb.send_msg("oooooooooooooooooooo")
-		append_to_l0g("VISITE WEB-SITE [ 2 ] : [ +second_2_visit+]  OK")
+	append_to_l0g("VISITE WEB-SITE [ 2 ] : [ +second_2_visit+]  OK")
 		# time.sleep(2)
 		# driver.execute_script("window.open('');")
 		# driver.switch_to.window(driver.window_handles[2])
@@ -281,6 +282,7 @@ def ads_class(driver):
 
 
 	driver.delete_all_cookies()
+	print("Remove Cookies")
 
 
 
