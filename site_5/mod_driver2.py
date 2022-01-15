@@ -53,6 +53,8 @@ def build_driver(width,height):
 		#firefox_options = Firefox_Options()
 		ops.add_argument(moz_wid)
 		ops.add_argument(moz_hig)
+		ops.add_argument('ignore-certificate-errors')
+		# ops.add_argument('--ignore-ssl-errors=yes')
 		fp.set_preference("dom.webdriver.enabled", False)
 		fp.set_preference('useAutomationExtension', False)
 		# #fp.set_preference("http.response.timeout",95)
@@ -64,7 +66,9 @@ def build_driver(width,height):
 		fp.set_preference("modifyheaders.headers.action0", "Add")
 		fp.set_preference("modifyheaders.headers.name0", "x-msisdn")
 		fp.set_preference("dom.push.enabled", False)
-		fp.set_preference("intl.accept_languages", "en-GB");
+		fp.set_preference("intl.accept_languages", "en-US")
+		# fp.setAcceptUntrustedCertificates(true)
+		# fp.setAssumeUntrustedCertificateIssuer(true)
 		fp.update_preferences()
 		ops.binary_location = new_binary_path
 		ops.profile=fp

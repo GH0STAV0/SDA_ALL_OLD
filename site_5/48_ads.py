@@ -168,8 +168,8 @@ def ads_class(driver):
 		# driver.get("http://c0rner-bit.eu.org/index.html")
 		###############################################################################################
 		print("OPEN AND VISITE WEB-SITE [ 1 ]...... ",end='',flush=True)
-		# driver.get("http://c0rner-bit.eu.org/index.html")
-		# time.sleep(25)
+		driver.get("http://c0rner-bit.eu.org/index.html")
+		time.sleep(25)
 		# driver.get(url_1)
 		# print(" [ "+url_1+" ]")
 		# append_to_l0g("CLICK  AND VISITE WEB-SITE   [ "+url_1+" ] OK")
