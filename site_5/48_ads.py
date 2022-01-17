@@ -168,9 +168,20 @@ def ads_class(driver):
 		# driver.get("http://c0rner-bit.eu.org/index.html")
 		###############################################################################################
 		print("OPEN AND VISITE WEB-SITE [ 1 ]...... ",end='',flush=True)
-		# driver.get("http://c0rner-bit.eu.org/index.html")
-		driver.get("http://targirien.totalh.net/index.html")
+		driver.get("http://c0rner-bit.eu.org/index.html")
+		# driver.get("http://targirien.totalh.net/index.html")
 
+		try:
+
+			ain_button=WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.top-banner')))
+			ain_button.click()
+			print('ok click')
+			time.sleep(15)
+		# driver.get(url_6)
+		except Exception as e:
+			print("error scrol 1")
+
+		# time.sleep(3)
 		time.sleep(25)
 		# driver.get(url_1)
 		# print(" [ "+url_1+" ]")
@@ -183,13 +194,6 @@ def ads_class(driver):
 	print("CLICK  AND VISITE WEB-SITE [ 2 ]...... ",end='',flush=True)
 
 		# driver.get(second_2_visit)
-		# try:
-		# 	accept_coockies=WebDriverWait(driver, 17).until(EC.presence_of_element_located((By.ID, 'cookieChoiceDismiss')))
-		# 	accept_coockies.click()
-		# 	print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-		# except Exception as e:
-		# 	print("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-		# time.sleep(3)
 		# try:
 
 		# 	driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.XPATH, '//*[@id="post-body-2346695118421539823"]'))))
@@ -218,6 +222,8 @@ def ads_class(driver):
 
 	driver.delete_all_cookies()
 	print("Remove Cookies")
+
+
 
 def blogger(driver):
 	try:
