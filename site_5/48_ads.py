@@ -168,8 +168,8 @@ def ads_class(driver):
 		# driver.get("http://c0rner-bit.eu.org/index.html")
 		###############################################################################################
 		print("OPEN AND VISITE WEB-SITE [ 1 ]...... ",end='',flush=True)
-		# driver.get("http://c0rner-bit.eu.org/index.html")
-		driver.get("http://targirien.totalh.net/index.html")
+		driver.get("http://c0rner-bit.eu.org/index.html")
+		# driver.get("http://targirien.totalh.net/index.html")
 
 		try:
 
