@@ -174,9 +174,9 @@ def ads_class(driver):
 		try:
 
 			ain_button=WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.top-banner')))
-			ain_button.click()
+			# ain_button.click()
 			print('ok click')
-			time.sleep(15)
+			# time.sleep(15)
 		# driver.get(url_6)
 		except Exception as e:
 			print("error scrol 1")
