@@ -168,7 +168,7 @@ def ads_class(driver):
 		# driver.get("http://c0rner-bit.eu.org/index.html")
 		###############################################################################################
 		print("OPEN AND VISITE WEB-SITE [ 1 ]...... ",end='',flush=True)
-		driver.get("http://zonef81014891.eu.org/index.html")
+		driver.get("https://www.sec4891.eu.org/index.html")
 		# driver.get("http://zone4891.eu.org/index.html")
 		# driver.get("http://targirien.totalh.net/index.html")
 
