@@ -168,10 +168,10 @@ def ads_class(driver):
 		# driver.get("http://c0rner-bit.eu.org/index.html")
 		###############################################################################################
 		print("OPEN AND VISITE WEB-SITE [ 1 ]...... ",end='',flush=True)
-		driver.get("https://www.sec4891.eu.org/index.html")
+		# driver.get("https://www.sec4891.eu.org/index.html")
 		# driver.get("http://zone4891.eu.org/index.html")
-		# driver.get("http://targirien.totalh.net/index.html")
-
+		# driver.get("http://targirien.totalh.net/index.html") https://retro.mydiscussion.net/index.html
+		driver.get("http://retro.mydiscussion.net/index.html")
 		try:
 
 			ain_button=WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.top-banner')))
