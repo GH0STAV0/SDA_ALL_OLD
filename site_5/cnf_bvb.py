@@ -1089,9 +1089,9 @@ user_agent = random.choice(user_agent_list)
 
 ##URLS 
 #firefox_options_binary = "/root/EXTRA/firefox-49.0b9/firefox/firefox"
-# new_driver_path = '/usr/bin/geckodriver_15'
+new_driver_path = '/usr/bin/geckodriver_15'
 # new_driver_path = '/usr/bin/geckodriver13'
-new_driver_path = '/usr/bin/geckodriver22'
+# new_driver_path = '/usr/bin/geckodriver22'
 # new_binary_path = '/root/EXTRA/firefox-53.0b9/firefox/firefox'
 
 ########################
@@ -1108,8 +1108,8 @@ new_driver_path = '/usr/bin/geckodriver22'
 # new_binary_path = '/root/EXTRA/firefox-59.0b9/firefox/firefox'
 
 def random_fir():
-	# firefox_version=['49.0b9']
-	firefox_version=['57.0.1','58.0.1','59.0.1','60.0.1esr']
+	firefox_version=['49.0b9']
+	# firefox_version=['57.0.1','58.0.1','59.0.1','60.0.1esr']
 	random_firefox_version=random.choice(firefox_version)
 	text_add="[ "+random_firefox_version +" ]"
 	print(text_add)
