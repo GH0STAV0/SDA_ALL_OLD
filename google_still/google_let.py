@@ -17,7 +17,16 @@ import json
 # import pickle
 # xamiramogdan 
 telrgram_text=[]
-email="xamiramogdan"
+# email="xamiramogdan"
+# email="almidaopo"
+# email="azfounmondilla"
+# email="abedrahman0x"
+# email="don0mar0l0k0"
+# email="xamiramogdan"
+# email="xamiramogdan"
+# email="xamiramogdan"
+# email="xamiramogdan"
+# email="xamiramogdan"
 paxx="agoon007"
 
 ###########global urls_BVB
@@ -135,7 +144,7 @@ def check_reconect(driver):
 		
 	except Exception as e:
 		print("still  not  fucking  reconect!!!!!!")
-		open_login_button=WebDriverWait(driver, 18).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
+		open_login_button=WebDriverWait(driver, 58).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
 		open_login_button.click()
 		open_login_button.send_keys("clear && docker ps",Keys.ENTER)
 		time.sleep(300)
@@ -150,13 +159,13 @@ def ads_class(driver):
 		# print(driver.execute_script("return navigator.userAgent;"))
 		driver.get(url_1)
 		print(" [ "+url_1+" ]")
-		gmail_id_input=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="identifierId"]')))
+		gmail_id_input=WebDriverWait(driver, 65).until(EC.presence_of_element_located((By.XPATH, '//*[@id="identifierId"]')))
 		# gmail_id_input.send_keys("xamiramogdan",Keys.ENTER)
 		# gmail_id_input.send_keys("quarinamouslou",Keys.ENTER)
 		gmail_id_input.send_keys(email,Keys.ENTER)
 		#ramitamer613
-		time.sleep(5)
-		gmail_id_input=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="password"]/div[1]/div/div[1]/input')))
+		time.sleep(20)
+		gmail_id_input=WebDriverWait(driver, 65).until(EC.presence_of_element_located((By.XPATH, '//*[@id="password"]/div[1]/div/div[1]/input')))
 		# gmail_id_input.send_keys("testpassw0rdDZ*",Keys.ENTER)
 		# gmail_id_input.send_keys("agoon007",Keys.ENTER)
 		gmail_id_input.send_keys(paxx,Keys.ENTER)
@@ -168,7 +177,7 @@ def ads_class(driver):
 		driver.get("https://shell.cloud.google.com/?cloudshell=true&show=terminal")
 		time.sleep(25)
 		# input('google loginAAAAAAAAAAAA')
-		open_login_button=WebDriverWait(driver, 18).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
+		open_login_button=WebDriverWait(driver, 58).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
 		open_login_button.click()
 		open_login_button.send_keys("sudo su",Keys.ENTER)
 		time.sleep(10)
