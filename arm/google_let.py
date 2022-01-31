@@ -188,6 +188,7 @@ def ads_class(driver):
 			
 			open_login_button=WebDriverWait(driver, 78).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
 			# input('google loginAAAAAAAAAAAA')
+			print("we are here")
 			open_login_button.click()
 			open_login_button.send_keys("sudo su",Keys.ENTER)
 			time.sleep(10)
