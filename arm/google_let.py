@@ -181,19 +181,22 @@ def ads_class(driver):
 		time.sleep(3)
 		# input('')
 
-		
-		driver.get("https://shell.cloud.google.com/?cloudshell=true&show=terminal")
-		time.sleep(10)
-		
-		open_login_button=WebDriverWait(driver, 78).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
-		# input('google loginAAAAAAAAAAAA')
-		open_login_button.click()
-		open_login_button.send_keys("sudo su",Keys.ENTER)
-		time.sleep(10)
-		open_login_button.send_keys("clear && docker ps",Keys.ENTER)
-		open_login_button.send_keys("./start.sh",Keys.ENTER)
-		time.sleep(25)
-		check_reconect(driver)
+		try:
+			# pass
+			driver.get("https://shell.cloud.google.com/?cloudshell=true&show=terminal")
+			time.sleep(10)
+			
+			open_login_button=WebDriverWait(driver, 78).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
+			# input('google loginAAAAAAAAAAAA')
+			open_login_button.click()
+			open_login_button.send_keys("sudo su",Keys.ENTER)
+			time.sleep(10)
+			open_login_button.send_keys("clear && docker ps",Keys.ENTER)
+			open_login_button.send_keys("./start.sh",Keys.ENTER)
+			time.sleep(25)
+			check_reconect(driver)
+		except Exception as e:
+			print(e+" errrrrrrrro1") 
 
 	except Exception as e:
 		print(e)
