@@ -1,0 +1,109 @@
+1643637353776	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7iuKRH"
+Sandbox: seccomp sandbox violation: pid 292741, tid 292741, syscall 315, args 292741 140600529919040 56 0 140600529915968 140600529919040.
+Sandbox: seccomp sandbox violation: pid 292741, tid 292741, syscall 332, args 33 140600768238386 4096 1 140724381127216 140600530071040.
+Sandbox: unsupported fd-relative fstatat(33, "", 0x7FFCF2BF9080, 4096)
+Sandbox: seccomp sandbox violation: pid 292741, tid 292741, syscall 262, args 33 140600768238386 140724381126784 4096 4096 1.
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 337)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:337:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:330:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:354:11\nwrite@resource:///modules/sessionstore/SessionFile.jsm:394:19\nwrite@resource:///modules/sessionstore/SessionFile.jsm:66:12\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:357:12\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:295:12\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:341:5\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:192:9\n"
+1643637363469	Marionette	INFO	Listening on port 44439
+1643637363512	Marionette	WARN	TLS certificate errors will be ignored for this session
+1643637378099	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-57.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZKnjbh"
+1643637381077	Marionette	INFO	Enabled via --marionette
+1643637392486	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-59.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepEuCdM"
+1643637395452	Marionette	INFO	Enabled via --marionette
+1643637401904	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-59.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewpxKby"
+1643637404138	Marionette	INFO	Enabled via --marionette
+Sandbox: seccomp sandbox violation: pid 293250, tid 293250, syscall 315, args 293250 140569122388608 56 0 2624 140569122388608.
+Sandbox: seccomp sandbox violation: pid 293250, tid 293250, syscall 332, args 35 140569295594290 4096 1 140722113865728 140569046546096.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFC6B9BE650, 4096)
+Sandbox: seccomp sandbox violation: pid 293250, tid 293250, syscall 262, args 35 140569295594290 140722113865296 4096 4096 1.
+Gdk-Message: 14:56:45.912: /root/EXTRA/firefox-59.0.1/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+1643637413276	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-59.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0ZfDz8"
+1643637416830	Marionette	INFO	Enabled via --marionette
+1643637428179	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-58.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKCMRX6"
+1643637431775	Marionette	INFO	Enabled via --marionette
+Sandbox: seccomp sandbox violation: pid 293652, tid 293652, syscall 315, args 293652 140689221008960 56 0 140689221005376 140689221008960.
+Sandbox: seccomp sandbox violation: pid 293652, tid 293652, syscall 332, args 40 140689395016498 4096 1 140722639045712 140689142905552.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFC8AE982A0, 4096)
+Sandbox: seccomp sandbox violation: pid 293652, tid 293652, syscall 262, args 40 140689395016498 140722639045280 4096 4096 1.
+1643637441675	Marionette	INFO	Listening on port 36823
+1643637441777	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sandbox: Unexpected EOF, op 2 flags 00 path /etc/localtime
+Gdk-Message: 14:09:23.092: /root/EXTRA/firefox-58.0.1/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Sandbox: Unexpected EOF, op 2 flags 00 path /etc/localtime
+Gdk-Message: 14:09:23.092: /root/EXTRA/firefox-58.0.1/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+1643638173236	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-57.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUtM7au"
+1643638176103	Marionette	INFO	Enabled via --marionette
+Sandbox: seccomp sandbox violation: pid 293980, tid 293980, syscall 315, args 293980 139946759070144 56 0 53 139946759070144.
+Sandbox: seccomp sandbox violation: pid 293980, tid 293980, syscall 332, args 40 139947007103794 4096 1 140722281554496 139946759198624.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFC759AA090, 4096)
+Sandbox: seccomp sandbox violation: pid 293980, tid 293980, syscall 262, args 40 139947007103794 140722281554064 4096 4096 1.
+1643638181975	Marionette	INFO	Listening on port 41351
+1643638182228	Marionette	WARN	TLS certificate errors will be ignored for this session
+1643638182532	Marionette	DEBUG	Register listener.js for window 2147483649
+1643638187528	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1643638188795	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1643638188796	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1643638191687	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=1209600&osid=1&continue=https://console.cloud.google.com/&followup=https://console.cloud.google.com/"
+1643638194433	Marionette	DEBUG	Received DOM event "pageshow" for "https://accounts.google.com/signin/v2/identifier?service=cloudconsole&passive=1209600&osid=1&continue=https%3A%2F%2Fconsole.cloud.google.com%2F&followup=https%3A%2F%2Fconsole.cloud.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+1643638201650	Marionette	DEBUG	Received DOM event "beforeunload" for "https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fconsole.cloud.google.com%2F&followup=https%3A%2F%2Fconsole.cloud.google.com%2F&service=cloudconsole&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+1643638202408	Marionette	DEBUG	Received DOM event "pagehide" for "https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fconsole.cloud.google.com%2F&followup=https%3A%2F%2Fconsole.cloud.google.com%2F&service=cloudconsole&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+1643638202454	Marionette	DEBUG	Received DOM event "unload" for "https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fconsole.cloud.google.com%2F&followup=https%3A%2F%2Fconsole.cloud.google.com%2F&service=cloudconsole&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+1643638202513	Marionette	DEBUG	Received DOM event "pageshow" for "https://accounts.google.com/ServiceLogin"
+1643638202546	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://accounts.google.com/ServiceLogin"
+1643638202554	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483663"
+1643638202555	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1643638205448	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://shell.cloud.google.com/?cloudshell=true&show=terminal&pli=1"
+1643638206735	Marionette	DEBUG	Received DOM event "pageshow" for "https://shell.cloud.google.com/?cloudshell=true&show=terminal&pli=1"
+1643638217031	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Gdk-Message: 15:10:20.344: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+[Child 293980, Chrome_ChildThread] WARNING: pipe error (16): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1643638232735	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-58.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileiteeAd"
+1643638235820	Marionette	INFO	Enabled via --marionette
+Sandbox: seccomp sandbox violation: pid 294258, tid 294258, syscall 315, args 294258 140461448257152 56 0 140461448253504 140461448257152.
+Sandbox: seccomp sandbox violation: pid 294258, tid 294258, syscall 332, args 40 140461622461234 4096 1 140731564037840 140461370178208.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFE9EE21520, 4096)
+Sandbox: seccomp sandbox violation: pid 294258, tid 294258, syscall 262, args 40 140461622461234 140731564037408 4096 4096 1.
+1643638241828	Marionette	INFO	Listening on port 34819
+1643638241896	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gdk-Message: 15:13:57.357: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Gdk-Message: 15:13:57.357: /root/EXTRA/firefox-58.0.1/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Gdk-Message: 15:13:57.357: /root/EXTRA/firefox-58.0.1/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+1643638447035	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-58.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejUhuN2"
+1643638450023	Marionette	INFO	Enabled via --marionette
+Sandbox: seccomp sandbox violation: pid 294521, tid 294521, syscall 315, args 294521 140516886441536 56 0 140516886437952 140516886441536.
+Sandbox: seccomp sandbox violation: pid 294521, tid 294521, syscall 332, args 40 140517060674354 4096 1 140732228426368 140516808391328.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFEC67BD8D0, 4096)
+Sandbox: seccomp sandbox violation: pid 294521, tid 294521, syscall 262, args 40 140517060674354 140732228425936 4096 4096 1.
+1643638457876	Marionette	INFO	Listening on port 37841
+1643638457970	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gdk-Message: 15:14:19.562: /root/EXTRA/firefox-58.0.1/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Gdk-Message: 15:14:19.562: /root/EXTRA/firefox-58.0.1/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+1643638468270	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-57.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebmvO3V"
+1643638471267	Marionette	INFO	Enabled via --marionette
+1643638482962	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-57.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHKCCXz"
+1643638494905	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-58.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelKXHtJ"
+1643638497633	Marionette	INFO	Enabled via --marionette
+Sandbox: seccomp sandbox violation: pid 295026, tid 295026, syscall 315, args 295026 140518648073792 56 0 140518648070208 140518648073792.
+Sandbox: seccomp sandbox violation: pid 295026, tid 295026, syscall 332, args 40 140518822167346 4096 1 140735479893680 140518569999056.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFF88494D00, 4096)
+Sandbox: seccomp sandbox violation: pid 295026, tid 295026, syscall 262, args 40 140518822167346 140735479893248 4096 4096 1.
+1643638504495	Marionette	INFO	Listening on port 35347
+1643638504537	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 295026, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1643638550426	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-58.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemz5M8L"
+1643638552813	Marionette	INFO	Enabled via --marionette
+Sandbox: seccomp sandbox violation: pid 295281, tid 295281, syscall 315, args 295281 139736830734208 56 0 139736830730304 139736830734208.
+Sandbox: seccomp sandbox violation: pid 295281, tid 295281, syscall 332, args 40 139737079513906 4096 1 140728212696752 139736827230928.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFDD720AD00, 4096)
+Sandbox: seccomp sandbox violation: pid 295281, tid 295281, syscall 262, args 40 139737079513906 140728212696320 4096 4096 1.
+1643638558953	Marionette	INFO	Listening on port 44807
+1643638559052	Marionette	WARN	TLS certificate errors will be ignored for this session
