@@ -173,6 +173,21 @@ def counting_used_config_config(typ0):
 # SELECT * FROM `nord_list2` WHERE (`used`='n') ORDER BY RAND() LIMIT 1
 
 
+def update_gc_to_db_as_used(goo_account):
+	print("UPFATE GOOGLE ACCOUNT")
+	mydb = mysql.connector.connect(host="remotemysql.com",user="f6V3kVwxvH",passwd="sOVnW1130i",database="f6V3kVwxvH")
+	check_connect_mysql()
+
+	print(" UPDATE_SQL STATUS CONFIG [ "+goo_account+" ] : ",end='',flush=True)
+	mycursor = mydb.cursor()
+	input=("w",goo_account)
+	this_table="child_gc"
+
+	sql = "UPDATE `"+this_table+"` SET ac_status= %s  WHERE cmpt = %s"
+	mycursor.execute(sql,input)
+	mydb.commit()
+	print("[ SUCCED ] ")
+	# get_value_cnf(cnf_name)
 
 def get_gc_account():
 	this_table="child_gc"
@@ -190,6 +205,7 @@ def get_gc_account():
 	for row in record:
 		goo_account=str(row[1])
 		print(goo_account)
+	update_gc_to_db_as_used(goo_account)
 	return goo_account 
 
 
@@ -209,4 +225,5 @@ def get_gc_account():
 
 
 check_connect_mysql()
+# update_gc_to_db_as_used("don0mar0l0k0")
 # get_gc_account()

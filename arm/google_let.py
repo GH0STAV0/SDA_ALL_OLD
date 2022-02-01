@@ -24,11 +24,11 @@ telrgram_text=[]
 # email="almidaopo"
 # email="don0mar0l0k0"
 # email="abedrahman0x"
-
-
 # email="boudabkafaycel"
+# email="caldinomajbri"
 
-email="caldinomajbri"
+
+
 # email=""
 # email=""
 # email=""
@@ -70,7 +70,7 @@ email="caldinomajbri"
 # email="xamiramogdan"
 
 # email="laminewalter7"
-# email=gc_ac__sql.get_gc_account()
+email=gc_ac__sql.get_gc_account()
 # email="kalawssimatrix"
 # email=
 # email="xamiramogdan"

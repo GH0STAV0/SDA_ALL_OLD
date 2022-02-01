@@ -1,6 +1,0 @@
-1643608405711	geckodriver	INFO	Listening on 127.0.0.1:56211
-1643608406846	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.05MBCqhrnq6F
-1643608406864	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-49.0b9/firefox/firefox with args ["--width=1920", "--height=1080", "ignore-certificate-errors"]
-1643608406891	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37301
-1643608408374	Marionette	INFO	Listening on port 37301
-1643608411685	Marionette	INFO	startBrowser a6bf2077-363e-4be3-b06b-a2790873e7c6
