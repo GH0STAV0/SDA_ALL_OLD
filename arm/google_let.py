@@ -20,7 +20,16 @@ import json
 telrgram_text=[]
 # email="azfounmondilla"
 # email="jilalydillaly"
-email="abouichrine"
+# email="abouichrine"
+email="almidaopo"
+
+# email=""
+# email="don0mar0l0k0"
+# email="xamiramogdan"
+# email="xamiramogdan"
+# email="xamiramogdan"
+# email="xamiramogdan"
+# email="xamiramogdan"
 
 # email="laminewalter7"
 # email=gc_ac__sql.get_gc_account()
@@ -181,7 +190,7 @@ def check_recovery(driver):
 
 
 	except Exception as e:
-		print(e+"NO RECOVERY ")
+		print("NO RECOVERY ")
 
 
 
