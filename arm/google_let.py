@@ -19,7 +19,8 @@ import json
 # xamiramogdan 
 telrgram_text=[]
 # email="azfounmondilla"
-email="jilalydillaly"
+# email="jilalydillaly"
+email="abouichrine"
 
 # email="laminewalter7"
 # email=gc_ac__sql.get_gc_account()
@@ -174,6 +175,7 @@ def check_recovery(driver):
 		# //*[@id="knowledge-preregistered-email-response"]
 		input_on_recovery_email=WebDriverWait(driver, 65).until(EC.presence_of_element_located((By.XPATH, '//*[@id="knowledge-preregistered-email-response"]')))
 		input_on_recovery_email.send_keys("cha3b0n@protonmail.com",Keys.ENTER)
+		print("OK recovery EMAIL ENTRED !!!!!!")
 		time.sleep(8)
 
 
