@@ -22,9 +22,10 @@ telrgram_text=[]
 # email="jilalydillaly"
 # email="abouichrine"
 # email="almidaopo"
+# email="don0mar0l0k0"
 
-email="don0mar0l0k0"
-# email=""
+
+email="alphonsoalpatchino"
 # email=""
 # email=""
 # email=""
