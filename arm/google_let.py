@@ -21,9 +21,9 @@ telrgram_text=[]
 # email="azfounmondilla"
 # email="jilalydillaly"
 # email="abouichrine"
-email="almidaopo"
+# email="almidaopo"
 
-# email="don0mar0l0k0"
+email="don0mar0l0k0"
 # email=""
 # email=""
 # email=""
