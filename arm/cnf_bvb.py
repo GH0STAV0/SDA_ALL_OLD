@@ -1,9 +1,14 @@
 import random , os ,requests
 import json
 import socket
+import socket
+hostname_os=socket.getfqdn()
 
+visible_v=0
 
-
+if "LOOKE3" in hostname_os:
+	print(hostname_os)
+	visible_v=1
 
 user_agent_list = [
 'AppleCoreMedia/1.0.0.12B466 (Apple TV; U; CPU OS 8_1_3 like Mac OS X; en_us)'

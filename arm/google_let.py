@@ -19,12 +19,12 @@ import json
 # xamiramogdan 
 telrgram_text=[]
 # email="laminewalter7"
-email=gc_ac__sql.get_gc_account()
-# email=
+# email=gc_ac__sql.get_gc_account()
+# email="kalawssimatrix"
 # email=
 # email="xamiramogdan"
 # email="almidaopo"
-# email="azfounmondilla"
+email="azfounmondilla"
 # email="abedrahman0x"
 # email="don0mar0l0k0"
 # email="xamiramogdan"
@@ -32,7 +32,8 @@ email=gc_ac__sql.get_gc_account()
 # email="xamiramogdan"
 # email="xamiramogdan"
 # email="xamiramogdan"
-paxx="agoon007"
+# paxx="agoon007"
+paxx="g0ping0*"
 
 ###########global urls_BVB
 # urls_BVB=cnf_bvb.random_url
@@ -159,6 +160,24 @@ def check_reconect(driver):
 		driver.save_screenshot("scr.png")
 		check_reconect(driver)
 
+def check_recovery(driver):
+	print("CHECK RECOVERY MAIL !!!!!!")
+	try:
+		#/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div/ul/li[1]
+		#//*[@id="view_container"]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div/ul/li[1]/div
+		click_on_recovery_email=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '//*[@id="view_container"]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div/ul/li[1]/div')))
+		click_on_recovery_email.click()
+		time.sleep(5)
+		# //*[@id="knowledge-preregistered-email-response"]
+		input_on_recovery_email=WebDriverWait(driver, 65).until(EC.presence_of_element_located((By.XPATH, '//*[@id="knowledge-preregistered-email-response"]')))
+		input_on_recovery_email.send_keys("cha3b0n@protonmail.com",Keys.ENTER)
+		time.sleep(8)
+
+
+
+	except Exception as e:
+		print(e)
+
 
 
 #################################"MAIN STARTING"##############################
@@ -168,17 +187,14 @@ def ads_class(driver):
 		driver.get(url_1)
 		print(" [ "+url_1+" ]")
 		gmail_id_input=WebDriverWait(driver, 65).until(EC.presence_of_element_located((By.XPATH, '//*[@id="identifierId"]')))
-		# gmail_id_input.send_keys("xamiramogdan",Keys.ENTER)
-		# gmail_id_input.send_keys("quarinamouslou",Keys.ENTER)
 		gmail_id_input.send_keys(email,Keys.ENTER)
-		#ramitamer613
-		time.sleep(2)
+		time.sleep(5)
 		gmail_id_input=WebDriverWait(driver, 65).until(EC.presence_of_element_located((By.XPATH, '//*[@id="password"]/div[1]/div/div[1]/input')))
-		# gmail_id_input.send_keys("testpassw0rdDZ*",Keys.ENTER)
-		# gmail_id_input.send_keys("agoon007",Keys.ENTER)
 		gmail_id_input.send_keys(paxx,Keys.ENTER)
 
 		time.sleep(3)
+		check_recovery(driver)
+		# input('')
 		# input('')
 
 		try:
@@ -211,7 +227,8 @@ def starting_tasks():
 	try:
 		stage_1()### CLEAR
 		# mod_vpn2.fnc_vpn ()
-		display = Display(visible=0, size=(width,height)).start()
+		visible_v=cnf_bvb.visible_v
+		display = Display(visible=visible_v, size=(width,height)).start()
 		driver=mod_driver2.build_driver(width ,height)
 		lets_play(driver)
 		display.stop()

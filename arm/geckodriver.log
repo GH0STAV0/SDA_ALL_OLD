@@ -1,0 +1,264 @@
+1643641484721	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-57.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5G1obb"
+1643641488732	Marionette	INFO	Enabled via --marionette
+Sandbox: seccomp sandbox violation: pid 299579, tid 299579, syscall 315, args 299579 139625979748672 56 0 55 139625979748672.
+Sandbox: seccomp sandbox violation: pid 299579, tid 299579, syscall 332, args 40 139626228110130 4096 1 140721754000784 139625979877280.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFC5628CBE0, 4096)
+Sandbox: seccomp sandbox violation: pid 299579, tid 299579, syscall 262, args 40 139626228110130 140721754000352 4096 4096 1.
+1643641495626	Marionette	INFO	Listening on port 38897
+1643641495658	Marionette	WARN	TLS certificate errors will be ignored for this session
+1643641495731	Marionette	DEBUG	Register listener.js for window 2147483649
+1643641500545	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1643641501737	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1643641501737	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1643641505802	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://accounts.google.com/signin/v2/identifier?service=cloudconsole&passive=1209600&osid=1&continue=https%3A%2F%2Fconsole.cloud.google.com%2F&followup=https%3A%2F%2Fconsole.cloud.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+1643641507058	Marionette	DEBUG	Received DOM event "pageshow" for "https://accounts.google.com/signin/v2/identifier?service=cloudconsole&passive=1209600&osid=1&continue=https%3A%2F%2Fconsole.cloud.google.com%2F&followup=https%3A%2F%2Fconsole.cloud.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+Gdk-Message: 16:20:49.121: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Gdk-Message: 16:20:49.121: /root/EXTRA/firefox-57.0.1/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+1643642501311	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOoVSN0"
+Sandbox: seccomp sandbox violation: pid 299923, tid 299923, syscall 315, args 299923 140046506412608 56 0 140046506410048 140046506412608.
+Sandbox: seccomp sandbox violation: pid 299923, tid 299923, syscall 332, args 33 140046744347442 4096 1 140734216339184 140046506552928.
+Sandbox: unsupported fd-relative fstatat(33, "", 0x7FFF3CF8FD40, 4096)
+Sandbox: seccomp sandbox violation: pid 299923, tid 299923, syscall 262, args 33 140046744347442 140734216338752 4096 4096 1.
+1643642509866	Marionette	INFO	Listening on port 33033
+1643642509938	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sandbox: seccomp sandbox violation: pid 299923, tid 300019, syscall 203, args 300019 128 140046103399776 8 140046103402048 1.
+Sandbox: seccomp sandbox violation: pid 299923, tid 300020, syscall 203, args 300020 128 140046095007072 8 140046095009344 1.
+Sandbox: seccomp sandbox violation: pid 299923, tid 300022, syscall 203, args 300022 128 140046078221664 8 140046078223936 1.
+Sandbox: seccomp sandbox violation: pid 299923, tid 300021, syscall 203, args 300021 128 140046086614368 0 140046086616640 1.
+1643642608563	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-59.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDWUFdd"
+1643642612724	Marionette	INFO	Enabled via --marionette
+Sandbox: seccomp sandbox violation: pid 300186, tid 300186, syscall 315, args 300186 140654629333696 56 0 2688 140654629333696.
+Sandbox: seccomp sandbox violation: pid 300186, tid 300186, syscall 332, args 35 140654802375474 4096 1 140730506910448 140654629521072.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFE5FDF9940, 4096)
+Sandbox: seccomp sandbox violation: pid 300186, tid 300186, syscall 262, args 35 140654802375474 140730506910016 4096 4096 1.
+1643642621548	Marionette	INFO	Listening on port 37699
+1643642621618	Marionette	WARN	TLS certificate errors will be ignored for this session
+1643642687375	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-57.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileoyfdVh"
+1643642690656	Marionette	INFO	Enabled via --marionette
+1643642696944	Marionette	INFO	Listening on port 45065
+1643642697038	Marionette	WARN	TLS certificate errors will be ignored for this session
+1643642697198	Marionette	DEBUG	Register listener.js for window 2147483649
+1643642701851	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1643642703079	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1643642703081	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1643642705917	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://accounts.google.com/signin/v2/identifier?service=cloudconsole&passive=1209600&osid=1&continue=https%3A%2F%2Fconsole.cloud.google.com%2F&followup=https%3A%2F%2Fconsole.cloud.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+1643642707236	Marionette	DEBUG	Received DOM event "pageshow" for "https://accounts.google.com/signin/v2/identifier?service=cloudconsole&passive=1209600&osid=1&continue=https%3A%2F%2Fconsole.cloud.google.com%2F&followup=https%3A%2F%2Fconsole.cloud.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+1643642727796	Marionette	DEBUG	Received DOM event "beforeunload" for "https://console.cloud.google.com/"
+1643642728308	Marionette	DEBUG	Received DOM event "pagehide" for "https://console.cloud.google.com/"
+1643642728321	Marionette	DEBUG	Received DOM event "unload" for "https://console.cloud.google.com/"
+1643642728488	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal&followup=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal"
+1643642728582	Marionette	DEBUG	Received DOM event "pageshow" for "https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal&followup=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal"
+1643642744989	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643642841320	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643643203177	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643643565442	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643643927709	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643644289715	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643644652079	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643645014076	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643645376526	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643645738392	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643646100757	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643646463024	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643646824907	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643647187174	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643647549629	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643647911608	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643648273558	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643648635898	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643648998109	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643649360609	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643649723008	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643650085016	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643650447424	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643650809857	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643651172172	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643651534575	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643651897009	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643652259506	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643652621892	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643652984210	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643653346616	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643653709008	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643654071342	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643654433694	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643654796190	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643655158470	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643655520763	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643655883162	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643656245510	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643656607707	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643656970232	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643657332524	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643657694924	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643658057293	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643658419674	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643658781550	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643659143949	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643659506209	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643659868489	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643660230781	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643660592794	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643660955024	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643661317062	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643661679391	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643662041707	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643662404062	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643662766140	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643663128607	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643663490992	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643663853273	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643664215791	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643664578196	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643664940327	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643665302724	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643665665091	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643666027423	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643666389807	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643666752060	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643667114408	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643667476513	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643667838331	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643668200660	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643668563100	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643668925444	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643669287747	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643669649661	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643670011998	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643670374723	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643670736741	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643671099062	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643671461331	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643671823642	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643672185908	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643672548190	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643672910593	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643673273031	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643673635323	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643673997730	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643674360144	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643674722390	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643675084755	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643675447163	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643675809472	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643676171380	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643676533545	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643676895873	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643677258006	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643677620427	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643677982643	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643678345006	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643678707358	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643679069873	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643679432189	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643679794576	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643680156989	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643680518840	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643680881207	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643681243580	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643681605890	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643681968227	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643682330189	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643682692229	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643683054597	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643683417089	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643683779443	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643684141776	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643684504057	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643684866005	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643685228106	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643685590089	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643685952312	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643686254299	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643686262214	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileX5XvJM"
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 337)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:337:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:330:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:354:11\nwrite@resource:///modules/sessionstore/SessionFile.jsm:394:19\nwrite@resource:///modules/sessionstore/SessionFile.jsm:66:12\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:357:12\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:295:12\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:341:5\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:192:9\n"
+1643686278563	Marionette	INFO	Listening on port 44685
+1643686278684	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sandbox: seccomp sandbox violation: pid 305674, tid 305768, syscall 203, args 305768 128 140611743898976 8 140611743901248 1.
+Sandbox: seccomp sandbox violation: pid 305674, tid 305769, syscall 203, args 305769 128 140611735506272 8 140611735508544 1.
+Sandbox: seccomp sandbox violation: pid 305674, tid 305771, syscall 203, args 305771 128 140611718720864 8 140611718723136 1.
+Sandbox: seccomp sandbox violation: pid 305674, tid 305770, syscall 203, args 305770 128 140611727113568 0 140611727115840 1.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1643696278754	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-57.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileo0yCfK"
+1643696282994	Marionette	INFO	Enabled via --marionette
+1643696291082	Marionette	INFO	Listening on port 42613
+1643696291119	Marionette	WARN	TLS certificate errors will be ignored for this session
+1643696291195	Marionette	DEBUG	Register listener.js for window 2147483649
+1643696296181	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1643696297455	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1643696297456	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1643696300170	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=1209600&osid=1&continue=https://console.cloud.google.com/&followup=https://console.cloud.google.com/"
+1643696301991	Marionette	DEBUG	Received DOM event "pageshow" for "https://accounts.google.com/signin/v2/identifier?service=cloudconsole&passive=1209600&osid=1&continue=https%3A%2F%2Fconsole.cloud.google.com%2F&followup=https%3A%2F%2Fconsole.cloud.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+1643696383884	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-58.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCM3BD2"
+1643696388955	Marionette	INFO	Enabled via --marionette
+1643696397335	Marionette	INFO	Listening on port 45165
+1643696397377	Marionette	WARN	TLS certificate errors will be ignored for this session
+1643696452765	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-57.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqTDIza"
+1643696454795	Marionette	INFO	Enabled via --marionette
+1643696459757	Marionette	INFO	Listening on port 43939
+1643696459790	Marionette	WARN	TLS certificate errors will be ignored for this session
+1643696459878	Marionette	DEBUG	Register listener.js for window 2147483649
+1643696464641	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1643696465904	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1643696465905	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1643696468462	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://accounts.google.com/signin/v2/identifier?service=cloudconsole&passive=1209600&osid=1&continue=https%3A%2F%2Fconsole.cloud.google.com%2F&followup=https%3A%2F%2Fconsole.cloud.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+1643696469855	Marionette	DEBUG	Received DOM event "pageshow" for "https://accounts.google.com/signin/v2/identifier?service=cloudconsole&passive=1209600&osid=1&continue=https%3A%2F%2Fconsole.cloud.google.com%2F&followup=https%3A%2F%2Fconsole.cloud.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+1643696495421	Marionette	DEBUG	Received DOM event "beforeunload" for "https://accounts.google.com/signin/v2/challenge/selection?service=cloudconsole&passive=1209600&osid=1&continue=https%3A%2F%2Fconsole.cloud.google.com%2F&followup=https%3A%2F%2Fconsole.cloud.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin&cid=1&navigationDirection=forward&TL=AM3QAYbaatpBMTBMXRobejXInXB5QB-vytR8HFf9BaYK4V9ilkW46UpRiv66ofUK&lid=2"
+1643696495776	Marionette	DEBUG	Received DOM event "pagehide" for "https://accounts.google.com/signin/v2/challenge/selection?service=cloudconsole&passive=1209600&osid=1&continue=https%3A%2F%2Fconsole.cloud.google.com%2F&followup=https%3A%2F%2Fconsole.cloud.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin&cid=1&navigationDirection=forward&TL=AM3QAYbaatpBMTBMXRobejXInXB5QB-vytR8HFf9BaYK4V9ilkW46UpRiv66ofUK&lid=2"
+1643696495852	Marionette	DEBUG	Received DOM event "unload" for "https://accounts.google.com/signin/v2/challenge/selection?service=cloudconsole&passive=1209600&osid=1&continue=https%3A%2F%2Fconsole.cloud.google.com%2F&followup=https%3A%2F%2Fconsole.cloud.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin&cid=1&navigationDirection=forward&TL=AM3QAYbaatpBMTBMXRobejXInXB5QB-vytR8HFf9BaYK4V9ilkW46UpRiv66ofUK&lid=2"
+1643696498654	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1643696498656	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1643696498940	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://accounts.google.com/signin/v2/identifier?passive=1209600&osid=1&continue=https%3A%2F%2Fshell.cloud.google.com%2F%3Fcloudshell%3Dtrue%26show%3Dterminal&followup=https%3A%2F%2Fshell.cloud.google.com%2F%3Fcloudshell%3Dtrue%26show%3Dterminal&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+1643696499233	Marionette	DEBUG	Received DOM event "pageshow" for "https://accounts.google.com/signin/v2/identifier?passive=1209600&osid=1&continue=https%3A%2F%2Fshell.cloud.google.com%2F%3Fcloudshell%3Dtrue%26show%3Dterminal&followup=https%3A%2F%2Fshell.cloud.google.com%2F%3Fcloudshell%3Dtrue%26show%3Dterminal&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+1643696726521	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-57.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSQlnje"
+1643696728709	Marionette	INFO	Enabled via --marionette
+1643696733564	Marionette	INFO	Listening on port 37305
+1643696733645	Marionette	WARN	TLS certificate errors will be ignored for this session
+1643696733820	Marionette	DEBUG	Register listener.js for window 2147483649
+1643696738410	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1643696739664	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1643696739667	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1643696742716	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=1209600&osid=1&continue=https://console.cloud.google.com/&followup=https://console.cloud.google.com/"
+1643696744319	Marionette	DEBUG	Received DOM event "pageshow" for "https://accounts.google.com/signin/v2/identifier?service=cloudconsole&passive=1209600&osid=1&continue=https%3A%2F%2Fconsole.cloud.google.com%2F&followup=https%3A%2F%2Fconsole.cloud.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+1643696787442	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-57.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyYJl00"
+1643696789663	Marionette	INFO	Enabled via --marionette
+1643696794915	Marionette	INFO	Listening on port 37047
+1643696795068	Marionette	WARN	TLS certificate errors will be ignored for this session
+1643696795487	Marionette	DEBUG	Register listener.js for window 2147483649
+1643696800164	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1643696801415	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1643696801415	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1643696804224	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=1209600&osid=1&continue=https://console.cloud.google.com/&followup=https://console.cloud.google.com/"
+1643696805894	Marionette	DEBUG	Received DOM event "pageshow" for "https://accounts.google.com/signin/v2/identifier?service=cloudconsole&passive=1209600&osid=1&continue=https%3A%2F%2Fconsole.cloud.google.com%2F&followup=https%3A%2F%2Fconsole.cloud.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+1643696863206	Marionette	DEBUG	Register listener.js for window 2147483662
+1643696864576	Marionette	DEBUG	Register listener.js for window 4294967297
+1643697246704	Marionette	DEBUG	Register listener.js for window 4294967300
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 308002, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1643698064959	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-57.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEfDzEY"
+1643698068351	Marionette	INFO	Enabled via --marionette
+1643698075214	Marionette	INFO	Listening on port 39053
+1643698075489	Marionette	WARN	TLS certificate errors will be ignored for this session
+1643698076087	Marionette	DEBUG	Register listener.js for window 2147483649
+1643698080896	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1643698082431	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1643698082431	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1643698084734	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=1209600&osid=1&continue=https://console.cloud.google.com/&followup=https://console.cloud.google.com/"
+1643698086591	Marionette	DEBUG	Received DOM event "pageshow" for "https://accounts.google.com/signin/v2/identifier?service=cloudconsole&passive=1209600&osid=1&continue=https%3A%2F%2Fconsole.cloud.google.com%2F&followup=https%3A%2F%2Fconsole.cloud.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+1643698106709	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643698558268	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepv572Q"
+1643698565022	Marionette	INFO	Listening on port 46377
+1643698565091	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sandbox: seccomp sandbox violation: pid 308780, tid 308869, syscall 203, args 308869 128 139810983198048 8 139810983200320 1.
+Sandbox: seccomp sandbox violation: pid 308780, tid 308870, syscall 203, args 308870 128 139810974805344 8 139810974807616 1.
+Sandbox: seccomp sandbox violation: pid 308780, tid 308872, syscall 203, args 308872 128 139810958019936 8 139810958022208 1.
+Sandbox: seccomp sandbox violation: pid 308780, tid 308871, syscall 203, args 308871 128 139810966412640 8 139810966414912 1.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
