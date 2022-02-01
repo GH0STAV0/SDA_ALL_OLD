@@ -23,7 +23,43 @@ telrgram_text=[]
 # email="abouichrine"
 email="almidaopo"
 
+# email="don0mar0l0k0"
 # email=""
+# email=""
+# email=""
+# email=""
+# email=""
+# email=""
+# email=""
+# email=""
+# email=""
+# email=""
+# email=""
+# email=""
+# email=""
+# email=""
+# email=""
+# email=""
+# email=""
+# email=""
+# email=""
+# email=""
+# email=""
+# email=""
+# email=""
+# email=""
+# email=""
+# email=""
+# email=""
+# email=""
+# email=""
+# email=""
+# email=""
+# email=""
+# email=""
+# email=""
+# email=""
+
 # email="don0mar0l0k0"
 # email="xamiramogdan"
 # email="xamiramogdan"
@@ -216,13 +252,14 @@ def ads_class(driver):
 			driver.get("https://shell.cloud.google.com/?cloudshell=true&show=terminal")
 			time.sleep(10)
 			
-			open_login_button=WebDriverWait(driver, 78).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
+			open_login_button=WebDriverWait(driver, 85).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
 			# input('google loginAAAAAAAAAAAA')
 			print("we are here")
 			open_login_button.click()
 			open_login_button.send_keys("sudo su",Keys.ENTER)
 			time.sleep(10)
 			open_login_button.send_keys("clear && docker ps",Keys.ENTER)
+			time.sleep(3)
 			open_login_button.send_keys("./start.sh",Keys.ENTER)
 			time.sleep(25)
 			check_reconect(driver)
@@ -230,7 +267,7 @@ def ads_class(driver):
 			print(e+" errrrrrrrro1") 
 
 	except Exception as e:
-		print(e)
+		print("ads error")
 	# driver.delete_all_cookies()
 	
 ######################USER AGENT ###################################################
