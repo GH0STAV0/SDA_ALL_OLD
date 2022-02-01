@@ -1,0 +1,15 @@
+1643713016411	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileL5wrtH"
+Sandbox: seccomp sandbox violation: pid 314228, tid 314228, syscall 315, args 314228 140081392884096 56 0 140081392881728 140081392884096.
+Sandbox: seccomp sandbox violation: pid 314228, tid 314228, syscall 332, args 33 140081574785842 4096 1 140726081928688 140081337101824.
+Sandbox: unsupported fd-relative fstatat(33, "", 0x7FFD581FBC40, 4096)
+Sandbox: seccomp sandbox violation: pid 314228, tid 314228, syscall 262, args 33 140081574785842 140726081928256 4096 4096 1.
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 337)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:337:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:330:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:354:11\nwrite@resource:///modules/sessionstore/SessionFile.jsm:394:19\nwrite@resource:///modules/sessionstore/SessionFile.jsm:66:12\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:357:12\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:295:12\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:341:5\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:192:9\n"
+1643713025803	Marionette	INFO	Listening on port 42875
+1643713025849	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sandbox: seccomp sandbox violation: pid 314228, tid 314322, syscall 203, args 314322 128 140080950988128 8 140080950990400 1.
+Sandbox: seccomp sandbox violation: pid 314228, tid 314323, syscall 203, args 314323 128 140080942595424 8 140080942597696 1.
+Sandbox: seccomp sandbox violation: pid 314228, tid 314325, syscall 203, args 314325 128 140080925810016 8 140080925812288 1.
+Sandbox: seccomp sandbox violation: pid 314228, tid 314324, syscall 203, args 314324 128 140080934202720 8 140080934204992 1.
+[Child 314228, Chrome_ChildThread] WARNING: pipe error (38): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 314228, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+Sandbox: Unexpected EOF, op 2 flags 00 path /etc/localtime

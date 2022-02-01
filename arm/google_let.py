@@ -23,11 +23,12 @@ telrgram_text=[]
 # email="abouichrine"
 # email="almidaopo"
 # email="don0mar0l0k0"
+# email="abedrahman0x"
 
 
-email="alphonsoalpatchino"
-# email=""
-# email=""
+# email="boudabkafaycel"
+
+email="caldinomajbri"
 # email=""
 # email=""
 # email=""
@@ -253,7 +254,7 @@ def ads_class(driver):
 			driver.get("https://shell.cloud.google.com/?cloudshell=true&show=terminal")
 			time.sleep(10)
 			
-			open_login_button=WebDriverWait(driver, 85).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
+			open_login_button=WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
 			# input('google loginAAAAAAAAAAAA')
 			print("we are here")
 			open_login_button.click()
