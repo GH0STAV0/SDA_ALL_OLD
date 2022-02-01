@@ -18,13 +18,15 @@ import json
 # import pickle
 # xamiramogdan 
 telrgram_text=[]
+# email="azfounmondilla"
+email="jilalydillaly"
+
 # email="laminewalter7"
 # email=gc_ac__sql.get_gc_account()
 # email="kalawssimatrix"
 # email=
 # email="xamiramogdan"
 # email="almidaopo"
-email="azfounmondilla"
 # email="abedrahman0x"
 # email="don0mar0l0k0"
 # email="xamiramogdan"
@@ -158,6 +160,7 @@ def check_reconect(driver):
 		open_login_button.send_keys("clear && docker ps",Keys.ENTER)
 		time.sleep(300)
 		driver.save_screenshot("scr.png")
+		print("OK XTERMINAL FOUND !!!!!!")
 		check_reconect(driver)
 
 def check_recovery(driver):
@@ -176,7 +179,7 @@ def check_recovery(driver):
 
 
 	except Exception as e:
-		print(e)
+		print(e+"NO RECOVERY ")
 
 
 

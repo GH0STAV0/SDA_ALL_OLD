@@ -262,3 +262,14 @@ IPDL protocol error: Handler returned error code!
 
 ###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
 
+1643702797864	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-58.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZCm7Mo"
+1643702801545	Marionette	INFO	Enabled via --marionette
+Sandbox: seccomp sandbox violation: pid 309401, tid 309401, syscall 315, args 309401 140715967008320 56 0 140715967004736 140715967008320.
+Sandbox: seccomp sandbox violation: pid 309401, tid 309401, syscall 332, args 40 140716141101874 4096 1 140732575586144 140715888933584.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFEDB2D15B0, 4096)
+Sandbox: seccomp sandbox violation: pid 309401, tid 309401, syscall 262, args 40 140716141101874 140732575585712 4096 4096 1.
+1643702810084	Marionette	INFO	Listening on port 44007
+1643702810201	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sandbox: Unexpected EOF, op 2 flags 00 path /etc/localtime
+Gdk-Message: 08:07:55.129: /root/EXTRA/firefox-58.0.1/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
