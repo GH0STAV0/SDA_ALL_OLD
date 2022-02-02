@@ -35,3 +35,33 @@ Sandbox: seccomp sandbox violation: pid 315958, tid 315958, syscall 262, args 40
 1643718131990	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://shell.cloud.google.com/?cloudshell=true&show=terminal&pli=1"
 1643718133491	Marionette	DEBUG	Received DOM event "pageshow" for "https://shell.cloud.google.com/?cloudshell=true&show=terminal&pli=1"
 1643718176838	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643718276429	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643718638992	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643719001359	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643719363465	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643719726063	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643720088223	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643720450141	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1643720812553	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Child 315958, Chrome_ChildThread] WARNING: pipe error (17): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1643786225145	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-58.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVk3Jaj"
+1643786230361	Marionette	INFO	Enabled via --marionette
+1643786694642	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefr8Y74"
+Sandbox: seccomp sandbox violation: pid 439081, tid 439081, syscall 315, args 439081 140565043538304 56 0 140565043535936 140565043538304.
+Sandbox: seccomp sandbox violation: pid 439081, tid 439081, syscall 332, args 33 140565224780594 4096 1 140723518499712 140564987526608.
+Sandbox: unsupported fd-relative fstatat(33, "", 0x7FFCBF54E9D0, 4096)
+Sandbox: seccomp sandbox violation: pid 439081, tid 439081, syscall 262, args 33 140565224780594 140723518499280 4096 4096 1.
+1643786705982	Marionette	INFO	Listening on port 34619
+1643786706039	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sandbox: seccomp sandbox violation: pid 439081, tid 439181, syscall 203, args 439181 128 140564595527008 8 140564595529280 1.
+Sandbox: seccomp sandbox violation: pid 439081, tid 439182, syscall 203, args 439182 128 140564587134304 8 140564587136576 1.
+Sandbox: seccomp sandbox violation: pid 439081, tid 439184, syscall 203, args 439184 128 140564570348896 8 140564570351168 1.
+Sandbox: seccomp sandbox violation: pid 439081, tid 439183, syscall 203, args 439183 128 140564578741600 8 140564578743872 1.
+[Child 439081, Chrome_ChildThread] WARNING: pipe error (25): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 439081, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+Sandbox: Unexpected EOF, op 2 flags 00 path /etc/localtime
+Sandbox: Unexpected EOF, op 2 flags 00 path /etc/localtime
+Gdk-Message: 07:25:39.118: /root/EXTRA/firefox-60.0.1esr/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Gdk-Message: 07:25:39.109: /root/EXTRA/firefox-60.0.1esr/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+

@@ -224,6 +224,6 @@ def get_gc_account():
 # 			fw.write(i+"\n")
 
 
-check_connect_mysql()
+# check_connect_mysql()
 # update_gc_to_db_as_used("don0mar0l0k0")
 # get_gc_account()

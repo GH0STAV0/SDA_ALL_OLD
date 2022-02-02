@@ -16,20 +16,21 @@ import random,datetime,string , os ,time ,subprocess , sys , requests ,re
 from selenium.webdriver import ActionChains
 import json
 # import pickle
-# xamiramogdan 
+# xamiramogdan hghjghj
 telrgram_text=[]
-# email="azfounmondilla"
+# email="azfounmondilla"111mmm
 # email="jilalydillaly"
 # email="abouichrine"
 # email="almidaopo"
 # email="don0mar0l0k0"
 # email="abedrahman0x"
 # email="boudabkafaycel"
-# email="caldinomajbri"
+# email="caldinomajbri"iiiop
+# email=gc_ac__sql.get_gc_account()
 
 
 
-# email=""
+email=cnf_bvb.g00g_acc
 # email=""
 # email=""
 # email=""
@@ -70,7 +71,6 @@ telrgram_text=[]
 # email="xamiramogdan"
 
 # email="laminewalter7"
-email=gc_ac__sql.get_gc_account()
 # email="kalawssimatrix"
 # email=
 # email="xamiramogdan"
