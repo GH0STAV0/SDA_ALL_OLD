@@ -172,7 +172,7 @@ def ads_class(driver):
 		# driver.get("http://zone4891.eu.org/index.html")
 		# driver.get("http://targirien.totalh.net/index.html") https://retro.mydiscussion.net/index.html
 		# driver.get("http://crypto.synergize.co/index.html")
-		driver.get("http://desk.my-board.org/index.html")
+		driver.get(url_1)
 		try:
 
 			ain_button=WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.top-banner')))
@@ -184,7 +184,7 @@ def ads_class(driver):
 			print("error scrol 1")
 
 		# time.sleep(3)
-		time.sleep(25)
+		time.sleep(35)
 		# driver.get(url_1)
 		# print(" [ "+url_1+" ]")
 		# append_to_l0g("CLICK  AND VISITE WEB-SITE   [ "+url_1+" ] OK")
@@ -307,8 +307,8 @@ def starting_tasks():
 	try:
 		stage_1()### CLEAR
 		visible_v=cnf_bvb.visible_v
-		display = Display(visible=visible_v, size=(width,height)).start()
 		mod_vpn2.fnc_vpn ()
+		display = Display(visible=visible_v, size=(width,height)).start()
 		# cnf_bvb.alias_send_msg_2()
 		# os.environ['DISPLAY']
 		driver=mod_driver2.build_driver(width ,height)

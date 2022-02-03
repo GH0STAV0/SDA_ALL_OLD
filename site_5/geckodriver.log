@@ -1,0 +1,8 @@
+1643877193255	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-58.0.1/firefox/firefox" "-marionette" "--width=5120" "--height=2880" "ignore-certificate-errors" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBynZCG"
+1643877194549	Marionette	INFO	Enabled via --marionette
+Sandbox: seccomp sandbox violation: pid 582302, tid 582302, syscall 315, args 582302 140385334107968 56 0 140385334104128 140385334107968.
+Sandbox: seccomp sandbox violation: pid 582302, tid 582302, syscall 332, args 40 140385583358770 4096 1 140723866927408 140385330592512.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFCD4197F80, 4096)
+Sandbox: seccomp sandbox violation: pid 582302, tid 582302, syscall 262, args 40 140385583358770 140723866926976 4096 4096 1.
+1643877198532	Marionette	INFO	Listening on port 45791
+1643877198579	Marionette	WARN	TLS certificate errors will be ignored for this session
