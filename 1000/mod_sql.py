@@ -60,7 +60,7 @@ def check_connect_mysql():
 
 
 def update_to_db(bin0):
-	check_connect_mysql()
+	# check_connect_mysql()
 	print(" UPDATE_SQL BIN [ "+bin0+" ] : ",end='',flush=True)
 
 	
@@ -120,7 +120,7 @@ def get_value_last_bin():
 # database f6V3kVwxvH
 
 # pass sOVnW1130i
-check_connect_mysql()
+# check_connect_mysql()
 # get_value_last_bin(bot_name)
 # check_if_exist()
 # creat_last_bin()

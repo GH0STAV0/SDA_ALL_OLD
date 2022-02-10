@@ -6832,3 +6832,437 @@ Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1644514336438	geckodriver	INFO	Listening on 127.0.0.1:45811
+1644514337605	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97/firefox/firefox" "--marionette" "--width=1366" "--height=768" "-no-remote" "-profile" "/tmp/rust_mozprofilezLvnMm"
+1644514338184	Marionette	INFO	Marionette enabled
+1644514339858	Marionette	INFO	Listening on port 42593
+1644514339965	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(/tmp/rust_mozprofilezLvnMm/thumbnails) because it does not exist
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1644514452175	geckodriver	INFO	Listening on 127.0.0.1:46787
+1644514453336	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97/firefox/firefox" "--marionette" "--width=1366" "--height=768" "-no-remote" "-profile" "/tmp/rust_mozprofileFkHLcP"
+1644514453931	Marionette	INFO	Marionette enabled
+1644514455584	Marionette	INFO	Listening on port 38491
+1644514455704	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(/tmp/rust_mozprofileFkHLcP/thumbnails) because it does not exist
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1644514670179	geckodriver	INFO	Listening on 127.0.0.1:43765
+1644514671352	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97/firefox/firefox" "--marionette" "--width=1366" "--height=768" "-no-remote" "-profile" "/tmp/rust_mozprofileXI5TPJ"
+1644514671951	Marionette	INFO	Marionette enabled
+1644514673658	Marionette	INFO	Listening on port 35409
+1644514673824	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(/tmp/rust_mozprofileXI5TPJ/thumbnails) because it does not exist
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+JavaScript error: , line 0: uncaught exception: undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1644514876160	geckodriver	INFO	Listening on 127.0.0.1:57321
+1644514877315	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97/firefox/firefox" "--marionette" "--width=1366" "--height=768" "-no-remote" "-profile" "/tmp/rust_mozprofileprGWwQ"
+1644514877896	Marionette	INFO	Marionette enabled
+1644514879631	Marionette	INFO	Listening on port 33591
+1644514879752	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(/tmp/rust_mozprofileprGWwQ/thumbnails) because it does not exist
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+
+###!!! [Parent][PBackgroundParent] Error: Send(msgname=PBackgroundLSDatabase::Msg_RequestAllowToClose) Channel error: cannot send/recv
+
+JavaScript error: , line 0: uncaught exception: undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1644515190181	geckodriver	INFO	Listening on 127.0.0.1:45471
+1644515191335	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97/firefox/firefox" "--marionette" "--width=1366" "--height=768" "-no-remote" "-profile" "/tmp/rust_mozprofilesblILI"
+1644515192080	Marionette	INFO	Marionette enabled
+1644515193880	Marionette	INFO	Listening on port 33365
+1644515194021	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(/tmp/rust_mozprofilesblILI/thumbnails) because it does not exist
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1644515281655	geckodriver	INFO	Listening on 127.0.0.1:38397
+1644515282799	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97/firefox/firefox" "--marionette" "--width=1366" "--height=768" "-no-remote" "-profile" "/tmp/rust_mozprofilekfI6sW"
+1644515283465	Marionette	INFO	Marionette enabled
+1644515285028	Marionette	INFO	Listening on port 44777
+1644515285154	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(/tmp/rust_mozprofilekfI6sW/thumbnails) because it does not exist
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+
+###!!! [Parent][PBackgroundParent] Error: Send(msgname=PBackgroundLSDatabase::Msg_RequestAllowToClose) Channel error: cannot send/recv
+
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+
+###!!! [Parent][PBackgroundParent] Error: Send(msgname=PBackgroundLSDatabase::Msg_RequestAllowToClose) Channel error: cannot send/recv
+
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+
+###!!! [Parent][PBackgroundParent] Error: Send(msgname=PBackgroundLSDatabase::Msg_RequestAllowToClose) Channel error: cannot send/recv
+
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+
+###!!! [Parent][PBackgroundParent] Error: Send(msgname=PBackgroundLSDatabase::Msg_RequestAllowToClose) Channel error: cannot send/recv
+
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+
+###!!! [Parent][PBackgroundParent] Error: Send(msgname=PBackgroundLSDatabase::Msg_RequestAllowToClose) Channel error: cannot send/recv
+
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+
+###!!! [Parent][PBackgroundParent] Error: Send(msgname=PBackgroundLSDatabase::Msg_RequestAllowToClose) Channel error: cannot send/recv
+
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+
+###!!! [Parent][PBackgroundParent] Error: Send(msgname=PBackgroundLSDatabase::Msg_RequestAllowToClose) Channel error: cannot send/recv
+
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1644517782831	geckodriver	INFO	Listening on 127.0.0.1:45855
+1644517784002	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97/firefox/firefox" "--marionette" "--width=1366" "--height=768" "-no-remote" "-profile" "/tmp/rust_mozprofilexrP9Am"
+1644517784709	Marionette	INFO	Marionette enabled
+1644517786334	Marionette	INFO	Listening on port 42159
+1644517786462	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(/tmp/rust_mozprofilexrP9Am/thumbnails) because it does not exist
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1644517886673	geckodriver	INFO	Listening on 127.0.0.1:46881
+1644517887821	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97/firefox/firefox" "--marionette" "--width=1366" "--height=768" "-no-remote" "-profile" "/tmp/rust_mozprofilefKJuZF"
+1644517888420	Marionette	INFO	Marionette enabled
+1644517890075	Marionette	INFO	Listening on port 40295
+1644517890192	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(/tmp/rust_mozprofilefKJuZF/thumbnails) because it does not exist
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1644518470834	geckodriver	INFO	Listening on 127.0.0.1:52271
+1644518472023	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97/firefox/firefox" "--marionette" "--width=1366" "--height=768" "-no-remote" "-profile" "/tmp/rust_mozprofileJrlsMr"
+1644518472605	Marionette	INFO	Marionette enabled
+1644518474321	Marionette	INFO	Listening on port 36077
+1644518474404	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(/tmp/rust_mozprofileJrlsMr/thumbnails) because it does not exist
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1644518605242	geckodriver	INFO	Listening on 127.0.0.1:51413
+1644518606404	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97/firefox/firefox" "--marionette" "--width=1366" "--height=768" "-no-remote" "-profile" "/tmp/rust_mozprofilekOfOn7"
+1644518606987	Marionette	INFO	Marionette enabled
+1644518608717	Marionette	INFO	Listening on port 41931
+1644518608843	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(/tmp/rust_mozprofilekOfOn7/thumbnails) because it does not exist
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1644518846443	geckodriver	INFO	Listening on 127.0.0.1:47779
+1644518847599	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97/firefox/firefox" "--marionette" "--width=1366" "--height=768" "-no-remote" "-profile" "/tmp/rust_mozprofilewALd6N"
+1644518848198	Marionette	INFO	Marionette enabled
+1644518849826	Marionette	INFO	Listening on port 42027
+1644518849953	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(/tmp/rust_mozprofilewALd6N/thumbnails) because it does not exist
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1644518943423	geckodriver	INFO	Listening on 127.0.0.1:44585
+1644518944604	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97/firefox/firefox" "--marionette" "--width=1366" "--height=768" "-no-remote" "-profile" "/tmp/rust_mozprofileq4GQw2"
+1644518945199	Marionette	INFO	Marionette enabled
+1644518946903	Marionette	INFO	Listening on port 42569
+1644518946945	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(/tmp/rust_mozprofileq4GQw2/thumbnails) because it does not exist
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://js.stripe.com"
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

