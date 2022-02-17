@@ -213,6 +213,8 @@ def check_reconect(driver):
 
 def check_recovery(driver):
 	print("CHECK RECOVERY MAIL !!!!!!")
+	time.sleep(3)
+	# input("em")
 	try:
 		#/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div/ul/li[1]
 		#//*[@id="view_container"]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div/ul/li[1]/div
@@ -236,6 +238,7 @@ def check_recovery(driver):
 def ads_class(driver):
 	try:
 		print("OPEN AND VISITE WEB-SITE [ 1 ]...... ",end='',flush=True)
+		cnf_bvb.send_msg_dock(email)
 		driver.get(url_1)
 		print(" [ "+url_1+" ]")
 		gmail_id_input=WebDriverWait(driver, 65).until(EC.presence_of_element_located((By.XPATH, '//*[@id="identifierId"]')))

@@ -18,10 +18,14 @@ def save_it(finall):
 	        f.close()
 
 activation=[]
+	# conn = imaplib.IMAP4_SSL("imap.gmail.com", 993)
+	# gmail_user = 'king00binz@gmail.com'
+	# gmail_pwd = 'agoon007'
 def connection_imap():
-	conn = imaplib.IMAP4_SSL("imap.gmail.com", 993)
-	gmail_user = 'king00binz@gmail.com'
-	gmail_pwd = 'agoon007'
+
+	conn = imaplib.IMAP4_SSL("outlook.office365.com", 993)
+	gmail_user = 'disp0s0@outlook.com'
+	gmail_pwd = 'baba123A*'
 	conn.login(gmail_user, gmail_pwd)
 	return conn
 
@@ -103,5 +107,5 @@ def gather_acces(emmail):
 
 #read_uniq()
 #gather_acces("john21peolg6brown@multi-service-seller.tk")
-emmail="voli71@redbox.nl.eu.org"
+# emmail="aaron387ifowler@dark-market-crypto.tk"
 # gather_acces(emmail)

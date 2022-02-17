@@ -676,6 +676,20 @@ def send_msg(text):
 	results = requests.get(url_req)
 	# print(results.json())
 
+#################################################################################################################################
+
+
+def send_msg_dock(text):
+
+	msg_telegram="[ "+hostname_os +" ]"+text
+	token = "5261450305:AAEROP9j6569RV4rKsE_tStXCdnLSX7Gz1Y"
+	# chat_id = "-643828126"
+	chat_id = "-615987943"
+	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
+	results = requests.get(url_req)
+	print(results.json())
+
+# send_msg_dock("docker test ")
 
 
 def testt():

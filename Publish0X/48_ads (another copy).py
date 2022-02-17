@@ -32,12 +32,17 @@ url_site_2=cnf_bvb.url_site_4
 second_2_visit=cnf_bvb.second_2_visit
 url_6=cnf_bvb.url_6
 
-
+# url_3="https://elated-nobel-943d26.netlify.app/index.html"
+# random_display_chose=cnf_bvb.random_display_chose
+# width=cnf_bvb.width
+# height=cnf_bvb.height
+# main_url="https://nordcheckout.com/"
 user_agent = cnf_bvb.user_agent
 sys_use_agent=re.findall('\(.*?\)',user_agent)[0]
 
 random_ads=""
 
+# random_ads=cnf_bvb.random_ads
 url_click_ads="https://click.a-ads.com/1859747/"+random_ads+"/"
 ########################################################################################################################################
 ##############################################################
@@ -127,52 +132,68 @@ def capatch(driver):
 	number_fra=driver.find_elements_by_tag_name("iframe")
 	iframes = driver.find_elements_by_xpath("//iframe")
 	print(str(len(iframes)))
-	
 	for index , iframe in enumerate(iframes):
 		yhio=iframe.get_attribute('title')
 		print(str(index)+" -- "+iframe.get_attribute('title'))
-		if "AddThis" in yhio :
+		if "AddThis"  in yhio :
 			driver.switch_to.frame(index)
-			time.sleep(3)
 			print("SWITCH TO : "+yhio)
+			time.sleep(5)
 			try:
+				# pass
 				singup_green_button=WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH, '//*[@id="recaptcha-anchor"]')))
 				singup_green_button.click()
 				print("CHECK SUCCESS  ")
+				try:
+					# singup_green_button=WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH, '')))
+					donne_ok=WebDriverWait(driver, 9).until(EC.presence_of_element_located((By.XPATH,'//span[@aria-checked="true"]')))
+					print('lucky captcha')
+					break
+				except Exception as e:
+					raise e
+
+				# /html/body/div[2]/div[3]/div[1]/div/div/span/div[4]
+				print("GO TO CHALANGE ")
 				driver.switch_to.default_content()
-				time.sleep(3)
+				time.sleep(5)
 				break
-			except:
-				print("NO  recaptcha  ")
-				reefree(driver)
-			driver.switch_to.default_content()
-			time.sleep(3)
-
-
+			except Exception as e:
+				print("NO N0 : AddThis")
+				driver.switch_to.default_content()
+				time.sleep(2)
+				# reefree(driver)
 	driver.switch_to.default_content()
-	time.sleep(3)
+	time.sleep(5)
 	iframes = driver.find_elements_by_xpath("//iframe")
 	print(str(len(iframes)))
+	print("SEARCH IN ALL ")
 	for index , iframe in enumerate(iframes):
 		yhio=iframe.get_attribute('title')
-		if "00challenge" not in yhio :
-			print(str(index)+" -- "+iframe.get_attribute('title'))
+		if "challenge"  in yhio :
 			driver.switch_to.frame(index)
-			time.sleep(3)
+			print("SWITCH TO : "+yhio)
+			time.sleep(7)
 			try:
-				singup_green_button=WebDriverWait(driver, 8).until(EC.presence_of_element_located((By.XPATH, '//*[@id="recaptcha-audio-button"]')))
+				# pass
+				iframes = driver.find_elements_by_xpath("//iframe")
+				NUMBER_OD_FRAME=len(iframes)
+				print("IFRAM INSIDE THE FRAME 01 NUM "+str(NUMBER_OD_FRAME))
+				if NUMBER_OD_FRAME ==1:
+					print("IFRAM = 01  ")
+					driver.switch_to.frame(1)
+					time.sleep(5)
+					# time.sleep(3)
+				print("search  ")
+				singup_green_button=WebDriverWait(driver, 12).until(EC.presence_of_element_located((By.XPATH, '//*[@id="recaptcha-audio-button"]')))
 				singup_green_button.click()
 				print("audio-source clicked !!!!!!!!")
-				# driver.switch_to.default_content()
-				# time.sleep(3)
 				try:
 					main_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.rc-doscaptcha-body-text')))
 					captcha_error_message=main_button.text
 					print(" 000 : "+captcha_error_message)
 				except Exception as e:
 					print("NO ERROR MESSAGE ")
-
-				eto_firstName=WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID, 'audio-source')))
+				eto_firstName=WebDriverWait(driver, 2).until(EC.presence_of_element_located((By.ID, 'audio-source')))
 				download_link = eto_firstName.get_attribute('src')
 				# print(download_link)
 				audio_output= audio_fonction(download_link)
@@ -187,119 +208,133 @@ def capatch(driver):
 				except Exception as e:
 					print("no multiple solution")
 				driver.switch_to.default_content()
-
+				os.system('rm test1.wav')
+				print('Captcha resolved')
+				input('audio_fonction')
+				time.sleep(2)
 				break
-			except:
-				print("NO  AUDIO  ")
-			driver.switch_to.default_content()
-			time.sleep(3)
-
-	# input("ok")
-	driver.switch_to.default_content()
-	time.sleep(3)
-
-
-
-
-
-
-	# input("ok")
-
-	# for index , iframe in enumerate(iframes):
-	# 	yhio=iframe.get_attribute('title')
-	# 	print(str(index)+" -- "+iframe.get_attribute('title'))
-	# 	if "AddThis"  in yhio :
-	# 		driver.switch_to.frame(index)
-	# 		print("SWITCH TO : "+yhio)
-	# 		time.sleep(6)
-	# 		try:
-	# 			# pass
-	# 			singup_green_button=WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH, '//*[@id="recaptcha-anchor"]')))
-	# 			singup_green_button.click()
-	# 			print("CHECK SUCCESS  ")
-	# 			try:
-	# 				# singup_green_button=WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH, '')))
-	# 				donne_ok=WebDriverWait(driver, 9).until(EC.presence_of_element_located((By.XPATH,'//span[@aria-checked="true"]')))
-	# 				print('lucky captcha')
-	# 				driver.switch_to.default_content()
-	# 				time.sleep(2)
-	# 				return
-	# 			except Exception as e:
-	# 				raise e
-
-	# 			# /html/body/div[2]/div[3]/div[1]/div/div/span/div[4]
-	# 			print("GO TO CHALANGE ")
-	# 			driver.switch_to.default_content()
-	# 			time.sleep(5)
-	# 			break
-	# 		except Exception as e:
-	# 			print("NO N0 : AddThis")
-	# 			driver.switch_to.default_content()
-	# 			time.sleep(2)
-	# 			# reefree(driver)
-	# 			# break
-	# 			# reefree(driver)
-	# driver.switch_to.default_content()
-	# time.sleep(5)
-	# iframes = driver.find_elements_by_xpath("//iframe")
-	# print(str(len(iframes)))
-	# print("SEARCH IN ALL ")
-	# for index , iframe in enumerate(iframes):
-	# 	yhio=iframe.get_attribute('title')
-	# 	if "challenge"  in yhio :
-	# 		driver.switch_to.frame(index)
-	# 		print("SWITCH TO : "+yhio)
-	# 		time.sleep(7)
-	# 		try:
-	# 			# pass
-	# 			iframes = driver.find_elements_by_xpath("//iframe")
-	# 			NUMBER_OD_FRAME=len(iframes)
-	# 			print("IFRAM INSIDE THE FRAME 01 NUM "+str(NUMBER_OD_FRAME))
-	# 			if NUMBER_OD_FRAME ==1:
-	# 				print("IFRAM = 01  ")
-	# 				driver.switch_to.frame(1)
-	# 				time.sleep(5)
-	# 				# time.sleep(3)
-	# 			print("search  ")
-	# 			singup_green_button=WebDriverWait(driver, 12).until(EC.presence_of_element_located((By.XPATH, '//*[@id="recaptcha-audio-button"]')))
-	# 			singup_green_button.click()
-	# 			print("audio-source clicked !!!!!!!!")
-	# 			try:
-	# 				main_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.rc-doscaptcha-body-text')))
-	# 				captcha_error_message=main_button.text
-	# 				print(" 000 : "+captcha_error_message)
-	# 			except Exception as e:
-	# 				print("NO ERROR MESSAGE ")
-	# 			eto_firstName=WebDriverWait(driver, 2).until(EC.presence_of_element_located((By.ID, 'audio-source')))
-	# 			download_link = eto_firstName.get_attribute('src')
-	# 			# print(download_link)
-	# 			audio_output= audio_fonction(download_link)
-	# 			text_cap=WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID,'audio-response')))
-	# 			text_cap.send_keys(audio_output)
-	# 			time.sleep(2)
-	# 			text_cap.send_keys(Keys.ENTER)
-	# 			try:
-	# 				error_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.rc-audiochallenge-error-message')))
-	# 				captcha_error_message=main_button.text
-	# 				print(" multiple needed : "+captcha_error_message)
-	# 			except Exception as e:
-	# 				print("no multiple solution")
-	# 			driver.switch_to.default_content()
-	# 			os.system('rm test1.wav')
-	# 			print('Captcha resolved')
-	# 			print('audio_fonction')
-	# 			time.sleep(2)
-	# 			break
-	# 		except Exception as e:
-	# 			print("NO N0  ")
-	# 			driver.switch_to.default_content()
-	# 			time.sleep(3)
-	# 			reefree(driver)
+			except Exception as e:
+				print("NO N0  ")
+				driver.switch_to.default_content()
+				time.sleep(3)
 
 
 	print("OUT CAPATCHA")
 	time.sleep(2)
 	print('CLOSE FONCTION CAPTCHA+ PASS')
+	# break
+	# singup_green_button=WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH, '//*[@id="recaptcha-anchor"]')))
+	# singup_green_button.click()
+	# # elements=
+	# input('kkkkkkkkkkk')
+	# try:
+	# 	#/html/body/div[2]/div[3]/div[1]/div/div/span/div[4]
+	# 	# singup_green_button=WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.recaptcha-checkbox-checkmark')))
+	# 	donne_ok=WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH,'//span[@aria-checked="true"]')))
+	# 	print(" lazare lazere eeee")
+
+	# except Exception as e:
+
+	# 	print("oh no ")
+
+	# time.sleep(3)
+	# iframes = driver.find_elements_by_xpath("//iframe")
+	# print(str(len(iframes)))
+	# driver.switch_to.frame(0)
+	# time.sleep(3)
+	# # driver.find_element_by_xpath('//*[@id="recaptcha-anchor"]').click()//*[@id="recaptcha-audio-button"]
+	# print(" lazare lazere eeee")
+	# donne_ok=WebDriverWait(driver, 9).until(EC.presence_of_element_located((By.XPATH,'//*[@id="rc-imageselect"]')))
+	# print(" lazare lazere eeee")
+
+	# recaptcha_ok=WebDriverWait(driver, 8).until(EC.presence_of_element_located((By.XPATH, '/html/body/div/div/div[3]/div[2]/div[1]/div[1]/div[2]')))
+	# audio_chalange=WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID, 'recaptcha-audio-button')))
+	# audio_chalange.click()
+	# input('kkkkkkkkkkk')
+
+	# eto_firstName=WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID, 'recaptcha-audio-button')))
+
+	# download_link = eto_firstName.get_attribute('href')
+	# print("ok"+download_link)
+	# driver.switch_to.default_content()
+	# ####################################################################""
+	# input('kkkkkkkkkkk')
+	# # print(str(len(number_fra)))#find_elements_by_class_name
+	# time.sleep(2)
+	# input('check capatch')
+	# driver.switch_to.frame(driver.find_elements_by_tag_name("iframe")[2])
+	# time.sleep(2)
+	# recaptcha_ok=WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH,'//*[@id="rc-anchor-container"]/div[3]/div[1]/div/div')))
+	# print(" |")
+	# recaptcha_ok.click()
+	# time.sleep(2)
+
+	# try:
+	# 	donne_ok=WebDriverWait(driver, 9).until(EC.presence_of_element_located((By.XPATH,'//span[@aria-checked="true"]')))
+	# 	print('lucky captcha')
+	# 	driver.switch_to.default_content()
+	# 	time.sleep(3)
+	# 	claim_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[1]/section/div/div[2]/div[3]/form/div[4]/div[2]/a')))
+		
+	# 	time.sleep(2)
+	# 	claim_button.click()
+	# 	print('lucky Cleaim')
+	# 	time.sleep(2)
+
+	# 	close_func(driver)
+	# 	end_of_task()
+	# 	#input('lucky captcha')
+	# 	# balance_arry.append(new_amount)	
+	# except Exception as e:
+	# 	print("no captch lucky")
+
+
+	# driver.switch_to.default_content()
+	# time.sleep(5)#input('lets go to audio')
+	# driver.switch_to.frame(driver.find_elements_by_tag_name("iframe")[8])
+	# recaptcha_ok=WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID, 'recaptcha-audio-button')))
+	# recaptcha_ok.click()
+	# time.sleep(3)
+	# eto_firstName=WebDriverWait(driver, 2).until(EC.presence_of_element_located((By.ID, 'audio-source')))
+	# download_link = eto_firstName.get_attribute('src')
+	# audio_output= audio_fonction(download_link)
+	# # input('OOOOOOOOO  go to audio')
+	# time.sleep(3)
+	# #main_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.btn.btn-main')))
+	# text_cap=WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID,'audio-response')))
+	# text_cap.send_keys(audio_output)
+	# time.sleep(2)
+	# text_cap.send_keys(Keys.ENTER)
+
+	# print('Captcha resolved')
+	# time.sleep(3)
+	# main_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.rc-audiochallenge-error-message')))
+	# #rc-audiochallenge-error-message
+	# captcha_error_message=main_button.text
+	# print(" 000 : "+captcha_error_message)
+	# if captcha_error_message.find("solve")!=-1:
+	# 	time.sleep(2)
+	# 	eto_firstName=WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID, 'audio-source')))
+	# 	download_link = eto_firstName.get_attribute('src')
+	# 	audio_output= audio_fonction(download_link)
+	# 	print('found error')
+	# 	text_cap=WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID,'audio-response')))
+	# 	text_cap.send_keys(audio_output)
+	# 	time.sleep(1)
+	# 	text_cap.send_keys(Keys.ENTER)
+
+
+	# else:
+	# 	print("Good Good")
+	# time.sleep(1)
+	# driver.switch_to.default_content()
+	# time.sleep(3)
+	# claim_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[1]/section/div/div[2]/div[3]/form/div[4]/div[2]/a')))
+	# time.sleep(2)
+	# claim_button.click()
+	# time.sleep(2)
+	# close_func(driver)
+	# end_of_task()
 
 #####################################
 
@@ -419,124 +454,6 @@ def ads_class(driver):
 
 
 
-
-
-######################USER AGENT ###################################################
-
-def reefree(driver):
-	print('TRY TO REFRESH')
-	pox_init(driver)
-	# driver.get('https://www.publish0x.com/?a=4oeE8D0Nd0')
-
-############################################ - 3 ) P0X ###################################################
-
-def pox_init(driver):
-	driver.get('https://www.publish0x.com/')
-	time.sleep(3)
-
-	############################################//*[@id="registerPopupCloseModal"]
-	try:
-		singup_green_button=WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@id="registerPopupCloseModal"]')))
-		singup_green_button.click()
-		time.sleep(3)
-		#registerPopup
-		# input('')
-		print('closed close s87ac')
-	except Exception as e:
-		print('no close s87ac')
-
-	############################################/html/body/div[6]/div/div /html/body/div[7]/div/div[1]/div/div/img
-
-	############################################
-
-	try:
-		#//*[@id="registerPopupCloseModal"] /html/body/div[7]/div/div[1]/div/div
-		singup_green_button=WebDriverWait(driver, 6).until(EC.presence_of_element_located((By.XPATH, '//*[@id="registrationButton"]')))
-		singup_green_button.click()
-
-		time.sleep(3)
-		singup_email_green_button=WebDriverWait(driver, 1).until(EC.presence_of_element_located((By.XPATH, '//*[@id="registrationModal"]/div/div/div/p[1]/a')))
-		singup_email_green_button.click()
-		time.sleep(3)
-		####################################
-		# singup_green_button=WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[6]/div/div[1]/div/div/img')))
-		# singup_green_button.click()
-
-		try:
-			singup_green_button=WebDriverWait(driver, 1).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[6]/div/div[1]/div/div/img')))
-			singup_green_button.click()
-			time.sleep(3)
-			# pass
-		except Exception as e:
-			# raise e
-			print('no close 1')
-		capatch(driver)
-		# input('')
-		print('FILL USER + PASS')
-		singup_email_green_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="email"]')))
-		singup_email_green_button.click()
-		user_arr_info=[]
-		user_arr_info=t00l.generate_name_add()
-		singup_email_green_button.send_keys(user_arr_info[0],Keys.TAB,user_arr_info[1],Keys.TAB,user_arr_info[1])
-		# /html/body/div[3]/main/div/div[4]/div/form/div[5]/div/button
-		singup_email_green_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[3]/main/div/div[4]/div/form/div[5]/div/button')))
-		singup_email_green_button.click()
-		# input('op')
-	except Exception as e:
-		print(str(e))
-
-	############################################
-	try:
-		time.sleep(3)
-		# //*[@id="name"]
-		# /html/body/div[3]/main/div/div/div/div/div/div[1]
-		name_green_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="name"]')))
-		# name_green_button.click()
-		time.sleep(3)
-		name_green_button.send_keys(user_arr_info[5],Keys.TAB*3,Keys.ENTER )
-	except Exception as e:
-		print(str(e))
-
-	############################################
-	try:
-		time.sleep(3)
-		name_green_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[3]/main/div/div/div/div/div/div[1]')))
-		verrrr=name_green_button.text
-		print(verrrr)
-		link_activ=activation_link.gather_acces(user_arr_info[0])
-		print("activation_link")
-		driver.get(link_activ)
-		print("ok")
-		time.sleep(5)
-		# input("")
-		
-		# /html/body/div[3]/main/div/div[2]/div/div/div[3]/button
-		# singup_email_green_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[3]/main/div/div[2]/div/div/div[3]/button')))
-		# singup_email_green_button.click()
-		
-		# driver.
-
-	except Exception as e:
-		print("oh noooo")
-
-	tip_now(driver,user_arr_info)
-	# input("pox")
-
-
-############################################ - 1 ) starting_tasks ###################################################
-def tip_now(driver,user_arr_info):
-	print("tipping "+user_arr_info[5])
-	railway_sql.insert_to_db_ph0x(user_arr_info[0],user_arr_info[1],user_arr_info[5])
-
-	driver.get("https://www.publish0x.com/desire4fire/stellar-lumens-and-the-newest-thing-nft-ebooks-the-future-of-xelknme")
-	driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.XPATH, '//*[@id="main"]/div[10]/div/div'))))
-	name_green_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[3]/main/div/div[10]/div/div[1]/form/div/div[3]/button')))
-	# https://www.publish0x.com/n0xin0x/russian-regulators-find-common-ground-bitcoin-can-t-be-used-xjopxvy
-	
-
-	name_green_button.click()
-############################################ - 1 ) starting_tasks ###################################################
-
 def blogger(driver):
 	try:
 
@@ -608,7 +525,92 @@ def blogger(driver):
 	# driver.switch_to.window(driver.window_handles[1])
 	# time.sleep(3)
 
+######################USER AGENT ###################################################
+def reefree(driver):
+	print('TRY TO REFRESH')
+	pox_init(driver)
+	# driver.get('https://www.publish0x.com/?a=4oeE8D0Nd0')
 
+############################################ - 3 ) P0X ###################################################
+
+def pox_init(driver):
+	driver.get('https://www.publish0x.com/?a=4oeE8D0Nd0')
+	time.sleep(3)
+	try:
+		singup_green_button=WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, 'registerPopup')))
+		singup_green_button.click()
+		time.sleep(3)
+		#registerPopup
+	except Exception as e:
+		print('no close s87ac')
+	try:
+		singup_green_button=WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[7]/div/div[1]/div/div/img')))
+		singup_green_button.click()
+		time.sleep(3)
+		# pass
+	except Exception as e:
+		# raise e
+		print('no close 1')
+
+	# try:
+	# 	# pass
+	# except Exception as e:
+	# 	raise e
+
+	try:
+		#//*[@id="registerPopupCloseModal"] /html/body/div[7]/div/div[1]/div/div
+		singup_green_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="registrationButton"]')))
+		singup_green_button.click()
+
+		time.sleep(3)
+		singup_email_green_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="registrationModal"]/div/div/div/p[1]/a')))
+		singup_email_green_button.click()
+		time.sleep(3)
+		capatch(driver)
+		# input('')
+		print('FILL USER + PASS')
+		singup_email_green_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="email"]')))
+		singup_email_green_button.click()
+		# # //*[@id="email"]
+		# #/html/body/div[6]/div/div[1]/div/div
+		# #/html/body/div[3]/main/div/div[4]/div
+		# singup_email_green_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[6]/div/div[1]/div/div')))
+		# singup_email_green_button.click()
+
+		# singup_email_green_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[3]/main/div/div[4]/div')))
+		# singup_email_green_button.click()
+		user_arr_info=[]
+		user_arr_info=t00l.generate_name_add()
+		singup_email_green_button.send_keys(user_arr_info[0],Keys.TAB,user_arr_info[1],Keys.TAB,user_arr_info[1])
+		# /html/body/div[3]/main/div/div[4]/div/form/div[5]/div/button
+		singup_email_green_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[3]/main/div/div[4]/div/form/div[5]/div/button')))
+		singup_email_green_button.click()
+		# input('op')
+
+
+	except Exception as e:
+		print(e)
+	try:
+		# //*[@id="name"]
+		# /html/body/div[3]/main/div/div/div/div/div/div[1]
+		name_green_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="name"]')))
+		name_green_button.click()
+		time.sleep(3)
+		name_green_button.send_keys(user_arr_info[5],Keys.TAB*3,Keys.ENTER )
+	except Exception as e:
+		raise e
+
+	try:
+		name_green_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[3]/main/div/div/div/div/div/div[1]')))
+		railway_sql.insert_to_db_ph0x(user_arr_info[0],user_arr_info[1],user_arr_info[5])
+	except Exception as e:
+		raise e
+
+	
+	input("pox")
+
+
+############################################ - 1 ) starting_tasks ###################################################
 
 
 def starting_tasks():
@@ -621,16 +623,16 @@ def starting_tasks():
 	try:
 		stage_1()### CLEAR
 		visible_v=cnf_bvb.visible_v
-		mod_vpn2.fnc_vpn ()
+		# mod_vpn2.fnc_vpn ()
 		# display = Display(visible=visible_v, size=(width,height)).start()
 		# cnf_bvb.alias_send_msg_2()
 		# os.environ['DISPLAY']
 
 		driver=mod_driver2.build_driver(width ,height)
 		pox_init(driver)
-		# input("")
+		input("")
 
-		# lets_play(driver)
+		lets_play(driver)
 		#driver.delete_all_cookies()
 		display.stop()
 		

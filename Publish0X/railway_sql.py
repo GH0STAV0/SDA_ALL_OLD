@@ -5,16 +5,16 @@ from datetime import datetime
 ###############################################################################################
 
 
-def check_connect_mysql():
-	mydb = mysql.connector.connect(host="remotemysql.com",user="f6V3kVwxvH",passwd="sOVnW1130i",database="f6V3kVwxvH")
-	print(" CHECK SQL  CONNECTION       : ",end='',flush=True)
-	try:
-		mycursor = mydb.cursor()
-		print("MYSQL CONNECTED OK ")
-	except  Exception as e :
-		print(" SQL ERROR CONNECTION        : "+str(e)+" ",end='',flush=True)
+# def check_connect_mysql():
+# 	mydb = mysql.connector.connect(host="remotemysql.com",user="f6V3kVwxvH",passwd="sOVnW1130i",database="f6V3kVwxvH")
+# 	print(" CHECK SQL  CONNECTION       : ",end='',flush=True)
+# 	try:
+# 		mycursor = mydb.cursor()
+# 		print("MYSQL CONNECTED OK ")
+# 	except  Exception as e :
+# 		print(" SQL ERROR CONNECTION        : "+str(e)+" ",end='',flush=True)
 
-
+mydb = mysql.connector.connect(option_files='my.conf')
 
 #######################################################################################
 
@@ -30,15 +30,20 @@ def check_connect_mysql_railway():
 		print(" SQL ERROR CONNECTION        : "+str(e)+" ",end='',flush=True)
 
 
-def insert_to_db(cnf_name):
-	# user_ph0x   pass_ph0x   created_ph0x
-	mycursor = mydb.cursor()
-	sql = "INSERT INTO nord_list (cnf_names, used) VALUES (%s, %s)"
-	val = (cnf_name, "n")
-	mycursor.execute(sql, val)
-	time.sleep(2)
-
-	mydb.commit()
+def insert_to_db_ph0x(user_ph0x, pass_ph0x, created_ph0x):
+	check_connect_mysql_railway()
+	try:
+		mydb = mysql.connector.connect(option_files='my.conf')
+		mycursor = mydb.cursor()
+		# user_ph0x   pass_ph0x   created_ph0x
+		sql = "INSERT INTO ph0x_final (user_ph0x, pass_ph0x, created_ph0x , add_4, add_5) VALUES (%s, %s, %s, %s, %s)"
+		val = (user_ph0x, pass_ph0x, created_ph0x,"1","2")
+		mycursor.execute(sql, val)
+		time.sleep(2)
+		mydb.commit()
+		print("saved record "+user_ph0x+" "+ pass_ph0x+" "+ created_ph0x)
+	except Exception as e :
+		print("NO SQL "+str(e))
 
 ##############################################################################################
 
@@ -181,7 +186,8 @@ def counting_used_config_config(typ0):
 
 #
 # check_connect_mysql()
-check_connect_mysql_railway()
+# check_connect_mysql_railway()
+# insert_to_db_ph0x("leslie14SUfowler@whitebox.nl.eu.org", "tORFV5Pgb", "leslie14SUfowler")
 # loop_conf()
 # SELECT * FROM `nord_list2` WHERE (`used`='n') ORDER BY RAND() LIMIT 1
 

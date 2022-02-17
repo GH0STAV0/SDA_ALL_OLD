@@ -4,10 +4,10 @@ import sys , subprocess , os ,requests,string,random,datetime
 from faker import Faker
 
 # from browser_ import *
-# import smtplib
+# import smtplib compis-ahay.cf 
 
 proxies = {'http': 'socks5://127.0.0.1:9050','https': 'socks5://127.0.0.1:9050',}
-domains=["@redbox.nl.eu.org","@whitebox.nl.eu.org"]
+domains=["@dark-market-crypto.ml","@dark-market-crypto.tk","@compis-ahay.cf","@n0xi.tk","@n0xi-bl00m.cf"]
 reasonableCharacters = (string.digits + string.ascii_letters )
 
 
