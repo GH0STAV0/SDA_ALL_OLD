@@ -26,8 +26,9 @@ telrgram_text=[]
 # email="xamiramogdan"
 # email="xamiramogdan"
 # email="xamiramogdan"
-# email="xamiramogdan"
-paxx="agoon007"
+# email="abouichrine"
+email="youcefshalhoub"
+paxx="g0ping0*"
 
 ###########global urls_BVB
 # urls_BVB=cnf_bvb.random_url
@@ -176,6 +177,7 @@ def ads_class(driver):
 		
 		driver.get("https://shell.cloud.google.com/?cloudshell=true&show=terminal")
 		time.sleep(25)
+		input("")
 		# input('google loginAAAAAAAAAAAA')
 		open_login_button=WebDriverWait(driver, 58).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
 		open_login_button.click()
@@ -249,6 +251,7 @@ def main():
 if __name__ == '__main__':
 
 	main()
+
 
 
 # begaining_loop()
