@@ -240,8 +240,8 @@ def ads_class(driver):
 	cnf_bvb.send_msg_dock(email)
 	try:
 		print("OPEN AND VISITE WEB-SITE [ 1 ]...... ",end='',flush=True)
-		driver.get("https://bot.sannysoft.com/")
-		input("gggg")
+		driver.get(url_1)
+		# input("gggg")
 		#url_1)
 		print(" [ "+url_1+" ]")
 		gmail_id_input=WebDriverWait(driver, 65).until(EC.presence_of_element_located((By.XPATH, '//*[@id="identifierId"]')))

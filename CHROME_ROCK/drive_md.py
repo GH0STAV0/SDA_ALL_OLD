@@ -5,7 +5,17 @@ import cnf
 
 
 
-
+        # options.add_argument("--start-maximized")
+        # options.add_argument( "--user-data-dir=profile")
+        # options.add_argument( "--no-sandbox")
+        # options.add_argument("--remote-debugging-port=9222")  # this
+        # # options.add_argument( "--user-data-dir=profile")
+        # options.add_argument('--disable-blink-features=AutomationControlled')
+        # # options.add_argument("--lang=fr")
+        # # options.add_argument(cnf.user_agent)
+        # options.add_experimental_option("excludeSwitches", ["enable-automation"])
+        # options.add_experimental_option('useAutomationExtension', False)
+        # driver = webdriver.Chrome(options=options, executable_path="/usr/bin/chromedriver")
 
 
 
