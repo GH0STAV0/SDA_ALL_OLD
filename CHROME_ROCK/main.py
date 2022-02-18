@@ -241,8 +241,8 @@ def starting_tasks():
 		# time.sleep(5)
 		# input("")
 	# driver.quit()
-	except:
-		print("er")
+	except Exception as e :
+		print("er"+str(e))
 
 
 
