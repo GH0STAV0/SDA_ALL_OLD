@@ -1,498 +1,1434 @@
-1645129876171	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-59.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8IyM34"
-1645129881058	Marionette	INFO	Enabled via --marionette
-Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFFFBCFD100, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 35 140115582850906 140737418088704 4096 0 1.
-1645129889188	Marionette	INFO	Listening on port 36995
-1645129889282	Marionette	WARN	TLS certificate errors will be ignored for this session
-Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFFFBCF8C60, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 37 140115582850906 140737418071136 4096 1 0.
-Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFFFBCF8760, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 37 140115589110261 140737418069856 4096 524288 140115589112328.
-Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFFFBCF8760, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 37 140115589110261 140737418069856 4096 140115184330784 0.
-Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFFFBCFCF00, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 37 140115589110261 140737418088192 4096 140115184682240 0.
-Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFFFBCFCF00, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 37 140115589110261 140737418088192 4096 140115184681984 0.
-Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFFFBCEF340, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 37 140115582850906 140737418031936 4096 3072 4294959104.
-Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFFFBCF9B90, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 37 140115582850906 140737418075024 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFFFBCF9E30, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 37 140115582850906 140737418075696 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFFFBCF9AB0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 40 140115582850906 140737418074800 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFFFBCF9D50, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 40 140115582850906 140737418075472 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFFFBCF9AB0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 42 140115582850906 140737418074800 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFFFBCF9D50, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 42 140115582850906 140737418075472 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFFFBCF9B90, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 44 140115582850906 140737418075024 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFFFBCF9E30, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 44 140115582850906 140737418075696 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFFFBCF9EC0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 40 140115582850906 140737418075840 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFFFBCFA160, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 40 140115582850906 140737418076512 4096 1 140115189962544.
-Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFFFBCF9DE0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 44 140115582850906 140737418075616 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFFFBCFA080, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 44 140115582850906 140737418076288 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFFFBCF9AB0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 45 140115582850906 140737418074800 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFFFBCF9D50, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 45 140115582850906 140737418075472 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFFFBCF9DE0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 45 140115582850906 140737418075616 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFFFBCFA080, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 45 140115582850906 140737418076288 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFFFBCF9EC0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 47 140115582850906 140737418075840 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFFFBCFA160, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 47 140115582850906 140737418076512 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFFFBCF9DE0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 45 140115582850906 140737418075616 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFFFBCFA080, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 45 140115582850906 140737418076288 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFFFBCF9B60, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 47 140115582850906 140737418074976 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFFFBCF9E00, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 47 140115582850906 140737418075648 4096 1 140115146968696.
-Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFFFBCF9B60, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 47 140115582850906 140737418074976 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFFFBCF9E00, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 47 140115582850906 140737418075648 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFFFBCF9DE0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 40 140115582850906 140737418075616 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFFFBCFA080, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 40 140115582850906 140737418076288 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(41, "", 0x7FFFFBCF9DE0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 41 140115582850906 140737418075616 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(41, "", 0x7FFFFBCFA080, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 41 140115582850906 140737418076288 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFFFBCF9AB0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 47 140115582850906 140737418074800 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFFFBCF9D50, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 47 140115582850906 140737418075472 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFFFBCF9B90, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 51 140115582850906 140737418075024 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFFFBCF9E30, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 51 140115582850906 140737418075696 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFFFBCF9B20, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 53 140115582850906 140737418074912 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFFFBCF9DC0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 53 140115582850906 140737418075584 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFFFBCF9DE0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 43 140115582850906 140737418075616 4096 1 0.
-Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFFFBCFA080, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 43 140115582850906 140737418076288 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFFFBCF9EC0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 46 140115582850906 140737418075840 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFFFBCFA160, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 46 140115582850906 140737418076512 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFFFBCF9E50, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 47 140115582850906 140737418075728 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFFFBCFA0F0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 47 140115582850906 140737418076400 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFFFBCF9B60, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 42 140115582850906 140737418074976 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFFFBCF9E00, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 42 140115582850906 140737418075648 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFFFBCF9DE0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 42 140115582850906 140737418075616 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFFFBCFA080, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 42 140115582850906 140737418076288 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFFFBCF9B90, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 44 140115582850906 140737418075024 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFFFBCF9E30, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 44 140115582850906 140737418075696 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFFFBCF9EC0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 44 140115582850906 140737418075840 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFFFBCFA160, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 44 140115582850906 140737418076512 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFFFBCF86F0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 46 140115582850906 140737418069744 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFFFBCF9B90, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 47 140115582850906 140737418075024 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFFFBCF9E30, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 47 140115582850906 140737418075696 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFFFBCF9B90, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 51 140115582850906 140737418075024 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFFFBCF9E30, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 51 140115582850906 140737418075696 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFFFBCF9EC0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 43 140115582850906 140737418075840 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFFFBCFA160, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 43 140115582850906 140737418076512 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFFFBCF9EC0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 44 140115582850906 140737418075840 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFFFBCFA160, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 44 140115582850906 140737418076512 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFFFBCFAD10, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 44 140115582850906 140737418079504 4096 1 0.
-Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFFFBCFBDC0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 44 140115582850906 140737418083776 4096 1 0.
-Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFFFBCFAAB0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 44 140115589110261 140737418078896 4096 140115076995536 0.
-JavaScript warning: https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=1209600&osid=1&continue=https://console.cloud.google.com/&followup=https://console.cloud.google.com/ line 1 > eval line 6189 > eval line 1 > eval line 1 > eval, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+1645198249816	geckodriver	INFO	Listening on 127.0.0.1:33265
+1645198292575	geckodriver	INFO	Listening on 127.0.0.1:53761
+1645198292632	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "--marionette" "--width=1366" "--height=768" "--remote-debugging-port" "39807" "-no-remote" "-profile" "/tmp/rust_mozprofilephpFyX"
+1645198300138	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilephpFyX/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:39807/devtools/browser/85c32924-0048-40ad-8429-964089b26eb6
+1645198314939	Marionette	INFO	Listening on port 39509
+1645198315686	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=1209600&osid=1&continue=https://console.cloud.google.com/&followup=https://console.cloud.google.com/ line 1 > eval line 836 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=1209600&osid=1&continue=https://console.cloud.google.com/&followup=https://console.cloud.google.com/ line 1 > eval line 2954 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+/usr/bin/geckodriver22: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver22 [FLAGS] [OPTIONS]
+
+For more information try --help
+
+/usr/bin/geckodriver22: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver22 [FLAGS] [OPTIONS]
+
+For more information try --help
+
+/usr/bin/geckodriver22: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver22 [FLAGS] [OPTIONS]
+
+For more information try --help
+
+/usr/bin/geckodriver22: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver22 [FLAGS] [OPTIONS]
+
+For more information try --help
+
+/usr/bin/geckodriver22: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver22 [FLAGS] [OPTIONS]
+
+For more information try --help
+
+/usr/bin/geckodriver22: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver22 [FLAGS] [OPTIONS]
+
+For more information try --help
+
+1645201307658	geckodriver	INFO	Listening on 127.0.0.1:34369
+1645201308167	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-59.0.1/firefox/firefox" "--marionette" "--width=1366" "--height=768" "--remote-debugging-port" "56703" "-no-remote" "-profile" "/tmp/rust_mozprofiledDjjh3"
+1645201312784	Marionette	INFO	Enabled via --marionette
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFC45D48DB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 35 140142158346074 140721480043952 4096 0 1.
+1645201319342	Marionette	INFO	Listening on port 45039
+1645201319428	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFC45D443B0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 37 140142158346074 140721480025008 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFC45D43EB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 37 140142164605429 140721480023728 4096 524288 140142164607496.
+Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFC45D43EB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 37 140142164605429 140721480023728 4096 140141768145312 0.
+Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFC45D48BB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 37 140142164605429 140721480043440 4096 140141757830528 0.
+Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFC45D48BB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 37 140142164605429 140721480043440 4096 140141757830464 0.
+Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFC45D3AFF0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 37 140142158346074 140721479987184 4096 3072 4294967168.
+Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFC45D45840, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 37 140142158346074 140721480030272 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFC45D45AE0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 37 140142158346074 140721480030944 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFC45D45760, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 40 140142158346074 140721480030048 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFC45D45A00, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 40 140142158346074 140721480030720 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC45D45760, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 42 140142158346074 140721480030048 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC45D45A00, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 42 140142158346074 140721480030720 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFC45D45840, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 44 140142158346074 140721480030272 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFC45D45AE0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 44 140142158346074 140721480030944 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFC45D45B70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 40 140142158346074 140721480031088 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFC45D45E10, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 40 140142158346074 140721480031760 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFC45D45A90, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 44 140142158346074 140721480030864 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFC45D45D30, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 44 140142158346074 140721480031536 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC45D45A90, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 45 140142158346074 140721480030864 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC45D45D30, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 45 140142158346074 140721480031536 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC45D45B70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 46 140142158346074 140721480031088 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC45D45E10, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 46 140142158346074 140721480031760 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC45D45810, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 47 140142158346074 140721480030224 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC45D45AB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 47 140142158346074 140721480030896 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC45D45810, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 47 140142158346074 140721480030224 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC45D45AB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 47 140142158346074 140721480030896 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(41, "", 0x7FFC45D45760, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 41 140142158346074 140721480030048 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFC45D45A00, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 44 140142158346074 140721480030720 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFC45D45A90, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 48 140142158346074 140721480030864 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFC45D45D30, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 48 140142158346074 140721480031536 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC45D45A90, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 49 140142158346074 140721480030864 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC45D45D30, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 49 140142158346074 140721480031536 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC45D45840, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 49 140142158346074 140721480030272 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC45D45AE0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 49 140142158346074 140721480030944 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC45D457D0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 51 140142158346074 140721480030160 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC45D45A70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 51 140142158346074 140721480030832 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFC45D45A90, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 44 140142158346074 140721480030864 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFC45D45D30, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 44 140142158346074 140721480031536 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC45D45B70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 51 140142158346074 140721480031088 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC45D45E10, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 51 140142158346074 140721480031760 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(52, "", 0x7FFC45D45B00, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 52 140142158346074 140721480030976 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(52, "", 0x7FFC45D45DA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 52 140142158346074 140721480031648 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFC45D45760, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 44 140142158346074 140721480030048 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC45D45A00, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 45 140142158346074 140721480030720 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC45D45B40, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 45 140142158346074 140721480031040 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC45D45DE0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 45 140142158346074 140721480031712 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC45D45840, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 42 140142158346074 140721480030272 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC45D45AE0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 42 140142158346074 140721480030944 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFC45D45B70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 43 140142158346074 140721480031088 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFC45D45E10, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 43 140142158346074 140721480031760 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC45D443A0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 45 140142158346074 140721480024992 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC45D45840, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 47 140142158346074 140721480030272 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC45D45AE0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 47 140142158346074 140721480030944 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC45D45840, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 51 140142158346074 140721480030272 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC45D45AE0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 51 140142158346074 140721480030944 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC45D45B70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 42 140142158346074 140721480031088 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC45D45E10, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 42 140142158346074 140721480031760 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFC45D45B70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 43 140142158346074 140721480031088 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFC45D45E10, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 43 140142158346074 140721480031760 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFC45D469C0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 43 140142158346074 140721480034752 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFC45D47A70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 43 140142158346074 140721480039024 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFC45D46760, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 43 140142164605429 140721480034144 4096 140141849883168 0.
+JavaScript warning: https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=1209600&osid=1&continue=https://console.cloud.google.com/&followup=https://console.cloud.google.com/ line 1 > eval line 2414 > eval line 1 > eval line 1 > eval, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
 * Error during native OpenGL init.
 * Exhausted GL driver caps.
 * Exhausted GL driver options.
-Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFFFBCFB0C0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 44 140115589110261 140737418080448 4096 140115082654848 0.
-Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFFFBCFB0C0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 44 140115589110261 140737418080448 4096 140115082654848 0.
-Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFFFBCF9B20, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 46 140115582850906 140737418074912 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFFFBCF9DC0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 46 140115582850906 140737418075584 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFFFBCF9B20, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 48 140115582850906 140737418074912 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFFFBCF9DC0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 48 140115582850906 140737418075584 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFFFBCF9A40, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 51 140115582850906 140737418074688 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFFFBCF9CE0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 51 140115582850906 140737418075360 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFFFBCF9A40, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 53 140115582850906 140737418074688 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFFFBCF9CE0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 53 140115582850906 140737418075360 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(55, "", 0x7FFFFBCF9B20, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 55 140115582850906 140737418074912 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(55, "", 0x7FFFFBCF9DC0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 55 140115582850906 140737418075584 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(57, "", 0x7FFFFBCF9A40, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 57 140115582850906 140737418074688 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(57, "", 0x7FFFFBCF9CE0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 57 140115582850906 140737418075360 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(59, "", 0x7FFFFBCF9A40, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 59 140115582850906 140737418074688 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(59, "", 0x7FFFFBCF9CE0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 59 140115582850906 140737418075360 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(61, "", 0x7FFFFBCF9B20, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 61 140115582850906 140737418074912 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(61, "", 0x7FFFFBCF9DC0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 61 140115582850906 140737418075584 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFFFBCF9E50, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 40 140115582850906 140737418075728 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFFFBCFA0F0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 40 140115582850906 140737418076400 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(41, "", 0x7FFFFBCF9E50, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 41 140115582850906 140737418075728 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(41, "", 0x7FFFFBCFA0F0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 41 140115582850906 140737418076400 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFFFBCF9D70, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 42 140115582850906 140737418075504 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFFFBCFA010, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 42 140115582850906 140737418076176 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFFFBCF9D70, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 45 140115582850906 140737418075504 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFFFBCFA010, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 45 140115582850906 140737418076176 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFFFBCF9E50, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 46 140115582850906 140737418075728 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFFFBCFA0F0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 46 140115582850906 140737418076400 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFFFBCF9D70, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 48 140115582850906 140737418075504 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFFFBCFA010, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 48 140115582850906 140737418076176 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFFFBCF9D70, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 51 140115582850906 140737418075504 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFFFBCFA010, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 51 140115582850906 140737418076176 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFFFBCF9E50, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 53 140115582850906 140737418075728 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFFFBCFA0F0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 53 140115582850906 140737418076400 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(57, "", 0x7FFFFBCF9B60, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 57 140115582850906 140737418074976 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(57, "", 0x7FFFFBCF9E00, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 57 140115582850906 140737418075648 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(61, "", 0x7FFFFBCF9C40, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 61 140115582850906 140737418075200 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(61, "", 0x7FFFFBCF9EE0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 61 140115582850906 140737418075872 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(63, "", 0x7FFFFBCF9B60, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 63 140115582850906 140737418074976 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(64, "", 0x7FFFFBCF9E00, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 64 140115582850906 140737418075648 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(65, "", 0x7FFFFBCF9B60, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 65 140115582850906 140737418074976 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(65, "", 0x7FFFFBCF9E00, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 65 140115582850906 140737418075648 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(67, "", 0x7FFFFBCF9C40, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 67 140115582850906 140737418075200 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(67, "", 0x7FFFFBCF9EE0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 67 140115582850906 140737418075872 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(69, "", 0x7FFFFBCF9BD0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 69 140115582850906 140737418075088 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(69, "", 0x7FFFFBCF9E70, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 69 140115582850906 140737418075760 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFFFBCF9E90, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 40 140115582850906 140737418075792 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFFFBCFA130, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 40 140115582850906 140737418076464 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(41, "", 0x7FFFFBCF9F70, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 41 140115582850906 140737418076016 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(41, "", 0x7FFFFBCFA210, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 41 140115582850906 140737418076688 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFFFBCF9E90, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 42 140115582850906 140737418075792 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFFFBCFA130, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 42 140115582850906 140737418076464 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFFFBCF9E90, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 43 140115582850906 140737418075792 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFFFBCFA130, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 44 140115582850906 140737418076464 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFFFBCF9F70, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 44 140115582850906 140737418076016 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFFFBCFA210, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 44 140115582850906 140737418076688 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFFFBCF9F00, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 45 140115582850906 140737418075904 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFFFBCFA1A0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 45 140115582850906 140737418076576 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFFFBCF9BD0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 46 140115582850906 140737418075088 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFFFBCF9E70, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 46 140115582850906 140737418075760 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFFFBCFBE50, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 46 140115589110261 140737418083920 4096 140115108780352 0.
+Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFC45D466F0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 43 140142164605429 140721480034032 4096 140141732108352 0.
+Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFC45D466F0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 43 140142164605429 140721480034032 4096 140141732108352 0.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC45D457D0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 45 140142158346074 140721480030160 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC45D45A70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 45 140142158346074 140721480030832 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFC45D457D0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 48 140142158346074 140721480030160 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC45D45A70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 49 140142158346074 140721480030832 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(52, "", 0x7FFC45D456F0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 52 140142158346074 140721480029936 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFC45D45990, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 53 140142158346074 140721480030608 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(55, "", 0x7FFC45D456F0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 55 140142158346074 140721480029936 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(56, "", 0x7FFC45D45990, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 56 140142158346074 140721480030608 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(55, "", 0x7FFC45D457D0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 55 140142158346074 140721480030160 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(55, "", 0x7FFC45D45A70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 55 140142158346074 140721480030832 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(57, "", 0x7FFC45D456F0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 57 140142158346074 140721480029936 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(57, "", 0x7FFC45D45990, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 57 140142158346074 140721480030608 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(59, "", 0x7FFC45D456F0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 59 140142158346074 140721480029936 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(59, "", 0x7FFC45D45990, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 59 140142158346074 140721480030608 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(61, "", 0x7FFC45D457D0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 61 140142158346074 140721480030160 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(61, "", 0x7FFC45D45A70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 61 140142158346074 140721480030832 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFC45D45FF0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 40 140142158346074 140721480032240 4096 1 140141737809448.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFC45D46290, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 40 140142158346074 140721480032912 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(41, "", 0x7FFC45D45FF0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 41 140142158346074 140721480032240 4096 1 140141737809448.
+Sandbox: unsupported fd-relative fstatat(41, "", 0x7FFC45D46290, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 41 140142158346074 140721480032912 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFC45D45F10, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 44 140142158346074 140721480032016 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFC45D461B0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 44 140142158346074 140721480032688 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC45D45F10, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 45 140142158346074 140721480032016 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC45D461B0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 45 140142158346074 140721480032688 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC45D45FF0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 46 140142158346074 140721480032240 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC45D46290, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 46 140142158346074 140721480032912 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC45D45F10, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 49 140142158346074 140721480032016 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC45D461B0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 49 140142158346074 140721480032688 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(52, "", 0x7FFC45D45F10, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 52 140142158346074 140721480032016 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(52, "", 0x7FFC45D461B0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 52 140142158346074 140721480032688 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFC45D45FF0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 53 140142158346074 140721480032240 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFC45D46290, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 53 140142158346074 140721480032912 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(57, "", 0x7FFC45D45C50, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 57 140142158346074 140721480031312 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(57, "", 0x7FFC45D45EF0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 57 140142158346074 140721480031984 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(61, "", 0x7FFC45D45C50, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 61 140142158346074 140721480031312 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(61, "", 0x7FFC45D45EF0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 61 140142158346074 140721480031984 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(63, "", 0x7FFC45D45D30, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 63 140142158346074 140721480031536 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(64, "", 0x7FFC45D45FD0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 64 140142158346074 140721480032208 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFC45D45A90, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 40 140142158346074 140721480030864 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(41, "", 0x7FFC45D45D30, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 41 140142158346074 140721480031536 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(41, "", 0x7FFC45D45A90, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 41 140142158346074 140721480030864 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(41, "", 0x7FFC45D45D30, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 41 140142158346074 140721480031536 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC45D45B70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 42 140142158346074 140721480031088 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC45D45E10, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 42 140142158346074 140721480031760 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFC45D457D0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 43 140142158346074 140721480030160 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFC45D45A70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 44 140142158346074 140721480030832 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFC45D45B00, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 44 140142158346074 140721480030976 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFC45D45DA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 44 140142158346074 140721480031648 4096 1 65.
+JavaScript warning: https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=1209600&osid=1&continue=https://console.cloud.google.com/&followup=https://console.cloud.google.com/ line 1 > eval line 2439 > eval line 1 > eval line 1 > eval, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Error during native OpenGL init.
+* Exhausted GL driver caps.
+* Exhausted GL driver options.
+Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFC45D443A0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 43 140142158346074 140721480024992 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFC45D45840, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 44 140142158346074 140721480030272 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFC45D45AE0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 44 140142158346074 140721480030944 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC45D457D0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 46 140142158346074 140721480030160 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC45D45A70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 46 140142158346074 140721480030832 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC45D45B70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 42 140142158346074 140721480031088 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC45D45E10, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 42 140142158346074 140721480031760 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFC45D45B00, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 44 140142158346074 140721480030976 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFC45D45DA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 44 140142158346074 140721480031648 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC45D457D0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 46 140142158346074 140721480030160 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC45D45A70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 46 140142158346074 140721480030832 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC45D45B00, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 45 140142158346074 140721480030976 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC45D45DA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 45 140142158346074 140721480031648 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFC45D457D0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 44 140142158346074 140721480030160 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFC45D45A70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 44 140142158346074 140721480030832 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC45D45B00, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 45 140142158346074 140721480030976 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC45D45DA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 45 140142158346074 140721480031648 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC45D45840, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 46 140142158346074 140721480030272 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC45D45AE0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 46 140142158346074 140721480030944 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC45D45B70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 42 140142158346074 140721480031088 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC45D45E10, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 42 140142158346074 140721480031760 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFC45D457D0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 43 140142158346074 140721480030160 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFC45D45A70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 43 140142158346074 140721480030832 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC45D45760, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 46 140142158346074 140721480030048 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC45D45A00, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 47 140142158346074 140721480030720 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFC45D45840, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 48 140142158346074 140721480030272 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFC45D45AE0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 48 140142158346074 140721480030944 4096 1 140141762971576.
+Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFC45D457D0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 48 140142158346074 140721480030160 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFC45D45A70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 48 140142158346074 140721480030832 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(50, "", 0x7FFC45D456F0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 50 140142158346074 140721480029936 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(50, "", 0x7FFC45D45990, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 50 140142158346074 140721480030608 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(52, "", 0x7FFC45D456F0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 52 140142158346074 140721480029936 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(52, "", 0x7FFC45D45990, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 52 140142158346074 140721480030608 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(54, "", 0x7FFC45D457D0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 54 140142158346074 140721480030160 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(54, "", 0x7FFC45D45A70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 54 140142158346074 140721480030832 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(57, "", 0x7FFC45D45840, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 57 140142158346074 140721480030272 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(57, "", 0x7FFC45D45AE0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 57 140142158346074 140721480030944 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(38, "", 0x7FFC45D45B00, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 38 140142158346074 140721480030976 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(38, "", 0x7FFC45D45DA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 38 140142158346074 140721480031648 4096 1 140141762971576.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFC45D45A90, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 40 140142158346074 140721480030864 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFC45D45D30, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 40 140142158346074 140721480031536 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(41, "", 0x7FFC45D45B70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 41 140142158346074 140721480031088 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(41, "", 0x7FFC45D45E10, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 41 140142158346074 140721480031760 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFC45D45B00, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 43 140142158346074 140721480030976 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFC45D45DA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 43 140142158346074 140721480031648 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC45D45A20, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 45 140142158346074 140721480030752 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC45D45CC0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 45 140142158346074 140721480031424 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC45D45A20, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 46 140142158346074 140721480030752 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC45D45CC0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 46 140142158346074 140721480031424 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFC45D45B00, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 48 140142158346074 140721480030976 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFC45D45DA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 48 140142158346074 140721480031648 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(50, "", 0x7FFC45D45B70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 50 140142158346074 140721480031088 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(50, "", 0x7FFC45D45E10, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 50 140142158346074 140721480031760 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(41, "", 0x7FFC45D457D0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 41 140142158346074 140721480030160 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(41, "", 0x7FFC45D45A70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 41 140142158346074 140721480030832 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFC45D45B00, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 43 140142158346074 140721480030976 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC45D45DA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 45 140142158346074 140721480031648 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(41, "", 0x7FFC45D45840, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 41 140142158346074 140721480030272 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(41, "", 0x7FFC45D45AE0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 41 140142158346074 140721480030944 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC45D45760, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 45 140142158346074 140721480030048 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC45D45A00, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 45 140142158346074 140721480030720 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFC45D45760, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 48 140142158346074 140721480030048 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFC45D45A00, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 48 140142158346074 140721480030720 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(50, "", 0x7FFC45D45840, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 50 140142158346074 140721480030272 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(50, "", 0x7FFC45D45AE0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 50 140142158346074 140721480030944 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(38, "", 0x7FFC45D45B70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 38 140142158346074 140721480031088 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(38, "", 0x7FFC45D45E10, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 38 140142158346074 140721480031760 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFC45D45A90, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 40 140142158346074 140721480030864 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFC45D45D30, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 40 140142158346074 140721480031536 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(41, "", 0x7FFC45D45A90, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 41 140142158346074 140721480030864 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(41, "", 0x7FFC45D45D30, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 41 140142158346074 140721480031536 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC45D45B70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 42 140142158346074 140721480031088 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC45D45E10, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 42 140142158346074 140721480031760 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFC45D45760, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 44 140142158346074 140721480030048 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFC45D45A00, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 44 140142158346074 140721480030720 4096 1 65.
+JavaScript warning: https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal&followup=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal line 1 > eval line 3688 > eval line 1 > eval line 1 > eval, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Error during native OpenGL init.
+* Exhausted GL driver caps.
+* Exhausted GL driver options.
+Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFC45D45A90, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 44 140142158346074 140721480030864 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFC45D45D30, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 44 140142158346074 140721480031536 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC45D45760, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 46 140142158346074 140721480030048 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC45D45A00, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 47 140142158346074 140721480030720 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(50, "", 0x7FFC45D45840, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 50 140142158346074 140721480030272 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFC45D45AE0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 48 140142158346074 140721480030944 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC45D457D0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 51 140142158346074 140721480030160 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC45D45A70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 51 140142158346074 140721480030832 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC45D45B70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 47 140142158346074 140721480031088 4096 1 140141727320568.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC45D45E10, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 47 140142158346074 140721480031760 4096 1 140141727320568.
+Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFC45D45840, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 48 140142158346074 140721480030272 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC45D45AE0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 49 140142158346074 140721480030944 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFC45D457D0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 44 140142158346074 140721480030160 4096 1 140141740950136.
+Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFC45D45A70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 44 140142158346074 140721480030832 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC45D45760, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 46 140142158346074 140721480030048 4096 1 140141740950136.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC45D45A00, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 46 140142158346074 140721480030720 4096 1 140141740950136.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC45D45840, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 49 140142158346074 140721480030272 4096 1 140141740950136.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC45D45AE0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 49 140142158346074 140721480030944 4096 1 140141740950136.
+Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFC45D45B00, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 37 140142158346074 140721480030976 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFC45D45DA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 37 140142158346074 140721480031648 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(38, "", 0x7FFC45D45A90, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 38 140142158346074 140721480030864 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(38, "", 0x7FFC45D45D30, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 38 140142158346074 140721480031536 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFC45D45B70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 40 140142158346074 140721480031088 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFC45D45E10, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 40 140142158346074 140721480031760 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC45D443A0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 42 140142158346074 140721480024992 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFC45D457D0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 43 140142158346074 140721480030160 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFC45D45A70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 43 140142158346074 140721480030832 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC45D456F0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 46 140142158346074 140721480029936 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC45D45990, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 46 140142158346074 140721480030608 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC45D456F0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 49 140142158346074 140721480029936 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC45D45990, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 49 140142158346074 140721480030608 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC45D457D0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 51 140142158346074 140721480030160 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC45D45A70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 51 140142158346074 140721480030832 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFC45D45FF0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 43 140142158346074 140721480032240 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFC45D46290, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 43 140142158346074 140721480032912 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC45D45F10, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 46 140142158346074 140721480032016 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC45D461B0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 46 140142158346074 140721480032688 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC45D45F10, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 49 140142158346074 140721480032016 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC45D461B0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 49 140142158346074 140721480032688 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC45D45FF0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 51 140142158346074 140721480032240 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC45D46290, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 51 140142158346074 140721480032912 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(52, "", 0x7FFC45D45840, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 52 140142158346074 140721480030272 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(52, "", 0x7FFC45D45AE0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 52 140142158346074 140721480030944 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(52, "", 0x7FFC45D45760, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 52 140142158346074 140721480030048 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(52, "", 0x7FFC45D45A00, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 52 140142158346074 140721480030720 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(54, "", 0x7FFC45D45760, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 54 140142158346074 140721480030048 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(54, "", 0x7FFC45D45A00, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 54 140142158346074 140721480030720 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(56, "", 0x7FFC45D45760, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 56 140142158346074 140721480030048 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(56, "", 0x7FFC45D45A00, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 56 140142158346074 140721480030720 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(58, "", 0x7FFC45D45840, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 58 140142158346074 140721480030272 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(58, "", 0x7FFC45D45AE0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 58 140142158346074 140721480030944 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(60, "", 0x7FFC45D457D0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 60 140142158346074 140721480030160 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(60, "", 0x7FFC45D45A70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 60 140142158346074 140721480030832 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFC45D45B70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 37 140142158346074 140721480031088 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFC45D45E10, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 37 140142158346074 140721480031760 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(38, "", 0x7FFC45D45A90, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 38 140142158346074 140721480030864 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(38, "", 0x7FFC45D45D30, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 38 140142158346074 140721480031536 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFC45D45A90, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 40 140142158346074 140721480030864 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFC45D45D30, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 40 140142158346074 140721480031536 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(41, "", 0x7FFC45D45A90, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 41 140142158346074 140721480030864 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(41, "", 0x7FFC45D45D30, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 41 140142158346074 140721480031536 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC45D45B70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 42 140142158346074 140721480031088 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC45D45E10, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 42 140142158346074 140721480031760 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFC45D45B00, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 43 140142158346074 140721480030976 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFC45D45DA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 43 140142158346074 140721480031648 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC45D45840, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 45 140142158346074 140721480030272 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC45D45AE0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 45 140142158346074 140721480030944 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(41, "", 0x7FFC45D45B70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 41 140142158346074 140721480031088 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(41, "", 0x7FFC45D45E10, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 41 140142158346074 140721480031760 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC45D457D0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 42 140142158346074 140721480030160 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC45D45A70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 42 140142158346074 140721480030832 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFC45D45B00, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 43 140142158346074 140721480030976 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFC45D45DA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 43 140142158346074 140721480031648 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC45D43B00, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 45 140142158346074 140721480022784 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC45D45760, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 46 140142158346074 140721480030048 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC45D45A00, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 46 140142158346074 140721480030720 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC45D45A90, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 46 140142158346074 140721480030864 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC45D45D30, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 46 140142158346074 140721480031536 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC45D43B00, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 42 140142158346074 140721480022784 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFC45D45760, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 43 140142158346074 140721480030048 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFC45D45A00, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 43 140142158346074 140721480030720 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC45D45840, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 42 140142158346074 140721480030272 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC45D45AE0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 42 140142158346074 140721480030944 4096 1 140141743051944.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC45D45B70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 42 140142158346074 140721480031088 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC45D45E10, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 42 140142158346074 140721480031760 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFC45D443A0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 43 140142158346074 140721480024992 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC45D45840, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 46 140142158346074 140721480030272 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC45D45AE0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 46 140142158346074 140721480030944 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(41, "", 0x7FFC45D45B70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 41 140142158346074 140721480031088 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(41, "", 0x7FFC45D45E10, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 41 140142158346074 140721480031760 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC45D45840, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 42 140142158346074 140721480030272 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC45D45AE0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 42 140142158346074 140721480030944 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFC45D45B70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 37 140142158346074 140721480031088 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFC45D45E10, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 37 140142158346074 140721480031760 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(38, "", 0x7FFC45D45840, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 38 140142158346074 140721480030272 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(38, "", 0x7FFC45D45AE0, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 38 140142158346074 140721480030944 4096 1 65.
+Sandbox: unsupported fd-relative fstatat(38, "", 0x7FFC45D45B70, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 38 140142158346074 140721480031088 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(38, "", 0x7FFC45D45E10, 4096)
+Sandbox: seccomp sandbox violation: pid 6363, tid 6363, syscall 262, args 38 140142158346074 140721480031760 4096 1 65.
+JavaScript error: https://console.cloud.google.com/, line 71: ReferenceError: sendInitialDataGraphQLChunk is not defined
+JavaScript error: https://console.cloud.google.com/, line 71: ReferenceError: sendInitialDataGraphQLChunk is not defined
+JavaScript error: https://console.cloud.google.com/, line 71: ReferenceError: sendInitialDataGraphQLChunk is not defined
+JavaScript error: https://console.cloud.google.com/, line 71: ReferenceError: sendInitialDataGraphQLChunk is not defined
+JavaScript error: https://console.cloud.google.com/, line 71: ReferenceError: sendInitialDataGraphQLChunk is not defined
+JavaScript error: https://console.cloud.google.com/, line 71: ReferenceError: sendInitialDataGraphQLChunk is not defined
+JavaScript error: https://console.cloud.google.com/, line 71: ReferenceError: sendInitialDataGraphQLChunk is not defined
+JavaScript error: https://console.cloud.google.com/, line 71: ReferenceError: sendInitialDataGraphQLChunk is not defined
+JavaScript error: https://console.cloud.google.com/, line 71: ReferenceError: sendInitialDataGraphQLChunk is not defined
+JavaScript error: https://console.cloud.google.com/, line 71: ReferenceError: sendInitialDataGraphQLChunk is not defined
+JavaScript error: https://console.cloud.google.com/, line 71: ReferenceError: sendInitialDataGraphQLChunk is not defined
+JavaScript error: https://console.cloud.google.com/, line 71: ReferenceError: sendInitialDataGraphQLChunk is not defined
+JavaScript error: https://console.cloud.google.com/, line 71: ReferenceError: sendInitialDataGraphQLChunk is not defined
+JavaScript error: https://console.cloud.google.com/, line 71: ReferenceError: sendInitialDataGraphQLChunk is not defined
+JavaScript error: https://console.cloud.google.com/, line 71: ReferenceError: sendInitialDataGraphQLChunk is not defined
+JavaScript error: https://console.cloud.google.com/, line 71: ReferenceError: sendInitialDataGraphQLChunk is not defined
+1645201537051	geckodriver	INFO	Listening on 127.0.0.1:46061
+1645201537104	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-58.0.1/firefox/firefox" "--marionette" "--width=1366" "--height=768" "--remote-debugging-port" "36185" "-no-remote" "-profile" "/tmp/rust_mozprofileY0TUYE"
+1645201542026	Marionette	INFO	Enabled via --marionette
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFC29B8E090, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 40 139934764418906 140721008468112 4096 0 1.
+1645201549565	Marionette	INFO	Listening on port 33761
+1645201549664	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC29B8A960, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 42 139934764418906 140721008453984 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC29B8DEB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 42 139934770674165 140721008467632 4096 139934088485312 0.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC29B8DEB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 42 139934770674165 140721008467632 4096 139934088484992 0.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC29B802F0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 42 139934764418906 140721008411376 4096 3072 2147483648.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC29B8AC40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 42 139934764418906 140721008454720 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC29B8AF10, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 42 139934764418906 140721008455440 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC29B8AB60, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 45 139934764418906 140721008454496 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC29B8AE30, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 45 139934764418906 140721008455216 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC29B8AB60, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 47 139934764418906 140721008454496 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC29B8AE30, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 47 139934764418906 140721008455216 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC29B8AC40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 49 139934764418906 140721008454720 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC29B8AF10, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 49 139934764418906 140721008455440 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC29B8AFB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 45 139934764418906 140721008455600 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC29B8B280, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 45 139934764418906 140721008456320 4096 1 139934054749441.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC29B8AED0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 49 139934764418906 140721008455376 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC29B8B1A0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 49 139934764418906 140721008456096 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(50, "", 0x7FFC29B8AB60, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 50 139934764418906 140721008454496 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(50, "", 0x7FFC29B8AE30, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 50 139934764418906 140721008455216 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(50, "", 0x7FFC29B8AED0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 50 139934764418906 140721008455376 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(50, "", 0x7FFC29B8B1A0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 50 139934764418906 140721008456096 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC29B8AB60, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 51 139934764418906 140721008454496 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC29B8AE30, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 51 139934764418906 140721008455216 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC29B8AFB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 51 139934764418906 140721008455600 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC29B8B280, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 51 139934764418906 140721008456320 4096 1 139934054749441.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC29B8AED0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 46 139934764418906 140721008455376 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC29B8B1A0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 46 139934764418906 140721008456096 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(52, "", 0x7FFC29B8AED0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 52 139934764418906 140721008455376 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(52, "", 0x7FFC29B8B1A0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 52 139934764418906 140721008456096 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(52, "", 0x7FFC29B8AB60, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 52 139934764418906 140721008454496 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(52, "", 0x7FFC29B8AE30, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 52 139934764418906 140721008455216 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(54, "", 0x7FFC29B8AC40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 54 139934764418906 140721008454720 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(54, "", 0x7FFC29B8AF10, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 54 139934764418906 140721008455440 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(56, "", 0x7FFC29B8ABD0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 56 139934764418906 140721008454608 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(56, "", 0x7FFC29B8AEA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 56 139934764418906 140721008455328 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC29B8AED0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 47 139934764418906 140721008455376 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC29B8B1A0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 47 139934764418906 140721008456096 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFC29B8AB60, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 48 139934764418906 140721008454496 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFC29B8AE30, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 48 139934764418906 140721008455216 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(54, "", 0x7FFC29B8AFB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 54 139934764418906 140721008455600 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(54, "", 0x7FFC29B8B280, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 54 139934764418906 140721008456320 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(56, "", 0x7FFC29B8AF40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 56 139934764418906 140721008455488 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(56, "", 0x7FFC29B8B210, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 56 139934764418906 140721008456208 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(50, "", 0x7FFC29B8DDD0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 50 139934764418906 140721008467408 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(50, "", 0x7FFC29B8E0A0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 50 139934764418906 140721008468128 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC29B8AC40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 46 139934764418906 140721008454720 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC29B8AF10, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 46 139934764418906 140721008455440 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFC29B8AFB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 53 139934764418906 140721008455600 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFC29B8B280, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 53 139934764418906 140721008456320 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(50, "", 0x7FFC29B8BCD0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 50 139934764418906 140721008458960 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(50, "", 0x7FFC29B8CD80, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 50 139934764418906 140721008463232 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(50, "", 0x7FFC29B8B450, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 50 139934770674165 140721008456784 4096 524288 139934770676232.
+Sandbox: unsupported fd-relative fstatat(50, "", 0x7FFC29B8B450, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 50 139934770674165 140721008456784 4096 139934053631984 0.
+JavaScript warning: https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=1209600&osid=1&continue=https://console.cloud.google.com/&followup=https://console.cloud.google.com/ line 1 > eval line 6012 > eval line 1 > eval line 1 > eval, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Error during native OpenGL init.
+* Error during native OpenGL init.
+* Error during native OpenGL init.
+* Error during native OpenGL init.
+* Error during native OpenGL init.
+* Exhausted GL driver caps.
+* Exhausted GL driver options.
+Sandbox: unsupported fd-relative fstatat(50, "", 0x7FFC29B8BA50, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 50 139934770674165 140721008458320 4096 139934036861632 0.
+Sandbox: unsupported fd-relative fstatat(50, "", 0x7FFC29B8BA50, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 50 139934770674165 140721008458320 4096 139934036861632 0.
+Sandbox: unsupported fd-relative fstatat(50, "", 0x7FFC29B89960, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 50 139934764418906 140721008449888 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC29B8AC40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 51 139934764418906 140721008454720 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC29B8AF10, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 51 139934764418906 140721008455440 4096 1 139934044261376.
+Sandbox: unsupported fd-relative fstatat(56, "", 0x7FFC29B8AC40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 56 139934764418906 140721008454720 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(56, "", 0x7FFC29B8AF10, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 56 139934764418906 140721008455440 4096 1 139934044262912.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC29B8AFB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 46 139934764418906 140721008455600 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC29B8B280, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 46 139934764418906 140721008456320 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC29B8AFB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 51 139934764418906 140721008455600 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC29B8B280, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 51 139934764418906 140721008456320 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC29B8ABD0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 51 139934764418906 140721008454608 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC29B8AEA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 51 139934764418906 140721008455328 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFC29B8ABD0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 53 139934764418906 140721008454608 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFC29B8AEA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 53 139934764418906 140721008455328 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(56, "", 0x7FFC29B8AAF0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 56 139934764418906 140721008454384 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(56, "", 0x7FFC29B8ADC0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 56 139934764418906 140721008455104 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(58, "", 0x7FFC29B8AAF0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 58 139934764418906 140721008454384 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(58, "", 0x7FFC29B8ADC0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 58 139934764418906 140721008455104 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(60, "", 0x7FFC29B8ABD0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 60 139934764418906 140721008454608 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(60, "", 0x7FFC29B8AEA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 60 139934764418906 140721008455328 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(62, "", 0x7FFC29B8AAF0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 62 139934764418906 140721008454384 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(62, "", 0x7FFC29B8ADC0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 62 139934764418906 140721008455104 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(64, "", 0x7FFC29B8AAF0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 64 139934764418906 140721008454384 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(64, "", 0x7FFC29B8ADC0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 64 139934764418906 140721008455104 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(66, "", 0x7FFC29B8ABD0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 66 139934764418906 140721008454608 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(66, "", 0x7FFC29B8AEA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 66 139934764418906 140721008455328 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC29B8AF40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 45 139934764418906 140721008455488 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC29B8B210, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 45 139934764418906 140721008456208 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC29B8AF40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 47 139934764418906 140721008455488 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC29B8B210, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 47 139934764418906 140721008456208 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFC29B8AE60, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 48 139934764418906 140721008455264 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFC29B8B130, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 48 139934764418906 140721008455984 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC29B8AE60, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 49 139934764418906 140721008455264 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC29B8B130, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 49 139934764418906 140721008455984 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC29B8AF40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 51 139934764418906 140721008455488 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC29B8B210, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 51 139934764418906 140721008456208 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFC29B8AE60, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 53 139934764418906 140721008455264 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFC29B8B130, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 53 139934764418906 140721008455984 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(56, "", 0x7FFC29B8AE60, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 56 139934764418906 140721008455264 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(56, "", 0x7FFC29B8B130, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 56 139934764418906 140721008455984 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(58, "", 0x7FFC29B8AF40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 58 139934764418906 140721008455488 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(58, "", 0x7FFC29B8B210, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 58 139934764418906 140721008456208 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(62, "", 0x7FFC29B8AB60, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 62 139934764418906 140721008454496 4096 1 139934091446528.
+Sandbox: unsupported fd-relative fstatat(62, "", 0x7FFC29B8AE30, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 62 139934764418906 140721008455216 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(66, "", 0x7FFC29B8AC40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 66 139934764418906 140721008454720 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(66, "", 0x7FFC29B8AF10, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 66 139934764418906 140721008455440 4096 1 139934091446529.
+Sandbox: unsupported fd-relative fstatat(68, "", 0x7FFC29B8AB60, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 68 139934764418906 140721008454496 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(68, "", 0x7FFC29B8AE30, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 68 139934764418906 140721008455216 4096 1 139934091446529.
+Sandbox: unsupported fd-relative fstatat(70, "", 0x7FFC29B8AB60, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 70 139934764418906 140721008454496 4096 1 139934091446528.
+Sandbox: unsupported fd-relative fstatat(70, "", 0x7FFC29B8AE30, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 70 139934764418906 140721008455216 4096 1 139934091446529.
+Sandbox: unsupported fd-relative fstatat(72, "", 0x7FFC29B8AC40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 72 139934764418906 140721008454720 4096 1 139934091446528.
+Sandbox: unsupported fd-relative fstatat(73, "", 0x7FFC29B8AF10, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 73 139934764418906 140721008455440 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(74, "", 0x7FFC29B8ABD0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 74 139934764418906 140721008454608 4096 1 139934091446528.
+Sandbox: unsupported fd-relative fstatat(75, "", 0x7FFC29B8AEA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 75 139934764418906 140721008455328 4096 1 139934091446529.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC29B8AED0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 45 139934764418906 140721008455376 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC29B8B1A0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 45 139934764418906 140721008456096 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC29B8AFB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 46 139934764418906 140721008455600 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC29B8B280, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 46 139934764418906 140721008456320 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC29B8AED0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 47 139934764418906 140721008455376 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC29B8B1A0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 47 139934764418906 140721008456096 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFC29B8AED0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 48 139934764418906 140721008455376 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFC29B8B1A0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 48 139934764418906 140721008456096 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC29B8AFB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 49 139934764418906 140721008455600 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC29B8B280, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 49 139934764418906 140721008456320 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(50, "", 0x7FFC29B8AF40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 50 139934764418906 140721008455488 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC29B8B210, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 51 139934764418906 140721008456208 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC29B8ABD0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 51 139934764418906 140721008454608 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC29B8AEA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 51 139934764418906 140721008455328 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC29B8BB70, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 51 139934770674165 140721008458608 4096 139934092368448 0.
 /usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so: cannot stat shared object: Function not implemented
 Failed to load module: /usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 332, args 4294967196 140115166378160 2304 4095 140737418080976 1048582.
-Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings/keyfile", 0x7FFFFBCFB0B0, 2304)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 4294967196 140115166378160 140737418080432 2304 2304 4294967295.
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 332, args 4294967196 140115145689824 2304 4095 140737418080976 1048582.
-Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings", 0x7FFFFBCFB0B0, 2304)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 4294967196 140115145689824 140737418080432 2304 2304 4294967295.
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 332, args 4294967196 140115145689824 2304 4095 140737418081024 1048582.
-Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings", 0x7FFFFBCFB0E0, 2304)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 4294967196 140115145689824 140737418080480 2304 2304 4294967295.
-Sandbox: seccomp sandbox violation: pid 79827, tid 79927, syscall 314, args 79927 140115366393728 0 140115056739904 0 0.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 332, args 4294967196 139934008545344 2304 4095 140721008455664 1048582.
+Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings/keyfile", 0x7FFC29B8ADD0, 2304)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 4294967196 139934008545344 140721008455120 2304 2304 4294967295.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 332, args 4294967196 139934008541760 2304 4095 140721008455664 1048582.
+Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings", 0x7FFC29B8ADD0, 2304)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 4294967196 139934008541760 140721008455120 2304 2304 4294967295.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 332, args 4294967196 139934008541760 2304 4095 140721008455712 1048582.
+Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings", 0x7FFC29B8AE00, 2304)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 4294967196 139934008541760 140721008455168 2304 2304 4294967295.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6728, syscall 314, args 6728 139934548030720 0 139933992179264 0 0.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 314, args 6729 139934548030720 0 139933983786560 0 0.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 332, args 4294967196 139934008545344 2304 4095 139933983779568 1048582.
+Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings/keyfile", 0x7F44EB6528D0, 2304)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 262, args 4294967196 139934008545344 139933983779024 2304 2304 4294967295.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 332, args 4294967196 139934008541760 2304 4095 139933983779568 1048582.
+Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings", 0x7F44EB6528D0, 2304)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 262, args 4294967196 139934008541760 139933983779024 2304 2304 4294967295.
 
-(/root/EXTRA/firefox-59.0.1/firefox/firefox:79827): GLib-CRITICAL **: 21:31:53.272: Failed to set scheduler settings: Function not implemented
-Sandbox: seccomp sandbox violation: pid 79827, tid 79926, syscall 314, args 79926 140115366393728 0 140115065132608 0 0.
-Sandbox: seccomp sandbox violation: pid 79827, tid 79927, syscall 332, args 4294967196 140115166378160 2304 4095 140115056732912 1048582.
-Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings/keyfile", 0x7F6F142F28D0, 2304)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79926, syscall 332, args 4294967196 140115145689824 2304 4095 140115065125616 1048582.
-Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings", 0x7F6F14AF38D0, 2304)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79927, syscall 262, args 4294967196 140115166378160 140115056732368 2304 2304 4294967295.
-Sandbox: seccomp sandbox violation: pid 79827, tid 79926, syscall 262, args 4294967196 140115145689824 140115065125072 2304 2304 4294967295.
-Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFFFBCF9F00, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 47 140115582850906 140737418075904 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFFFBCFA1A0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 48 140115582850906 140737418076576 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFFFBCF9BD0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 46 140115582850906 140737418075088 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFFFBCF9E70, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 47 140115582850906 140737418075760 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFFFBCF9BD0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 46 140115582850906 140737418075088 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFFFBCF9E70, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 46 140115582850906 140737418075760 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFFFBCF9F00, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 40 140115582850906 140737418075904 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFFFBCFA1A0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 40 140115582850906 140737418076576 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFFFBCF9F00, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 44 140115582850906 140737418075904 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFFFBCFA1A0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 44 140115582850906 140737418076576 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFFFBCF9B90, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 47 140115582850906 140737418075024 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFFFBCF9E30, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 47 140115582850906 140737418075696 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFFFBCF9EC0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 40 140115582850906 140737418075840 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFFFBCFA160, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 40 140115582850906 140737418076512 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFFFBCF9B90, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 43 140115582850906 140737418075024 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFFFBCF9E30, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 43 140115582850906 140737418075696 4096 1 65.
-JavaScript warning: https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=1209600&osid=1&continue=https://console.cloud.google.com/&followup=https://console.cloud.google.com/ line 1 > eval line 7344 > eval line 1 > eval line 1 > eval, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+(/root/EXTRA/firefox-58.0.1/firefox/firefox:6631): GLib-CRITICAL **: 17:26:20.138: Failed to set scheduler settings: Function not implemented
+Sandbox: unsupported fd-relative fstatat(52, "", 0x7FFC29B8B020, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 52 139934764418906 140721008455712 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(52, "", 0x7FFC29B8B2F0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 52 139934764418906 140721008456432 4096 1 139934093546752.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC29B8ACB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 51 139934764418906 140721008454832 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC29B8AF80, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 51 139934764418906 140721008455552 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFC29B8ACB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 53 139934764418906 140721008454832 4096 1 139934093546753.
+Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFC29B8AF80, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 53 139934764418906 140721008455552 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC29B8B020, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 45 139934764418906 140721008455712 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC29B8B2F0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 45 139934764418906 140721008456432 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC29B8B020, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 49 139934764418906 140721008455712 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC29B8B2F0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 49 139934764418906 140721008456432 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFC29B8AC40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 53 139934764418906 140721008454720 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFC29B8AF10, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 53 139934764418906 140721008455440 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC29B8AFB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 45 139934764418906 140721008455600 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC29B8B280, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 45 139934764418906 140721008456320 4096 1 63.
+JavaScript warning: https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=1209600&osid=1&continue=https://console.cloud.google.com/&followup=https://console.cloud.google.com/ line 1 > eval line 4655 > eval line 1 > eval line 1 > eval, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Error during native OpenGL init.
+* Error during native OpenGL init.
+* Error during native OpenGL init.
+* Error during native OpenGL init.
 * Error during native OpenGL init.
 * Exhausted GL driver caps.
 * Exhausted GL driver options.
-Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFFFBCF9EC0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 43 140115582850906 140737418075840 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFFFBCFA160, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 43 140115582850906 140737418076512 4096 1 65.
-Sandbox: seccomp sandbox violation: pid 79827, tid 79928, syscall 314, args 79928 140115366393728 0 140115065132608 0 0.
-Sandbox: seccomp sandbox violation: pid 79827, tid 79927, syscall 332, args 4294967196 140115166378160 2304 4095 140115056732912 1048582.
-Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings/keyfile", 0x7F6F142F28D0, 2304)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79927, syscall 262, args 4294967196 140115166378160 140115056732368 2304 2304 4294967295.
-Sandbox: seccomp sandbox violation: pid 79827, tid 79928, syscall 332, args 4294967196 140115145689824 2304 4095 140115065125616 1048582.
-Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings", 0x7F6F14AF38D0, 2304)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79928, syscall 262, args 4294967196 140115145689824 140115065125072 2304 2304 4294967295.
-Sandbox: seccomp sandbox violation: pid 79827, tid 79927, syscall 332, args 4294967196 140115166378160 2304 4095 140115056732912 1048582.
-Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings/keyfile", 0x7F6F142F28D0, 2304)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79927, syscall 262, args 4294967196 140115166378160 140115056732368 2304 2304 4294967295.
-Sandbox: seccomp sandbox violation: pid 79827, tid 79927, syscall 332, args 4294967196 140115145689824 2304 4095 140115056732912 1048582.
-Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings", 0x7F6F142F28D0, 2304)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79927, syscall 262, args 4294967196 140115145689824 140115056732368 2304 2304 4294967295.
-Sandbox: seccomp sandbox violation: pid 79827, tid 79929, syscall 314, args 79929 140115366393728 0 140115065132608 0 0.
-Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFFFBCF86F0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 44 140115582850906 140737418069744 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFFFBCF9AB0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 45 140115582850906 140737418074800 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFFFBCF9D50, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 45 140115582850906 140737418075472 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFFFBCF9B90, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 47 140115582850906 140737418075024 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFFFBCF9E30, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 47 140115582850906 140737418075696 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFFFBCF9B90, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 51 140115582850906 140737418075024 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFFFBCF9E30, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 51 140115582850906 140737418075696 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFFFBCF9DE0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 40 140115582850906 140737418075616 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFFFBCFA080, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 40 140115582850906 140737418076288 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFFFBCF9EC0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 43 140115582850906 140737418075840 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFFFBCFA160, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 43 140115582850906 140737418076512 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFFFBCF9EC0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 45 140115582850906 140737418075840 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFFFBCFA160, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 45 140115582850906 140737418076512 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFFFBCF9B90, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 40 140115582850906 140737418075024 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFFFBCF9E30, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 40 140115582850906 140737418075696 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFFFBCF9EC0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 37 140115582850906 140737418075840 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFFFBCFA160, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 37 140115582850906 140737418076512 4096 1 140115131239888.
-Sandbox: seccomp sandbox violation: pid 79827, tid 79927, syscall 332, args 4294967196 140115166378160 2304 4095 140115056732912 1048582.
-Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings/keyfile", 0x7F6F142F28D0, 2304)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79927, syscall 262, args 4294967196 140115166378160 140115056732368 2304 2304 4294967295.
-Sandbox: seccomp sandbox violation: pid 79827, tid 79927, syscall 332, args 4294967196 140115145689824 2304 4095 140115056732912 1048582.
-Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings", 0x7F6F142F28D0, 2304)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79927, syscall 262, args 4294967196 140115145689824 140115056732368 2304 2304 4294967295.
-Sandbox: seccomp sandbox violation: pid 79827, tid 79930, syscall 314, args 79930 140115366393728 0 140115065132608 0 0.
-Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFFFBCF9B20, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 40 140115582850906 140737418074912 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFFFBCF9DC0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 40 140115582850906 140737418075584 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFFFBCF9AB0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 42 140115582850906 140737418074800 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFFFBCF9D50, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 42 140115582850906 140737418075472 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFFFBCF9B20, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 44 140115582850906 140737418074912 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFFFBCF9DC0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 44 140115582850906 140737418075584 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFFFBCF9AB0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 46 140115582850906 140737418074800 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFFFBCF9D50, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 46 140115582850906 140737418075472 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFFFBCF9B90, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 48 140115582850906 140737418075024 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFFFBCF9E30, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 48 140115582850906 140737418075696 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(38, "", 0x7FFFFBCF9E50, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 38 140115582850906 140737418075728 4096 1 0.
-Sandbox: unsupported fd-relative fstatat(38, "", 0x7FFFFBCFA0F0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 38 140115582850906 140737418076400 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFFFBCF9DE0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 40 140115582850906 140737418075616 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFFFBCFA080, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 40 140115582850906 140737418076288 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFFFBCF9E50, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 42 140115582850906 140737418075728 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFFFBCFA0F0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 42 140115582850906 140737418076400 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFFFBCF9DE0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 44 140115582850906 140737418075616 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(44, "", 0x7FFFFBCFA080, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 44 140115582850906 140737418076288 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFFFBCF9EC0, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 46 140115582850906 140737418075840 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFFFBCFA160, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 46 140115582850906 140737418076512 4096 1 65.
-Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFFFBCFDE20, 4096)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79827, syscall 262, args 37 140115582850906 140737418092064 4096 1 0.
-Sandbox: seccomp sandbox violation: pid 79827, tid 79927, syscall 332, args 4294967196 140115166378160 2304 4095 140115056732912 1048582.
-Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings/keyfile", 0x7F6F142F28D0, 2304)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79927, syscall 262, args 4294967196 140115166378160 140115056732368 2304 2304 4294967295.
-Sandbox: seccomp sandbox violation: pid 79827, tid 79927, syscall 332, args 4294967196 140115145689824 2304 4095 140115056732912 1048582.
-Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings", 0x7F6F142F28D0, 2304)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79927, syscall 262, args 4294967196 140115145689824 140115056732368 2304 2304 4294967295.
-Sandbox: seccomp sandbox violation: pid 79827, tid 79931, syscall 314, args 79931 140115366393728 0 140115065132608 0 0.
-Sandbox: seccomp sandbox violation: pid 79827, tid 79927, syscall 332, args 4294967196 140115166378160 2304 4095 140115056732912 1048582.
-Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings/keyfile", 0x7F6F142F28D0, 2304)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79927, syscall 262, args 4294967196 140115166378160 140115056732368 2304 2304 4294967295.
-Sandbox: seccomp sandbox violation: pid 79827, tid 79927, syscall 332, args 4294967196 140115145689824 2304 4095 140115056732912 1048582.
-Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings", 0x7F6F142F28D0, 2304)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79927, syscall 262, args 4294967196 140115145689824 140115056732368 2304 2304 4294967295.
-Sandbox: seccomp sandbox violation: pid 79827, tid 79932, syscall 314, args 79932 140115366393728 0 140115065132608 0 0.
-Sandbox: seccomp sandbox violation: pid 79827, tid 79927, syscall 332, args 4294967196 140115166378160 2304 4095 140115056732912 1048582.
-Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings/keyfile", 0x7F6F142F28D0, 2304)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79927, syscall 262, args 4294967196 140115166378160 140115056732368 2304 2304 4294967295.
-Sandbox: seccomp sandbox violation: pid 79827, tid 79927, syscall 332, args 4294967196 140115145689824 2304 4095 140115056732912 1048582.
-Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings", 0x7F6F142F28D0, 2304)
-Sandbox: seccomp sandbox violation: pid 79827, tid 79927, syscall 262, args 4294967196 140115145689824 140115056732368 2304 2304 4294967295.
-Sandbox: seccomp sandbox violation: pid 79827, tid 79934, syscall 314, args 79934 140115366393728 0 140115065132608 0 0.
-[Parent 79774, Gecko_IOThread] WARNING: pipe error (102): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
-1645130000315	geckodriver	INFO	Listening on 127.0.0.1:40583
-1645130001327	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97/firefox/firefox" "--marionette" "--width=1366" "--height=768" "-no-remote" "-profile" "/tmp/rust_mozprofilep3bueB"
-1645130006393	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilep3bueB/search.json.mozlz4", (void 0)))
-1645130024654	Marionette	INFO	Listening on port 33985
-1645130025012	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
-JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
-JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
-JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
-JavaScript warning: https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=1209600&osid=1&continue=https://console.cloud.google.com/&followup=https://console.cloud.google.com/ line 1 > eval line 882 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
-JavaScript warning: https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=1209600&osid=1&continue=https://console.cloud.google.com/&followup=https://console.cloud.google.com/ line 1 > eval line 2451 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-1645130061288	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-1645133994717	geckodriver	INFO	Listening on 127.0.0.1:54951
-1645133994747	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97/firefox/firefox" "--marionette" "--width=1366" "--height=768" "-no-remote" "-profile" "/tmp/rust_mozprofilevdcEcK"
-1645133999194	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevdcEcK/search.json.mozlz4", (void 0)))
-1645134013397	Marionette	INFO	Listening on port 44861
-1645134013519	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
-JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
-JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
-JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
-JavaScript warning: https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=1209600&osid=1&continue=https://console.cloud.google.com/&followup=https://console.cloud.google.com/ line 1 > eval line 1568 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
-JavaScript warning: https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=1209600&osid=1&continue=https://console.cloud.google.com/&followup=https://console.cloud.google.com/ line 1 > eval line 6799 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-1645134048166	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 332, args 4294967196 139934008545344 2304 4095 139933983779568 1048582.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6732, syscall 314, args 6732 139934548030720 0 139933992179264 0 0.
+Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings/keyfile", 0x7F44EB6528D0, 2304)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 262, args 4294967196 139934008545344 139933983779024 2304 2304 4294967295.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6732, syscall 332, args 4294967196 139934008541760 2304 4095 139933992172272 1048582.
+Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings", 0x7F44EBE538D0, 2304)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6732, syscall 262, args 4294967196 139934008541760 139933992171728 2304 2304 4294967295.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6734, syscall 314, args 6734 139934548030720 0 139933992179264 0 0.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 332, args 4294967196 139934008545344 2304 4095 139933983779568 1048582.
+Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings/keyfile", 0x7F44EB6528D0, 2304)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 262, args 4294967196 139934008545344 139933983779024 2304 2304 4294967295.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 332, args 4294967196 139934008541760 2304 4095 139933983779568 1048582.
+Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings", 0x7F44EB6528D0, 2304)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 262, args 4294967196 139934008541760 139933983779024 2304 2304 4294967295.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6735, syscall 314, args 6735 139934548030720 0 139933992179264 0 0.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 332, args 4294967196 139934008545344 2304 4095 139933983779568 1048582.
+Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings/keyfile", 0x7F44EB6528D0, 2304)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 262, args 4294967196 139934008545344 139933983779024 2304 2304 4294967295.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6735, syscall 332, args 4294967196 139934008541760 2304 4095 139933992172272 1048582.
+Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings", 0x7F44EBE538D0, 2304)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6735, syscall 262, args 4294967196 139934008541760 139933992171728 2304 2304 4294967295.
+Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFC29B89960, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 48 139934764418906 140721008449888 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC29B8AB60, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 49 139934764418906 140721008454496 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC29B8AE30, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 49 139934764418906 140721008455216 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(52, "", 0x7FFC29B8AC40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 52 139934764418906 140721008454720 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(52, "", 0x7FFC29B8AF10, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 52 139934764418906 140721008455440 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(56, "", 0x7FFC29B8AC40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 56 139934764418906 140721008454720 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(57, "", 0x7FFC29B8AF10, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 57 139934764418906 140721008455440 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC29B8AED0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 45 139934764418906 140721008455376 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC29B8B1A0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 45 139934764418906 140721008456096 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC29B8AFB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 51 139934764418906 140721008455600 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC29B8B280, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 51 139934764418906 140721008456320 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(52, "", 0x7FFC29B8AFB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 52 139934764418906 140721008455600 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(52, "", 0x7FFC29B8B280, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 52 139934764418906 140721008456320 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC29B8AC40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 45 139934764418906 140721008454720 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC29B8AF10, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 45 139934764418906 140721008455440 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC29B8AFB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 42 139934764418906 140721008455600 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC29B8B280, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 42 139934764418906 140721008456320 4096 1 63.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 332, args 4294967196 139934008545344 2304 4095 139933983779568 1048582.
+Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings/keyfile", 0x7F44EB6528D0, 2304)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 262, args 4294967196 139934008545344 139933983779024 2304 2304 4294967295.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 332, args 4294967196 139934008541760 2304 4095 139933983779568 1048582.
+Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings", 0x7F44EB6528D0, 2304)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 262, args 4294967196 139934008541760 139933983779024 2304 2304 4294967295.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6737, syscall 314, args 6737 139934548030720 0 139933992179264 0 0.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC29B8ABD0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 45 139934764418906 140721008454608 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(46, "", 0x7FFC29B8AEA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 46 139934764418906 140721008455328 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC29B8AB60, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 47 139934764418906 140721008454496 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC29B8AE30, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 47 139934764418906 140721008455216 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC29B8ABD0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 49 139934764418906 140721008454608 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC29B8AEA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 49 139934764418906 140721008455328 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC29B8AB60, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 51 139934764418906 140721008454496 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC29B8AE30, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 51 139934764418906 140721008455216 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFC29B8AC40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 53 139934764418906 140721008454720 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFC29B8AF10, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 53 139934764418906 140721008455440 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFC29B8AF40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 43 139934764418906 140721008455488 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(43, "", 0x7FFC29B8B210, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 43 139934764418906 140721008456208 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC29B8AED0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 45 139934764418906 140721008455376 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC29B8B1A0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 45 139934764418906 140721008456096 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC29B8AF40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 47 139934764418906 140721008455488 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC29B8B210, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 47 139934764418906 140721008456208 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC29B8AED0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 49 139934764418906 140721008455376 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC29B8B1A0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 49 139934764418906 140721008456096 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC29B8AFB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 51 139934764418906 140721008455600 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC29B8B280, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 51 139934764418906 140721008456320 4096 1 63.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 332, args 4294967196 139934008545344 2304 4095 139933983779568 1048582.
+Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings/keyfile", 0x7F44EB6528D0, 2304)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 262, args 4294967196 139934008545344 139933983779024 2304 2304 4294967295.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 332, args 4294967196 139934008541760 2304 4095 139933983779568 1048582.
+Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings", 0x7F44EB6528D0, 2304)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 262, args 4294967196 139934008541760 139933983779024 2304 2304 4294967295.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6738, syscall 314, args 6738 139934548030720 0 139933992179264 0 0.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC29B8EC70, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 42 139934764418906 140721008471152 4096 1 0.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 332, args 4294967196 139934008545344 2304 4095 139933983779568 1048582.
+Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings/keyfile", 0x7F44EB6528D0, 2304)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 262, args 4294967196 139934008545344 139933983779024 2304 2304 4294967295.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 332, args 4294967196 139934008541760 2304 4095 139933983779568 1048582.
+Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings", 0x7F44EB6528D0, 2304)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 262, args 4294967196 139934008541760 139933983779024 2304 2304 4294967295.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6739, syscall 314, args 6739 139934548030720 0 139933992179264 0 0.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6743, syscall 314, args 6743 139934548030720 0 139933992179264 0 0.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 332, args 4294967196 139934008545344 2304 4095 139933983779568 1048582.
+Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings/keyfile", 0x7F44EB6528D0, 2304)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 262, args 4294967196 139934008545344 139933983779024 2304 2304 4294967295.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6743, syscall 332, args 4294967196 139934008541760 2304 4095 139933992172272 1048582.
+Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings", 0x7F44EBE538D0, 2304)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6743, syscall 262, args 4294967196 139934008541760 139933992171728 2304 2304 4294967295.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6745, syscall 314, args 6745 139934548030720 0 139933992179264 0 0.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 332, args 4294967196 139934008545344 2304 4095 139933983779568 1048582.
+Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings/keyfile", 0x7F44EB6528D0, 2304)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6745, syscall 332, args 4294967196 139934008541760 2304 4095 139933992172272 1048582.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 262, args 4294967196 139934008545344 139933983779024 2304 2304 4294967295.
+Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings", 0x7F44EBE538D0, 2304)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6745, syscall 262, args 4294967196 139934008541760 139933992171728 2304 2304 4294967295.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 332, args 4294967196 139934008545344 2304 4095 139933983779568 1048582.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6746, syscall 314, args 6746 139934548030720 0 139933992179264 0 0.
+Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings/keyfile", 0x7F44EB6528D0, 2304)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 262, args 4294967196 139934008545344 139933983779024 2304 2304 4294967295.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6746, syscall 332, args 4294967196 139934008541760 2304 4095 139933992172272 1048582.
+Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings", 0x7F44EBE538D0, 2304)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6746, syscall 262, args 4294967196 139934008541760 139933992171728 2304 2304 4294967295.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC29B8AA30, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 42 139934764418906 140721008454192 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC29B8ABD0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 42 139934764418906 140721008454608 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC29B8AEA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 42 139934764418906 140721008455328 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC29B8AB60, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 45 139934764418906 140721008454496 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC29B8AE30, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 45 139934764418906 140721008455216 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC29B8AC40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 47 139934764418906 140721008454720 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC29B8AF10, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 47 139934764418906 140721008455440 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC29B8AB60, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 49 139934764418906 140721008454496 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC29B8AE30, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 49 139934764418906 140721008455216 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC29B8AC40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 51 139934764418906 140721008454720 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC29B8AF10, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 51 139934764418906 140721008455440 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFC29B8AB60, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 53 139934764418906 140721008454496 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFC29B8AE30, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 53 139934764418906 140721008455216 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(55, "", 0x7FFC29B8AB60, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 55 139934764418906 140721008454496 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(55, "", 0x7FFC29B8AE30, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 55 139934764418906 140721008455216 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(57, "", 0x7FFC29B8ABD0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 57 139934764418906 140721008454608 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(57, "", 0x7FFC29B8AEA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 57 139934764418906 140721008455328 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(59, "", 0x7FFC29B8ABD0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 59 139934764418906 140721008454608 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(59, "", 0x7FFC29B8AEA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 59 139934764418906 140721008455328 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(61, "", 0x7FFC29B8ABD0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 61 139934764418906 140721008454608 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(61, "", 0x7FFC29B8AEA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 61 139934764418906 140721008455328 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(63, "", 0x7FFC29B8AAF0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 63 139934764418906 140721008454384 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(63, "", 0x7FFC29B8ADC0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 63 139934764418906 140721008455104 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(65, "", 0x7FFC29B8ABD0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 65 139934764418906 140721008454608 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(65, "", 0x7FFC29B8AEA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 65 139934764418906 140721008455328 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC29B8AA30, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 45 139934764418906 140721008454192 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC29B8AF40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 45 139934764418906 140721008455488 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC29B8B210, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 45 139934764418906 140721008456208 4096 1 139934062085889.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC29B8AED0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 49 139934764418906 140721008455376 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC29B8B1A0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 49 139934764418906 140721008456096 4096 1 139934062085888.
+Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFC29B8AFB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 53 139934764418906 140721008455600 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFC29B8B280, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 53 139934764418906 140721008456320 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(57, "", 0x7FFC29B8AED0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 57 139934764418906 140721008455376 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(59, "", 0x7FFC29B8B1A0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 59 139934764418906 140721008456096 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(61, "", 0x7FFC29B8AFB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 61 139934764418906 140721008455600 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(63, "", 0x7FFC29B8B280, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 63 139934764418906 140721008456320 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(65, "", 0x7FFC29B8AED0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 65 139934764418906 140721008455376 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(66, "", 0x7FFC29B8B1A0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 66 139934764418906 140721008456096 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(67, "", 0x7FFC29B8AED0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 67 139934764418906 140721008455376 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(67, "", 0x7FFC29B8B1A0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 67 139934764418906 140721008456096 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(69, "", 0x7FFC29B8AF40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 69 139934764418906 140721008455488 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(69, "", 0x7FFC29B8B210, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 69 139934764418906 140721008456208 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(70, "", 0x7FFC29B8ABD0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 70 139934764418906 140721008454608 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(71, "", 0x7FFC29B8AEA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 71 139934764418906 140721008455328 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(70, "", 0x7FFC29B8AF40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 70 139934764418906 140721008455488 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(70, "", 0x7FFC29B8B210, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 70 139934764418906 140721008456208 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(71, "", 0x7FFC29B8ABD0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 71 139934764418906 140721008454608 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(71, "", 0x7FFC29B8AEA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 71 139934764418906 140721008455328 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(71, "", 0x7FFC29B8AF40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 71 139934764418906 140721008455488 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(71, "", 0x7FFC29B8B210, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 71 139934764418906 140721008456208 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(73, "", 0x7FFC29B8AE60, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 73 139934764418906 140721008455264 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(73, "", 0x7FFC29B8B130, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 73 139934764418906 140721008455984 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(75, "", 0x7FFC29B8AF40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 75 139934764418906 140721008455488 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(75, "", 0x7FFC29B8B210, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 75 139934764418906 140721008456208 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFC29B8AC40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 53 139934764418906 140721008454720 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFC29B8AF10, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 53 139934764418906 140721008455440 4096 1 139934054749440.
+Sandbox: unsupported fd-relative fstatat(55, "", 0x7FFC29B8AC40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 55 139934764418906 140721008454720 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(55, "", 0x7FFC29B8AF10, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 55 139934764418906 140721008455440 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(56, "", 0x7FFC29B8AC40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 56 139934764418906 140721008454720 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(56, "", 0x7FFC29B8AF10, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 56 139934764418906 140721008455440 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(57, "", 0x7FFC29B8B020, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 57 139934764418906 140721008455712 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(58, "", 0x7FFC29B8B2F0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 58 139934764418906 140721008456432 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(61, "", 0x7FFC29B8B020, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 61 139934764418906 140721008455712 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(61, "", 0x7FFC29B8B2F0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 61 139934764418906 140721008456432 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFC29B8AB10, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 48 139934764418906 140721008454416 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFC29B8AB10, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 48 139934764418906 140721008454416 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFC29B8AD20, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 48 139934764418906 140721008454944 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFC29B8AFF0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 48 139934764418906 140721008455664 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC29B8AFB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 51 139934764418906 140721008455600 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC29B8B280, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 51 139934764418906 140721008456320 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(52, "", 0x7FFC29B8AFB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 52 139934764418906 140721008455600 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(52, "", 0x7FFC29B8B280, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 52 139934764418906 140721008456320 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(54, "", 0x7FFC29B8AFB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 54 139934764418906 140721008455600 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(54, "", 0x7FFC29B8B280, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 54 139934764418906 140721008456320 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(57, "", 0x7FFC29B8AC40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 57 139934764418906 140721008454720 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(57, "", 0x7FFC29B8AF10, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 57 139934764418906 140721008455440 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(63, "", 0x7FFC29B8AC40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 63 139934764418906 140721008454720 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(63, "", 0x7FFC29B8AF10, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 63 139934764418906 140721008455440 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(66, "", 0x7FFC29B8AC40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 66 139934764418906 140721008454720 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(66, "", 0x7FFC29B8AF10, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 66 139934764418906 140721008455440 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(71, "", 0x7FFC29B8AC40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 71 139934764418906 140721008454720 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(71, "", 0x7FFC29B8AF10, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 71 139934764418906 140721008455440 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(57, "", 0x7FFC29B8B090, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 57 139934764418906 140721008455824 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(57, "", 0x7FFC29B8B360, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 57 139934764418906 140721008456544 4096 1 139934058940161.
+Sandbox: unsupported fd-relative fstatat(63, "", 0x7FFC29B8AFB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 63 139934764418906 140721008455600 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(63, "", 0x7FFC29B8B280, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 63 139934764418906 140721008456320 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(64, "", 0x7FFC29B8AFB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 64 139934764418906 140721008455600 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(64, "", 0x7FFC29B8B280, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 64 139934764418906 140721008456320 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(71, "", 0x7FFC29B8AFB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 71 139934764418906 140721008455600 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(71, "", 0x7FFC29B8B280, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 71 139934764418906 140721008456320 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(73, "", 0x7FFC29B8AFB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 73 139934764418906 140721008455600 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(73, "", 0x7FFC29B8B280, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 73 139934764418906 140721008456320 4096 1 63.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 332, args 4294967196 139934008545344 2304 4095 139933983779568 1048582.
+Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings/keyfile", 0x7F44EB6528D0, 2304)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 262, args 4294967196 139934008545344 139933983779024 2304 2304 4294967295.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 332, args 4294967196 139934008541760 2304 4095 139933983779568 1048582.
+Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings", 0x7F44EB6528D0, 2304)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 262, args 4294967196 139934008541760 139933983779024 2304 2304 4294967295.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6748, syscall 314, args 6748 139934548030720 0 139933992179264 0 0.
+Sandbox: unsupported fd-relative fstatat(71, "", 0x7FFC29B8ACB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 71 139934764418906 140721008454832 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(71, "", 0x7FFC29B8AF80, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 71 139934764418906 140721008455552 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(68, "", 0x7FFC29B8B020, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 68 139934764418906 140721008455712 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(68, "", 0x7FFC29B8B2F0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 68 139934764418906 140721008456432 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(71, "", 0x7FFC29B8AB60, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 71 139934764418906 140721008454496 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(71, "", 0x7FFC29B8AE30, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 71 139934764418906 140721008455216 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(73, "", 0x7FFC29B8AED0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 73 139934764418906 140721008455376 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(74, "", 0x7FFC29B8B1A0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 74 139934764418906 140721008456096 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(73, "", 0x7FFC29B8A2A0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 73 139934764418906 140721008452256 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC29B8ABD0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 42 139934764418906 140721008454608 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC29B8AEA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 42 139934764418906 140721008455328 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC29B8AB60, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 45 139934764418906 140721008454496 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC29B8AE30, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 45 139934764418906 140721008455216 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC29B8AC40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 47 139934764418906 140721008454720 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC29B8AF10, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 47 139934764418906 140721008455440 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC29B8AB60, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 49 139934764418906 140721008454496 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC29B8AE30, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 49 139934764418906 140721008455216 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC29B8AC40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 51 139934764418906 140721008454720 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(51, "", 0x7FFC29B8AF10, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 51 139934764418906 140721008455440 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFC29B8AB60, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 53 139934764418906 140721008454496 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFC29B8AE30, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 53 139934764418906 140721008455216 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(55, "", 0x7FFC29B8AB60, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 55 139934764418906 140721008454496 4096 1 139934055796992.
+Sandbox: unsupported fd-relative fstatat(55, "", 0x7FFC29B8AE30, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 55 139934764418906 140721008455216 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(57, "", 0x7FFC29B8ABD0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 57 139934764418906 140721008454608 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(57, "", 0x7FFC29B8AEA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 57 139934764418906 140721008455328 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(59, "", 0x7FFC29B8ABD0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 59 139934764418906 140721008454608 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(59, "", 0x7FFC29B8AEA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 59 139934764418906 140721008455328 4096 1 139934059992320.
+Sandbox: unsupported fd-relative fstatat(61, "", 0x7FFC29B8ABD0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 61 139934764418906 140721008454608 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(61, "", 0x7FFC29B8AEA0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 61 139934764418906 140721008455328 4096 1 139934059992320.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC29B8AF40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 45 139934764418906 140721008455488 4096 1 139934061041384.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC29B8B210, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 45 139934764418906 140721008456208 4096 1 139934061041153.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC29B8AED0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 47 139934764418906 140721008455376 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC29B8B1A0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 47 139934764418906 140721008456096 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC29B8AFB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 49 139934764418906 140721008455600 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC29B8B280, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 49 139934764418906 140721008456320 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFC29B8AED0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 53 139934764418906 140721008455376 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(55, "", 0x7FFC29B8B1A0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 55 139934764418906 140721008456096 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(55, "", 0x7FFC29B8AFB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 55 139934764418906 140721008455600 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(55, "", 0x7FFC29B8B280, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 55 139934764418906 140721008456320 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(57, "", 0x7FFC29B8AED0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 57 139934764418906 140721008455376 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(57, "", 0x7FFC29B8B1A0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 57 139934764418906 140721008456096 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(59, "", 0x7FFC29B8AED0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 59 139934764418906 140721008455376 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(59, "", 0x7FFC29B8B1A0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 59 139934764418906 140721008456096 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(61, "", 0x7FFC29B8AF40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 61 139934764418906 140721008455488 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(61, "", 0x7FFC29B8B210, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 61 139934764418906 140721008456208 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(63, "", 0x7FFC29B8AF40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 63 139934764418906 140721008455488 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(63, "", 0x7FFC29B8B210, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 63 139934764418906 140721008456208 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(64, "", 0x7FFC29B8AF40, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 64 139934764418906 140721008455488 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(64, "", 0x7FFC29B8B210, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 64 139934764418906 140721008456208 4096 1 63.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 332, args 4294967196 139934008545344 2304 4095 139933983779568 1048582.
+Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings/keyfile", 0x7F44EB6528D0, 2304)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 262, args 4294967196 139934008545344 139933983779024 2304 2304 4294967295.
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 332, args 4294967196 139934008541760 2304 4095 139933983779568 1048582.
+Sandbox: unsupported flags 2048 in fstatat(-100, "/root/.config/glib-2.0/settings", 0x7F44EB6528D0, 2304)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6729, syscall 262, args 4294967196 139934008541760 139933983779024 2304 2304 4294967295.
+Sandbox: unsupported fd-relative fstatat(64, "", 0x7FFC29B8ACB0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 64 139934764418906 140721008454832 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(64, "", 0x7FFC29B8AF80, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 64 139934764418906 140721008455552 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(63, "", 0x7FFC29B8B020, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 63 139934764418906 140721008455712 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(63, "", 0x7FFC29B8B2F0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 63 139934764418906 140721008456432 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(64, "", 0x7FFC29B8AA80, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 64 139934764418906 140721008454272 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(64, "", 0x7FFC29B8AD50, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 64 139934764418906 140721008454992 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(65, "", 0x7FFC29B8ADF0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 65 139934764418906 140721008455152 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(65, "", 0x7FFC29B8B0C0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 65 139934764418906 140721008455872 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(65, "", 0x7FFC29B8A2A0, 4096)
+Sandbox: seccomp sandbox violation: pid 6631, tid 6631, syscall 262, args 65 139934764418906 140721008452256 4096 1 63.

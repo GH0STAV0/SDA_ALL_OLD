@@ -229,6 +229,7 @@ def check_recovery(driver):
 
 
 
+
 	except Exception as e:
 		print("NO RECOVERY ")
 
@@ -236,18 +237,21 @@ def check_recovery(driver):
 
 #################################"MAIN STARTING"##############################
 def ads_class(driver):
+	cnf_bvb.send_msg_dock(email)
 	try:
 		print("OPEN AND VISITE WEB-SITE [ 1 ]...... ",end='',flush=True)
-		cnf_bvb.send_msg_dock(email)
-		driver.get(url_1)
+		driver.get("https://bot.sannysoft.com/")
+		input("gggg")
+		#url_1)
 		print(" [ "+url_1+" ]")
 		gmail_id_input=WebDriverWait(driver, 65).until(EC.presence_of_element_located((By.XPATH, '//*[@id="identifierId"]')))
 		gmail_id_input.send_keys(email,Keys.ENTER)
-		time.sleep(5)
+		time.sleep(8)
 		gmail_id_input=WebDriverWait(driver, 65).until(EC.presence_of_element_located((By.XPATH, '//*[@id="password"]/div[1]/div/div[1]/input')))
 		gmail_id_input.send_keys(paxx,Keys.ENTER)
 
 		time.sleep(3)
+		# input("")
 		check_recovery(driver)
 		# input('')
 		# input('')
@@ -272,7 +276,7 @@ def ads_class(driver):
 			print(e+" errrrrrrrro1") 
 
 	except Exception as e:
-		print("ads error")
+		print("ads error"+str(e))
 	# driver.delete_all_cookies()
 	
 ######################USER AGENT ###################################################
