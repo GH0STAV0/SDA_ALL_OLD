@@ -12,7 +12,6 @@ from selenium.webdriver.firefox.options import Options as Firefox_Options
 import random,datetime,string , os ,time ,subprocess , sys , requests ,re
 #from selenium.webdriver import ActionChains
 os.system("rm -rf /tmp/*")
-
 def init_fire():
 	print("############################################################")
 	print("INIT TASKS ..... ", end='')
@@ -47,7 +46,8 @@ def build_driver(width,height):
 		new_binary_path = cnf_bvb.random_fir()
 		#print(new_binary_path)
 		serv = Service(new_driver_path)
-		fp = webdriver.FirefoxProfile()
+		# fp = webdriver.FirefoxProfile()
+		fp = webdriver.FirefoxProfile(cnf_bvb.pofile_path)
 		ops = Firefox_Options()
 		#user_agent = cnf_bvb.user_agent
 		#firefox_options = Firefox_Options()		
@@ -88,17 +88,17 @@ def build_driver(width,height):
 		# # fp.set_preference('network.proxy.socks', '127.0.0.1')
 		# # fp.set_preference('network.proxy.socks_port', 9150)
 		# fp.set_preference("dom.webdriver.enabled", False)
-		fp.set_preference('useAutomationExtension', False)
-		# #fp.set_preference("http.response.timeout",95)
-		# # fp.set_preference("dom.popup_maximum", 2)
-		fp.set_preference("general.useragent.override",user_agent)
-		fp.set_preference('webdriver.load.strategy','unstable')
-		fp.set_preference("modifyheaders.headers.count", 2)
-		fp.set_preference("dom.webdriver.enabled", False)
-		fp.set_preference("modifyheaders.headers.action0", "Add")
-		fp.set_preference("modifyheaders.headers.name0", "x-msisdn")
-		fp.set_preference("dom.push.enabled", False)
-		fp.set_preference("intl.accept_languages", "en-GB");
+		# fp.set_preference('useAutomationExtension', False)
+		# # #fp.set_preference("http.response.timeout",95)
+		# # # fp.set_preference("dom.popup_maximum", 2)
+		# # fp.set_preference("general.useragent.override",user_agent)
+		# fp.set_preference('webdriver.load.strategy','unstable')
+		# fp.set_preference("modifyheaders.headers.count", 2)
+		# fp.set_preference("dom.webdriver.enabled", False)
+		# fp.set_preference("modifyheaders.headers.action0", "Add")
+		# fp.set_preference("modifyheaders.headers.name0", "x-msisdn")
+		# fp.set_preference("dom.push.enabled", False)
+		# fp.set_preference("intl.accept_languages", "en-GB");
 		fp.update_preferences()
 		ops.binary_location = new_binary_path
 		ops.profile=fp

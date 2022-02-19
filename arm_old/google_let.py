@@ -194,7 +194,7 @@ def stage_1():
 ###########################################################################
 
 def check_reconect(driver):
-	print("CHECK TEMINAL DISPONIBILITY ..... ",end='',flush=True)
+	print("OPEN AND VISITE WEB-SITE [ 1 ]...... ",end='',flush=True)
 	try:
 		reconnect_button=WebDriverWait(driver, 60).until(EC.presence_of_element_located((By.XPATH, '//*[@id="cloudshell"]/div/horizontal-split/div[2]/devshell/terminal-container/terminal-status-bar/status-message/mat-toolbar/button[2]')))
 		reconnect_button.click()
@@ -207,12 +207,14 @@ def check_reconect(driver):
 		open_login_button.click()
 		open_login_button.send_keys("clear && docker ps",Keys.ENTER)
 		time.sleep(300)
-		# driver.save_screenshot("scr.png")
+		driver.save_screenshot("scr.png")
 		print("OK XTERMINAL FOUND !!!!!!")
 		check_reconect(driver)
 
 def check_recovery(driver):
 	print("CHECK RECOVERY MAIL !!!!!!")
+	time.sleep(3)
+	# input("em")
 	try:
 		#/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div/ul/li[1]
 		#//*[@id="view_container"]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div/ul/li[1]/div
@@ -227,6 +229,7 @@ def check_recovery(driver):
 
 
 
+
 	except Exception as e:
 		print("NO RECOVERY ")
 
@@ -234,20 +237,24 @@ def check_recovery(driver):
 
 #################################"MAIN STARTING"##############################
 def ads_class(driver):
+	cnf_bvb.send_msg_dock(email)
 	try:
 		print("OPEN AND VISITE WEB-SITE [ 1 ]...... ",end='',flush=True)
-		# driver.get(url_1)
-		# print(" [ "+url_1+" ]")
-		# gmail_id_input=WebDriverWait(driver, 65).until(EC.presence_of_element_located((By.XPATH, '//*[@id="identifierId"]')))
-		# gmail_id_input.send_keys(email,Keys.ENTER)
-		# time.sleep(5)
-		# gmail_id_input=WebDriverWait(driver, 65).until(EC.presence_of_element_located((By.XPATH, '//*[@id="password"]/div[1]/div/div[1]/input')))
-		# gmail_id_input.send_keys(paxx,Keys.ENTER)
+		driver.get(url_1)
+		# input("gggg")
+		#url_1)
+		print(" [ "+url_1+" ]")
+		gmail_id_input=WebDriverWait(driver, 65).until(EC.presence_of_element_located((By.XPATH, '//*[@id="identifierId"]')))
+		gmail_id_input.send_keys(email,Keys.ENTER)
+		time.sleep(8)
+		gmail_id_input=WebDriverWait(driver, 65).until(EC.presence_of_element_located((By.XPATH, '//*[@id="password"]/div[1]/div/div[1]/input')))
+		gmail_id_input.send_keys(paxx,Keys.ENTER)
 
-		# time.sleep(3)
-		# check_recovery(driver)
-		# # input('')
-		# # input('')
+		time.sleep(3)
+		# input("")
+		check_recovery(driver)
+		# input('')
+		# input('')
 
 		try:
 			# pass
@@ -257,9 +264,6 @@ def ads_class(driver):
 			open_login_button=WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
 			# input('google loginAAAAAAAAAAAA')
 			print("we are here")
-			staage="OK XTEMINAL ACTIVATED [ "+cnf_bvb.g00g_acc+" ]"
-			print(staage)
-			cnf_bvb.send_msg_dock(staage)
 			open_login_button.click()
 			open_login_button.send_keys("sudo su",Keys.ENTER)
 			time.sleep(10)
@@ -272,7 +276,7 @@ def ads_class(driver):
 			print(e+" errrrrrrrro1") 
 
 	except Exception as e:
-		print("ads error")
+		print("ads error"+str(e))
 	# driver.delete_all_cookies()
 	
 ######################USER AGENT ###################################################

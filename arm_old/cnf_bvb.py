@@ -4,8 +4,6 @@ import socket
 import socket
 hostname_os=socket.getfqdn()
 goog="/root/g00g"
-pwd = os.path.dirname(os.path.realpath( __file__ ))
-
 visible_v=0
 
 if "LOOKE3" in hostname_os:
@@ -22,36 +20,6 @@ def read_current_acc_goo():
 
 print(read_current_acc_goo())
 g00g_acc=read_current_acc_goo()
-pofile_path=pwd+"/"+g00g_acc
-
-print(pofile_path)
-
-
-
-########################################################################################################################
-
-def send_msg_dock(text):
-
-	msg_telegram="[ "+hostname_os +" ]"+text
-	token = "5261450305:AAEROP9j6569RV4rKsE_tStXCdnLSX7Gz1Y"
-	# chat_id = "-643828126"
-	chat_id = "-615987943"
-	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
-	results = requests.get(url_req)
-	print(results.json())
-	
-###############################################################################################################################
-
-print("extact")
-comom="cp po/"+g00g_acc+".tar.gz ./"
-os.system(comom)
-comom_2="tar xvf "+g00g_acc+".tar.gz"
-os.system(comom_2)
-
-
-
-
-
 
 user_agent_list = [
 'AppleCoreMedia/1.0.0.12B466 (Apple TV; U; CPU OS 8_1_3 like Mac OS X; en_us)'
@@ -708,6 +676,20 @@ def send_msg(text):
 	results = requests.get(url_req)
 	# print(results.json())
 
+#################################################################################################################################
+
+
+def send_msg_dock(text):
+
+	msg_telegram="[ "+hostname_os +" ]"+text
+	token = "5261450305:AAEROP9j6569RV4rKsE_tStXCdnLSX7Gz1Y"
+	# chat_id = "-643828126"
+	chat_id = "-615987943"
+	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
+	results = requests.get(url_req)
+	print(results.json())
+
+# send_msg_dock("docker test ")
 
 
 def testt():
@@ -787,7 +769,9 @@ user_agent = random.choice(user_agent_list)
 #firefox_options_binary = "/root/EXTRA/firefox-49.0b9/firefox/firefox"
 # new_driver_path = '/usr/bin/geckodriver_15'
 # new_driver_path = '/usr/bin/geckodriver13'
+# new_driver_path = '/usr/bin/geckodriver22'
 new_driver_path = '/usr/bin/geckodriver-30'
+
 # new_binary_path = '/root/EXTRA/firefox-53.0b9/firefox/firefox'
 
 ########################
@@ -805,7 +789,9 @@ new_driver_path = '/usr/bin/geckodriver-30'
 
 def random_fir():
 	# firefox_version=['49.0b9']
+	# firefox_version=['97.0.1']
 	firefox_version=['57.0.1','58.0.1','59.0.1','60.0.1esr']
+	# firefox_version=['97']
 	random_firefox_version=random.choice(firefox_version)
 	print("[ "+random_firefox_version +" ]", end=" ")
 	new_binary_path="/root/EXTRAT/firefox-"+random_firefox_version+"/firefox/firefox"
