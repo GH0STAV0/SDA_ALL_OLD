@@ -787,7 +787,7 @@ user_agent = random.choice(user_agent_list)
 #firefox_options_binary = "/root/EXTRA/firefox-49.0b9/firefox/firefox"
 # new_driver_path = '/usr/bin/geckodriver_15'
 # new_driver_path = '/usr/bin/geckodriver13'
-new_driver_path = '/usr/bin/geckodriver-30'
+new_driver_path = '/usr/bin/geckodriver22'
 # new_binary_path = '/root/EXTRA/firefox-53.0b9/firefox/firefox'
 
 ########################
