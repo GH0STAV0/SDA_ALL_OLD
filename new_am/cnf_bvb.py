@@ -42,8 +42,11 @@ def send_msg_dock(text):
 	
 ###############################################################################################################################
 
-
-
+print("extact")
+comom="cp po/"+g00g_acc+".tar.gz ./"
+os.system(comom)
+comom_2="tar xvf "+g00g_acc+".tar.gz"
+os.system(comom_2)
 
 
 
