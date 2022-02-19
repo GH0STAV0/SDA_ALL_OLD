@@ -12,7 +12,6 @@ from selenium.webdriver.firefox.options import Options as Firefox_Options
 import random,datetime,string , os ,time ,subprocess , sys , requests ,re
 #from selenium.webdriver import ActionChains
 os.system("rm -rf /tmp/*")
-
 def init_fire():
 	print("############################################################")
 	print("INIT TASKS ..... ", end='')
@@ -48,7 +47,7 @@ def build_driver(width,height):
 		#print(new_binary_path)
 		serv = Service(new_driver_path)
 		# fp = webdriver.FirefoxProfile()
-		fp = webdriver.FirefoxProfile("/root/GIT_HUB_REPO/test2/dd/SDA_ALL/new_am/youcefshalhoub/r4kcou5u.youcefshalhoub")
+		fp = webdriver.FirefoxProfile(cnf_bvb.pofile_path)
 		ops = Firefox_Options()
 		#user_agent = cnf_bvb.user_agent
 		#firefox_options = Firefox_Options()		

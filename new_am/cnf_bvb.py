@@ -4,6 +4,8 @@ import socket
 import socket
 hostname_os=socket.getfqdn()
 goog="/root/g00g"
+pwd = os.path.dirname(os.path.realpath( __file__ ))
+
 visible_v=0
 
 if "LOOKE3" in hostname_os:
@@ -20,6 +22,9 @@ def read_current_acc_goo():
 
 print(read_current_acc_goo())
 g00g_acc=read_current_acc_goo()
+pofile_path=pwd+"/"+g00g_acc
+
+print(pofile_path)
 
 user_agent_list = [
 'AppleCoreMedia/1.0.0.12B466 (Apple TV; U; CPU OS 8_1_3 like Mac OS X; en_us)'
