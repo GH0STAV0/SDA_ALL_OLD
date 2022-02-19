@@ -1,0 +1,11 @@
+8
+
+https://cloud.google.com/
+https://cloud.google.com/sw.js
+true
+{84bec4ca-8bc4-4d43-bf35-ab18224e09b9}
+0
+1645253297100971
+1645253297233644
+1645253296755708
+#
