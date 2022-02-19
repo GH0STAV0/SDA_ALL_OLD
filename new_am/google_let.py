@@ -194,7 +194,7 @@ def stage_1():
 ###########################################################################
 
 def check_reconect(driver):
-	print("OPEN AND VISITE WEB-SITE [ 1 ]...... ",end='',flush=True)
+	print("CHECK TEMINAL DISPONIBILITY ..... ",end='',flush=True)
 	try:
 		reconnect_button=WebDriverWait(driver, 60).until(EC.presence_of_element_located((By.XPATH, '//*[@id="cloudshell"]/div/horizontal-split/div[2]/devshell/terminal-container/terminal-status-bar/status-message/mat-toolbar/button[2]')))
 		reconnect_button.click()
@@ -207,7 +207,7 @@ def check_reconect(driver):
 		open_login_button.click()
 		open_login_button.send_keys("clear && docker ps",Keys.ENTER)
 		time.sleep(300)
-		driver.save_screenshot("scr.png")
+		# driver.save_screenshot("scr.png")
 		print("OK XTERMINAL FOUND !!!!!!")
 		check_reconect(driver)
 
@@ -281,7 +281,7 @@ def starting_tasks():
 		stage_1()### CLEAR
 		# mod_vpn2.fnc_vpn ()
 		visible_v=cnf_bvb.visible_v
-		# display = Display(visible=visible_v, size=(width,height)).start()
+		display = Display(visible=visible_v, size=(width,height)).start()
 		driver=mod_driver2.build_driver(width ,height)
 		lets_play(driver)
 		display.stop()
