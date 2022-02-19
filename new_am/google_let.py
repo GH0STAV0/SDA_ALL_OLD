@@ -236,18 +236,18 @@ def check_recovery(driver):
 def ads_class(driver):
 	try:
 		print("OPEN AND VISITE WEB-SITE [ 1 ]...... ",end='',flush=True)
-		driver.get(url_1)
-		print(" [ "+url_1+" ]")
-		gmail_id_input=WebDriverWait(driver, 65).until(EC.presence_of_element_located((By.XPATH, '//*[@id="identifierId"]')))
-		gmail_id_input.send_keys(email,Keys.ENTER)
-		time.sleep(5)
-		gmail_id_input=WebDriverWait(driver, 65).until(EC.presence_of_element_located((By.XPATH, '//*[@id="password"]/div[1]/div/div[1]/input')))
-		gmail_id_input.send_keys(paxx,Keys.ENTER)
+		# driver.get(url_1)
+		# print(" [ "+url_1+" ]")
+		# gmail_id_input=WebDriverWait(driver, 65).until(EC.presence_of_element_located((By.XPATH, '//*[@id="identifierId"]')))
+		# gmail_id_input.send_keys(email,Keys.ENTER)
+		# time.sleep(5)
+		# gmail_id_input=WebDriverWait(driver, 65).until(EC.presence_of_element_located((By.XPATH, '//*[@id="password"]/div[1]/div/div[1]/input')))
+		# gmail_id_input.send_keys(paxx,Keys.ENTER)
 
-		time.sleep(3)
-		check_recovery(driver)
-		# input('')
-		# input('')
+		# time.sleep(3)
+		# check_recovery(driver)
+		# # input('')
+		# # input('')
 
 		try:
 			# pass
