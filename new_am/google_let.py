@@ -257,6 +257,9 @@ def ads_class(driver):
 			open_login_button=WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
 			# input('google loginAAAAAAAAAAAA')
 			print("we are here")
+			staage="OK XTEMINAL ACTIVATED [ "+cnf_bvb.g00g_acc+" ]"
+			print(staage)
+			cnf_bvb.send_msg_dock(staage)
 			open_login_button.click()
 			open_login_button.send_keys("sudo su",Keys.ENTER)
 			time.sleep(10)

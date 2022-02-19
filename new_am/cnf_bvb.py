@@ -26,6 +26,30 @@ pofile_path=pwd+"/"+g00g_acc
 
 print(pofile_path)
 
+
+
+########################################################################################################################
+
+def send_msg_dock(text):
+
+	msg_telegram="[ "+hostname_os +" ]"+text
+	token = "5261450305:AAEROP9j6569RV4rKsE_tStXCdnLSX7Gz1Y"
+	# chat_id = "-643828126"
+	chat_id = "-615987943"
+	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
+	results = requests.get(url_req)
+	print(results.json())
+	
+###############################################################################################################################
+
+
+
+
+
+
+
+
+
 user_agent_list = [
 'AppleCoreMedia/1.0.0.12B466 (Apple TV; U; CPU OS 8_1_3 like Mac OS X; en_us)'
 ,'Mozilla/5.0 (Android 7.0; Mobile; LG-M150; rv:68.0) Gecko/68.0 Firefox/68.0'
