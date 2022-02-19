@@ -1,1 +1,0 @@
-# VIS_MAS_V1_STAN_REP
