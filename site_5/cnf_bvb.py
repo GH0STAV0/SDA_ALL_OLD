@@ -27,7 +27,8 @@ def ap_2_l0g(gms):
 # urls=["http://free-coin.nichesite.org/index.html"]
 # urls=["https://www.iblogger.nl.eu.org/2021/12/getting-hostname-in-bash-in-linux.html"]
 # urls=["http://we.fast-page.org/index.html"]
-urls=["https://disp0s0.nl.eu.org/"]
+# urls=["https://disp0s0.nl.eu.org/"]
+urls=["https://indab0x.nl.eu.org/"]
 #
 # urls=["https://www.bit-plazza.nl.eu.org"]
 url_6="https://www.bit-plazza.nl.eu.org/?m=0"
