@@ -201,9 +201,7 @@ def fnc_vpn():
 		if logfile.read().find('Sequence Completed') !=-1:
 			print ("OK !!!!!")
 			ac_ip,tz,loc=cnf_bvb.iip()
-			
 			change_time_zon(tz)
-			
 			os.environ['TZ'] = tz
 			bass=read_pass()
 			def_titi=read_default_timezone()
