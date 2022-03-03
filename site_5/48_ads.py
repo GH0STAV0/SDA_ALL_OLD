@@ -213,8 +213,8 @@ def ads_class(driver):
 
 
 		# cnf_bvb.send_msg("oooooooooooooooooooo")
-		driver.refresh()
-		time.sleep(15)
+	driver.refresh()
+	time.sleep(15)
 
 	append_to_l0g("VISITE WEB-SITE [ 2 ] : [ +second_2_visit+]  OK")
 		# time.sleep(2)
