@@ -10,7 +10,7 @@ def check_connect_mysql():
 	print(" CHECK SQL  CONNECTION       : ",end='',flush=True)
 	try:
 		mycursor = mydb.cursor()
-		print("MYSQL CONNECTED OK!! ")
+		print("MYSQL CONNECTED OK ")
 	except  Exception as e :
 		print(" SQL ERROR CONNECTION        : "+str(e)+" ",end='',flush=True)
 
@@ -192,8 +192,8 @@ def counting_used_config_config(typ0):
 
 
 
-typ0="N"
-counting_left()
+# typ0="N"
+# counting_left()
 # vpn_folder="/root/VPN/N0RD/WORKING_CONFIG/"
 
 
