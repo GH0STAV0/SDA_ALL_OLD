@@ -13,6 +13,8 @@ def check_connect_mysql():
 		print("MYSQL CONNECTED OK ")
 	except  Exception as e :
 		print(" SQL ERROR CONNECTION        : "+str(e)+" ",end='',flush=True)
+		time.sleep(10)
+
 
 
 # check_connect_mysql()
@@ -185,7 +187,7 @@ def counting_used_config_config(typ0):
 # get_value_cnf()
 
 #
-# check_connect_mysql()
+check_connect_mysql()
 # loop_conf()
 # SELECT * FROM `nord_list2` WHERE (`used`='n') ORDER BY RAND() LIMIT 1
 
