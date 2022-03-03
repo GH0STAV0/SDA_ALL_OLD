@@ -3,10 +3,13 @@ import time ,os
 from datetime import datetime
 
 ###############################################################################################
+
 mydb = mysql.connector.connect(host="remotemysql.com",user="f6V3kVwxvH",passwd="sOVnW1130i",database="f6V3kVwxvH")
 
+
+
 def check_connect_mysql():
-	# mydb = mysql.connector.connect(host="remotemysql.com",user="f6V3kVwxvH",passwd="sOVnW1130i",database="f6V3kVwxvH")
+	mydb = mysql.connector.connect(host="remotemysql.com",user="f6V3kVwxvH",passwd="sOVnW1130i",database="f6V3kVwxvH")
 	print(" CHECK SQL  CONNECTION       : ",end='',flush=True)
 	try:
 		mycursor = mydb.cursor()
@@ -90,8 +93,8 @@ def get_fresh_config(typ0):
 
 
 def update_to_db_as_used(cnf_name,typ0):
-	# mydb = mysql.connector.connect(host="remotemysql.com",user="f6V3kVwxvH",passwd="sOVnW1130i",database="f6V3kVwxvH")
-	check_connect_mysql()
+	mydb = mysql.connector.connect(host="remotemysql.com",user="f6V3kVwxvH",passwd="sOVnW1130i",database="f6V3kVwxvH")
+	# check_connect_mysql()
 
 	print(" UPDATE_SQL STATUS CONFIG [ "+cnf_name+" ] : ",end='',flush=True)
 	mycursor = mydb.cursor()
@@ -187,7 +190,7 @@ def counting_used_config_config(typ0):
 # get_value_cnf()
 
 #
-check_connect_mysql()
+# check_connect_mysql()
 # loop_conf()
 # SELECT * FROM `nord_list2` WHERE (`used`='n') ORDER BY RAND() LIMIT 1
 
