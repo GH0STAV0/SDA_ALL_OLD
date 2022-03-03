@@ -20,18 +20,12 @@ telegram_tokens_bot=["0","5036803152:AAGs0ES1OmEdy86MNJDp7mp19BB5IQhcVHU","50994
 def ap_2_l0g(gms):
 	total_l0g.append(gms)
 
-# urls=["https://dark0s-market.eu.org/index.html"]
-#"http://free-coin.nichesite.org/index.html"]
-# urls=["https://dark-market.eu.org/index.html"]
-#,"https://dark0s-market.eu.org/index.html"]
-# urls=["http://free-coin.nichesite.org/index.html"]
-# urls=["https://www.iblogger.nl.eu.org/2021/12/getting-hostname-in-bash-in-linux.html"]
-# urls=["http://we.fast-page.org/index.html"]
+
 urls=["https://disp0s0.nl.eu.org/"]
-# urls=["https://indab0x.nl.eu.org/"]
-#
-# urls=["https://www.bit-plazza.nl.eu.org"]
+
 url_6="https://www.bit-plazza.nl.eu.org/?m=0"
+
+
 def set_url():
 	random_url=random.choice(urls)
 	return random_url
