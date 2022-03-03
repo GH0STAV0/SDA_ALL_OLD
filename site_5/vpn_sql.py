@@ -10,7 +10,7 @@ def check_connect_mysql():
 	print(" CHECK SQL  CONNECTION       : ",end='',flush=True)
 	try:
 		mycursor = mydb.cursor()
-		print("MYSQL CONNECTED OK ")
+		print("MYSQL CONNECTED OK!! ")
 	except  Exception as e :
 		print(" SQL ERROR CONNECTION        : "+str(e)+" ",end='',flush=True)
 
