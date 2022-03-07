@@ -2,7 +2,7 @@
 clear
 trap "echo oh;exit" SIGTERM SIGINT
 
-
+dbus-uuidgen > /var/lib/dbus/machine-id
 
 while true
 do
