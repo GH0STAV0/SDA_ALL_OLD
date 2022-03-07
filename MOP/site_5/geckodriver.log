@@ -1,0 +1,43 @@
+1644049440673	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-57.0.1/firefox/firefox" "-marionette" "--width=1440" "--height=2560" "ignore-certificate-errors" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqH5YFX"
+1644049441980	Marionette	INFO	Enabled via --marionette
+Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFFDBC54F30, 4096)
+Sandbox: seccomp sandbox violation: pid 3061, tid 3061, syscall 262, args 37 139718097823578 140736880529200 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFFDBC55300, 4096)
+Sandbox: seccomp sandbox violation: pid 3061, tid 3061, syscall 262, args 37 139718097823578 140736880530176 4096 591872 139717806623568.
+Sandbox: seccomp sandbox violation: pid 3061, tid 3061, syscall 332, args 37 139718055396146 4096 1 140736880530112 139717806623920.
+Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFFDBC55110, 4096)
+Sandbox: seccomp sandbox violation: pid 3061, tid 3061, syscall 262, args 37 139718055396146 140736880529680 4096 4096 4294967295.
+Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFFDBC54B10, 4096)
+Sandbox: seccomp sandbox violation: pid 3061, tid 3061, syscall 262, args 37 139718097823578 140736880528144 4096 0 1.
+Sandbox: unsupported fd-relative fstatat(39, "", 0x7FFFDBC51580, 4096)
+Sandbox: seccomp sandbox violation: pid 3061, tid 3061, syscall 262, args 39 139718104078837 140736880514432 4096 139717456299072 0.
+Sandbox: unsupported fd-relative fstatat(39, "", 0x7FFFDBC51580, 4096)
+Sandbox: seccomp sandbox violation: pid 3061, tid 3061, syscall 262, args 39 139718104078837 140736880514432 4096 139717456299008 0.
+1644049445953	Marionette	INFO	Listening on port 37017
+1644049446144	Marionette	WARN	TLS certificate errors will be ignored for this session
+1644049446256	Marionette	DEBUG	Register listener.js for window 2147483649
+Sandbox: unsupported fd-relative fstatat(39, "", 0x7FFFDBC51950, 4096)
+Sandbox: seccomp sandbox violation: pid 3061, tid 3061, syscall 262, args 39 139718097823578 140736880515408 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(39, "", 0x7FFFDBC52B20, 4096)
+Sandbox: seccomp sandbox violation: pid 3061, tid 3061, syscall 262, args 39 139718097823578 140736880519968 4096 1 4194304.
+Sandbox: unsupported fd-relative fstatat(39, "", 0x7FFFDBC52DE0, 4096)
+Sandbox: seccomp sandbox violation: pid 3061, tid 3061, syscall 262, args 39 139718097823578 140736880520672 4096 1 67108864.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFFDBC53300, 4096)
+Sandbox: seccomp sandbox violation: pid 3061, tid 3061, syscall 262, args 40 139718097823578 140736880521984 4096 1 1048576.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFFDBC535C0, 4096)
+Sandbox: seccomp sandbox violation: pid 3061, tid 3061, syscall 262, args 40 139718097823578 140736880522688 4096 1 2097152.
+1644049450844	Marionette	DEBUG	Received DOM event "beforeunload" for "about:neterror?e=dnsNotFound&u=http%3A//www.ignore-certificate-errors.com/&c=UTF-8&f=regular&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.ignore-certificate-errors.com."
+1644049457524	Marionette	DEBUG	Received DOM event "pagehide" for "about:neterror?e=dnsNotFound&u=http%3A//www.ignore-certificate-errors.com/&c=UTF-8&f=regular&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.ignore-certificate-errors.com."
+1644049457524	Marionette	DEBUG	Received DOM event "unload" for "about:neterror?e=dnsNotFound&u=http%3A//www.ignore-certificate-errors.com/&c=UTF-8&f=regular&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.ignore-certificate-errors.com."
+1644049458485	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://nordaccount.com/login/identifier?challenge=2%7Cdd658253e1604667a153d06945f3d5d1"
+1644049461416	Marionette	DEBUG	Received DOM event "pageshow" for "https://nordaccount.com/login/identifier?challenge=2%7Cdd658253e1604667a153d06945f3d5d1"
+Gdk-Message: 10:25:45.344: /root/EXTRA/firefox-57.0.1/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+1644049604876	geckodriver	INFO	Listening on 127.0.0.1:50107
+1644049606353	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.mSS5eHKzVDyY
+1644049606356	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-49.0b9/firefox/firefox with args ["--width=1920", "--height=1200", "ignore-certificate-errors"]
+1644049606466	geckodriver::marionette	INFO	Connecting to Marionette on localhost:39101
+1644049615620	Marionette	INFO	Listening on port 39101
+1644049622464	Marionette	INFO	startBrowser 38efae2d-e856-4262-af7c-2aea0ea82e8c
+Gdk-Message: 00:27:35.585: /root/EXTRA/firefox-49.0b9/firefox/plugin-container: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
