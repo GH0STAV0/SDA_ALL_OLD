@@ -203,6 +203,7 @@ def ads_class(driver,l0g):
 			time.sleep(2)
 			SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/div/div[2]/div/span')))
 			print("peform2 : "+SUCCESS_MSG_BUTTON.text)
+			cnf_bvb.alias_send_msg(SUCCESS_MSG_BUTTON.text)
 			time.sleep(7)
 			driver.switch_to.parent_frame()
 		except:
@@ -246,7 +247,7 @@ def starting_tasks(l0g):
 		# serv,ops=mod_driver.build_driver(width ,height)
 		lets_play(l0g)
 		clean_up()
-		cnf_bvb.alias_send_msg("ok")
+		
 
 	except Exception as error:
 		print (str(error))
