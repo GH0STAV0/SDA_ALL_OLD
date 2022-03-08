@@ -246,6 +246,7 @@ def starting_tasks(l0g):
 		# serv,ops=mod_driver.build_driver(width ,height)
 		lets_play(l0g)
 		clean_up()
+		cnf_bvb.alias_send_msg("ok")
 
 	except Exception as error:
 		print (str(error))

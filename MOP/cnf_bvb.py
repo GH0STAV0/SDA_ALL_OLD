@@ -6,7 +6,9 @@ import emoji
 import  u_a
 
 
-vversion="23.0 MAC+NO AND NRD_AUTO-UP *"
+
+
+vversion="23.0 MAC+NO AND CHEAP_VPN-UP *"
 telegram_tokens_bot=["0","5036803152:AAGs0ES1OmEdy86MNJDp7mp19BB5IQhcVHU","5099462819:AAEndTxvXaSqBQ6E_EpiCN02a81ROGPMgr0","5001651751:AAGzzbUfJXWHZz-FKJyLSUxzg-JiRMO5v-Q","5041058138:AAFRher-cMwnRI476iW24tT6Kt8lvC0bmLc","5051743922:AAEOHJTRzv2WIxZ8bR-VrVYNA6io6qB1Ltw"]
 hostname_os=socket.getfqdn()
 visible_v=0
@@ -15,6 +17,23 @@ if "LOOKE3" in hostname_os:
 	print(hostname_os)
 	visible_v=1
 
+
+def get_tokens():
+	bot_name=hostname_os_val()
+	# print(bot_name)
+	tokens=telegram_tokens_bot[5]
+	if "1" in bot_name:
+		tokens=telegram_tokens_bot[1]
+	if "2" in bot_name:
+		tokens=telegram_tokens_bot[2]
+	if "3" in bot_name:
+		tokens=telegram_tokens_bot[3]
+	if "4" in bot_name:
+		tokens=telegram_tokens_bot[4]
+	if "5" in bot_name:
+		tokens=telegram_tokens_bot[5]
+	print(tokens)
+	return tokens
 
 
 ##############################################################################################
@@ -42,10 +61,27 @@ total_l0g=[]
 
 
 
+def alias_send_msg(text):
+	pol=emoji.emojize(""':man_genie:')
+	mp=emoji.emojize(" "'  :dizzy:'+"[ "+hostname_os +" ] "':dizzy:'+" \n"''+"  [ "+vversion+" ] "'')
+	msg_telegram=mp+" \n"+text+" ] \n "+pol+" [  ] \n "+pol
+	# token = "2137513961:AAGENlwIUQnfvbKZX64-fZ72R_oStto8oFo"
+	#-609247805
+	token=get_tokens()
+	# token="5086890807:AAEEM2OhQaR9mB7KUZvwkE60mHvoSY4BhOQ"
+	# token="5035848854:AAG9a-7bHDYTOXiNEdjXRsnM-gbkdw9TCfE"
+	chat_id = "-615987943"
+	# chat_id = "-1001616252735"
+	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram
+	# url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
+
+	results = requests.get(url_req)
+	# print(results.json())
 
 
 
 
+# alias_send_msg("text")
 
 
 
