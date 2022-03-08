@@ -177,7 +177,7 @@ def ads_class(driver):
 		
 		driver.get("https://shell.cloud.google.com/?cloudshell=true&show=terminal")
 		time.sleep(25)
-		input("")
+		# input("")
 		# input('google loginAAAAAAAAAAAA')
 		open_login_button=WebDriverWait(driver, 58).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
 		open_login_button.click()

@@ -83,7 +83,7 @@ def lets_play(l0g):
 		width ,height=cnf_bvb.resolution_func()
 #		print("OPEN DISPLAY  WEB-SITE ...... ",end='',flush=True)
 # size=(width,height)
-		display = Display(visible=1,size=(width,height)).start()
+		display = Display(visible=0,size=(width,height)).start()
 		print(emoji.emojize("Ok "' :check_mark_button: :alien:'))
 
 	except Exception as error:
