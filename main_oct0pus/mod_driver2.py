@@ -99,6 +99,22 @@ def build_driver(width,height):
 		# fp.set_preference("modifyheaders.headers.name0", "x-msisdn")
 		# fp.set_preference("dom.push.enabled", False)
 		# fp.set_preference("intl.accept_languages", "en-GB");
+				# ops.add_argument('--ignore-ssl-errors=yes')
+		fp.set_preference("dom.webdriver.enabled", False)
+		fp.set_preference('useAutomationExtension', False)
+		# #fp.set_preference("http.response.timeout",95)
+		# # fp.set_preference("dom.popup_maximum", 2)
+		fp.set_preference("general.useragent.override",user_agent)
+		fp.set_preference('webdriver.load.strategy','unstable')
+		fp.set_preference("modifyheaders.headers.count", 2)
+		# fp.set_preference("dom.webdriver.enabled", False)
+		fp.set_preference("modifyheaders.headers.action0", "Add")
+		fp.set_preference("modifyheaders.headers.name0", "x-msisdn")
+		fp.set_preference("dom.push.enabled", False)
+		fp.set_preference("intl.accept_languages", "en-US")
+		# fp.setAcceptUntrustedCertificates(true)
+		# fp.setAssumeUntrustedCertificateIssuer(true)
+		# fp.update_preferences()
 		fp.update_preferences()
 		ops.binary_location = new_binary_path
 		ops.profile=fp

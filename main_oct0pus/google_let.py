@@ -158,7 +158,8 @@ def lets_play(driver) :
 	
 	time.sleep(1)
 	try:
-		ads_class(driver)	
+		ads_class(driver)
+
 	except Exception as error:
 		print(str(error))
 
@@ -251,7 +252,9 @@ def ads_class(driver):
 
 		try:
 			# pass
+			# driver.get("https://google.com/")
 			driver.get("https://shell.cloud.google.com/?cloudshell=true&show=terminal")
+			# input('stop')
 			time.sleep(10)
 			
 			open_login_button=WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
@@ -284,9 +287,10 @@ def starting_tasks():
 		stage_1()### CLEAR
 		# mod_vpn2.fnc_vpn ()
 		visible_v=cnf_bvb.visible_v
-		display = Display(visible=visible_v, size=(width,height)).start()
+		# display = Display(visible=visible_v, size=(width,height)).start()
 		driver=mod_driver2.build_driver(width ,height)
 		lets_play(driver)
+
 		display.stop()
 		clean_up()
 
