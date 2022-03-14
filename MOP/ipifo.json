@@ -1,10 +1,11 @@
 {
-  "ip": "103.4.31.138",
-  "city": "Taipei",
-  "region": "Taiwan",
-  "country": "TW",
-  "loc": "25.0478,121.5319",
-  "org": "AS55720 Gigabit Hosting Sdn Bhd",
-  "timezone": "Asia/Taipei",
+  "ip": "195.158.249.89",
+  "city": "Ljubljana",
+  "region": "Ljubljana",
+  "country": "SI",
+  "loc": "46.0511,14.5051",
+  "org": "AS203020 HostRoyale Technologies Pvt Ltd",
+  "postal": "1538",
+  "timezone": "Europe/Ljubljana",
   "readme": "https://ipinfo.io/missingauth"
 }

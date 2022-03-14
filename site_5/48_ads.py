@@ -184,6 +184,27 @@ def ads_class(driver):
 			print("error scrol 1")
 
 		# time.sleep(3)
+		try:
+
+			iframes = driver.find_elements_by_xpath("//iframe")
+			# print(str(iframes))
+			driver.switch_to.frame(0)
+			time.sleep(2)
+			SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/div/div[2]/div/span')))
+			print("peform2 : "+SUCCESS_MSG_BUTTON.text)
+			do0n="peform2 : "+SUCCESS_MSG_BUTTON.text
+			# cnf_bvb.alias_send_msg(SUCCESS_MSG_BUTTON.text)
+			time.sleep(7)
+			driver.switch_to.parent_frame()
+		except:
+			do0n="peform2 : nothing"
+			print("noooo")
+			time.sleep(7)
+			pass
+		append_to_l0g(do0n)
+		# SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '//*[@id="address-box-normal"]/div[3]/button')))
+		# SUCCESS_MSG_BUTTON.click()
+		# time.sleep(7)
 		time.sleep(35)
 		# driver.get(url_1)
 		# print(" [ "+url_1+" ]")
