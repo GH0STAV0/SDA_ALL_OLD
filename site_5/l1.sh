@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 clear
 trap "echo oh;exit" SIGTERM SIGINT
+dbus-uuidgen > /var/lib/dbus/machine-id
 
 #cd /root/SDA_ALL/48_firefox/
 
