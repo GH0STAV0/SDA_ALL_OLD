@@ -187,20 +187,28 @@ def ads_class(driver):
 		try:
 
 			iframes = driver.find_elements_by_xpath("//iframe")
-			# print(str(iframes))
+			# print(str(imges_ifam))
 			driver.switch_to.frame(0)
 			time.sleep(2)
+
 			SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/div/div[2]/div/span')))
-			print("peform2 : "+SUCCESS_MSG_BUTTON.text)
-			do0n="peform2 : "+SUCCESS_MSG_BUTTON.text
+			print("peform1 : "+SUCCESS_MSG_BUTTON.text)
+			do0n="peform1 : "+SUCCESS_MSG_BUTTON.text
+			print(do0n)
 			# cnf_bvb.alias_send_msg(SUCCESS_MSG_BUTTON.text)
 			time.sleep(7)
-			driver.switch_to.parent_frame()
+			
 		except:
-			do0n="peform2 : nothing"
-			print("noooo")
+			do0n="peform1 : "
+			imges_ifam = driver.find_elements_by_xpath("//img")
+			# print(str(imges_ifam))
+			for i in imges_ifam :
+				# print(i.get_attribute("alt"))
+				do0n=do0n+ " | "+i.get_attribute("alt")
+			print(" "+do0n)
 			time.sleep(7)
 			pass
+		driver.switch_to.parent_frame()
 		append_to_l0g(do0n)
 		# SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '//*[@id="address-box-normal"]/div[3]/button')))
 		# SUCCESS_MSG_BUTTON.click()
@@ -235,7 +243,38 @@ def ads_class(driver):
 
 		# cnf_bvb.send_msg("oooooooooooooooooooo")
 	driver.refresh()
-	time.sleep(15)
+	time.sleep(2)
+	try:
+
+
+			iframes = driver.find_elements_by_xpath("//iframe")
+			# print(str(imges_ifam))
+			driver.switch_to.frame(0)
+			time.sleep(2)
+
+			SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/div/div[2]/div/span')))
+			print("peform2 : "+SUCCESS_MSG_BUTTON.text)
+			do0n="peform2 : "+SUCCESS_MSG_BUTTON.text
+			print(do0n)
+			# cnf_bvb.alias_send_msg(SUCCESS_MSG_BUTTON.text)
+			time.sleep(7)
+			
+	except:
+		do0n="peform2 : "
+		imges_ifam = driver.find_elements_by_xpath("//img")
+		# print(str(imges_ifam))
+		for i in imges_ifam :
+			# print(i.get_attribute("alt"))
+			do0n=do0n+ " | "+i.get_attribute("alt")
+		print(" "+do0n)
+		time.sleep(7)
+		pass
+	driver.switch_to.parent_frame()
+	append_to_l0g(do0n)
+		# SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '//*[@id="address-box-normal"]/div[3]/button')))
+		# SUCCESS_MSG_BUTTON.click()
+		# time.sleep(7)
+	time.sleep(35)
 
 	append_to_l0g("VISITE WEB-SITE [ 2 ] : [ +second_2_visit+]  OK")
 		# time.sleep(2)
