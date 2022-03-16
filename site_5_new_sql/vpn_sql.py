@@ -6,13 +6,13 @@ from datetime import datetime
 # mysql -hcontainers-us-west-28.railway.app -uroot -pzZZMnyRiDHB1OCtmINPa --port 7139 --protocol=TCP railway < nord_list2.sql
 # 
 
-mydb = mysql.connector.connect(host="containers-us-west-28.railway.app",user="root"\
-		,passwd="zZZMnyRiDHB1OCtmINPa",database="railway" ,port=7139)
+# mydb = mysql.connector.connect(host="containers-us-west-28.railway.app",user="root"\
+		# ,passwd="zZZMnyRiDHB1OCtmINPa",database="railway" ,port=7139)
 
 def check_connect_mysql():
 	# mydb = mysql.connector.connect(host="containers-us-west-28.railway.app",user="root"\
 	# 	,passwd="zZZMnyRiDHB1OCtmINPa",database="railway" ,port=7139)
-	# mydb = mysql.connector.connect(host="remotemysql.com",user="f6V3kVwxvH",passwd="sOVnW1130i",database="f6V3kVwxvH")
+	mydb = mysql.connector.connect(host="remotemysql.com",user="f6V3kVwxvH",passwd="sOVnW1130i",database="f6V3kVwxvH")
 	print(" CHECK SQL  CONNECTION       : ",end='',flush=True)
 	try:
 		mycursor = mydb.cursor()
