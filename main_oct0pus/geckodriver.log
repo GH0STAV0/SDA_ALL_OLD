@@ -5751,3 +5751,46 @@ Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1648076669141	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-58.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMTbvVc"
+1648076674539	Marionette	INFO	Enabled via --marionette
+Sandbox: unsupported fd-relative fstatat(39, "", 0x7FFC384B08E0, 4096)
+Sandbox: seccomp sandbox violation: pid 2442, tid 2442, syscall 262, args 39 140479632795482 140721252927712 4096 0 1.
+1648076679587	Marionette	INFO	Listening on port 38797
+1648076679636	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC384AD1B0, 4096)
+Sandbox: seccomp sandbox violation: pid 2442, tid 2442, syscall 262, args 42 140479632795482 140721252913584 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC384B0700, 4096)
+Sandbox: seccomp sandbox violation: pid 2442, tid 2442, syscall 262, args 42 140479639308789 140721252927232 4096 140478949794944 0.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC384B0700, 4096)
+Sandbox: seccomp sandbox violation: pid 2442, tid 2442, syscall 262, args 42 140479639308789 140721252927232 4096 140478949711296 0.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC384B14C0, 4096)
+Sandbox: seccomp sandbox violation: pid 2442, tid 2442, syscall 262, args 42 140479632795482 140721252930752 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC384AD420, 4096)
+Sandbox: seccomp sandbox violation: pid 2442, tid 2442, syscall 262, args 42 140479632795482 140721252914208 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC384AD6F0, 4096)
+Sandbox: seccomp sandbox violation: pid 2442, tid 2442, syscall 262, args 42 140479632795482 140721252914928 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC384AD3B0, 4096)
+Sandbox: seccomp sandbox violation: pid 2442, tid 2442, syscall 262, args 45 140479632795482 140721252914096 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC384AD680, 4096)
+Sandbox: seccomp sandbox violation: pid 2442, tid 2442, syscall 262, args 45 140479632795482 140721252914816 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC384AD490, 4096)
+Sandbox: seccomp sandbox violation: pid 2442, tid 2442, syscall 262, args 47 140479632795482 140721252914320 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC384AD760, 4096)
+Sandbox: seccomp sandbox violation: pid 2442, tid 2442, syscall 262, args 47 140479632795482 140721252915040 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC384AD790, 4096)
+Sandbox: seccomp sandbox violation: pid 2442, tid 2442, syscall 262, args 45 140479632795482 140721252915088 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(45, "", 0x7FFC384ADA60, 4096)
+Sandbox: seccomp sandbox violation: pid 2442, tid 2442, syscall 262, args 45 140479632795482 140721252915808 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC384AD720, 4096)
+Sandbox: seccomp sandbox violation: pid 2442, tid 2442, syscall 262, args 47 140479632795482 140721252914976 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(47, "", 0x7FFC384AD9F0, 4096)
+Sandbox: seccomp sandbox violation: pid 2442, tid 2442, syscall 262, args 47 140479632795482 140721252915696 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFC384AD800, 4096)
+Sandbox: seccomp sandbox violation: pid 2442, tid 2442, syscall 262, args 48 140479632795482 140721252915200 4096 1 63.
+Sandbox: unsupported fd-relative fstatat(48, "", 0x7FFC384ADAD0, 4096)
+Sandbox: seccomp sandbox violation: pid 2442, tid 2442, syscall 262, args 48 140479632795482 140721252915920 4096 1 140478910562305.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC384AD970, 4096)
+Sandbox: seccomp sandbox violation: pid 2442, tid 2442, syscall 262, args 49 140479632795482 140721252915568 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC384AEA20, 4096)
+Sandbox: seccomp sandbox violation: pid 2442, tid 2442, syscall 262, args 49 140479632795482 140721252919840 4096 1 0.
+JavaScript error: chrome://browser/content/browser.js, line 8515: TypeError: gBrowser.tabContainer is undefined
