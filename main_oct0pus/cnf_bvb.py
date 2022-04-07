@@ -22,11 +22,11 @@ def read_current_acc_goo():
 
 print(read_current_acc_goo())
 # g00g_acc=read_current_acc_goo()
-# g00g_acc="garmiyashour"
+g00g_acc="garmiyashour"
 # erogomayke
 # g00g_acc="erogomayke"
 
-g00g_acc="laminewalter7"
+# g00g_acc="laminewalter7"
 
 pofile_path=pwd+"/"+g00g_acc
 
