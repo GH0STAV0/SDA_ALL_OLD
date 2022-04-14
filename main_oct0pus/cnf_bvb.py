@@ -27,7 +27,8 @@ print(read_current_acc_goo())
 # erogomayke
 # g00g_acc="erogomayke"
 
-g00g_acc="laminewalter7"
+# g00g_acc="laminewalter7"
+g00g_acc="dahmandargo"
 
 pofile_path=pwd+"/"+g00g_acc
 
