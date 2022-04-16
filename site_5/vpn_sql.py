@@ -8,14 +8,15 @@ from datetime import datetime
 
 
 def check_connect_mysql():
-	mydb = mysql.connector.connect(host="remotemysql.com",user="f6V3kVwxvH",passwd="sOVnW1130i",database="f6V3kVwxvH")
 	print(" CHECK SQL  CONNECTION       : ",end='',flush=True)
 	try:
+		mydb = mysql.connector.connect(host="remotemysql.com",user="f6V3kVwxvH",passwd="sOVnW1130i",database="f6V3kVwxvH")
 		mycursor = mydb.cursor()
 		print("MYSQL CONNECTED OK ")
 	except  Exception as e :
 		print(" SQL ERROR CONNECTION        : "+str(e)+" ",end='',flush=True)
-		time.sleep(10)
+		time.sleep(18)
+		check_connect_mysql()
 
 
 
@@ -60,13 +61,13 @@ def get_value_cnf(fresh_config):
 def set_table(typ0):
 	# vpn_type=cnf_bvb.vpn_type
 	if "N" in typ0:
-		print("NORD VPN")
+		# print("NORD VPN")
 		tab_list_1='nord_list2'
 		# vpn_folder=pwd+"/N0RD/WORKING_CONFIG/"
 		# typ0="N"
 #       ######################################################          
-	if "C" in typ0:
-		print(" NAME_CHEAP")
+	elif "C" in typ0:
+		# print(" NAME_CHEAP")
 		tab_list_1='name_cheap'
 		# vpn_folder=pwd+"/CHEAP_VPN/"
 		# typ0="C"
@@ -75,22 +76,27 @@ def set_table(typ0):
 
 
 def get_fresh_config(typ0):
-	mydb = mysql.connector.connect(host="remotemysql.com",user="f6V3kVwxvH",passwd="sOVnW1130i",database="f6V3kVwxvH")
+	try:
 
-	this_table=set_table(typ0)
+		check_connect_mysql()
+		mydb = mysql.connector.connect(host="remotemysql.com",user="f6V3kVwxvH",passwd="sOVnW1130i",database="f6V3kVwxvH")
 
-	
-	# print(" RANDOM_FRESH CONFIG   : ",end='',flush=True)
-	mycursor = mydb.cursor()
-	sql = "SELECT * FROM `"+this_table+"` WHERE (`used`='n') ORDER BY RAND() LIMIT 1"
-	mycursor.execute(sql)
-	record = mycursor.fetchall()
-	#count=mycursor.rowcount
-	int_count=counting_used_config_config(typ0)
-	# print(str(int_count))
-	for row in record:
-		fresh_config=str(row[1])
-	return fresh_config ,int_count
+		this_table=set_table(typ0)
+
+		
+		# print(" RANDOM_FRESH CONFIG   : ",end='',flush=True)
+		mycursor = mydb.cursor()
+		sql = "SELECT * FROM `"+this_table+"` WHERE (`used`='n') ORDER BY RAND() LIMIT 1"
+		mycursor.execute(sql)
+		record = mycursor.fetchall()
+		#count=mycursor.rowcount
+		int_count=counting_used_config_config(this_table)
+		# print(str(int_count))
+		for row in record:
+			fresh_config=str(row[1])
+		return fresh_config ,int_count
+	except:
+		time.sleep(18)
 
 #################################################################################################
 
@@ -166,7 +172,7 @@ def counting_left():
 
 def counting_used_config_config(typ0):
 	mydb = mysql.connector.connect(host="remotemysql.com",user="f6V3kVwxvH",passwd="sOVnW1130i",database="f6V3kVwxvH")
-	this_table=set_table(typ0)
+	this_table=typ0
 	# mydb = mysql.connector.connect(host="remotemysql.com",user="f6V3kVwxvH",passwd="sOVnW1130i",database="f6V3kVwxvH")
 	# print(" counting_used_config_config  : ",end='',flush=True)
 	mycursor = mydb.cursor()
@@ -174,7 +180,8 @@ def counting_used_config_config(typ0):
 	mycursor.execute(sql)
 	record = mycursor.fetchall()
 	count=mycursor.rowcount
-	# print(str(count))
+
+	print(" VPN : [ "+this_table+" ]    |     Used Counting [ "+str(count)+" ]")
 	# for row in record:
 	# 	fresh_config=str(row[1])
 	return count
@@ -216,3 +223,4 @@ def counting_used_config_config(typ0):
 # 			fw.write(i+"\n")
 
 
+# get_fresh_config("N")
