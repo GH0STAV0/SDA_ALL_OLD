@@ -68,7 +68,6 @@ def send_msg(text):
 
 
 
-
 def alias_send_msg(text):
 	pol=emoji.emojize(""':man_genie:')
 	mp=emoji.emojize(" "'  :dizzy:'+"[ "+hostname_os +" ] "':dizzy:'+" \n"''+"  [ "+vversion+" ] "'')

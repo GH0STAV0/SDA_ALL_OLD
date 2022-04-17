@@ -175,6 +175,7 @@ def stage_1():
 def ads_class(driver,l0g):
 	action = ActionChains(driver)
 
+
 	# /html/body/div/div[2]/div
 	try:
 		driver.get(urls_BVB)
@@ -212,7 +213,7 @@ def ads_class(driver,l0g):
 			pass
 		# SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '//*[@id="address-box-normal"]/div[3]/button')))
 		# SUCCESS_MSG_BUTTON.click()
-		cnf_bvb.send_msg("boom")
+		cnf_bvb.alias_send_msg("uuuuuuuuuuuuuuuuuuu")
 		time.sleep(7)
 		driver.refresh()
 		time.sleep(7)
@@ -241,6 +242,7 @@ def starting_tasks(l0g):
 
 	try:
 		stage_1()### CLEAR
+		cnf_bvb.alias_send_msg("uuuuuuuuuuuuuuuuuuu")
 		# print(l0g)
 		# os.system("curl -sx socks5://127.0.0.1:9050 ifconfig.co | grep -oP '(?<=Your IP</span>: ).*(?=</span>)'")
 		mod_vpn2.fnc_vpn ()
