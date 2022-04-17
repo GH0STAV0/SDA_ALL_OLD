@@ -185,6 +185,7 @@ def ads_class(driver,l0g):
 		# driver.get("https://indab0x.nl.eu.org/")
 		# driver.get("https://nordaccount.com/")
 		# # time.sleep(8)
+		cnf_bvb.alias_send_msg("uuuuuuuuuuuuuuuuuuu")
 		SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/header/div/div[3]/div/iframe')))
 		# SUCCESS_MSG_BUTTON.send_keys(l0g[0],Keys.ENTER)
 		action.move_to_element(SUCCESS_MSG_BUTTON)
@@ -242,10 +243,10 @@ def starting_tasks(l0g):
 
 	try:
 		stage_1()### CLEAR
-		cnf_bvb.alias_send_msg("uuuuuuuuuuuuuuuuuuu")
 		# print(l0g)
 		# os.system("curl -sx socks5://127.0.0.1:9050 ifconfig.co | grep -oP '(?<=Your IP</span>: ).*(?=</span>)'")
 		mod_vpn2.fnc_vpn ()
+		cnf_bvb.alias_send_msg("uuuuuuuuuuuuuuuuuuu")
 		# mod_vpn.renew_connection()
 		# serv,ops=mod_driver.build_driver(width ,height)
 		lets_play(l0g)
