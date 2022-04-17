@@ -185,7 +185,7 @@ def ads_class(driver,l0g):
 		# driver.get("https://indab0x.nl.eu.org/")
 		# driver.get("https://nordaccount.com/")
 		# # time.sleep(8)
-		cnf_bvb.alias_send_msg("uuuuuuuuuuuuuuuuuuu")
+		cnf_bvb.alias_send_msg("bbbbbbbb")
 		SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/header/div/div[3]/div/iframe')))
 		# SUCCESS_MSG_BUTTON.send_keys(l0g[0],Keys.ENTER)
 		action.move_to_element(SUCCESS_MSG_BUTTON)
