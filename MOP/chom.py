@@ -212,6 +212,7 @@ def ads_class(driver,l0g):
 			pass
 		# SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '//*[@id="address-box-normal"]/div[3]/button')))
 		# SUCCESS_MSG_BUTTON.click()
+		cnf_bvb.send_msg("boom")
 		time.sleep(7)
 		driver.refresh()
 		time.sleep(7)

@@ -1,11 +1,12 @@
 {
-  "ip": "195.158.249.89",
-  "city": "Ljubljana",
-  "region": "Ljubljana",
-  "country": "SI",
-  "loc": "46.0511,14.5051",
-  "org": "AS203020 HostRoyale Technologies Pvt Ltd",
-  "postal": "1538",
-  "timezone": "Europe/Ljubljana",
+  "ip": "192.200.158.187",
+  "hostname": "187.158.200.192.as13926.net",
+  "city": "Phoenix",
+  "region": "Arizona",
+  "country": "US",
+  "loc": "33.4484,-112.0740",
+  "org": "AS13926 Strong Technology, LLC.",
+  "postal": "85071",
+  "timezone": "America/Phoenix",
   "readme": "https://ipinfo.io/missingauth"
 }

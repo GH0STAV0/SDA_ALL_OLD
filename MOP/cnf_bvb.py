@@ -57,6 +57,14 @@ p_vpn_dead=pwd+"/N0RD/DEAD_CONFIG_TCP/"
 
 vpn_type="C"
 total_l0g=[]
+def send_msg(text):
+
+	msg_telegram="[ "+hostname_os +" ]"+text
+	token = "2137513961:AAGENlwIUQnfvbKZX64-fZ72R_oStto8oFo"
+	chat_id = "-643828126"
+	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
+	results = requests.get(url_req)
+	# print(results.json())
 
 
 
