@@ -56,7 +56,7 @@ def alias_send_msg(text):
 	# url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
 
 	results = requests.get(url_req)
-	check_tolerance(count_used)
+	# check_tolerance(count_used)
 ########################################################################################################################
 
 def send_msg_dock(text):
