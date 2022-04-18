@@ -157,6 +157,10 @@ def init_fire():
 def lets_play(driver) :
 	
 	time.sleep(1)
+	staage="STATING GOO_LET_PLAY [ "+cnf_bvb.g00g_acc+" ] ["#+os.system("echo $WEBHOOK_URL")+" ] "
+	print(staage)
+	cnf_bvb.send_msg_dock(staage)
+
 	try:
 		ads_class(driver)
 
