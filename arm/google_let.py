@@ -279,6 +279,7 @@ def ads_class(driver):
 		
 def starting_tasks():
 	width ,height=cnf_bvb.resolution_func()
+	cnf_bvb.alias_send_msg("twiiiiiiiitarr")
 
 	try:
 		stage_1()### CLEAR
@@ -297,7 +298,7 @@ def starting_tasks():
 
 os.system("rm -rf /tmp/*")
 
-
+cnf_bvb.alias_send_msg("twiiiiiiiitarr")
 
 
 

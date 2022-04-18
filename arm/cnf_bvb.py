@@ -27,7 +27,36 @@ pofile_path=pwd+"/"+g00g_acc
 print(pofile_path)
 
 
+########################################################################################################################################
+def alias_send_msg(text):
 
+	# count_used=str(counting_used_config_config())
+	# global lommmmp
+	# lommmmp="jhj"
+	# pol=emoji.emojize(""':man_genie:')
+	# print(lommmmp)
+	hoost=read_current_acc_goo()
+	# lommmmp=count_used
+	# print(lommmmp)
+	###################################################
+	
+
+	# mp=emoji.emojize(dt_string+" \n"'  :dizzy:'+"[ "+hostname_os +" ] "':dizzy:'+" \n"''+"  [ "+vversion+" ] "'')
+	# msg_telegram=mp+" \n"+text+" ] \n "+pol+" [ "+""+" ] \n "+pol+"[ "+dt_string+" ] "
+	msg_telegram="    [ "+hoost+" ]                [   ] \n[ "+vversion+ " ]   [  ] "
+	# token = "2137513961:AAGENlwIUQnfvbKZX64-fZ72R_oStto8oFo"
+	#-609247805
+	# token=get_tokens()
+	# token="5086890807:AAEEM2OhQaR9mB7KUZvwkE60mHvoSY4BhOQ"
+	# token="5035848854:AAG9a-7bHDYTOXiNEdjXRsnM-gbkdw9TCfE"
+	token="5351653833:AAEUeIwPT187sCG5vb33t_2JGHBlcLT-kNU"
+	chat_id = "-723950994"
+	# chat_id = "-1001616252735"
+	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram
+	# url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
+
+	results = requests.get(url_req)
+	check_tolerance(count_used)
 ########################################################################################################################
 
 def send_msg_dock(text):
