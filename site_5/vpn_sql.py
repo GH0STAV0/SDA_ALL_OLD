@@ -78,7 +78,7 @@ def set_table(typ0):
 def get_fresh_config(typ0):
 	try:
 
-		check_connect_mysql()
+		# check_connect_mysql()
 		mydb = mysql.connector.connect(host="remotemysql.com",user="f6V3kVwxvH",passwd="sOVnW1130i",database="f6V3kVwxvH")
 
 		this_table=set_table(typ0)
