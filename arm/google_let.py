@@ -18,6 +18,11 @@ import json
 # import pickle
 # xamiramogdan hghjghj
 telrgram_text=[]
+
+
+
+
+
 # email="azfounmondilla"111mmm
 # email="jilalydillaly"
 # email="abouichrine"
@@ -31,37 +36,6 @@ telrgram_text=[]
 
 
 email=cnf_bvb.g00g_acc
-# email=""
-# email=""
-# email=""
-# email=""
-# email=""
-# email=""
-# email=""
-# email=""
-# email=""
-# email=""
-# email=""
-# email=""
-# email=""
-# email=""
-# email=""
-# email=""
-# email=""
-# email=""
-# email=""
-# email=""
-# email=""
-# email=""
-# email=""
-# email=""
-# email=""
-# email=""
-# email=""
-# email=""
-# email=""
-# email=""
-# email=""
 
 # email="don0mar0l0k0"
 # email="xamiramogdan"
@@ -298,7 +272,7 @@ def starting_tasks():
 
 os.system("rm -rf /tmp/*")
 
-cnf_bvb.alias_send_msg("twiiiiiiiitarr")
+# cnf_bvb.alias_send_msg("twiiiiiiiitarr")
 
 
 

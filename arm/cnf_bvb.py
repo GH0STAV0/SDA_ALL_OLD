@@ -2,6 +2,9 @@ import random , os ,requests
 import json
 import socket
 import socket
+
+vversion="arm.0  0ct0pus_child N0RD"
+
 hostname_os=socket.getfqdn()
 goog="/root/g00g"
 pwd = os.path.dirname(os.path.realpath( __file__ ))
@@ -42,8 +45,8 @@ def alias_send_msg(text):
 	
 
 	# mp=emoji.emojize(dt_string+" \n"'  :dizzy:'+"[ "+hostname_os +" ] "':dizzy:'+" \n"''+"  [ "+vversion+" ] "'')
-	# msg_telegram=mp+" \n"+text+" ] \n "+pol+" [ "+""+" ] \n "+pol+"[ "+dt_string+" ] "
-	msg_telegram="    [ "+hoost+" ]                [   ] \n[  ]   [  ] "+"[ "+text+" ] "
+	# msg_telegram=mp+" \n"+text+" ] \n "+pol+" [ "+""+" ] \n "+pol+"[ "+vversion+" ] "
+	msg_telegram="    [ "+hoost+" ]                [   ] \n[  ]   [  ] "+"[ "+text+" ] "+"[ "+vversion+" ] "
 	# token = "2137513961:AAGENlwIUQnfvbKZX64-fZ72R_oStto8oFo"
 	#-609247805
 	# token=get_tokens()
@@ -71,16 +74,20 @@ def send_msg_dock(text):
 	
 ###############################################################################################################################
 
-print("extact")
-comom="cp po/"+g00g_acc+".tar.gz ./"
-os.system(comom)
-comom_2="tar xvf "+g00g_acc+".tar.gz"
-os.system(comom_2)
+
+def extract_pof():
+
+	print("extact")
+	send_msg_dock("EXTACTING")
+	comom="cp po/"+g00g_acc+".tar.gz ./"
+	os.system(comom)
+	comom_2="tar xvf "+g00g_acc+".tar.gz"
+	os.system(comom_2)
 
 
-
-
-
+	
+##############################################
+extract_pof()
 
 user_agent_list = [
 'AppleCoreMedia/1.0.0.12B466 (Apple TV; U; CPU OS 8_1_3 like Mac OS X; en_us)'
