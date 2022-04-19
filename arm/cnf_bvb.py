@@ -3,7 +3,7 @@ import json
 import socket
 import socket
 
-vversion="arm.0  0ct0pus_child N0RD"
+vversion="arm.0  0ct0pus_child N0RD V2"
 
 hostname_os=socket.getfqdn()
 goog="/root/g00g"
