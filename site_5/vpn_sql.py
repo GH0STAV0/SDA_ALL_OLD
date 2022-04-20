@@ -4,8 +4,8 @@ from datetime import datetime
 
 ###############################################################################################
 HOST="zzroiqlkjzv2.eu-west-2.psdb.cloud"
-USERNAME="0wmpewexu13o"
-PASSWORD="pscale_pw_ngLjgiBGZqYn45F55kLygatHunEd1uU7C0aZyDrpMXk"
+USERNAME="ge1xapa7f1qs"
+PASSWORD="pscale_pw_z7nG1AtS2uRY5F2OTKJ3gkk20ygOlNzfQxGVzQtqv5A"
 DATABASE="plan"
 
 
