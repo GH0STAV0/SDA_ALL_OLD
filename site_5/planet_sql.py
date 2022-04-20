@@ -8,11 +8,12 @@ from datetime import datetime
 
 
 
-
 HOST="zzroiqlkjzv2.eu-west-2.psdb.cloud"
-USERNAME="0wmpewexu13o"
-PASSWORD="pscale_pw_ngLjgiBGZqYn45F55kLygatHunEd1uU7C0aZyDrpMXk"
+USERNAME="c4cz3k2azim8"
+PASSWORD="pscale_pw_SZsOhzZm6AVnde53meT3ygRRh7zSjXdZ4dawwURylQo"
 DATABASE="plan"
+
+
 
 
 
