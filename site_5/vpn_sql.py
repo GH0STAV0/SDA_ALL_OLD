@@ -3,10 +3,15 @@ import time ,os
 from datetime import datetime
 
 ###############################################################################################
-HOST="zzroiqlkjzv2.eu-west-2.psdb.cloud"
-USERNAME="c4cz3k2azim8"
-PASSWORD="pscale_pw_SZsOhzZm6AVnde53meT3ygRRh7zSjXdZ4dawwURylQo"
-DATABASE="plan"
+# HOST="zzroiqlkjzv2.eu-west-2.psdb.cloud"
+# USERNAME="c4cz3k2azim8"
+# PASSWORD="pscale_pw_SZsOhzZm6AVnde53meT3ygRRh7zSjXdZ4dawwURylQo"
+# DATABASE="plan"
+HOST="remotemysql.com"
+USERNAME="f6V3kVwxvH"
+PASSWORD="sOVnW1130i"
+DATABASE="f6V3kVwxvH"
+
 
 
 
