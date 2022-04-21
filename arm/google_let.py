@@ -248,6 +248,7 @@ def ads_class(driver):
 
 	except Exception as e:
 		print("ads error")
+		cnf_bvb.send_msg_dock("ERROR ")
 	# driver.delete_all_cookies()
 	
 ######################USER AGENT ###################################################
