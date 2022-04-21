@@ -32,17 +32,12 @@ g00g_acc="laminewalter7"
 # g00g_acc="xamiramogdan"
 pofile_path=pwd+"/"+g00g_acc
 
-print(pofile_path)
 
-
-
-########################################################################################################################
 
 def send_msg_dock(text):
-
 	msg_telegram="[ "+hostname_os +" ]"+text
 	token = "5261450305:AAEROP9j6569RV4rKsE_tStXCdnLSX7Gz1Y"
-	# chat_id = "-643828126"
+	# chat_id = "-643828126" L0G_NICH
 	chat_id = "-615987943"
 	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
 	results = requests.get(url_req)
@@ -50,11 +45,24 @@ def send_msg_dock(text):
 	
 ###############################################################################################################################
 
-print("extact")
-comom="cp po/"+g00g_acc+".tar.gz ./"
-os.system(comom)
-comom_2="tar xvf "+g00g_acc+".tar.gz"
-os.system(comom_2)
+def extact_gc_profile():
+	print("extact")
+	comom="cp po/"+g00g_acc+".tar.gz ./"
+	os.system(comom)
+	comom_2="tar xvf "+g00g_acc+".tar.gz"
+	os.system(comom_2)
+	mssgg_tel=" [ "+hostname_os +" ] \n [ EXTRACT ] [ "+g00g_acc +" ]"
+	send_msg_dock(mssgg_tel)
+
+
+
+
+print(pofile_path)
+
+
+
+########################################################################################################################
+
 
 
 

@@ -31,6 +31,7 @@ telrgram_text=[]
 
 
 email=cnf_bvb.g00g_acc
+cnf_bvb.extact_gc_profile()
 # email=""
 # email=""
 # email=""
@@ -85,19 +86,10 @@ email=cnf_bvb.g00g_acc
 # paxx="agoon007"
 paxx="g0ping0*"
 
-###########global urls_BVB
-# urls_BVB=cnf_bvb.random_url
-#####################################
-# urls_BVB="https://wild-beauty.weebly.com/about.html"
-#url_1="https://bitcoin-chat-news-and-games.netlify.app/index.html"
-# url_1="https://cryptocurency-space.netlify.app/index.html"
+
 url_1="https://console.cloud.google.com/"
 
-# url_3="https://elated-nobel-943d26.netlify.app/index.html"
-# random_display_chose=cnf_bvb.random_display_chose
-# width=cnf_bvb.width
-# height=cnf_bvb.height
-# main_url="https://nordcheckout.com/"
+
 user_agent = cnf_bvb.user_agent
 sys_use_agent=re.findall('\(.*?\)',user_agent)[0]
 
@@ -155,9 +147,8 @@ def init_fire():
 
 
 def lets_play(driver) :
-	
 	time.sleep(1)
-	staage="STATING GOO_LET_PLAY [ "+cnf_bvb.g00g_acc+" ] ["#+os.system("echo $WEBHOOK_URL")+" ] "
+	staage="STARTING GOO_LET_PLAY [ "+cnf_bvb.g00g_acc+" ] ["#+os.system("echo $WEBHOOK_URL")+" ] "
 	print(staage)
 	cnf_bvb.send_msg_dock(staage)
 
@@ -239,30 +230,18 @@ def check_recovery(driver):
 
 #################################"MAIN STARTING"##############################
 def ads_class(driver):
+
 	try:
 		print("OPEN AND VISITE WEB-SITE [ 1 ]...... ",end='',flush=True)
-		# driver.get(url_1)
-		# print(" [ "+url_1+" ]")
-		# gmail_id_input=WebDriverWait(driver, 65).until(EC.presence_of_element_located((By.XPATH, '//*[@id="identifierId"]')))
-		# gmail_id_input.send_keys(email,Keys.ENTER)
-		# time.sleep(5)
-		# gmail_id_input=WebDriverWait(driver, 65).until(EC.presence_of_element_located((By.XPATH, '//*[@id="password"]/div[1]/div/div[1]/input')))
-		# gmail_id_input.send_keys(paxx,Keys.ENTER)
-
-		# time.sleep(3)
-		# check_recovery(driver)
-		# # input('')
 		# # input('')
 
 		try:
-			# pass
-			# driver.get("https://google.com/")
+
 			driver.get("https://shell.cloud.google.com/?cloudshell=true&show=terminal")
-			# input('stop')
+
 			time.sleep(10)
 			
 			open_login_button=WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
-			# input('google loginAAAAAAAAAAAA')
 			print("we are here")
 			staage="OK XTEMINAL ACTIVATED [ "+cnf_bvb.g00g_acc+" ] ["#+os.system("echo $WEBHOOK_URL")+" ] "
 			print(staage)
@@ -290,6 +269,7 @@ def starting_tasks():
 	try:
 		stage_1()### CLEAR
 		# mod_vpn2.fnc_vpn ()
+		cnf_bvb.extact_gc_profile()
 		visible_v=cnf_bvb.visible_v
 		# display = Display(visible=visible_v, size=(width,height)).start()
 		driver=mod_driver2.build_driver(width ,height)
