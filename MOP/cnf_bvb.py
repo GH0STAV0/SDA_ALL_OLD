@@ -6,9 +6,9 @@ import emoji
 import  u_a
 
 
+urls_BVB="https://indab0x.nl.eu.org/"
 
-
-vversion="23.0 MAC+NO AND CHEAP_VPN-UP *"
+vversion="M_M0P  MAC+NO AND CHEAP_VPN-UP *"
 telegram_tokens_bot=["0","5036803152:AAGs0ES1OmEdy86MNJDp7mp19BB5IQhcVHU","5099462819:AAEndTxvXaSqBQ6E_EpiCN02a81ROGPMgr0","5001651751:AAGzzbUfJXWHZz-FKJyLSUxzg-JiRMO5v-Q","5041058138:AAFRher-cMwnRI476iW24tT6Kt8lvC0bmLc","5051743922:AAEOHJTRzv2WIxZ8bR-VrVYNA6io6qB1Ltw"]
 hostname_os=socket.getfqdn()
 visible_v=0
@@ -57,21 +57,37 @@ p_vpn_dead=pwd+"/N0RD/DEAD_CONFIG_TCP/"
 
 vpn_type="C"
 total_l0g=[]
+# def send_msg(text):
+
+# 	msg_telegram="[ "+hostname_os +" ]"+text
+# 	token = "2137513961:AAGENlwIUQnfvbKZX64-fZ72R_oStto8oFo"
+# 	chat_id = "-643828126"
+# 	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
+# 	results = requests.get(url_req)
+# 	# print(results.json())
+
 def send_msg(text):
 
-	msg_telegram="[ "+hostname_os +" ]"+text
-	token = "2137513961:AAGENlwIUQnfvbKZX64-fZ72R_oStto8oFo"
-	chat_id = "-643828126"
-	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
+	msg_telegram="[ "+hostname_os +" ] [ "+vversion+" ] \n"+text+"\n [ "+urls_BVB+" ]"
+	# token = "2137513961:AAGENlwIUQnfvbKZX64-fZ72R_oStto8oFo"
+	#-609247805
+	token="5086890807:AAEEM2OhQaR9mB7KUZvwkE60mHvoSY4BhOQ"
+	# token="5035848854:AAG9a-7bHDYTOXiNEdjXRsnM-gbkdw9TCfE"
+	chat_id = "-609247805"
+	# chat_id = "-1001616252735"
+	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram
+	# url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
+
 	results = requests.get(url_req)
 	# print(results.json())
 
+# send_msg("text")
 
 
 def alias_send_msg(text):
 	pol=emoji.emojize(""':man_genie:')
-	mp=emoji.emojize(" "'  :dizzy:'+"[ "+hostname_os +" ] "':dizzy:'+" \n"''+"  [ "+vversion+" ] "'')
-	msg_telegram=mp+" \n"+text+" ] \n "+pol+" [  ] \n "+pol
+	mp=emoji.emojize(" "'  :dizzy:'+"[ "+hostname_os +" ] "':dizzy:'+" \n"''+pol+"  [ "+vversion+" ] "'')
+	msg_telegram=mp+" \n"+pol+" [ "+text+" ] \n "#+pol+" [  ] \n "+pol
 	# token = "2137513961:AAGENlwIUQnfvbKZX64-fZ72R_oStto8oFo"
 	#-609247805
 	token=get_tokens()

@@ -15,20 +15,17 @@ from selenium.webdriver.support import expected_conditions as EC
 import random,datetime,string , os ,time ,subprocess , sys , requests ,re
 from selenium.webdriver import ActionChains
 import json
-# import pickle
 
 
-###########global urls_BVB
-# urls_BVB=cnf_bvb.random_url
-#####################################
-# urls_BVB="https://wild-beauty.weebly.com/about.html"
-# urls_BVB="https://bitcoin-chat-news-and-games.netlify.app/"
 urls_BVB="https://indab0x.nl.eu.org/"
-# random_display_chose=cnf_bvb.random_display_chose
-# width=cnf_bvb.width
-# height=cnf_bvb.height
+
+
+
 main_url="https://nordcheckout.com/"
+
 user_agent = cnf_bvb.user_agent
+
+
 try:
 	sys_use_agent=re.findall('\(.*?\)',user_agent)[0]
 	
@@ -56,11 +53,21 @@ def clean_up():
 
 
 	#starting_tasks()
-############################################################################################
+
+##############################################################
+
+
+def read_current_l0g():
+	final_msg=''
+	with open(l05_00,'r') as file:
+		lines = file.readlines()
+		for i in lines:
+			final_msg=final_msg + i
+	return final_msg
+############################################################################
 
 
 
-###############################################################################################
 def save_succed(logg):
 	with open("Wsucced_nord_xxxx",'a') as fw:
 		fw.write(logg[0]+":"+logg[1]+"\n")
@@ -69,21 +76,18 @@ def save_succed_final(logg):
 	with open("ready_Wsucced_nord_xxxx",'a') as fw:
 		fw.write(logg+"\n")
 
+###############################################################################################
 
 
 
 
-
+###############################################################################################
 def lets_play(l0g):
-	# input("lets play")
-	# print(l0g)
-
-
 	try:
 		width ,height=cnf_bvb.resolution_func()
 #		print("OPEN DISPLAY  WEB-SITE ...... ",end='',flush=True)
 # size=(width,height)
-		display = Display(visible=0,size=(width,height)).start()
+		display = Display(visible=1,size=(width,height)).start()
 		print(emoji.emojize("Ok "' :check_mark_button: :alien:'))
 
 	except Exception as error:
@@ -102,6 +106,8 @@ def lets_play(l0g):
 		# driver.set_page_load_timeout(79)
 		# driver.set_page_load_timeout(79)
 		ads_class(driver,l0g)
+		# lines=read_current_l0g()
+		# cnf_bvb.send_msg(str(lines))
 		
 	except Exception as error:
 		print(str(error))
@@ -151,7 +157,8 @@ def init_fire():
 def stage_1():
 	try:
 		#print (urls_BVB)
-		os.system("rm -rf /tmp/*") 
+		os.system("rm -rf /tmp/*")
+		os.system("rm l05_00 ") 
 		# os.system("clear && sleep 1") 
 		print ( "-------------------------------------------------------")
 		print(emoji.emojize("Website    : "+urls_BVB+' :check_mark_button: :alien:'))
@@ -165,7 +172,10 @@ def stage_1():
 		print (str(error))
 
 ###############################################################################################
-
+l05_00='l05_00'
+def append_to_l0g(text_add):
+	with open(l05_00,'a') as fw:
+		fw.write(text_add+"\n")
 
 	
 
@@ -182,58 +192,75 @@ def ads_class(driver,l0g):
 		# print(l0g[0])
 		# driver.get("https://webglreport.com/")
 		time.sleep(3)
-		# driver.get("https://indab0x.nl.eu.org/")
-		# driver.get("https://nordaccount.com/")
-		# # time.sleep(8)
-		cnf_bvb.alias_send_msg("bbbbbbbb")
 		SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/header/div/div[3]/div/iframe')))
-		# SUCCESS_MSG_BUTTON.send_keys(l0g[0],Keys.ENTER)
 		action.move_to_element(SUCCESS_MSG_BUTTON)
 		action.perform()
 		print("peform")
 		time.sleep(7)
-		SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '//*[@id="address-box-normal"]/div[3]/button')))
-		# SUCCESS_MSG_BUTTON.send_keys(l0g[0],Keys.ENTER)
-		action.move_to_element(SUCCESS_MSG_BUTTON)
-		action.perform()
-		time.sleep(5)
+		# input('read')
 		try:
 
 			iframes = driver.find_elements_by_xpath("//iframe")
-			# print(str(iframes))
+			# print(str(imges_ifam))
+			driver.switch_to.frame(0)
+			time.sleep(2)
+
+			SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/div/div[2]/div/span')))
+			print("peform1 : "+SUCCESS_MSG_BUTTON.text)
+			do0n="peform1 : "+SUCCESS_MSG_BUTTON.text+" \n"
+			print(do0n)
+			# cnf_bvb.alias_send_msg(SUCCESS_MSG_BUTTON.text)
+			time.sleep(7)
+			
+		except:
+			do0n="peform1 : "
+			imges_ifam = driver.find_elements_by_xpath("//img")
+			# print(str(imges_ifam))
+			for i in imges_ifam :
+				# print(i.get_attribute("alt"))
+				do0n=do0n+ " | "+i.get_attribute("alt")
+			print(" "+do0n)
+			time.sleep(7)
+			pass
+		driver.switch_to.parent_frame()
+		append_to_l0g(do0n)
+		# input('read2')
+		# driver.refresh()
+		driver.get(urls_BVB)
+		time.sleep(2)
+		try:
+			iframes = driver.find_elements_by_xpath("//iframe")
+			# print(str(imges_ifam))
 			driver.switch_to.frame(0)
 			time.sleep(2)
 			SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/div/div[2]/div/span')))
 			print("peform2 : "+SUCCESS_MSG_BUTTON.text)
-			cnf_bvb.alias_send_msg(SUCCESS_MSG_BUTTON.text)
+			do0n="peform2 : "+SUCCESS_MSG_BUTTON.text
+			print(do0n)
+			# cnf_bvb.alias_send_msg(SUCCESS_MSG_BUTTON.text)
 			time.sleep(7)
-			driver.switch_to.parent_frame()
+				
 		except:
-			print("noooo")
+			do0n="peform2 : "
+			imges_ifam = driver.find_elements_by_xpath("//img")
+			# print(str(imges_ifam))
+			for i in imges_ifam :
+				# print(i.get_attribute("alt"))
+				do0n=do0n+ " | "+i.get_attribute("alt")
+			print(" "+do0n)
 			time.sleep(7)
 			pass
-		# SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '//*[@id="address-box-normal"]/div[3]/button')))
-		# SUCCESS_MSG_BUTTON.click()
-		cnf_bvb.alias_send_msg("uuuuuuuuuuuuuuuuuuu")
-		time.sleep(7)
-		driver.refresh()
-		time.sleep(7)
+		driver.switch_to.parent_frame()
+		append_to_l0g(do0n)
+		append_to_l0g("VISITE WEB-SITE [ 2 ] : [ +second_2_visit+]  OK")
+		lines=read_current_l0g()
+		cnf_bvb.send_msg(str(lines))
+		time.sleep(20)
+		driver.delete_all_cookies()
+		print("Remove Cookies")
 
-		# //*[@id="address-box-normal"]/div[3]/button
-		# # time.sleep(8)
-		# # input("")
-		# SUCCESS_MSG_BUTTON.send_keys(l0g[1],Keys.ENTER)
-		# # # driver.get(urls_BVB)
-		# # # time.sleep(10)
-		# # driver.execute_script("window.open('');")
-		# # time.sleep(1)
-		# # driver.switch_to.window(driver.window_handles[1])
-		# # time.sleep(1)
-		# check_login(driver,l0g)
-		# # input('zzzz')
-	except Exception as e:
-		print(e)
-		
+	except Exception as error:
+		print (str(error))	
 def starting_tasks(l0g):
 	width ,height=cnf_bvb.resolution_func()
 	moz_wid="--width="+str(width)
@@ -246,7 +273,7 @@ def starting_tasks(l0g):
 		# print(l0g)
 		# os.system("curl -sx socks5://127.0.0.1:9050 ifconfig.co | grep -oP '(?<=Your IP</span>: ).*(?=</span>)'")
 		mod_vpn2.fnc_vpn ()
-		cnf_bvb.alias_send_msg("uuuuuuuuuuuuuuuuuuu")
+		cnf_bvb.alias_send_msg("starting chom")
 		# mod_vpn.renew_connection()
 		# serv,ops=mod_driver.build_driver(width ,height)
 		lets_play(l0g)
