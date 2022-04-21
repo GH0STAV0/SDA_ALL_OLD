@@ -255,7 +255,7 @@ def ads_class(driver,l0g):
 		append_to_l0g("VISITE WEB-SITE [ 2 ] : [ +second_2_visit+]  OK")
 		lines=read_current_l0g()
 		cnf_bvb.send_msg(str(lines))
-		time.sleep(20)
+		time.sleep(7)
 		driver.delete_all_cookies()
 		print("Remove Cookies")
 
