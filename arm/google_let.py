@@ -243,7 +243,8 @@ def ads_class(driver):
 			time.sleep(25)
 			check_reconect(driver)
 		except Exception as e:
-			print(e+" errrrrrrrro1") 
+			print(e+" errrrrrrrro1")
+			cnf_bvb.send_msg_dock("ERROR ")
 
 	except Exception as e:
 		print("ads error")
