@@ -229,7 +229,7 @@ def ads_class(driver):
 			time.sleep(10)
 			
 			open_login_button=WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
-			# input('google loginAAAAAAAAAAAA')
+			# input('google loginAAAAAAAAAyAAA')
 			print("we are here")
 			staage="OK XTEMINAL ACTIVATED [ "+cnf_bvb.g00g_acc+" ]"
 			print(staage)
