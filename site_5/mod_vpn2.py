@@ -222,6 +222,9 @@ def fnc_vpn():
 			# random_pass()
 
 			retry_count.append("")
+			if len(retry_count) ==4:
+				cnf_bvb.alias_send_msg("AUTH_FAILED")
+
 			print(str(len(retry_count)))
 			time.sleep(3)
 			x.kill()
