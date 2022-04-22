@@ -361,6 +361,10 @@ def blogger(driver):
 	# driver.switch_to.window(driver.window_handles[1])
 	# time.sleep(3)
 
+
+
+
+# p0st_phase()
 def starting_tasks():
 	width ,height=cnf_bvb.resolution_func()
 
@@ -369,6 +373,7 @@ def starting_tasks():
 
 	try:
 		stage_1()### CLEAR
+		cnf_bvb.p0st_phase()
 		visible_v=cnf_bvb.visible_v
 		mod_vpn2.fnc_vpn ()
 		display = Display(visible=visible_v, size=(width,height)).start()
