@@ -14,18 +14,23 @@ import devices_gen
 def build_driver(sizee):
         # whi=
         # options.add_argument("--headless")
-
-        options = webdriver.ChromeOptions()
         # options.add_argument("--start-maximized")
         # options.add_argument("--start-maximized")
-        options.add_argument("window-size="+sizee)
-
         # options.add_argument( "--user-data-dir=profile")
-        options.add_argument('--disable-blink-features=AutomationControlled')
         # options.add_argument("--lang=fr")
         # options.add_argument(cnf.user_agent)
+
+        options = webdriver.ChromeOptions()
+
+        options.add_argument("window-size="+sizee)
+
+        options.add_argument('--disable-blink-features=AutomationControlled')
+        options.add_argument("--incognito")
         options.add_experimental_option("excludeSwitches", ["enable-automation"])
         options.add_experimental_option('useAutomationExtension', False)
+        prefs = {"credentials_enable_service": False,"profile.password_manager_enabled": False}
+        options.add_experimental_option("prefs", prefs)
+
         driver = webdriver.Chrome(options=options, executable_path="/usr/bin/chromedriver")
         ua=cnf_bvb.user_agent
         vendor,randerer,platfom=devices_gen.mokking(ua)
