@@ -25,10 +25,10 @@ print(read_current_acc_goo())
 # g00g_acc="garmiyashour"
 # 
 # erogomayke
-g00g_acc="erogomayke"
+# g00g_acc="erogomayke"
 
 # g00g_acc="laminewalter7"
-# g00g_acc="dahmandargo"
+g00g_acc="dahmandargo"
 # g00g_acc="xamiramogdan"
 pofile_path=pwd+"/"+g00g_acc
 
