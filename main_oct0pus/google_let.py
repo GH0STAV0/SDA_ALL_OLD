@@ -1,4 +1,6 @@
 import cnf_bvb
+import sql_gc_get
+
 # import mod_vpn2
 import mod_driver2
 import emoji
@@ -233,13 +235,23 @@ def ads_class(driver):
 
 	try:
 		print("OPEN AND VISITE WEB-SITE [ 1 ]...... ",end='',flush=True)
+		driver.get("https://shell.cloud.google.com/?cloudshell=true&show=terminal")
+		time.sleep(10)
 		# # input('')
+		try:
+			shell_limit=WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.XPATH, '/html/body/cloud-shell-root/div/stand-alone/div[1]/div/loading-screen/div/div/div[2]/div[1]/div/div/div/div')))
+			print("ok this account DOWN")
+			cnf_bvb.send_msg_dock("ok this account DOWN")
+			sql_gc_get.change_gc_acc()
+			return
+			# 
+		except:
+			print("ok this account ACTIVE")
+			cnf_bvb.send_msg_dock("ok this account ACTIVE")
 
 		try:
 
-			driver.get("https://shell.cloud.google.com/?cloudshell=true&show=terminal")
 
-			time.sleep(10)
 			
 			open_login_button=WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
 			print("we are here")

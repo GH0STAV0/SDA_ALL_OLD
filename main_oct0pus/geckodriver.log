@@ -5794,3 +5794,262 @@ Sandbox: seccomp sandbox violation: pid 2442, tid 2442, syscall 262, args 49 140
 Sandbox: unsupported fd-relative fstatat(49, "", 0x7FFC384AEA20, 4096)
 Sandbox: seccomp sandbox violation: pid 2442, tid 2442, syscall 262, args 49 140479632795482 140721252919840 4096 1 0.
 JavaScript error: chrome://browser/content/browser.js, line 8515: TypeError: gBrowser.tabContainer is undefined
+1651198983120	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejarjB6"
+Sandbox: unsupported fd-relative fstatat(27, "", 0x7FFD8FB92650, 4096)
+Sandbox: seccomp sandbox violation: pid 4531, tid 4531, syscall 262, args 27 140178638341978 140727014729296 4096 0 1.
+1651198993600	Marionette	INFO	Listening on port 42965
+1651198993613	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sandbox: unsupported fd-relative fstatat(38, "", 0x7FFD8FB8DF40, 4096)
+Sandbox: seccomp sandbox violation: pid 4531, tid 4531, syscall 262, args 38 140178638341978 140727014711104 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(38, "", 0x7FFD8FB8DA40, 4096)
+Sandbox: seccomp sandbox violation: pid 4531, tid 4531, syscall 262, args 38 140178644855285 140727014709824 4096 524288 140178644857352.
+Sandbox: unsupported fd-relative fstatat(38, "", 0x7FFD8FB8DA40, 4096)
+Sandbox: seccomp sandbox violation: pid 4531, tid 4531, syscall 262, args 38 140178644855285 140727014709824 4096 140178283121344 0.
+Sandbox: unsupported fd-relative fstatat(38, "", 0x7FFD8FB923E0, 4096)
+Sandbox: seccomp sandbox violation: pid 4531, tid 4531, syscall 262, args 38 140178644855285 140727014728672 4096 140178284440640 0.
+Sandbox: unsupported fd-relative fstatat(38, "", 0x7FFD8FB923E0, 4096)
+Sandbox: seccomp sandbox violation: pid 4531, tid 4531, syscall 262, args 38 140178644855285 140727014728672 4096 140178284440512 0.
+Sandbox: unsupported fd-relative fstatat(38, "", 0x7FFD8FB93350, 4096)
+Sandbox: seccomp sandbox violation: pid 4531, tid 4531, syscall 262, args 38 140178638341978 140727014732624 4096 1 0.
+1651199183849	geckodriver	INFO	Listening on 127.0.0.1:59413
+1651199184982	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "--marionette" "--width=1366" "--height=768" "-no-remote" "-profile" "/tmp/rust_mozprofilehqHqj4"
+1651199192165	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+1651199202941	Marionette	INFO	Listening on port 40859
+1651199203358	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1651199322331	Marionette	INFO	Stopped listening on port 40859
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1651199579469	geckodriver	INFO	Listening on 127.0.0.1:58407
+1651199580749	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "--marionette" "--width=1366" "--height=768" "-no-remote" "-profile" "/tmp/rust_mozprofilel8bZaE"
+1651199581932	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+1651199585997	Marionette	INFO	Listening on port 33633
+1651199586082	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1651199751738	geckodriver	INFO	Listening on 127.0.0.1:58537
+1651199752989	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "--marionette" "--width=1366" "--height=768" "-no-remote" "-profile" "/tmp/rust_mozprofileWxO2dD"
+1651199754175	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+1651199759311	Marionette	INFO	Listening on port 36987
+1651199759437	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1651199871758	geckodriver	INFO	Listening on 127.0.0.1:36271
+1651199873038	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "--marionette" "--width=1366" "--height=768" "-no-remote" "-profile" "/tmp/rust_mozprofileGk3BQJ"
+1651199874232	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+1651199878422	Marionette	INFO	Listening on port 32887
+1651199878497	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651199900843	Marionette	INFO	Stopped listening on port 32887
+1651199980110	geckodriver	INFO	Listening on 127.0.0.1:46439
+1651199981330	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "--marionette" "--width=1366" "--height=768" "-no-remote" "-profile" "/tmp/rust_mozprofileaGe7zM"
+1651199982529	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+1651199986764	Marionette	INFO	Listening on port 37687
+1651199986865	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651200004415	Marionette	INFO	Stopped listening on port 37687
+1651200040143	geckodriver	INFO	Listening on 127.0.0.1:42109
+1651200041441	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "--marionette" "--width=1366" "--height=768" "-no-remote" "-profile" "/tmp/rust_mozprofile95Rgbl"
+1651200042668	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+1651200047283	Marionette	INFO	Listening on port 35995
+1651200047383	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651200064938	Marionette	INFO	Stopped listening on port 35995
+1651265346652	geckodriver	INFO	Listening on 127.0.0.1:36843
+1651265347986	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "--marionette" "--width=1366" "--height=768" "-no-remote" "-profile" "/tmp/rust_mozprofilehZXwmP"
+1651265355511	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+console.warn: TopSitesFeed: Contile endpoint returned unexpected status: 403
+1651265368274	Marionette	INFO	Listening on port 33729
+1651265368667	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651265386436	Marionette	INFO	Stopped listening on port 33729
+1651265859530	geckodriver	INFO	Listening on 127.0.0.1:38735
+1651265860002	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "--marionette" "--width=1366" "--height=768" "-no-remote" "-profile" "/tmp/rust_mozprofileREpXW7"
+1651265861417	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+1651265866235	Marionette	INFO	Listening on port 37431
+1651265866369	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: TopSitesFeed: Contile endpoint returned unexpected status: 403
+1651265883811	Marionette	INFO	Stopped listening on port 37431
+1651267403561	geckodriver	INFO	Listening on 127.0.0.1:36247
+1651267404036	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "--marionette" "--width=1366" "--height=768" "-no-remote" "-profile" "/tmp/rust_mozprofilewXaAIO"
+1651267405295	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+1651267410334	Marionette	INFO	Listening on port 38939
+1651267410419	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: TopSitesFeed: Contile endpoint returned unexpected status: 403
+1651267427922	Marionette	INFO	Stopped listening on port 38939
+1651269045199	geckodriver	INFO	Listening on 127.0.0.1:36035
+1651269046650	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "--marionette" "--width=1366" "--height=768" "-no-remote" "-profile" "/tmp/rust_mozprofilefqB0B5"
+1651269048017	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+1651269053412	Marionette	INFO	Listening on port 35069
+1651269053531	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1651269154233	geckodriver	INFO	Listening on 127.0.0.1:36899
+1651269155683	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "--marionette" "--width=1366" "--height=768" "-no-remote" "-profile" "/tmp/rust_mozprofileyZW6Cw"
+1651269157342	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+1651269162094	Marionette	INFO	Listening on port 35841
+1651269162160	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: TopSitesFeed: Contile endpoint returned unexpected status: 403
+1651269183168	Marionette	INFO	Stopped listening on port 35841
+1651269368896	geckodriver	INFO	Listening on 127.0.0.1:34463
+1651269370371	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "--marionette" "--width=1366" "--height=768" "-no-remote" "-profile" "/tmp/rust_mozprofilep7i04o"
+1651269371699	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+1651269376318	Marionette	INFO	Listening on port 41137
+1651269376423	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: TopSitesFeed: Contile endpoint returned unexpected status: 403
+1651269397456	Marionette	INFO	Stopped listening on port 41137
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
