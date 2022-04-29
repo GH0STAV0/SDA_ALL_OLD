@@ -2,6 +2,7 @@ import random , os ,requests
 import json
 import socket
 import socket
+import sql_gc_get
 hostname_os=socket.getfqdn()
 goog="/root/g00g"
 pwd = os.path.dirname(os.path.realpath( __file__ ))
@@ -22,16 +23,30 @@ def read_current_acc_goo():
 
 print(read_current_acc_goo())
 # g00g_acc=read_current_acc_goo()
-g00g_acc="garmiyashour"
+# g00g_acc="garmiyashour"
 # 
 # erogomayke
-# g00g_acc="erogomayke"
+g00g_acc="erogomayke"
 
 # g00g_acc="laminewalter7"
 # g00g_acc="dahmandargo"
 # g00g_acc="xamiramogdan"
 pofile_path=pwd+"/"+g00g_acc
 
+
+def change_gc_acc():
+	g_a=read_current_acc_goo()
+	index_of_account=main_ar.index(g_a)
+	print(index_of_account)
+	numbr_account=len(main_ar)-1
+	print(numbr_account)
+	if index_of_account==numbr_account:
+		new_index=0
+	else:
+		new_index=index_of_account+1
+	add_the_new_acc="echo '"+main_ar[new_index]+"' > /root/g00g && cat /root/g00g"
+	os.system(add_the_new_acc)
+	print(new_index)
 
 
 def send_msg_dock(text):
