@@ -14,7 +14,6 @@ from selenium.webdriver.support import expected_conditions as EC
 import random,datetime,string , os ,time ,subprocess , sys , requests ,re
 from selenium.webdriver import ActionChains
 import json
-import drive_md_chrom
 # import pickle
 
 telrgram_text=[]
@@ -146,23 +145,22 @@ def lets_play(driver) :
 
 #################################"MAIN STARTING"##############################
 def ads_class(driver):
-	action = ActionChains(driver)
 
 	try:
 		###############################################################################################
 		print("OPEN AND VISITE WEB-SITE [ 1 ]...... ",end='',flush=True)
 
-
 		driver.get(url_1)
+		try:
 
-		
-		SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/header/div/iframe')))
-		action.move_to_element(SUCCESS_MSG_BUTTON)
-		action.perform()
-		print("peform")
-		time.sleep(7)
+			ain_button=WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.top-banner')))
 
+			print('ok click')
 
+		except Exception as e:
+			print("error scrol 1")
+
+		# time.sleep(3)
 		try:
 
 			iframes = driver.find_elements_by_xpath("//iframe")
@@ -188,25 +186,41 @@ def ads_class(driver):
 			time.sleep(7)
 			pass
 		driver.switch_to.parent_frame()
-		time.sleep(2)
 		append_to_l0g(do0n)
+		# SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '//*[@id="address-box-normal"]/div[3]/button')))
+		# SUCCESS_MSG_BUTTON.click()
+		# time.sleep(7)
+		time.sleep(35)
+		# driver.get(url_1)
+		# print(" [ "+url_1+" ]")
+		# append_to_l0g("CLICK  AND VISITE WEB-SITE   [ "+url_1+" ] OK")
+		# time.sleep(25)
 
-		time.sleep(15)
 		
 	except Exception as e:
 		print(e)
 	print("CLICK  AND VISITE WEB-SITE [ 2 ]...... ",end='',flush=True)
-	# driver.switch_to.parent_frame()
+
+		# driver.get(second_2_visit)
+		# try:
+
+		# 	driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.XPATH, '//*[@id="post-body-2346695118421539823"]'))))
+		# 	print("UUUUU")
+		# 	time.sleep(10)
+		# 	driver.execute_script("return arguments[0].scrollIntoView(true);", WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.ID, 'yass-search-box'))))
+		# 	time.sleep(10)
+		# 	driver.execute_script("window.scrollTo(0, document.body.scrollHeight/4.2);window.scrollTo(0, document.body.scrollHeight/4.5);")
+		# 	time.sleep(10)
+		# 	getLink_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="Blog1_blog-pager-older-link"]/i')))
+		# 	getLink_button.click()
+		# 	driver.execute_script("window.scrollTo(0, 0);window.scrollTo(0, 0);")
+		# except Exception as e:
+		# 	print("YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY")
 
 
-	driver.get(url_1)
-	action = ActionChains(driver)
+		# cnf_bvb.send_msg("oooooooooooooooooooo")
+	driver.refresh()
 	time.sleep(2)
-	preform_tow=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/header/div/iframe')))
-	action.move_to_element(preform_tow)
-	action.perform()
-	print("peform")
-	time.sleep(9)
 	try:
 
 
@@ -237,7 +251,7 @@ def ads_class(driver):
 		# SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '//*[@id="address-box-normal"]/div[3]/button')))
 		# SUCCESS_MSG_BUTTON.click()
 		# time.sleep(7)
-	time.sleep(12)
+	time.sleep(35)
 
 	append_to_l0g("VISITE WEB-SITE [ 2 ] : [ +second_2_visit+]  OK")
 		# time.sleep(2)
@@ -342,11 +356,7 @@ def starting_tasks():
 		display = Display(visible=visible_v, size=(width,height)).start()
 		# cnf_bvb.alias_send_msg_2()
 		# os.environ['DISPLAY']
-		# driver=mod_driver2.build_driver(width ,height)
-		# sz=width+","+height
-		sz=height+","+width
-		driver=drive_md_chrom.build_driver(sz)
-		driver.maximize_window()
+		driver=mod_driver2.build_driver(width ,height)
 		lets_play(driver)
 		#driver.delete_all_cookies()
 		display.stop()
