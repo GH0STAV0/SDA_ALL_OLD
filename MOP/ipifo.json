@@ -1,11 +1,11 @@
 {
-  "ip": "176.67.86.147",
-  "city": "Warsaw",
-  "region": "Mazovia",
-  "country": "PL",
-  "loc": "52.2298,21.0118",
-  "org": "AS54203 Strong Technology, LLC.",
-  "postal": "00-002",
-  "timezone": "Europe/Warsaw",
+  "ip": "185.108.107.52",
+  "city": "Kilo",
+  "region": "Uusimaa",
+  "country": "FI",
+  "loc": "60.2173,24.8722",
+  "org": "AS51765 Oy Crea Nova Hosting Solution Ltd",
+  "postal": "00380",
+  "timezone": "Europe/Helsinki",
   "readme": "https://ipinfo.io/missingauth"
 }
