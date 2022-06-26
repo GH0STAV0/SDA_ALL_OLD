@@ -34,7 +34,6 @@ NCVPN-FR-Marseille-UDP.ovpn
 NCVPN-PT-Lisbon-UDP.ovpn
 NCVPN-UK-Maidenhead-UDP.ovpn
 NCVPN-IL-Tel_Aviv-UDP.ovpn
-NCVPN-GR-Athens-TCP.ovpn
 NCVPN-AU-Melbourne-TCP.ovpn
 NCVPN-PL-Warsaw-UDP.ovpn
 NCVPN-HR-Zagreb-UDP.ovpn
@@ -82,4 +81,3 @@ NCVPN-AR-Buenos_Aires-UDP.ovpn
 NCVPN-US-Houston-UDP.ovpn
 NCVPN-JP-Tokyo-TCP.ovpn
 NCVPN-LV-Riga-UDP.ovpn
-NCVPN-FR-Bordeaux-UDP.ovpn

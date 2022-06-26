@@ -1,11 +1,10 @@
 {
-  "ip": "185.108.107.52",
-  "city": "Kilo",
-  "region": "Uusimaa",
-  "country": "FI",
-  "loc": "60.2173,24.8722",
-  "org": "AS51765 Oy Crea Nova Hosting Solution Ltd",
-  "postal": "00380",
-  "timezone": "Europe/Helsinki",
+  "ip": "194.150.167.107",
+  "city": "Athens",
+  "region": "Attica",
+  "country": "GR",
+  "loc": "37.9838,23.7278",
+  "org": "AS203020 HostRoyale Technologies Pvt Ltd",
+  "timezone": "Europe/Athens",
   "readme": "https://ipinfo.io/missingauth"
 }
