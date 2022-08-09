@@ -1,6 +1,6 @@
 import os ,random ,subprocess,time 
 
-import cnf_bvb
+import cnf_add
 
 
 ########################### VPN  #############################/N0RD/WORKING_CONFIG/
@@ -54,8 +54,8 @@ all_vpn_config_file=os.listdir(vpn_folder)
 
 ##############################################################
 
-file_vpn_dead=cnf_bvb.file_vpn_dead
-p_vpn_dead=cnf_bvb.p_vpn_dead
+file_vpn_dead=cnf_add.file_vpn_dead
+p_vpn_dead=cnf_add.p_vpn_dead
 
 ##############################################################
 
