@@ -9,7 +9,7 @@ os.system("clear && sleep 1")
 
 print("#######################***  CONFIGURATION ; ) ****############################\n")
 
-vpn_type="N"
+vpn_type="V"
 hostname_os=socket.getfqdn()
 visible_v=0
 
