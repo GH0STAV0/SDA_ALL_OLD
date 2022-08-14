@@ -1,6 +1,7 @@
 import os ,random ,subprocess,time 
 
 import cnf_add
+import cnf_bvb
 
 
 ########################### VPN  #############################/N0RD/WORKING_CONFIG/

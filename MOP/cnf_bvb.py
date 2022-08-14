@@ -55,7 +55,7 @@ p_vpn_dead=pwd+"/N0RD/DEAD_CONFIG_TCP/"
 
 
 
-vpn_type="C"
+vpn_type="N"
 total_l0g=[]
 # def send_msg(text):
 

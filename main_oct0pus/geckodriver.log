@@ -241,3 +241,71 @@ Sandbox: seccomp sandbox violation: pid 4994, tid 4994, syscall 262, args 42 140
 1656210885345	Marionette	DEBUG	Received DOM event "pageshow" for "https://shell.cloud.google.com/?cloudshell=true&show=terminal&pli=1"
 JavaScript error: chrome://browser/content/browser.js, line 8383: TypeError: gBrowser.tabContainer is undefined
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1660445545426	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-57.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUzPO3X"
+1660445547937	Marionette	INFO	Enabled via --marionette
+Sandbox: unsupported fd-relative fstatat(39, "", 0x7FFC23F903D0, 4096)
+Sandbox: seccomp sandbox violation: pid 30309, tid 30309, syscall 262, args 39 140257518253914 140720912008144 4096 0 1.
+Sandbox: seccomp sandbox violation: pid 30309, tid 30347, syscall 314, args 30347 140257302937920 0 140256851273280 0 0.
+
+(/root/EXTRA/firefox-57.0.1/firefox/firefox:30309): GLib-CRITICAL **: 03:52:30.076: Failed to set scheduler settings: Function not implemented
+1660445554450	Marionette	INFO	Listening on port 25223
+1660445554550	Marionette	WARN	TLS certificate errors will be ignored for this session
+1660445554846	Marionette	DEBUG	Register listener.js for window 2147483649
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC23F8CD90, 4096)
+Sandbox: seccomp sandbox violation: pid 30309, tid 30309, syscall 262, args 42 140257518253914 140720911994256 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFCB975D810, 4096)
+Sandbox: seccomp sandbox violation: pid 30385, tid 30385, syscall 262, args 40 140153219069786 140723419994128 4096 0 1.
+Sandbox: seccomp sandbox violation: pid 30385, tid 30415, syscall 314, args 30415 140153003180352 0 140152549664320 0 0.
+
+(/root/EXTRA/firefox-57.0.1/firefox/firefox:30385): GLib-CRITICAL **: 03:52:35.511: Failed to set scheduler settings: Function not implemented
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFCB975D540, 4096)
+Sandbox: seccomp sandbox violation: pid 30385, tid 30385, syscall 262, args 42 140153225673205 140723419993408 4096 140152984178048 0.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFCB975D540, 4096)
+Sandbox: seccomp sandbox violation: pid 30385, tid 30385, syscall 262, args 42 140153225673205 140723419993408 4096 140152983414912 0.
+1660445560006	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFCB975AFC0, 4096)
+Sandbox: seccomp sandbox violation: pid 30385, tid 30385, syscall 262, args 42 140153219069786 140723419983808 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFCB975C090, 4096)
+Sandbox: seccomp sandbox violation: pid 30385, tid 30385, syscall 262, args 42 140153219069786 140723419988112 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC23F901C0, 4096)
+Sandbox: seccomp sandbox violation: pid 30309, tid 30309, syscall 262, args 42 140257524857333 140720912007616 4096 140256827727040 0.
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC23F901C0, 4096)
+Sandbox: seccomp sandbox violation: pid 30309, tid 30309, syscall 262, args 42 140257524857333 140720912007616 4096 140256827726976 0.
+1660445561468	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1660445561468	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Sandbox: unsupported fd-relative fstatat(42, "", 0x7FFC23F90F70, 4096)
+Sandbox: seccomp sandbox violation: pid 30309, tid 30309, syscall 262, args 42 140257518253914 140720912011120 4096 1 0.
+1660445565294	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://shell.cloud.google.com/?cloudshell=true&show=terminal&pli=1"
+1660445565299	Marionette	DEBUG	Received DOM event "pageshow" for "https://shell.cloud.google.com/?cloudshell=true&show=terminal&pli=1"
+1660445615634	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXkm4uu"
+1660445624882	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+1660445643335	Marionette	INFO	Listening on port 28607
+1660445643713	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: TopSitesFeed: Contile endpoint returned unexpected status: 403
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+JavaScript error: https://cloudshell.googleusercontent.com/editor/58b829a2481cff87e9a00b00cfc0f99b0a520de2/bundle.js, line 2: Error: schema is invalid: data.properties['tasks'].items.anyOf[1].properties['elements'].items.anyOf[1] should be object,boolean, data.properties['tasks'].items.anyOf[1].properties['elements'].items should be array, data.properties['tasks'].items.anyOf[1].properties['elements'].items should match some schema in anyOf, data.properties['tasks'].items should be array, data.properties['tasks'].items should match some schema in anyOf
+JavaScript error: resource://gre/modules/crypto-SDR.js, line 200: NS_ERROR_FAILURE: Couldn't decrypt string
+JavaScript error: resource://gre/modules/crypto-SDR.js, line 200: NS_ERROR_FAILURE: Couldn't decrypt string
+JavaScript error: resource://gre/modules/crypto-SDR.js, line 200: NS_ERROR_FAILURE: Couldn't decrypt string
+JavaScript error: resource://gre/modules/crypto-SDR.js, line 200: NS_ERROR_FAILURE: Couldn't decrypt string
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 68: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 68: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
