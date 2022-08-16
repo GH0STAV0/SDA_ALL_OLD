@@ -281,7 +281,10 @@ os.system("rm -rf /tmp/*")
 
 
 def main():
+	cnf_bvb.send_msg_dock("main")
+	extract_pof()
 	try:
+		
 		starting_tasks()
 	except Exception as error:
 		cnf_bvb.send_msg_dock(str(error))

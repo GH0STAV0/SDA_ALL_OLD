@@ -78,7 +78,7 @@ def send_msg_dock(text):
 def extract_pof():
 
 	print("extact")
-	send_msg_dock("EXTACTING")
+	send_msg_dock("EXTACTING :"+g00g_acc)
 	comom="cp po/"+g00g_acc+".tar.gz ./"
 	os.system(comom)
 	comom_2="tar xvf "+g00g_acc+".tar.gz"
@@ -87,7 +87,7 @@ def extract_pof():
 
 	
 ##############################################
-extract_pof()
+# extract_pof()
 
 user_agent_list = [
 'AppleCoreMedia/1.0.0.12B466 (Apple TV; U; CPU OS 8_1_3 like Mac OS X; en_us)'
