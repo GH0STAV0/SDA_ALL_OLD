@@ -134,6 +134,7 @@ def lets_play(driver) :
 	try:
 		ads_class(driver)	
 	except Exception as error:
+		cnf_bvb.send_msg_dock(str(error))
 		print(str(error))
 
 	# print("CHECK THE getLink_button WEB-SITE ...... ",end='')
@@ -268,6 +269,7 @@ def starting_tasks():
 		clean_up()
 
 	except Exception as error:
+		cnf_bvb.send_msg_dock(str(error))
 		print (str(error))
 
 
@@ -279,7 +281,10 @@ os.system("rm -rf /tmp/*")
 
 
 def main():
-	starting_tasks()
+	try:
+		starting_tasks()
+	except Exception as error:
+		cnf_bvb.send_msg_dock(str(error))
 
 
 if __name__ == '__main__':
