@@ -175,6 +175,8 @@ def change_time_zon(t_z):
 
 def fnc_vpn():
 
+	os.system("ps aux | grep -i openvpn | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
+	time.sleep(1)
 	os.system("echo '' > /var/log/openvpn/openvpn.log")
 	final_vpn,random_vpn,int_used=get_random_vpn()
 	print("###################################################")
