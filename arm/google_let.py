@@ -282,7 +282,7 @@ os.system("rm -rf /tmp/*")
 
 def main():
 	cnf_bvb.send_msg_dock("main")
-	extract_pof()
+	cnf_bvb.extract_pof()
 	try:
 		
 		starting_tasks()
