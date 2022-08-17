@@ -11,6 +11,7 @@ pwd="/root/VPN"
 
 rnd_yek=["33goQfhs6hfDauLzafL5PErP:3hx1mG2twanKEfQYsMPBZ6aw"]
 
+# cnf_bvb.counting_left()
 
 def random_pass():
 	os.system("ps aux | grep  openvpn | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")

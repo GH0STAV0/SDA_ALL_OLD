@@ -179,7 +179,7 @@ def counting_left():
 	count=mycursor.rowcount
 	print(str(count))
 
-	if ( count < 1500 ):
+	if ( count > 2056 ):
 		print (" should reset sql table" )
 		restored_fresh_sql_table()
 	else:
@@ -247,3 +247,4 @@ def counting_used_config_config(typ0):
 
 
 # get_fresh_config("V")
+counting_left()
