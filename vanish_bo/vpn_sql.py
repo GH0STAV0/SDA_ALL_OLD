@@ -212,7 +212,8 @@ def counting_used_config_config(typ0):
 # get_fresh_config()
 
 # 
-restored_fresh_sql_table()
+# restored_fresh_sql_table()
+# counting_left()
 
 
 ##########################################################################################
