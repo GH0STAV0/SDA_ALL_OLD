@@ -3,7 +3,7 @@ import json
 import socket
 import socket
 
-vversion="arm.0  0ct0pus_child N0RD V2"
+vversion="arm.v2  0ct0pus_child N0RD V2"
 
 hostname_os=socket.getfqdn()
 goog="/root/g00g"
@@ -25,7 +25,7 @@ def read_current_acc_goo():
 
 print(read_current_acc_goo())
 g00g_acc=read_current_acc_goo()
-pofile_path=pwd+"/"+g00g_acc
+pofile_path=pwd+"/tmp/"+g00g_acc
 
 print(pofile_path)
 
@@ -80,10 +80,11 @@ def extract_pof():
 
 	print("extact")
 	send_msg_dock("EXTACTING :"+g00g_acc)
-	comom="cp po/"+g00g_acc+".tar.gz ./"
+	comom="cp po/"+g00g_acc+".tar.gz tmp/"
 	os.system(comom)
-	comom_2="tar xvf "+g00g_acc+".tar.gz"
+	comom_2="cd tmp && tar xvf "+g00g_acc+".tar.gz"
 	os.system(comom_2)
+	os.system('cd ..')
 
 
 	
