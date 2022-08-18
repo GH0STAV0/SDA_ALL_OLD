@@ -13,7 +13,7 @@ visible_v=0
 
 if "LOOKE3" in hostname_os:
 	print(hostname_os)
-	visible_v=1
+	visible_v=0
 
 
 
