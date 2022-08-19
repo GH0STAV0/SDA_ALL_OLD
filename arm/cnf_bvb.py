@@ -1,7 +1,7 @@
 import random , os ,requests
 import json
 import socket
-import socket
+
 
 vversion="arm.v2  0ct0pus_child N0RD V2"
 

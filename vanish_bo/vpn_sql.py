@@ -156,6 +156,7 @@ def drop_sql_table():
 
 def restored_fresh_sql_table():
 	try:
+		sleep(30)
 		drop_sql_table()
 	except:
 		print("[ ERR0R : cant drop_sql_table ] ")
@@ -165,7 +166,20 @@ def restored_fresh_sql_table():
 	print("[ SUCCED ] ")
 
 
+def check_tb_exist():
+	try:
+		# SHOW TABLES LIKE 'vanish_tb';
+		mydb = mysql.connector.connect(host=HOST,user=USERNAME,passwd=PASSWORD,database=DATABASE)
+		mycursor = mydb.cursor()
+		sql = "SELECT * FROM `vanish_tb` "
+		print("[ check_tb_exist : vanish_tb ] ")
+		mycursor.execute(sql)
+		print('exist')
+		result = mycursor.fetchone()
+	except Exception as e :
+		os.system("mysql -h remotemysql.com -u f6V3kVwxvH -psOVnW1130i f6V3kVwxvH < vanish_tb.sql")
 
+		print('np mysql table')
 
 
 
@@ -247,4 +261,5 @@ def counting_used_config_config(typ0):
 
 
 # get_fresh_config("V")
-counting_left()
+# counting_left()
+check_tb_exist()
