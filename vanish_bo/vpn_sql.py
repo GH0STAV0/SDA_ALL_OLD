@@ -156,9 +156,10 @@ def drop_sql_table():
 
 def restored_fresh_sql_table():
 	try:
+		print (" restored_fresh_sql_table" )
 		sleep(30)
 		drop_sql_table()
-	except:
+	except Exception as e:
 		print("[ ERR0R : cant drop_sql_table ] ")
 		pass
 	print(" restored_fresh_sql_table  OF vanish_tb vanish_tb.sql : ",end='',flush=True)
@@ -175,7 +176,9 @@ def check_tb_exist():
 		print("[ check_tb_exist : vanish_tb ] ")
 		mycursor.execute(sql)
 		print('exist')
-		result = mycursor.fetchone()
+		counting_left()
+		# result = mycursor.fetchone()
+
 	except Exception as e :
 		os.system("mysql -h remotemysql.com -u f6V3kVwxvH -psOVnW1130i f6V3kVwxvH < vanish_tb.sql")
 
@@ -261,5 +264,6 @@ def counting_used_config_config(typ0):
 
 
 # get_fresh_config("V")
-# counting_left()
-check_tb_exist()
+counting_left()
+# check_tb_exist()
+# drop_sql_table()

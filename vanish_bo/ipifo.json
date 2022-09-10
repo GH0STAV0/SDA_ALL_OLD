@@ -1,11 +1,12 @@
 {
-  "ip": "64.145.79.172",
-  "city": "New York City",
-  "region": "New York",
+  "ip": "216.131.76.89",
+  "hostname": "89.76.131.216.srv.co12.reliablehosting.com",
+  "city": "Chicago",
+  "region": "Illinois",
   "country": "US",
-  "loc": "40.7185,-74.0025",
-  "org": "AS54203 Strong Technology, LLC.",
-  "postal": "10013",
-  "timezone": "America/New_York",
+  "loc": "41.8500,-87.6500",
+  "org": "AS62651 Strong Technology, LLC.",
+  "postal": "60666",
+  "timezone": "America/Chicago",
   "readme": "https://ipinfo.io/missingauth"
 }

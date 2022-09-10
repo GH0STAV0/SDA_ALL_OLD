@@ -176,9 +176,11 @@ def fnc_vpn():
 	time.sleep(3)
 	# os.system("touch /var/log/openvpn/openvpn.log")
 	# print ("OK !!!!!")
-	print("\n")
+	print("\n"+final_vpn)
 	print("STARTING VPN        : " , end="")
-	x = subprocess.Popen(['openvpn', '--auth-nocache', '--config',final_vpn , '--log' , '/var/log/openvpn/openvpn.log'])
+	# x = subprocess.Popen(['openvpn', '--auth-nocache', '--config',final_vpn , '--log' , '/var/log/openvpn/openvpn.log'])
+
+	x = subprocess.Popen(['openvpn', '--config',final_vpn , '--log' , '/var/log/openvpn/openvpn.log'])
 	# remove_from_list_running(random_vpn)
 	# print("["+random_vpn+"]" , end="")
 	time.sleep(15)
