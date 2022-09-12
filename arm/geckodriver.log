@@ -1,5 +1,5 @@
-1660781158893	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZQxRZP"
-1660781160161	Marionette	INFO	Marionette enabled
+1662973196039	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3q5fhJ"
+1662973198480	Marionette	INFO	Marionette enabled
 JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
 JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
 JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
@@ -11,45 +11,18 @@ JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Erro
 JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
 JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
 JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-1660781164827	Marionette	INFO	Listening on port 22633
-1660781164956	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1660781170024	Marionette	WARN	TimedPromise timed out after 5000 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
-TimedPromise@chrome://remote/content/marionette/sync.js:220:10
-GeckoDriver.prototype.maximizeWindow@chrome://remote/content/marionette/driver.js:2355:11
-JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
-JavaScript error: resource://gre/modules/crypto-SDR.js, line 200: NS_ERROR_FAILURE: Couldn't decrypt string
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-1660781352052	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileC6LqUJ"
-1660781353284	Marionette	INFO	Marionette enabled
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-1660781359765	Marionette	INFO	Listening on port 33945
-1660781359801	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1662973208713	Marionette	INFO	Listening on port 16847
+1662973208802	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
 console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
 JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
-JavaScript error: https://cloudshell.googleusercontent.com/editor/58b829a2481cff87e9a00b00cfc0f99b0a520de2/bundle.js, line 2: Error: schema is invalid: data.properties['tasks'].items.anyOf[1].properties['elements'].items.anyOf[1] should be object,boolean, data.properties['tasks'].items.anyOf[1].properties['elements'].items should be array, data.properties['tasks'].items.anyOf[1].properties['elements'].items should match some schema in anyOf, data.properties['tasks'].items should be array, data.properties['tasks'].items should match some schema in anyOf
-JavaScript error: resource://gre/modules/crypto-SDR.js, line 200: NS_ERROR_FAILURE: Couldn't decrypt string
-JavaScript error: resource://gre/modules/crypto-SDR.js, line 200: NS_ERROR_FAILURE: Couldn't decrypt string
-JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 68: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
-JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 68: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
-1660781788954	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefH25rg"
-1660781790169	Marionette	INFO	Marionette enabled
+JavaScript warning: https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal&followup=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal line 2 > eval line 3220 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1662973330767	Marionette	INFO	Stopped listening on port 16847
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1662975140521	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilel7idoT"
+1662975141775	Marionette	INFO	Marionette enabled
 JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
 JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
 JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
@@ -61,39 +34,19 @@ JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Erro
 JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
 JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
 JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-1660781794361	Marionette	INFO	Listening on port 19917
-1660781794410	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1662975145975	Marionette	INFO	Listening on port 24523
+1662975146057	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
-JavaScript error: https://cloudshell.googleusercontent.com/editor/58b829a2481cff87e9a00b00cfc0f99b0a520de2/bundle.js, line 2: Error: schema is invalid: data.properties['tasks'].items.anyOf[1].properties['elements'].items.anyOf[1] should be object,boolean, data.properties['tasks'].items.anyOf[1].properties['elements'].items should be array, data.properties['tasks'].items.anyOf[1].properties['elements'].items should match some schema in anyOf, data.properties['tasks'].items should be array, data.properties['tasks'].items should match some schema in anyOf
-JavaScript error: resource://gre/modules/crypto-SDR.js, line 200: NS_ERROR_FAILURE: Couldn't decrypt string
-JavaScript error: resource://gre/modules/crypto-SDR.js, line 200: NS_ERROR_FAILURE: Couldn't decrypt string
-JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 68: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
-JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 68: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
-1660782229340	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileeKsDYP"
-1660782230069	Marionette	INFO	Marionette enabled
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-1660782234161	Marionette	INFO	Listening on port 36687
-1660782234274	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: resource://gre/modules/crypto-SDR.js, line 200: NS_ERROR_FAILURE: Couldn't decrypt string
-JavaScript error: resource://gre/modules/crypto-SDR.js, line 200: NS_ERROR_FAILURE: Couldn't decrypt string
-JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 68: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
-JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 68: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
-1660782541713	Marionette	INFO	Stopped listening on port 36687
+JavaScript warning: https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal&followup=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal line 2 > eval line 6746 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal&followup=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal line 2 > eval line 2303 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal&followup=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal line 2 > eval line 5418 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal&followup=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal line 2 > eval line 1707 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1662975262709	Marionette	INFO	Stopped listening on port 24523
 
-###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
 
-1660783686601	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTteu2O"
-1660783687336	Marionette	INFO	Marionette enabled
+1662975595716	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5bmVLt"
+1662975598250	Marionette	INFO	Marionette enabled
 JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
 JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
 JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
@@ -105,155 +58,77 @@ JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Erro
 JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
 JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
 JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-1660783691358	Marionette	INFO	Listening on port 32207
-1660783691440	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+1662975604588	Marionette	INFO	Listening on port 36067
+1662975604674	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+JavaScript error: resource://gre/modules/crypto-SDR.js, line 200: NS_ERROR_FAILURE: Couldn't decrypt string
+JavaScript error: https://cloudshell.googleusercontent.com/editor/08736fdab890a66636631b9c49e2e0154ef30fd0/bundle.js, line 2: Error: schema is invalid: data.properties['tasks'].items.anyOf[1].properties['elements'].items.anyOf[1] should be object,boolean, data.properties['tasks'].items.anyOf[1].properties['elements'].items should be array, data.properties['tasks'].items.anyOf[1].properties['elements'].items should match some schema in anyOf, data.properties['tasks'].items should be array, data.properties['tasks'].items should match some schema in anyOf
+JavaScript error: resource://gre/modules/crypto-SDR.js, line 200: NS_ERROR_FAILURE: Couldn't decrypt string
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 68: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1662975899930	Marionette	INFO	Stopped listening on port 36067
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1662976084842	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileX0d8WR"
+1662976087469	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+1662976093038	Marionette	INFO	Listening on port 18715
+1662976093129	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+JavaScript warning: https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal&followup=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal line 2 > eval line 1470 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal&followup=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal line 2 > eval line 1502 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal&followup=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal line 2 > eval line 807 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1662976211156	Marionette	INFO	Stopped listening on port 18715
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1662977383456	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3fEN8x"
+1662977384639	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+1662977389647	Marionette	INFO	Listening on port 35889
+1662977389717	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+JavaScript warning: https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal&followup=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal line 2 > eval line 6862 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1662977400404	Marionette	INFO	Stopped listening on port 35889
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1662978036701	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekj7hkZ"
+1662978038219	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
+1662978043554	Marionette	INFO	Listening on port 23887
+1662978043647	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
 console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
 JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
-JavaScript error: resource://gre/modules/crypto-SDR.js, line 200: NS_ERROR_FAILURE: Couldn't decrypt string
-JavaScript error: resource://gre/modules/crypto-SDR.js, line 200: NS_ERROR_FAILURE: Couldn't decrypt string
-JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 68: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
-JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 68: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-1660784018079	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNBv5Xn"
-1660784018876	Marionette	INFO	Marionette enabled
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-1660784023204	Marionette	INFO	Listening on port 26125
-1660784023318	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
-JavaScript error: https://cloudshell.googleusercontent.com/editor/58b829a2481cff87e9a00b00cfc0f99b0a520de2/bundle.js, line 2: Error: schema is invalid: data.properties['tasks'].items.anyOf[1].properties['elements'].items.anyOf[1] should be object,boolean, data.properties['tasks'].items.anyOf[1].properties['elements'].items should be array, data.properties['tasks'].items.anyOf[1].properties['elements'].items should match some schema in anyOf, data.properties['tasks'].items should be array, data.properties['tasks'].items should match some schema in anyOf
-JavaScript error: resource://gre/modules/crypto-SDR.js, line 200: NS_ERROR_FAILURE: Couldn't decrypt string
-JavaScript error: resource://gre/modules/crypto-SDR.js, line 200: NS_ERROR_FAILURE: Couldn't decrypt string
-JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 68: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
-JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 68: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
-1660784449479	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilearJjDV"
-1660784450190	Marionette	INFO	Marionette enabled
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-1660784454266	Marionette	INFO	Listening on port 15629
-1660784454324	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
-JavaScript error: https://cloudshell.googleusercontent.com/editor/58b829a2481cff87e9a00b00cfc0f99b0a520de2/bundle.js, line 2: Error: schema is invalid: data.properties['tasks'].items.anyOf[1].properties['elements'].items.anyOf[1] should be object,boolean, data.properties['tasks'].items.anyOf[1].properties['elements'].items should be array, data.properties['tasks'].items.anyOf[1].properties['elements'].items should match some schema in anyOf, data.properties['tasks'].items should be array, data.properties['tasks'].items should match some schema in anyOf
-JavaScript error: resource://gre/modules/crypto-SDR.js, line 200: NS_ERROR_FAILURE: Couldn't decrypt string
-JavaScript error: resource://gre/modules/crypto-SDR.js, line 200: NS_ERROR_FAILURE: Couldn't decrypt string
-JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 68: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
-JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 68: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
-1660784917223	Marionette	INFO	Stopped listening on port 15629
-
-###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
-
-1660785087308	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWRF29r"
-1660785088186	Marionette	INFO	Marionette enabled
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-1660785093358	Marionette	INFO	Listening on port 11143
-1660785093447	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-1660785997773	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileuwubGU"
-1660785998552	Marionette	INFO	Marionette enabled
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-1660786002721	Marionette	INFO	Listening on port 24953
-1660786002842	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
-console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
-1660786007914	Marionette	WARN	TimedPromise timed out after 5000 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
-TimedPromise@chrome://remote/content/marionette/sync.js:220:10
-GeckoDriver.prototype.maximizeWindow@chrome://remote/content/marionette/driver.js:2355:11
-JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
-JavaScript error: https://cloudshell.googleusercontent.com/editor/58b829a2481cff87e9a00b00cfc0f99b0a520de2/bundle.js, line 2: Error: schema is invalid: data.properties['tasks'].items.anyOf[1].properties['elements'].items.anyOf[1] should be object,boolean, data.properties['tasks'].items.anyOf[1].properties['elements'].items should be array, data.properties['tasks'].items.anyOf[1].properties['elements'].items should match some schema in anyOf, data.properties['tasks'].items should be array, data.properties['tasks'].items should match some schema in anyOf
-JavaScript error: resource://gre/modules/crypto-SDR.js, line 200: NS_ERROR_FAILURE: Couldn't decrypt string
-JavaScript error: resource://gre/modules/crypto-SDR.js, line 200: NS_ERROR_FAILURE: Couldn't decrypt string
-JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 68: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
-JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 68: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
-JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 68: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-1660787089896	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileT6rkxH"
-1660787090682	Marionette	INFO	Marionette enabled
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1910: Error: Cannot find loader for bootstrap
-1660787094816	Marionette	INFO	Listening on port 29919
-1660787094931	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1660787099966	Marionette	WARN	TimedPromise timed out after 5000 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
-TimedPromise@chrome://remote/content/marionette/sync.js:220:10
-GeckoDriver.prototype.maximizeWindow@chrome://remote/content/marionette/driver.js:2355:11
-JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
-JavaScript error: https://cloudshell.googleusercontent.com/editor/58b829a2481cff87e9a00b00cfc0f99b0a520de2/bundle.js, line 2: Error: schema is invalid: data.properties['tasks'].items.anyOf[1].properties['elements'].items.anyOf[1] should be object,boolean, data.properties['tasks'].items.anyOf[1].properties['elements'].items should be array, data.properties['tasks'].items.anyOf[1].properties['elements'].items should match some schema in anyOf, data.properties['tasks'].items should be array, data.properties['tasks'].items should match some schema in anyOf
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
+JavaScript error: https://cloudshell.googleusercontent.com/editor/08736fdab890a66636631b9c49e2e0154ef30fd0/bundle.js, line 2: Error: schema is invalid: data.properties['tasks'].items.anyOf[1].properties['elements'].items.anyOf[1] should be object,boolean, data.properties['tasks'].items.anyOf[1].properties['elements'].items should be array, data.properties['tasks'].items.anyOf[1].properties['elements'].items should match some schema in anyOf, data.properties['tasks'].items should be array, data.properties['tasks'].items should match some schema in anyOf

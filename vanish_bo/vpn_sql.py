@@ -267,3 +267,4 @@ def counting_used_config_config(typ0):
 counting_left()
 # check_tb_exist()
 # drop_sql_table()
+# restored_fresh_sql_table()

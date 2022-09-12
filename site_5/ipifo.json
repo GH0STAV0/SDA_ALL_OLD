@@ -1,12 +1,12 @@
 {
-  "ip": "81.19.223.3",
-  "hostname": "3.223.19.81.baremetal.zare.com",
-  "city": "London",
-  "region": "England",
-  "country": "GB",
-  "loc": "51.5130,-0.0800",
-  "org": "AS25369 Hydra Communications Ltd",
-  "postal": "EC3N",
-  "timezone": "Europe/London",
+  "ip": "185.220.100.253",
+  "hostname": "tor-exit-2.zbau.f3netze.de",
+  "city": "Nürnberg",
+  "region": "Bavaria",
+  "country": "DE",
+  "loc": "49.4897,11.1064",
+  "org": "AS205100 F3 Netze e.V.",
+  "postal": "90411",
+  "timezone": "Europe/Berlin",
   "readme": "https://ipinfo.io/missingauth"
 }
