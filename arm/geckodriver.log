@@ -137,3 +137,44 @@ JavaScript error: https://cloudshell.googleusercontent.com/editor/08736fdab890a6
 ###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel closing: too late to send/recv, messages will be lost
 
 JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1663247604824	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-58.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesJkMrK"
+1663247613947	Marionette	INFO	Enabled via --marionette
+Sandbox: unsupported fd-relative fstatat(36, "", 0x7FFC855D94C0, 4096)
+Sandbox: seccomp sandbox violation: pid 2738, tid 2738, syscall 262, args 36 139978041571162 140722545988800 4096 0 2147481600.
+
+(/root/EXTRA/firefox-58.0.1/firefox/firefox:2738): Gtk-WARNING **: 14:13:36.910: Failed to parse /etc/xdg/gtk-3.0/settings.ini: Function not implemented
+Sandbox: unsupported fd-relative fstatat(36, "", 0x7FFC855DA620, 4096)
+Sandbox: seccomp sandbox violation: pid 2738, tid 2738, syscall 262, args 36 139978041571162 140722545993248 4096 591872 139977812528336.
+Sandbox: unsupported fd-relative fstatat(36, "", 0x7FFC855D92A0, 4096)
+Sandbox: seccomp sandbox violation: pid 2738, tid 2738, syscall 262, args 36 139978041571162 140722545988256 4096 0 4294959104.
+
+(/root/EXTRA/firefox-58.0.1/firefox/firefox:2738): Pango-WARNING **: 14:13:37.043: failed to create cairo scaled font, expect ugly output. the offending font is 'Bitstream Vera Sans 9.9990234375'
+
+(/root/EXTRA/firefox-58.0.1/firefox/firefox:2738): Pango-WARNING **: 14:13:37.044: font_face status is: <unknown error status>
+
+(/root/EXTRA/firefox-58.0.1/firefox/firefox:2738): Pango-WARNING **: 14:13:37.044: scaled_font status is: out of memory
+Sandbox: unsupported fd-relative fstatat(36, "", 0x7FFC855D91A0, 4096)
+Sandbox: seccomp sandbox violation: pid 2738, tid 2738, syscall 262, args 36 139978041571162 140722545988000 4096 0 4293918720.
+
+(/root/EXTRA/firefox-58.0.1/firefox/firefox:2738): Pango-WARNING **: 14:13:37.049: failed to create cairo scaled font, expect ugly output. the offending font is 'Bitstream Vera Sans 9.9990234375'
+
+(/root/EXTRA/firefox-58.0.1/firefox/firefox:2738): Pango-WARNING **: 14:13:37.049: font_face status is: <unknown error status>
+
+(/root/EXTRA/firefox-58.0.1/firefox/firefox:2738): Pango-WARNING **: 14:13:37.049: scaled_font status is: out of memory
+Sandbox: unsupported fd-relative fstatat(36, "", 0x7FFC855D9E60, 4096)
+Sandbox: seccomp sandbox violation: pid 2738, tid 2738, syscall 262, args 36 139978041571162 140722545991264 4096 0 1.
+Sandbox: seccomp sandbox violation: pid 2738, tid 2738, syscall 315, args 2738 139977392361344 56 0 139977392357440 139977748498176.
+Sandbox: unsupported fd-relative fstatat(39, "", 0x7FFC855D8E00, 4096)
+Sandbox: seccomp sandbox violation: pid 2738, tid 2738, syscall 262, args 39 139978041571162 140722545987072 4096 0 4294967040.
+1663247620183	Marionette	INFO	Listening on port 26703
+1663247620198	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFC855D6720, 4096)
+Sandbox: seccomp sandbox violation: pid 2738, tid 2738, syscall 262, args 40 139978041571162 140722545977120 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFC855D9BA0, 4096)
+Sandbox: seccomp sandbox violation: pid 2738, tid 2738, syscall 262, args 40 139978048174581 140722545990560 4096 139977350280384 0.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFC855D9BA0, 4096)
+Sandbox: seccomp sandbox violation: pid 2738, tid 2738, syscall 262, args 40 139978048174581 140722545990560 4096 139977350280320 0.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFC855D8E00, 4096)
+Sandbox: seccomp sandbox violation: pid 2738, tid 2738, syscall 262, args 40 139978041571162 140722545987072 4096 0 4292870144.
+Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFC855DAA30, 4096)
+Sandbox: seccomp sandbox violation: pid 2738, tid 2738, syscall 262, args 40 139978041571162 140722545994288 4096 1 0.
