@@ -1,0 +1,42 @@
+1663211340979	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-59.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileO4yDpC"
+1663211695227	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-57.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMvmEJo"
+1663211980054	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekw2DtY"
+Sandbox: unsupported fd-relative fstatat(25, "", 0x7FFC344DF0C0, 4096)
+Sandbox: seccomp sandbox violation: pid 46869, tid 46869, syscall 262, args 25 140228039186266 140721186009280 4096 0 4294934528.
+
+(/root/EXTRA/firefox-60.0.1esr/firefox/firefox:46869): Pango-WARNING **: 05:19:55.249: failed to create cairo scaled font, expect ugly output. the offending font is 'Cantarell 11'
+
+(/root/EXTRA/firefox-60.0.1esr/firefox/firefox:46869): Pango-WARNING **: 05:19:55.250: font_face status is: <unknown error status>
+
+(/root/EXTRA/firefox-60.0.1esr/firefox/firefox:46869): Pango-WARNING **: 05:19:55.250: scaled_font status is: out of memory
+Sandbox: unsupported fd-relative fstatat(25, "", 0x7FFC344DE9E0, 4096)
+Sandbox: seccomp sandbox violation: pid 46869, tid 46869, syscall 262, args 25 140228039186266 140721186007520 4096 0 4293918720.
+
+(/root/EXTRA/firefox-60.0.1esr/firefox/firefox:46869): Pango-WARNING **: 05:19:55.254: failed to create cairo scaled font, expect ugly output. the offending font is 'Cantarell 11'
+
+(/root/EXTRA/firefox-60.0.1esr/firefox/firefox:46869): Pango-WARNING **: 05:19:55.254: font_face status is: <unknown error status>
+
+(/root/EXTRA/firefox-60.0.1esr/firefox/firefox:46869): Pango-WARNING **: 05:19:55.254: scaled_font status is: out of memory
+Sandbox: unsupported fd-relative fstatat(25, "", 0x7FFC344DF6A0, 4096)
+Sandbox: seccomp sandbox violation: pid 46869, tid 46869, syscall 262, args 25 140228039186266 140721186010784 4096 0 1.
+Sandbox: seccomp sandbox violation: pid 46869, tid 46901, syscall 314, args 46901 140227815620352 0 140227687458368 0 0.
+
+(/root/EXTRA/firefox-60.0.1esr/firefox/firefox:46869): GLib-CRITICAL **: 05:19:55.260: Failed to set scheduler settings: Function not implemented
+Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFC344DE790, 4096)
+Sandbox: seccomp sandbox violation: pid 46869, tid 46869, syscall 262, args 37 140228039186266 140721186006928 4096 0 4286578688.
+Sandbox: unsupported fd-relative fstatat(37, "", 0x7FFC344DE4A0, 4096)
+Sandbox: seccomp sandbox violation: pid 46869, tid 46869, syscall 262, args 37 140228039186266 140721186006176 4096 0 4286578688.
+Sandbox: unsupported fd-relative fstatat(38, "", 0x7FFC344DF090, 4096)
+Sandbox: seccomp sandbox violation: pid 46869, tid 46869, syscall 262, args 38 140228045789685 140721186009232 4096 140227668862272 0.
+Sandbox: unsupported fd-relative fstatat(38, "", 0x7FFC344DF090, 4096)
+Sandbox: seccomp sandbox violation: pid 46869, tid 46869, syscall 262, args 38 140228045789685 140721186009232 4096 140227668862144 0.
+1663212002212	Marionette	INFO	Listening on port 37213
+1663212002410	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sandbox: unsupported fd-relative fstatat(38, "", 0x7FFC344DAF80, 4096)
+Sandbox: seccomp sandbox violation: pid 46869, tid 46869, syscall 262, args 38 140228039186266 140721185992576 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(38, "", 0x7FFC344DAA80, 4096)
+Sandbox: seccomp sandbox violation: pid 46869, tid 46869, syscall 262, args 38 140228045789685 140721185991296 4096 524288 140228045791752.
+Sandbox: unsupported fd-relative fstatat(38, "", 0x7FFC344DAA80, 4096)
+Sandbox: seccomp sandbox violation: pid 46869, tid 46869, syscall 262, args 38 140228045789685 140721185991296 4096 140227668650736 0.
+Sandbox: unsupported fd-relative fstatat(38, "", 0x7FFC344DE4A0, 4096)
+Sandbox: seccomp sandbox violation: pid 46869, tid 46869, syscall 262, args 38 140228039186266 140721186006176 4096 0 140227796525056.

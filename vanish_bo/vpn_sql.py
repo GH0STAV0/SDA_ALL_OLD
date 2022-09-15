@@ -139,16 +139,19 @@ def update_to_db_as_used(cnf_name,typ0):
 ##########################################################################################
 
 def drop_sql_table():
+	print(" drop_sql_table  OF  : ",end='',flush=True)
 	mydb = mysql.connector.connect(host=HOST,user=USERNAME,passwd=PASSWORD,database=DATABASE)
 	try:
 
-		print(" drop_sql_table  OF  : ",end='',flush=True)
 		# mydb = mysql.connector.connect(host=HOST,user=USERNAME,passwd=PASSWORD,database=DATABASE)
 		mycursor = mydb.cursor()
-		sql = "DROP TABLE IF EXISTS vanish_tb"
-		print("[ DROP : cant drop_sql_table ] ")
+		sql = "DROP TABLE vanish_tb"
+		print("[ DROP :  drop_sql_table ] ")
 		mycursor.execute(sql)
 		print("[ SUCCED ] ")
+		os.system("mysql -h remotemysql.com -u f6V3kVwxvH -psOVnW1130i f6V3kVwxvH < vanish_tb.sql")
+
+
 	except:
 		print("[ ERR0R : cant drop_sql_table ] ")
 		os.system("mysql -h remotemysql.com -u f6V3kVwxvH -psOVnW1130i f6V3kVwxvH < vanish_tb.sql")
@@ -157,7 +160,7 @@ def drop_sql_table():
 def restored_fresh_sql_table():
 	try:
 		print (" restored_fresh_sql_table" )
-		sleep(30)
+		# sleep(30)
 		drop_sql_table()
 	except Exception as e:
 		print("[ ERR0R : cant drop_sql_table ] ")
@@ -196,7 +199,7 @@ def counting_left():
 	count=mycursor.rowcount
 	print(str(count))
 
-	if ( count < 20 ):
+	if ( count < 2087 ):
 		print (" should reset sql table" )
 		restored_fresh_sql_table()
 	else:
@@ -262,9 +265,10 @@ def counting_used_config_config(typ0):
 # 		for i in all_vpn_config_file:
 # 			fw.write(i+"\n")
 
-
+# drop_sql_table()
 # get_fresh_config("V")
 counting_left()
+
 # check_tb_exist()
 # drop_sql_table()
 # restored_fresh_sql_table()

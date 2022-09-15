@@ -26,6 +26,7 @@ print(read_current_acc_goo())
 # g00g_acc="garmiyashour"
 # g00g_acc="garmiyashour"
 g00g_acc= sql_gc_get.get_actif_account()
+# g00g_acc= "garmiyashour"
 # 
 # erogomayke
 # g00g_acc="erogomayke"
@@ -38,6 +39,7 @@ pofile_path=pwd+"/"+g00g_acc
 
 def change_gc_acc():
 	g_a=read_current_acc_goo()
+	# g_a="garmiyashour"
 	index_of_account=main_ar.index(g_a)
 	print(index_of_account)
 	numbr_account=len(main_ar)-1

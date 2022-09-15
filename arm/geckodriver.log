@@ -132,3 +132,8 @@ console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resour
 console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
 JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
 JavaScript error: https://cloudshell.googleusercontent.com/editor/08736fdab890a66636631b9c49e2e0154ef30fd0/bundle.js, line 2: Error: schema is invalid: data.properties['tasks'].items.anyOf[1].properties['elements'].items.anyOf[1] should be object,boolean, data.properties['tasks'].items.anyOf[1].properties['elements'].items should be array, data.properties['tasks'].items.anyOf[1].properties['elements'].items should match some schema in anyOf, data.properties['tasks'].items should be array, data.properties['tasks'].items should match some schema in anyOf
+1662978391482	Marionette	INFO	Stopped listening on port 23887
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]

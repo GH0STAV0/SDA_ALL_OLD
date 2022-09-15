@@ -28,7 +28,7 @@ telrgram_text=[]
 # email="xamiramogdan"
 # email="abouichrine"
 email="youcefshalhoub"
-paxx="g0ping0*"
+paxx="g0ping0**"
 
 ###########global urls_BVB
 # urls_BVB=cnf_bvb.random_url

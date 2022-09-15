@@ -1,0 +1,75 @@
+1663068089948	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6WRj0f"
+1663068092457	Marionette	INFO	Marionette enabled
+1663068092485	Marionette	INFO	Listening on port 34297
+1663068093208	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6WRj0f/search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/v3/signin/identifier?dsh=S-2146654990%3A1663060927942678&continue=https%3A%2F%2Fconsole.cloud.google.com%2F&followup=https%3A%2F%2Fconsole.cloud.google.com%2F&osid=1&passive=1209600&service=cloudconsole&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AQDHYWpsJBwrZVrQZL05qM8uhIDRh7dk2V6Zck7pspkPUxLmqSkur2l7mMlLaMUTBGLkyq4PtQrv2w line 695 > injectedScript line 2 > eval line 2174 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1663068136914	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1663069186849	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTIZMZf"
+1663069191529	Marionette	INFO	Marionette enabled
+1663069191538	Marionette	INFO	Listening on port 24571
+1663069192436	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTIZMZf/search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1663069324428	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7CnVWk"
+1663069328486	Marionette	INFO	Marionette enabled
+1663069328491	Marionette	INFO	Listening on port 11047
+1663069328984	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: SessionStore: "The session file is invalid: TypeError: state is null"
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-5CVQBG&l=gtmDataLayer, line 82: Script terminated by timeout at:
+Be@https://www.googletagmanager.com/gtm.js?id=GTM-5CVQBG&l=gtmDataLayer:82:548
+@https://www.googletagmanager.com/gtm.js?id=GTM-5CVQBG&l=gtmDataLayer:329:195
+ic@https://www.googletagmanager.com/gtm.js?id=GTM-5CVQBG&l=gtmDataLayer:47:146
+jc@https://www.googletagmanager.com/gtm.js?id=GTM-5CVQBG&l=gtmDataLayer:48:111
+jc@https://www.googletagmanager.com/gtm.js?id=GTM-5CVQBG&l=gtmDataLayer:48:371
+kc@https://www.googletagmanager.com/gtm.js?id=GTM-5CVQBG&l=gtmDataLayer:47:238
+jc@https://www.googletagmanager.com/gtm.js?id=GTM-5CVQBG&l=gtmDataLayer:48:30
+kc@https://www.googletagmanager.com/gtm.js?id=GTM-5CVQBG&l=gtmDataLayer:47:238
+jc@https://www.googletagmanager.com/gtm.js?id=GTM-5CVQBG&l=gtmDataLayer:48:30
+jc@https://www.googletagmanager.com/gtm.js?id=GTM-5CVQBG&l=gtmDataLayer:48:371
+kc@https://www.googletagmanager.com/gtm.js?id=GTM-5CVQBG&l=gtmDataLayer:47:238
+jc@https://www.googletagmanager.com/gtm.js?id=GTM-5CVQBG&l=gtmDataLayer:48:30
+jc@https://www.googletagmanager.com/gtm.js?id=GTM-5CVQBG&l=gtmDataLayer:48:285
+jc@https://www.googletagmanager.com/gtm.js?id=GTM-5CVQBG&l=gtmDataLayer:47:392
+kc@https://www.googletagmanager.com/gtm.js?id=GTM-5CVQBG&l=gtmDataLayer:47:238
+jc@https://www.googletagmanager.com/gtm.js?id=GTM-5CVQBG&l=gtmDataLayer:48:30
+kc@https://www.googletagmanager.com/gtm.js?id=GTM-5CVQBG&l=gtmDataLayer:47:238
+e@https://www.googletagmanager.com/gtm.js?id=GTM-5CVQBG&l=gtmDataLayer:205:64
+Fa/<@https://www.googletagmanager.com/gtm.js?id=GTM-5CVQBG&l=gtmDataLayer:31:130
+Un/<@https://www.googletagmanager.com/gtm.js?id=GTM-5CVQBG&l=gtmDataLayer:208:229
+Sn/<@https://www.googletagmanager.com/gtm.js?id=GTM-5CVQBG&l=gtmDataLayer:207:367
+qo@https://www.googletagmanager.com/gtm.js?id=GTM-5CVQBG&l=gtmDataLayer:209:984
+yo@https://www.googletagmanager.com/gtm.js?id=GTM-5CVQBG&l=gtmDataLayer:213:22
+js@https://www.googletagmanager.com/gtm.js?id=GTM-5CVQBG&l=gtmDataLayer:294:272
+ms@https://www.googletagmanager.com/gtm.js?id=GTM-5CVQBG&l=gtmDataLayer:299:278
+qs/b.push@https://www.googletagmanager.com/gtm.js?id=GTM-5CVQBG&l=gtmDataLayer:303:315
+f.sendToGtmAsync/</<@https://www.gstatic.com/_/pantheon/_/js/k=pantheon.pantheon_module_set.en_GB.9IyZpG2vin0.O/am=qIvvBV7fpQue4QHGN432KhwFAIRZwAiCnEYAbJEQQGwBApPzgAZCEdMVCAw4QA/d=1/im=1/rs=ADqnUbPje0zuBFKOaa6VUTYO_GDjBQAOuA/m=core,pm_welcome_home:3458:501
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
