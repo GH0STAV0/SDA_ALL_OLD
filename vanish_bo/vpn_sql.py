@@ -199,7 +199,7 @@ def counting_left():
 	count=mycursor.rowcount
 	print(str(count))
 
-	if ( count < 2087 ):
+	if ( count < 21 ):
 		print (" should reset sql table" )
 		restored_fresh_sql_table()
 	else:
