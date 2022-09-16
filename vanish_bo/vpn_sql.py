@@ -190,20 +190,25 @@ def check_tb_exist():
 
 
 def counting_left():
-	mydb = mysql.connector.connect(host=HOST,user=USERNAME,passwd=PASSWORD,database=DATABASE)
-	print(" RANDOM_FRESH CONFIG   : ",end='',flush=True)
-	mycursor = mydb.cursor()
-	sql = "SELECT * FROM `vanish_tb` WHERE (`used`='n') "
-	mycursor.execute(sql)
-	record = mycursor.fetchall()
-	count=mycursor.rowcount
-	print(str(count))
+	try:
+		mydb = mysql.connector.connect(host=HOST,user=USERNAME,passwd=PASSWORD,database=DATABASE)
+		print(" RANDOM_FRESH CONFIG   : ",end='',flush=True)
+		mycursor = mydb.cursor()
+		sql = "SELECT * FROM `vanish_tb` WHERE (`used`='n') "
+		mycursor.execute(sql)
+		record = mycursor.fetchall()
+		count=mycursor.rowcount
+		print(str(count))
 
-	if ( count < 21 ):
-		print (" should reset sql table" )
-		restored_fresh_sql_table()
-	else:
-		print (" VPN LEFT :"+str(count))
+		if ( count < 21 ):
+			print (" should reset sql table" )
+			restored_fresh_sql_table()
+		else:
+			print (" VPN LEFT :"+str(count))
+
+	except Exception as e:
+		time.sleep(50)
+		os.system("mysql -h remotemysql.com -u f6V3kVwxvH -psOVnW1130i f6V3kVwxvH < vanish_tb.sql")
 
 	# for row in record:
 # counting_left()
