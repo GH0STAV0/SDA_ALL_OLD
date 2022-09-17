@@ -15,63 +15,24 @@ from selenium.webdriver.support import expected_conditions as EC
 import random,datetime,string , os ,time ,subprocess , sys , requests ,re
 from selenium.webdriver import ActionChains
 import json
-# import pickle
-# xamiramogdan hghjghj
+
+
 telrgram_text=[]
 
 
 
 
 
-# email="azfounmondilla"111mmm
-# email="jilalydillaly"
-# email="abouichrine"
-# email="almidaopo"
-# email="don0mar0l0k0"
-# email="abedrahman0x"
-# email="boudabkafaycel"
-# email="caldinomajbri"iiiop
-# email=gc_ac__sql.get_gc_account()
-
 
 
 email=cnf_bvb.g00g_acc
 
-# email="don0mar0l0k0"
-# email="xamiramogdan"
-# email="xamiramogdan"
-# email="xamiramogdan"
-# email="xamiramogdan"
-# email="xamiramogdan"
 
-# email="laminewalter7"
-# email="kalawssimatrix"
-# email=
-# email="xamiramogdan"
-# email="almidaopo"
-# email="abedrahman0x"
-# email="don0mar0l0k0"
-# email="xamiramogdan"
-# email="xamiramogdan"
-# email="xamiramogdan"
-# email="xamiramogdan"
-# email="xamiramogdan"
-# paxx="agoon007"
 paxx="g0ping0*"
 
-###########global urls_BVB
-# urls_BVB=cnf_bvb.random_url
-#####################################
-# urls_BVB="https://wild-beauty.weebly.com/about.html"
-#url_1="https://bitcoin-chat-news-and-games.netlify.app/index.html"
-# url_1="https://cryptocurency-space.netlify.app/index.html"
+
 url_1="https://console.cloud.google.com/"
 
-# url_3="https://elated-nobel-943d26.netlify.app/index.html"
-# random_display_chose=cnf_bvb.random_display_chose
-# width=cnf_bvb.width
-# height=cnf_bvb.height
-# main_url="https://nordcheckout.com/"
 user_agent = cnf_bvb.user_agent
 sys_use_agent=re.findall('\(.*?\)',user_agent)[0]
 
@@ -189,12 +150,9 @@ def check_reconect(driver):
 def check_recovery(driver):
 	print("CHECK RECOVERY MAIL !!!!!!")
 	try:
-		#/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div/ul/li[1]
-		#//*[@id="view_container"]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div/ul/li[1]/div
 		click_on_recovery_email=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '//*[@id="view_container"]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div/ul/li[1]/div')))
 		click_on_recovery_email.click()
 		time.sleep(5)
-		# //*[@id="knowledge-preregistered-email-response"]
 		input_on_recovery_email=WebDriverWait(driver, 65).until(EC.presence_of_element_located((By.XPATH, '//*[@id="knowledge-preregistered-email-response"]')))
 		input_on_recovery_email.send_keys("cha3b0n@protonmail.com",Keys.ENTER)
 		print("OK recovery EMAIL ENTRED !!!!!!")
@@ -211,24 +169,20 @@ def check_recovery(driver):
 def ads_class(driver):
 	try:
 		print("OPEN AND VISITE WEB-SITE [ 1 ]...... ",end='',flush=True)
-		# driver.get(url_1)
-		# print(" [ "+url_1+" ]")
-		# gmail_id_input=WebDriverWait(driver, 65).until(EC.presence_of_element_located((By.XPATH, '//*[@id="identifierId"]')))
-		# gmail_id_input.send_keys(email,Keys.ENTER)
-		# time.sleep(5)
-		# gmail_id_input=WebDriverWait(driver, 65).until(EC.presence_of_element_located((By.XPATH, '//*[@id="password"]/div[1]/div/div[1]/input')))
-		# gmail_id_input.send_keys(paxx,Keys.ENTER)
-
-		# time.sleep(3)
-		# check_recovery(driver)
-		# # input('')
-		# # input('')
-
 		try:
 			# pass
 			driver.get("https://shell.cloud.google.com/?cloudshell=true&show=terminal")
 			time.sleep(10)
-			
+			try:
+				open_login_button=WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.XPATH, '/html/body/cloud-shell-root/div/stand-alone/div[1]/div/loading-screen/div/div/div[2]/div[1]/div/div/div/div')))
+				print(open_login_button.text)
+				cnf_bvb.alias_send_msg("TIME_LIMIT "+open_login_button.text)
+				# input("terminaaa")
+				# init_fire()
+			except:
+				cnf_bvb.alias_send_msg("NO TIME_LIMIT ")
+
+			# /html/body/cloud-shell-root/div/stand-alone/div[1]/div/loading-screen/div/div/div[2]/div[1]/div/div/div/div
 			open_login_button=WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
 			# input('google loginAAAAAAAAAyAAA')
 			print("we are here")
@@ -256,7 +210,7 @@ def ads_class(driver):
 		
 def starting_tasks():
 	width ,height=cnf_bvb.resolution_func()
-	cnf_bvb.alias_send_msg("twiiiiiiiitarr")
+	cnf_bvb.alias_send_msg("starting_tasks")
 
 	try:
 		stage_1()### CLEAR
