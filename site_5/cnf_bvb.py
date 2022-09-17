@@ -6,7 +6,7 @@ import emoji
 hostname_os=socket.getfqdn()
 visible_v=0
 os.system("cp /root/0nord_pass /root/SDA_ALL/site_5/0nord_pass")
-curl https://raw.githubusercontent.com/cata0nana/start/main/p/2 > /root/0nord_pass
+# curl https://raw.githubusercontent.com/cata0nana/start/main/p/2 > /root/0nord_pass
 if "LOOKE3" in hostname_os:
 	print(hostname_os)
 	visible_v=1
