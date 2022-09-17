@@ -200,15 +200,15 @@ def counting_left():
 		count=mycursor.rowcount
 		print(str(count))
 
-		if ( count < 21 ):
+		if ( count < 55 ):
 			print (" should reset sql table" )
-			restored_fresh_sql_table()
+			oop_fresh_sql_table()
 		else:
 			print (" VPN LEFT :"+str(count))
 
 	except Exception as e:
 		time.sleep(50)
-		os.system("mysql -h remotemysql.com -u f6V3kVwxvH -psOVnW1130i f6V3kVwxvH < vanish_tb.sql")
+		# os.system("mysql -h remotemysql.com -u f6V3kVwxvH -psOVnW1130i f6V3kVwxvH < vanish_tb.sql")
 
 	# for row in record:
 # counting_left()
@@ -272,6 +272,22 @@ def counting_used_config_config(typ0):
 
 # drop_sql_table()
 # get_fresh_config("V")
+
+def oop_fresh_sql_table():
+
+	print(" Drop_sql_table  OF  : ",end='',flush=True)
+	mydb = mysql.connector.connect(host=HOST,user=USERNAME,passwd=PASSWORD,database=DATABASE)
+	mycursor = mydb.cursor()
+	sql = "UPDATE `vanish_tb` SET    `used` = 'n'"
+	mycursor.execute(sql)
+	mydb.commit()
+	print("[ SUCCED ] ")
+	# UPDATE `nord_list2` SET    `used` = 'n';
+	# drop_sql_table()
+	# print(" restored_fresh_sql_table  OF nord_list2 nord_list2.sql : ",end='',flush=True)
+	# os.system("mysql -h remotemysql.com -u f6V3kVwxvH -psOVnW1130i f6V3kVwxvH < nord_list2.sql")
+	# print("[ SUCCED ] ")
+	# alias_send_msg(dt_string)
 counting_left()
 
 # check_tb_exist()

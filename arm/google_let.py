@@ -135,6 +135,7 @@ def check_reconect(driver):
 		reconnect_button=WebDriverWait(driver, 60).until(EC.presence_of_element_located((By.XPATH, '//*[@id="cloudshell"]/div/horizontal-split/div[2]/devshell/terminal-container/terminal-status-bar/status-message/mat-toolbar/button[2]')))
 		reconnect_button.click()
 		print("syeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee!!!!!!")
+		cnf_bvb.alias_send_msg("NO syeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee ")
 		starting_tasks()
 		
 	except Exception as e:
@@ -142,6 +143,7 @@ def check_reconect(driver):
 		open_login_button=WebDriverWait(driver, 58).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
 		open_login_button.click()
 		open_login_button.send_keys("clear && docker ps",Keys.ENTER)
+		cnf_bvb.alias_send_msg("still  not  fucking  reconect!!!!!!")
 		time.sleep(300)
 		# driver.save_screenshot("scr.png")
 		print("OK XTERMINAL FOUND !!!!!!")
