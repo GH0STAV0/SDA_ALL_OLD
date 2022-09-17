@@ -178,3 +178,119 @@ Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFC855D8E00, 4096)
 Sandbox: seccomp sandbox violation: pid 2738, tid 2738, syscall 262, args 40 139978041571162 140722545987072 4096 0 4292870144.
 Sandbox: unsupported fd-relative fstatat(40, "", 0x7FFC855DAA30, 4096)
 Sandbox: seccomp sandbox violation: pid 2738, tid 2738, syscall 262, args 40 139978041571162 140722545994288 4096 1 0.
+1663397637070	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-59.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileW8CNrH"
+1663397648370	Marionette	INFO	Enabled via --marionette
+Sandbox: unsupported fd-relative fstatat(30, "", 0x7FFDDB28FDF0, 4096)
+Sandbox: seccomp sandbox violation: pid 300363, tid 300363, syscall 262, args 30 140597486733146 140728280350192 4096 0 4292870144.
+
+(/root/EXTRA/firefox-59.0.1/firefox/firefox:300363): Gtk-WARNING **: 07:54:13.285: Failed to parse /etc/xdg/gtk-3.0/settings.ini: Function not implemented
+Sandbox: unsupported fd-relative fstatat(30, "", 0x7FFDDB290F50, 4096)
+Sandbox: seccomp sandbox violation: pid 300363, tid 300363, syscall 262, args 30 140597486733146 140728280354640 4096 591872 140597271972592.
+Sandbox: unsupported fd-relative fstatat(30, "", 0x7FFDDB28FBD0, 4096)
+Sandbox: seccomp sandbox violation: pid 300363, tid 300363, syscall 262, args 30 140597486733146 140728280349648 4096 0 261632.
+
+(/root/EXTRA/firefox-59.0.1/firefox/firefox:300363): Pango-WARNING **: 07:54:13.395: failed to create cairo scaled font, expect ugly output. the offending font is 'Bitstream Vera Sans 9.9990234375'
+
+(/root/EXTRA/firefox-59.0.1/firefox/firefox:300363): Pango-WARNING **: 07:54:13.395: font_face status is: <unknown error status>
+
+(/root/EXTRA/firefox-59.0.1/firefox/firefox:300363): Pango-WARNING **: 07:54:13.396: scaled_font status is: out of memory
+Sandbox: unsupported fd-relative fstatat(30, "", 0x7FFDDB28FAD0, 4096)
+Sandbox: seccomp sandbox violation: pid 300363, tid 300363, syscall 262, args 30 140597486733146 140728280349392 4096 0 196608.
+
+(/root/EXTRA/firefox-59.0.1/firefox/firefox:300363): Pango-WARNING **: 07:54:13.399: failed to create cairo scaled font, expect ugly output. the offending font is 'Bitstream Vera Sans 9.9990234375'
+
+(/root/EXTRA/firefox-59.0.1/firefox/firefox:300363): Pango-WARNING **: 07:54:13.399: font_face status is: <unknown error status>
+
+(/root/EXTRA/firefox-59.0.1/firefox/firefox:300363): Pango-WARNING **: 07:54:13.399: scaled_font status is: out of memory
+Sandbox: unsupported fd-relative fstatat(30, "", 0x7FFDDB290790, 4096)
+Sandbox: seccomp sandbox violation: pid 300363, tid 300363, syscall 262, args 30 140597486733146 140728280352656 4096 0 1.
+Sandbox: seccomp sandbox violation: pid 300363, tid 300363, syscall 315, args 300363 140597115681664 56 0 2880 140597115648992.
+Sandbox: unsupported fd-relative fstatat(34, "", 0x7FFDDB28F720, 4096)
+Sandbox: seccomp sandbox violation: pid 300363, tid 300363, syscall 262, args 34 140597486733146 140728280348448 4096 0 16777216.
+1663397658920	Marionette	INFO	Listening on port 32497
+Sandbox: unsupported fd-relative fstatat(32, "", 0x7FFED2DB1090, 4096)
+Sandbox: seccomp sandbox violation: pid 300455, tid 300455, syscall 262, args 32 140397667526490 140732435992720 4096 0 4294967264.
+
+(/root/EXTRA/firefox-59.0.1/firefox/firefox:300455): Gtk-WARNING **: 07:54:19.173: Failed to parse /etc/xdg/gtk-3.0/settings.ini: Function not implemented
+Sandbox: unsupported fd-relative fstatat(32, "", 0x7FFED2DB21F0, 4096)
+Sandbox: seccomp sandbox violation: pid 300455, tid 300455, syscall 262, args 32 140397667526490 140732435997168 4096 591872 140397452156688.
+1663397659236	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sandbox: unsupported fd-relative fstatat(32, "", 0x7FFED2DB0E70, 4096)
+Sandbox: seccomp sandbox violation: pid 300455, tid 300455, syscall 262, args 32 140397667526490 140732435992176 4096 0 4294967264.
+
+(/root/EXTRA/firefox-59.0.1/firefox/firefox:300455): Pango-WARNING **: 07:54:19.447: failed to create cairo scaled font, expect ugly output. the offending font is 'Bitstream Vera Sans 9.9990234375'
+
+(/root/EXTRA/firefox-59.0.1/firefox/firefox:300455): Pango-WARNING **: 07:54:19.448: font_face status is: <unknown error status>
+
+(/root/EXTRA/firefox-59.0.1/firefox/firefox:300455): Pango-WARNING **: 07:54:19.448: scaled_font status is: out of memory
+Sandbox: unsupported fd-relative fstatat(32, "", 0x7FFED2DB0D70, 4096)
+Sandbox: seccomp sandbox violation: pid 300455, tid 300455, syscall 262, args 32 140397667526490 140732435991920 4096 0 4294963200.
+
+(/root/EXTRA/firefox-59.0.1/firefox/firefox:300455): Pango-WARNING **: 07:54:19.459: failed to create cairo scaled font, expect ugly output. the offending font is 'Bitstream Vera Sans 9.9990234375'
+
+(/root/EXTRA/firefox-59.0.1/firefox/firefox:300455): Pango-WARNING **: 07:54:19.459: font_face status is: <unknown error status>
+
+(/root/EXTRA/firefox-59.0.1/firefox/firefox:300455): Pango-WARNING **: 07:54:19.459: scaled_font status is: out of memory
+Sandbox: unsupported fd-relative fstatat(32, "", 0x7FFED2DB1A30, 4096)
+Sandbox: seccomp sandbox violation: pid 300455, tid 300455, syscall 262, args 32 140397667526490 140732435995184 4096 0 1.
+Sandbox: seccomp sandbox violation: pid 300455, tid 300455, syscall 315, args 300455 140397296168320 56 0 3392 140397296182656.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFDDB28C2E0, 4096)
+Sandbox: seccomp sandbox violation: pid 300363, tid 300363, syscall 262, args 35 140597486733146 140728280335072 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFDDB28BDE0, 4096)
+Sandbox: seccomp sandbox violation: pid 300363, tid 300363, syscall 262, args 35 140597493340661 140728280333792 4096 524288 140597493342728.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFDDB28BDE0, 4096)
+Sandbox: seccomp sandbox violation: pid 300363, tid 300363, syscall 262, args 35 140597493340661 140728280333792 4096 140597077916352 0.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFED2DB1750, 4096)
+Sandbox: seccomp sandbox violation: pid 300455, tid 300455, syscall 262, args 35 140397674134005 140732435994448 4096 140397452236032 0.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFED2DB1750, 4096)
+Sandbox: seccomp sandbox violation: pid 300455, tid 300455, syscall 262, args 35 140397674134005 140732435994448 4096 140397452236032 0.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFED2DB1150, 4096)
+Sandbox: seccomp sandbox violation: pid 300455, tid 300455, syscall 262, args 35 140397667526490 140732435992912 4096 0 1.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFED2DB0880, 4096)
+Sandbox: seccomp sandbox violation: pid 300455, tid 300455, syscall 262, args 35 140397667526490 140732435990656 4096 0 262128.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFED2DA8D50, 4096)
+Sandbox: seccomp sandbox violation: pid 300455, tid 300455, syscall 262, args 35 140397667526490 140732435959120 4096 0 262112.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFED2DA9120, 4096)
+Sandbox: seccomp sandbox violation: pid 300455, tid 300455, syscall 262, args 35 140397667526490 140732435960096 4096 0 262112.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFED2DA9190, 4096)
+Sandbox: seccomp sandbox violation: pid 300455, tid 300455, syscall 262, args 35 140397667526490 140732435960208 4096 0 262112.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFED2DA9560, 4096)
+Sandbox: seccomp sandbox violation: pid 300455, tid 300455, syscall 262, args 35 140397667526490 140732435961184 4096 0 262112.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFED2DAED10, 4096)
+Sandbox: seccomp sandbox violation: pid 300455, tid 300455, syscall 262, args 35 140397667526490 140732435983632 4096 0 262112.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFED2DB2100, 4096)
+Sandbox: seccomp sandbox violation: pid 300455, tid 300455, syscall 262, args 35 140397667526490 140732435996928 4096 0 261888.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFED2DA7540, 4096)
+Sandbox: seccomp sandbox violation: pid 300455, tid 300455, syscall 262, args 35 140397667526490 140732435952960 4096 0 4294836224.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFED2DA7A80, 4096)
+Sandbox: seccomp sandbox violation: pid 300455, tid 300455, syscall 262, args 35 140397667526490 140732435954304 4096 0 4294705152.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFED2DA79F0, 4096)
+Sandbox: seccomp sandbox violation: pid 300455, tid 300455, syscall 262, args 35 140397667526490 140732435954160 4096 0 4294443008.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFDDB290580, 4096)
+Sandbox: seccomp sandbox violation: pid 300363, tid 300363, syscall 262, args 35 140597493340661 140728280352128 4096 140597084430592 0.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFDDB290580, 4096)
+Sandbox: seccomp sandbox violation: pid 300363, tid 300363, syscall 262, args 35 140597493340661 140728280352128 4096 140597084137792 0.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFED2DAECB0, 4096)
+Sandbox: seccomp sandbox violation: pid 300455, tid 300455, syscall 262, args 35 140397667526490 140732435983536 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFED2DAFD60, 4096)
+Sandbox: seccomp sandbox violation: pid 300455, tid 300455, syscall 262, args 35 140397667526490 140732435987808 4096 1 0.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFED2DB0DF0, 4096)
+Sandbox: seccomp sandbox violation: pid 300455, tid 300455, syscall 262, args 35 140397667526490 140732435992048 4096 0 4294966272.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFED2DAD170, 4096)
+Sandbox: seccomp sandbox violation: pid 300455, tid 300455, syscall 262, args 35 140397667526490 140732435976560 4096 0 4294934528.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFED2DA5320, 4096)
+Sandbox: seccomp sandbox violation: pid 300455, tid 300455, syscall 262, args 35 140397667526490 140732435944224 4096 0 4294705152.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFED2DA5320, 4096)
+Sandbox: seccomp sandbox violation: pid 300455, tid 300455, syscall 262, args 35 140397667526490 140732435944224 4096 0 4294705152.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFED2DA4C40, 4096)
+Sandbox: seccomp sandbox violation: pid 300455, tid 300455, syscall 262, args 35 140397667526490 140732435942464 4096 0 4293918720.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFED2DA02F0, 4096)
+Sandbox: seccomp sandbox violation: pid 300455, tid 300455, syscall 262, args 35 140397667526490 140732435923696 4096 0 4290772992.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFED2DAB840, 4096)
+Sandbox: seccomp sandbox violation: pid 300455, tid 300455, syscall 262, args 35 140397667526490 140732435970112 4096 0 3774873600.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFED2DA82E0, 4096)
+Sandbox: seccomp sandbox violation: pid 300455, tid 300455, syscall 262, args 35 140397667526490 140732435956448 4096 0 3758096384.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFED2DA6800, 4096)
+Sandbox: seccomp sandbox violation: pid 300455, tid 300455, syscall 262, args 35 140397667526490 140732435949568 4096 0 262142.
+Sandbox: unsupported fd-relative fstatat(35, "", 0x7FFDDB28F290, 4096)
+Sandbox: seccomp sandbox violation: pid 300363, tid 300363, syscall 262, args 35 140597486733146 140728280347280 4096 0 262080.
