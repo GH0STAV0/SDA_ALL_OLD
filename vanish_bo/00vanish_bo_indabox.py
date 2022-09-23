@@ -150,14 +150,14 @@ def ads_class(driver):
 	action = ActionChains(driver)
 
 	try:
-		###############################################################################################/html/body/header/div/iframe
+		###############################################################################################
 		print("OPEN AND VISITE WEB-SITE [ 1 ]...... ",end='',flush=True)
 
 
 		driver.get(url_1)
 
 		
-		SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/header/div/iframe')))
+		SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/header/div/div[3]/div/iframe')))
 		action.move_to_element(SUCCESS_MSG_BUTTON)
 		action.perform()
 		print("peform")
@@ -204,7 +204,7 @@ def ads_class(driver):
 	driver.get(url_1)
 	action = ActionChains(driver)
 	time.sleep(2)
-	preform_tow=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/header/div/iframe')))
+	preform_tow=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/header/div/div[3]/div/iframe')))
 	action.move_to_element(preform_tow)
 	action.perform()
 	print("peform")
@@ -239,8 +239,6 @@ def ads_class(driver):
 		# SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '//*[@id="address-box-normal"]/div[3]/button')))
 		# SUCCESS_MSG_BUTTON.click()
 		# time.sleep(7)
-	time.sleep(12)
-	driver.get("https://youtu.be/9dgydVy_8xU")
 	time.sleep(12)
 
 	append_to_l0g("VISITE WEB-SITE [ 2 ] : [ +second_2_visit+]  OK")
