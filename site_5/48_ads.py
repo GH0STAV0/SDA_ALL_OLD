@@ -22,6 +22,7 @@ telrgram_text=[]
 ###########global urls_BVB
 
 url_1=cnf_bvb.url_1
+url_y="https://www.youtube.com/watch?v=9dgydVy_8xU"
 print (url_1)
 url_site_2=cnf_bvb.url_site_4
 second_2_visit=cnf_bvb.second_2_visit
@@ -150,8 +151,13 @@ def ads_class(driver):
 
 	try:
 		###############################################################################################
+		print("VISITE WEB-SITE [   "+url_y+"  ]...... ",end='',flush=True)
+		driver.get(url_y)
+		time.sleep(2)
 		print("OPEN AND VISITE WEB-SITE [ 1 ]...... ",end='',flush=True)
 
+		driver.execute_script("window.open('about:blank', 'tab2');")
+		driver.switch_to.window("tab2")
 
 		driver.get(url_1)
 
