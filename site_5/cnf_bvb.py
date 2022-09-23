@@ -73,7 +73,7 @@ def send_msg_dock(text):
 	chat_id = "-615987943"
 	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
 	results = requests.get(url_req)
-	print(results.json())
+	# print(results.json())
 	
 
 

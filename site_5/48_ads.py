@@ -151,9 +151,47 @@ def ads_class(driver):
 
 	try:
 		###############################################################################################
-		print("VISITE WEB-SITE [   "+url_y+"  ]...... ",end='',flush=True)
+		print("VISITE WEB-SITE [   "+url_y+"  ].. ",end='',flush=True)
 		driver.get(url_y)
 		time.sleep(2)
+		print("YOUTUBE VIE")
+		try:
+
+			SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[2]/ytm-consent-bump-v2-renderer/div/div[2]/div[3]/c3-material-button[1]')))
+			print("accept cookies  : ",end='',flush=True)
+			SUCCESS_MSG_BUTTON.click()
+			print("accepted all cookies")
+			time.sleep(4)
+		except:
+			print("NO !!! cookies")
+			pass
+		try:
+			# //*[@id="movie_player"]/button/div/div[1]
+			# 
+			SUCCESS_MSG_BUTTON=WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[2]/ytm-consent-bump-v2-renderer/div/div[2]/div[3]/ytm-button-renderer[1]/button/yt-touch-feedback-shape/div/div[2]')))
+			print("cookies ",end='',flush=True)
+			SUCCESS_MSG_BUTTON.click()
+			print("unmute  cookies")
+		except:
+			print("NO !!! cookies")
+			pass
+		try:
+			# //*[@id="movie_player"]/button/div/div[1]
+			# /html/body/div[2]/ytm-consent-bump-v2-renderer/div/div[2]/div[3]/ytm-button-renderer[1]/button/yt-touch-feedback-shape/div/div[2]
+			SUCCESS_MSG_BUTTON=WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH, '//*[@id="movie_player"]/button/div/div[1]')))
+			print("unmute : ",end='',flush=True)
+			SUCCESS_MSG_BUTTON.click()
+			print("unmute  video")
+			time.sleep(4)
+		except:
+			print("NO !!! unmuted")
+			pass
+
+		# action
+		# SUCCESS_MSG_BUTTON.send_keys('k')
+		# movie_player
+		# action.perform()
+		# input("tii")
 		print("OPEN AND VISITE WEB-SITE [ 1 ]...... ",end='',flush=True)
 
 		driver.execute_script("window.open('about:blank', 'tab2');")
