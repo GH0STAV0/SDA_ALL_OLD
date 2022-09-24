@@ -89,6 +89,7 @@ def build_driver(width,height):
 		# # fp.set_preference('network.proxy.socks_port', 9150)
 		# fp.set_preference("dom.webdriver.enabled", False)
 		fp.set_preference('useAutomationExtension', False)
+		fp.set_preference("security.sandbox.content.level", 0)
 		# #fp.set_preference("http.response.timeout",95)
 		# # fp.set_preference("dom.popup_maximum", 2)
 		# fp.set_preference("general.useragent.override",user_agent)
@@ -119,3 +120,4 @@ def build_driver(width,height):
 	except Exception as error:
 		print("    Error !!!!! ----->"+str(error))
 	return driver
+# driver=build_driver(1024, 860)

@@ -784,4 +784,4 @@ def random_fir():
 #visibility="visible=1"
 #
 #p_vpn_g="/root/OUOIO/project_04_a_ads/NORD_CONFIG/ovpn_tcp/"
-pofile_path="/root/GIT_HUB_REPO/SDA_ALL/fire_fox_prof/azfounmondilla"
+# pofile_path="/root/GIT_HUB_REPO/SDA_ALL/fire_fox_prof/azfounmondilla"
