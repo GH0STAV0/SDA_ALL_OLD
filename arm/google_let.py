@@ -61,14 +61,16 @@ def kiliing_scr():
 	init_fire()
 	os.system("rm -rf /tmp/*")
 	os.system("rm geckodriver.log && rm ipifo.json > /dev/null 2>&1")
-	os.system("rm -rf rm -rf __pycache__/")
+	os.system("rm -rf __pycache__/")
+	os.system("rm -rf tmp/*")
 
 
 
 def clean_up():
 	os.system("rm -rf /tmp/*")
 	os.system("rm geckodriver.log && rm ipifo.json > /dev/null 2>&1")
-	os.system("rm -rf rm -rf __pycache__/")
+	os.system("rm -rf __pycache__/")
+	# os.system("rm -rf tmp/*")
 	init_fire()
 #####################################
 
@@ -89,6 +91,7 @@ def init_fire():
 		#
 		time.sleep(5)
 		print(" OK !!!")
+		# os.system("rm -rf tmp/*")
 	except:
 		print(" NO  some_Error init_fire")
 ###################################################################################################
