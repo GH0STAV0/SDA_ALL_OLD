@@ -77,8 +77,7 @@ def send_msg_dock(text):
 
 
 def extract_pof():
-	os.system('rm -rf '+g00g_acc)
-
+	os.system('rm -rf tmp/'+g00g_acc)
 	print("extact")
 	send_msg_dock("EXTACTING :"+g00g_acc)
 	comom="cp po/"+g00g_acc+".tar.gz tmp/"
