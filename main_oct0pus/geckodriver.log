@@ -160,3 +160,7 @@ Exiting due to channel error.
 1664053377528	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
 1664053739091	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
 1664054100654	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1664054462460	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1664054824666	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1664055185942	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Child 16603, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353

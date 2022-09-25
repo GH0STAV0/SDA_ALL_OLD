@@ -15,7 +15,20 @@ from selenium.webdriver.support import expected_conditions as EC
 import random,datetime,string , os ,time ,subprocess , sys , requests ,re
 from selenium.webdriver import ActionChains
 import json
+import signal
 
+def handler(signum, frame):
+	print("############################")
+	print("Ctrl-c was pressed. You are Killing the prossec !!! really want to exit!!")
+	res='y'
+	if res == "y":
+		kiliing_scr()
+		exit(1)
+
+	# res = "y"
+	# 	if res == 'y':
+	# 		exit(1)
+signal.signal(signal.SIGINT, handler)
 
 telrgram_text=[]
 
@@ -44,6 +57,12 @@ url_click_ads="https://click.a-ads.com/1859747/"+random_ads+"/"
 
 
 ###################################################################################################
+def kiliing_scr():
+	init_fire()
+	os.system("rm -rf /tmp/*")
+	os.system("rm geckodriver.log && rm ipifo.json > /dev/null 2>&1")
+	os.system("rm -rf rm -rf __pycache__/")
+
 
 
 def clean_up():
@@ -60,9 +79,10 @@ def init_fire():
 		os.system("ps aux | grep -i firefox | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 		#
 		os.system("ps aux | grep -i openvpn | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
+		# os.system("ps aux | grep -i geckodriver_15 | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
+		# os.system("ps aux | grep -i geckodriver22 | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
+		os.system("ps aux | grep -i geckodriver | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 		os.system("ps aux | grep -i Xephyr | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
-		os.system("ps aux | grep -i geckodriver_15 | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
-		os.system("ps aux | grep -i geckodriver22 | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 		os.system("ps aux | grep -i Xvfb | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 		os.system("rm -rf /tmp/*")
 		os.system("rm /var/log/openvpn/openvpn.log > /dev/null 2>&1")
@@ -175,14 +195,10 @@ def ads_class(driver):
 			# pass
 			driver.get("https://shell.cloud.google.com/?cloudshell=true&show=terminal")
 			time.sleep(10)
-			try:
-				open_login_button=WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.XPATH, '/html/body/cloud-shell-root/div/stand-alone/div[1]/div/loading-screen/div/div/div[2]/div[1]/div/div/div/div')))
-				print(open_login_button.text)
-				cnf_bvb.alias_send_msg("TIME_LIMIT "+open_login_button.text)
-				# input("terminaaa")
-				# init_fire()
-			except:
-				cnf_bvb.alias_send_msg("NO TIME_LIMIT ")
+			print(" OK")
+			check_profile_validity(driver)
+			
+
 
 			# /html/body/cloud-shell-root/div/stand-alone/div[1]/div/loading-screen/div/div/div[2]/div[1]/div/div/div/div
 			open_login_button=WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
@@ -207,7 +223,77 @@ def ads_class(driver):
 		print("ads error")
 		cnf_bvb.send_msg_dock("ERROR ")
 	# driver.delete_all_cookies()
+###########################################################################
+def check_limit(driver):
+	try:
+		open_login_button=WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.XPATH, '/html/body/cloud-shell-root/div/stand-alone/div[1]/div/loading-screen/div/div/div[2]/div[1]/div/div/div/div')))
+		print(open_login_button.text)
+		cnf_bvb.alias_send_msg("TIME_LIMIT "+open_login_button.text)
+		# input("terminaaa")
+		# init_fire()
+	except:
+		cnf_bvb.alias_send_msg("NO TIME_LIMIT ")
+
+#################################"MAIN STARTING"##############################
+
+def check_profile_validity(driver):
+
+	print("check_profile_validity",end='',flush=True)
+	cnf_bvb.alias_send_msg("check_profile_validity ")
+	get_url = driver.current_url
 	
+	if "signinchooser" in get_url:
+		etat="Deconnected"
+		print(" ",etat)
+		
+		# print(get_url)
+		# input("dec")
+		deconected_prof(driver)
+	get_url = driver.current_url
+	if "shell.cloud" in get_url :
+		etat="Connected"
+		check_limit(driver)
+		# input("Connected")
+	print(" ",etat)
+	msg="etat : "+etat
+	cnf_bvb.alias_send_msg(msg)
+
+def deconected_prof(driver):
+	# 
+	try:
+		d3coneted_button=WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div/div/ul/li[1]/div/div[1]/div/div[2]/div[2]')))
+		print("found D3conecte : ", d3coneted_button.text)
+		insert_pass(driver)
+		# pass
+	except Exception as e:
+		print("no deconecte")
+	
+######################USER AGENT ###################################################
+
+
+def insert_pass(driver):
+	print("clicking ",end='',flush=True)
+
+	try:
+		# pass
+		
+		d3coneted_button=WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div/div/ul/li[1]/div/div[1]/div/div[2]/div[2]')))
+		d3coneted_button.click()
+		# input("deconected_prof : FINISH")
+		time.sleep(5)
+		print("ENTER PA55 : ")
+		pass_input_button=WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div[1]/div[1]/div/div/div/div/div[1]/div/div[1]/input')))
+		pass_input_button.click()
+		pass_input_button.send_keys(paxx,Keys.ENTER)
+		print("deconected_prof : FINISH")
+	except Exception as e:
+		# input("deconected_prof : error FINISH")
+		print("deconected_prof : error FINISH")
+		# raise e
+
+
+
+
 ######################USER AGENT ###################################################
 		
 def starting_tasks():
@@ -218,7 +304,7 @@ def starting_tasks():
 		stage_1()### CLEAR
 		# mod_vpn2.fnc_vpn ()
 		visible_v=cnf_bvb.visible_v
-		display = Display(visible=visible_v, size=(width,height)).start()
+		display = Display(visible=0, size=(width,height)).start()
 		driver=mod_driver2.build_driver(width ,height)
 		lets_play(driver)
 		display.stop()
