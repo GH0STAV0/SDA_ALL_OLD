@@ -1136,4 +1136,5 @@ def random_fir():
 
 
 
-# send_msg("text")
+send_msg("text")
+send_msg_dock("text")
