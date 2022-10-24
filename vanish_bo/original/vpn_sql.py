@@ -8,23 +8,15 @@ from datetime import datetime
 # PASSWORD="pscale_pw_SZsOhzZm6AVnde53meT3ygRRh7zSjXdZ4dawwURylQo"
 # DATABASE="plan"
 
-HOST="sql.freedb.tech"
-USERNAME="freedb_sOVnW1130i"
-PASSWORD="wsY*Bgz#WCrwq5@"
-DATABASE="freedb_32931bb"
-
-
-
 
 # Base de données: babababa111
 # Nom d'utilisateur: babababa111
 # Email: cictum56@red-vovo.nl.eu.org.
 
-# HOST="remotemysql.com"
-# USERNAME="f6V3kVwxvH"
-# PASSWORD="sOVnW1130i"
-# DATABASE="f6V3kVwxvH"
-
+HOST="remotemysql.com"
+USERNAME="f6V3kVwxvH"
+PASSWORD="sOVnW1130i"
+DATABASE="f6V3kVwxvH"
 
 
 
