@@ -1,12 +1,12 @@
 {
-  "ip": "216.131.83.83",
-  "hostname": "216-131-83-83.nyc.as62651.net",
-  "city": "New York City",
-  "region": "New York",
-  "country": "US",
-  "loc": "40.7143,-74.0060",
-  "org": "AS62651 Strong Technology, LLC.",
-  "postal": "10004",
-  "timezone": "America/New_York",
+  "ip": "216.131.114.108",
+  "hostname": "216-131-114-108.fra.as54203.net",
+  "city": "Frankfurt am Main",
+  "region": "Hesse",
+  "country": "DE",
+  "loc": "50.1137,8.7119",
+  "org": "AS54203 Strong Technology, LLC.",
+  "postal": "60314",
+  "timezone": "Europe/Berlin",
   "readme": "https://ipinfo.io/missingauth"
 }

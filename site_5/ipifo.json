@@ -1,11 +1,12 @@
 {
-  "ip": "185.240.244.44",
-  "city": "New York City",
-  "region": "New York",
+  "ip": "45.35.120.194",
+  "hostname": "dal01.usa.habang.net",
+  "city": "Dallas",
+  "region": "Texas",
   "country": "US",
-  "loc": "40.7143,-74.0060",
-  "org": "AS35913 DediPath",
-  "postal": "10004",
-  "timezone": "America/New_York",
+  "loc": "32.7781,-96.8054",
+  "org": "AS40676 Psychz Networks",
+  "postal": "75202",
+  "timezone": "America/Chicago",
   "readme": "https://ipinfo.io/missingauth"
 }

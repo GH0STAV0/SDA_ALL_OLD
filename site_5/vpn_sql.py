@@ -7,11 +7,14 @@ from datetime import datetime
 # USERNAME="c4cz3k2azim8"
 # PASSWORD="pscale_pw_SZsOhzZm6AVnde53meT3ygRRh7zSjXdZ4dawwURylQo"
 # DATABASE="plan"
-HOST="remotemysql.com"
-USERNAME="f6V3kVwxvH"
-PASSWORD="sOVnW1130i"
-DATABASE="f6V3kVwxvH"
-
+# HOST="remotemysql.com"
+# USERNAME="f6V3kVwxvH"
+# PASSWORD="sOVnW1130i"
+# DATABASE="f6V3kVwxvH"
+HOST="sql.freedb.tech"
+USERNAME="freedb_sOVnW1130i"
+PASSWORD="wsY*Bgz#WCrwq5@"
+DATABASE="freedb_32931bb"
 
 
 

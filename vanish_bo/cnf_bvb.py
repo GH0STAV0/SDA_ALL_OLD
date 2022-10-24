@@ -328,3 +328,5 @@ def random_fir():
 
 # send_msg("text")
 print("\n###############################################################################")
+# send_msg_dock("text")
+alias_send_msg("text")
