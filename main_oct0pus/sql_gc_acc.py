@@ -3,8 +3,12 @@ import time ,os
 from datetime import datetime
 
 goog="/root/g00g"
+# └─# mysql -h sql.freedb.tech -P 3306 -u freedb_sOVnW1130i -pwsY*Bgz#WCrwq5@ freedb_32931bb < f6V3kVwxvH.sql 
 
-mydb = mysql.connector.connect(host="remotemysql.com",user="f6V3kVwxvH",passwd="sOVnW1130i",database="f6V3kVwxvH")
+
+mydb = mysql.connector.connect(host="sql.freedb.tech",user="freedb_sOVnW1130i",passwd="wsY*Bgz#WCrwq5@",database="freedb_32931bb")
+
+# mydb = mysql.connector.connect(host="remotemysql.com",user="f6V3kVwxvH",passwd="sOVnW1130i",database="f6V3kVwxvH")
 
 main_ar=["garmiyashour","erogomayke","dahmandargo","laminewalter7"]
 

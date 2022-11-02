@@ -2,10 +2,15 @@ import mysql.connector
 import time ,os
 from datetime import datetime
 import cnf_bvb
-HOST="remotemysql.com"
-USERNAME="f6V3kVwxvH"
-PASSWORD="sOVnW1130i"
-DATABASE="f6V3kVwxvH"
+HOST="sql.freedb.tech"
+USERNAME="freedb_sOVnW1130i"
+PASSWORD="wsY*Bgz#WCrwq5@"
+DATABASE="freedb_32931bb"
+
+# HOST="remotemysql.com"
+# USERNAME="f6V3kVwxvH"
+# PASSWORD="sOVnW1130i"
+# DATABASE="f6V3kVwxvH"
 
 main_ar=["garmiyashour","erogomayke","dahmandargo","laminewalter7"]
 
