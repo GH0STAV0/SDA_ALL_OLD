@@ -203,13 +203,22 @@ def ads_class(driver):
 		SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/header/div/iframe')))
 		action.move_to_element(SUCCESS_MSG_BUTTON)
 		action.perform()
-		print("peform")
+		print("peform 01")
 		time.sleep(7)
 
 
 		try:
 
+			# iframes = driver.find_element(By.XPATH, '//iframe')
+			# print("peform "+iframes)
+			# input("ffffffff")
+			# iframes =driver.find_element_by_tag_name("//iframe")
+			# list_of_iframe = driver.find_elements_by_tag_name('iframe')
 			iframes = driver.find_elements_by_xpath("//iframe")
+			# iframes = find_element(By.TAG_NAME, 'iframe')
+			# input("mmmmmmmmmmmm")
+			# print("peform "+iframes)
+			print("peform donn ")
 
 			driver.switch_to.frame(0)
 			time.sleep(2)
@@ -256,6 +265,7 @@ def ads_class(driver):
 
 			iframes = driver.find_elements_by_xpath("//iframe")
 			# print(str(imges_ifam))
+			# find_element(By.XPATH, '//iframe')
 			driver.switch_to.frame(0)
 			time.sleep(2)
 
