@@ -68,9 +68,12 @@ print(parssed_url_2)
 
 def send_msg_dock(text):
 	msg_telegram="[ "+hostname_os +" ]"+text
-	token = "5261450305:AAEROP9j6569RV4rKsE_tStXCdnLSX7Gz1Y"
+	token="5086890807:AAEEM2OhQaR9mB7KUZvwkE60mHvoSY4BhOQ"
+	chat_id = "-609247805"
+	# token = "5261450305:AAEROP9j6569RV4rKsE_tStXCdnLSX7Gz1Y"
+	# chat_id = "-615987943"
+
 	# chat_id = "-643828126" L0G_NICH
-	chat_id = "-615987943"
 	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
 	results = requests.get(url_req)
 	# print(results.json())
@@ -896,7 +899,7 @@ user_agent_list = [
 
 print(str(len(user_agent_list)))
 ##############################################################################################
-print(str(len(user_agent_list)))
+# print(str(len(user_agent_list)))
 
 def hostname_os_val():
 	hostname_os=socket.getfqdn()
@@ -931,10 +934,13 @@ def alias_send_msg(text):
 	msg_telegram=mp+" \n"+text+" ] \n "+pol+" [ "+parssed_url_1+" ] \n "+pol+"[ "+parssed_url_2+" ] "
 	# token = "2137513961:AAGENlwIUQnfvbKZX64-fZ72R_oStto8oFo"
 	#-609247805
-	token=get_tokens()
+	token="5086890807:AAEEM2OhQaR9mB7KUZvwkE60mHvoSY4BhOQ"
+	chat_id = "-609247805"
+	# token = "5261450305:AAEROP9j6569RV4rKsE_tStXCdnLSX7Gz1Y"##get_tokens()
+	# chat_id = "-615987943"
+	# token = "5261450305:AAEROP9j6569RV4rKsE_tStXCdnLSX7Gz1Y"
 	# token="5086890807:AAEEM2OhQaR9mB7KUZvwkE60mHvoSY4BhOQ"
 	# token="5035848854:AAG9a-7bHDYTOXiNEdjXRsnM-gbkdw9TCfE"
-	chat_id = "-615987943"
 	# chat_id = "-1001616252735"
 	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram
 	# url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
@@ -954,10 +960,12 @@ def alias_send_msg_2():
 	msg_telegram="[ "+hostname_os +" ] [ "+vversion+" ] [ "+mmgg+" ] [ "+parssed_url_1+" ] [ "+parssed_url_2+" ] [ 000000 OK ]"
 	# token = "2137513961:AAGENlwIUQnfvbKZX64-fZ72R_oStto8oFo"
 	#-609247805
-	token=get_tokens()
+	token="5086890807:AAEEM2OhQaR9mB7KUZvwkE60mHvoSY4BhOQ"
+	chat_id = "-609247805"
+	# token = "5261450305:AAEROP9j6569RV4rKsE_tStXCdnLSX7Gz1Y"#token=get_tokens()
+	# chat_id = "-615987943"
 	# token="5086890807:AAEEM2OhQaR9mB7KUZvwkE60mHvoSY4BhOQ"
 	# token="5035848854:AAG9a-7bHDYTOXiNEdjXRsnM-gbkdw9TCfE"
-	chat_id = "-615987943"
 	# chat_id = "-1001616252735"
 	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram
 	# url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
@@ -1018,8 +1026,8 @@ def send_msg(text):
 	# token = "2137513961:AAGENlwIUQnfvbKZX64-fZ72R_oStto8oFo"
 	#-609247805
 	token="5086890807:AAEEM2OhQaR9mB7KUZvwkE60mHvoSY4BhOQ"
-	# token="5035848854:AAG9a-7bHDYTOXiNEdjXRsnM-gbkdw9TCfE"
 	chat_id = "-609247805"
+	# token="5035848854:AAG9a-7bHDYTOXiNEdjXRsnM-gbkdw9TCfE"
 	# chat_id = "-1001616252735"
 	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram
 	# url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
@@ -1136,5 +1144,8 @@ def random_fir():
 
 
 
-send_msg("text")
-send_msg_dock("text")
+# send_msg("text")
+# send_msg_dock("text__2")
+# alias_send_msg("meddas")
+# send_msg_dock("text")
+# alias_send_msg_2()

@@ -1,22 +1,29 @@
-############################################ IPVANISH
-
 import os ,random ,subprocess,time 
 import vpn_sql
 import cnf_bvb
-import api_mysql
-
+# import socket
 l05_00='l05_00'
+# hostname= socket.getfqdn()
+
+# global retry_count
 retry_count=[]
-log_vpn_too=[]
+# pwd = os.path.dirname(os.path.realpath( __file__ ))
 pwd="/root/VPN"
-
+# rnd_yek=["GWaURqBcXMjHyuExDTEAtVR1\n9JSemjxgWvxHUB7cXw9xrWQs","GWaURqBcXMjHyuExDTEAtVR1\n9JSemjxgWvxHUB7cXw9xrWQs" ,"byJpsYp2LoBnceFkYBg1BWRH\nTsUpTFjhQVFjTn3mQDi47JgC" , "vCDzcaPACh6yarnvfN32k1Tj\nKmjVMf3YeFjRWoDNVdPJKJvF"  , , ,]
 rnd_yek=["33goQfhs6hfDauLzafL5PErP:3hx1mG2twanKEfQYsMPBZ6aw"]
-
-# cnf_bvb.counting_left()
+#,"DYKRGvMhHet8CXWXBaCPRJtm:QDzzxrptNc38MnUW43MgDUf4","sLvXctwJ7kdPCSyyZvSpHrX7:iKsZTfHFbUWAubnwunpyh3wD", "sLvXctwJ7kdPCSyyZvSpHrX7:iKsZTfHFbUWAubnwunpyh3wD"]
+# "byJpsYp2LoBnceFkYBg1BWRH:TsUpTFjhQVFjTn3mQDi47JgC",       
+# "vCDzcaPACh6yarnvfN32k1Tj:KmjVMf3YeFjRWoDNVdPJKJvF",         
+# "r9ALwcyVetNrvq9xHSuNuQGg:DTSfshiZ98S6Y6iPx99iKnY8", 
+# "SisHM2SwPizsMgkbnk6UrFGk:32mQ7rFguPGWSJubqPh4Cgg1"
+      
+# "GWaURqBcXMjHyuExDTEAtVR1:9JSemjxgWvxHUB7cXw9xrWQs"]
 
 def random_pass():
 	os.system("ps aux | grep  openvpn | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 	random_ads=random.choice(rnd_yek)
+	# print("random paa ! "+random_ads)
+	# cmmd='echo -e "'+random_ads+'"  > '+pwd+'nord_pass.txt'
 	cmmd="rm nord_pass.txt"
 	# print(cmmd)
 	os.system(cmmd)
@@ -52,11 +59,6 @@ if "C" in vpn_type:
 	file_list_1='NCH_list_1'
 	vpn_folder=pwd+"/CHEAP_VPN/"
 	typ0="C"
-
-if "V" in vpn_type:
-	file_list_1='VANISH_list_1'
-	vpn_folder=pwd+"/conf/"
-	typ0="V"
 	
 
 
@@ -69,6 +71,8 @@ def append_to_l0g(text_add):
 
 
 all_vpn_config_file=os.listdir(vpn_folder)
+
+
 file_vpn_dead=cnf_bvb.file_vpn_dead
 p_vpn_dead=cnf_bvb.p_vpn_dead
 
@@ -105,7 +109,7 @@ def read_default_timezone():
 	with open('/root/test707','r') as file:
 		titi_zon = file.readlines()
 		titi_zon=titi_zon[0].replace("\n","")
-		# print(titi_zon)
+		print(titi_zon)
 	return titi_zon
 # read_default_timezone()
 
@@ -115,7 +119,7 @@ def read_default_timezone():
 
 def read_pass():
 	# def read_current_list_vpn():
-	with open('pass_ipvan','r') as file:
+	with open('0nord_pass','r') as file:
 		lines = file.readlines()
 	return lines
 ##############################################################
@@ -137,67 +141,72 @@ def remove_from_list_running(vpn_name):
 
 ##############################################################
 
+# def get_random_vpn():
+# 	check_list_vpn_lengh()
+# 	arry_vv=read_current_list_vpn()
+# 	random_vpn=random.choice(arry_vv)
+# 	random_vpn=random_vpn.replace('\n','')
+# 	final_vpn=vpn_folder+random_vpn
+# 	# print(random_vpn)
+# 	return final_vpn , random_vpn
 
+
+##############################################################
 
 def get_random_vpn():
 	fresh_config,int_used=vpn_sql.get_fresh_config(typ0)
-	
-	# data_id,data_cnf_names,data_used
 	# print(fresh_config,int_used)
-	print(data_id,data_cnf_names,data_used)
 	# check_list_vpn_lengh()
 	# arry_vv=read_current_list_vpn()
 	# random_vpn=random.choice(arry_vv)
 	random_vpn=fresh_config
 	final_vpn=vpn_folder+random_vpn
-	# print(random_vpn)
-	log_vpn_too.extend((final_vpn, random_vpn,int_used))
-	return final_vpn , random_vpn ,int_used ,log_vpn_too
+	# # print(random_vpn)
+	return final_vpn , random_vpn ,int_used
 
 ##############################################################
 
 def change_time_zon(t_z):
 	# t_z=get_time_zon()
-	# print("Changing Time Zone ", end="")
+	print("Changing Time Zone ", end="")
 	x = subprocess.Popen(['timedatectl', 'set-timezone', t_z])
-	# print('OK'+t_z)
+	print('OK'+t_z)
 	time.sleep(3)
 
 def fnc_vpn():
-	print("################################  FNC_VPN  ###################################")
+
+	os.system("ps aux | grep -i openvpn | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
+	time.sleep(1)
 	os.system("echo '' > /var/log/openvpn/openvpn.log")
-	# print(log_vpn_too)
-	final_vpn,random_vpn,int_used,log_vpn_too=get_random_vpn()
-	# print("KILLING OPENVPN ....",end=' ')
+	final_vpn,random_vpn,int_used=get_random_vpn()
+	print("###################################################")
+	print("KILLING OPENVPN ....",end=' ')
 	os.system("ps aux | grep  openvpn | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 	def_tz=read_default_timezone()
 
 	change_time_zon(def_tz)
-	# print(str(len(retry_count)))
+	print(str(len(retry_count)))
 
-	# time.sleep(3)
+	time.sleep(3)
 	# os.system("rm -rf /var/log/openvpn/openvpn.log")
 	time.sleep(3)
 	# os.system("touch /var/log/openvpn/openvpn.log")
-	# print ("OK !!!!!")
-	print("\n"+final_vpn)
-	print("STARTING VPN        : " , end="")
-	# x = subprocess.Popen(['openvpn', '--auth-nocache', '--config',final_vpn , '--log' , '/var/log/openvpn/openvpn.log'])
-
-	x = subprocess.Popen(['openvpn', '--config',final_vpn , '--log' , '/var/log/openvpn/openvpn.log'])
+	print ("OK !!!!!")
+	print("\n")
+	print("STARTING VPN " , end="")
+	x = subprocess.Popen(['openvpn', '--auth-nocache', '--config',final_vpn , '--log' , '/var/log/openvpn/openvpn.log'])
 	# remove_from_list_running(random_vpn)
-	# print("["+random_vpn+"]" , end="")
-	time.sleep(15)
+	print("["+random_vpn+"]" , end="")
+	time.sleep(18)
 	with open ('/var/log/openvpn/openvpn.log', "r") as logfile:
 
 		if logfile.read().find('Sequence Completed') !=-1:
-			# print ("  OK !!!!!")
+			print ("OK !!!!!")
 			ac_ip,tz,loc=cnf_bvb.iip()
 			change_time_zon(tz)
 			os.environ['TZ'] = tz
 			bass=read_pass()
 			def_titi=read_default_timezone()
-			print ("[ OK ]")
 			mm=""
 			for i in bass:
 				mm=mm+i
@@ -205,15 +214,9 @@ def fnc_vpn():
 			# " [ "+url_1+" ]"
 			append_to_l0g(meddas)
 			vpn_sql.update_to_db_as_used(random_vpn,typ0)
-			# print(meddas)
+			print(meddas)
 			cnf_bvb.ap_2_l0g(meddas)
 			cnf_bvb.alias_send_msg(meddas)
-			# print ("  OK !!!!!")
-			print("VPN     CONFIG      : [ "+random_vpn+" ]")
-			print("HOST    IP          : [ "+ac_ip+" ]")
-			print("VPN     LOCATION    : [ "+loc+" ]")
-			print("VPN     TIMEZONE    : [ "+tz+" ]")
-
 			return [x ,True]
 		if logfile.read().find('AUTH_FAILED'):
 			print("\nAUTH_FAILED")
@@ -255,3 +258,4 @@ def fnc_vpn():
 #cnf_bvb.testt()
 # fnc_vpn ()
 # get_random_vpn()
+fnc_vpn()

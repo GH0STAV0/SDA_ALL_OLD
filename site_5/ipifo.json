@@ -1,12 +1,12 @@
 {
-  "ip": "45.35.120.194",
-  "hostname": "dal01.usa.habang.net",
-  "city": "Dallas",
+  "ip": "172.241.224.19",
+  "hostname": "used-for-vpn-packethub.net",
+  "city": "Irving",
   "region": "Texas",
   "country": "US",
-  "loc": "32.7781,-96.8054",
-  "org": "AS40676 Psychz Networks",
-  "postal": "75202",
+  "loc": "32.8140,-96.9489",
+  "org": "AS394380 Leaseweb USA, Inc.",
+  "postal": "75059",
   "timezone": "America/Chicago",
   "readme": "https://ipinfo.io/missingauth"
 }

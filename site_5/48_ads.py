@@ -372,11 +372,11 @@ def blogger(driver):
 
 
 # p0st_phase()
+######################USER AGENT ###################################################
 def starting_tasks():
 	width ,height=cnf_bvb.resolution_func()
 
 
-######################USER AGENT ###################################################
 
 	try:
 		stage_1()### CLEAR

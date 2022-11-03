@@ -2,6 +2,7 @@ import os ,random ,subprocess,time
 import vpn_sql
 import cnf_bvb
 # import socket
+import api_mysql
 l05_00='l05_00'
 # hostname= socket.getfqdn()
 
@@ -154,15 +155,17 @@ def remove_from_list_running(vpn_name):
 ##############################################################
 
 def get_random_vpn():
-	fresh_config,int_used=vpn_sql.get_fresh_config(typ0)
+	# fresh_config,int_used=vpn_sql.get_fresh_config(typ0)
+	data_id,data_cnf_names,data_used = api_mysql.get_random_api()
+	print(data_id,data_cnf_names,data_used)
 	# print(fresh_config,int_used)
 	# check_list_vpn_lengh()
 	# arry_vv=read_current_list_vpn()
 	# random_vpn=random.choice(arry_vv)
-	random_vpn=fresh_config
+	random_vpn=data_cnf_names
 	final_vpn=vpn_folder+random_vpn
 	# # print(random_vpn)
-	return final_vpn , random_vpn ,int_used
+	return final_vpn , random_vpn ,data_id
 
 ##############################################################
 
@@ -178,7 +181,8 @@ def fnc_vpn():
 	os.system("ps aux | grep -i openvpn | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 	time.sleep(1)
 	os.system("echo '' > /var/log/openvpn/openvpn.log")
-	final_vpn,random_vpn,int_used=get_random_vpn()
+	final_vpn,random_vpn,id_config=get_random_vpn()
+	int_used=api_mysql.count_left_api()
 	print("###################################################")
 	print("KILLING OPENVPN ....",end=' ')
 	os.system("ps aux | grep  openvpn | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
@@ -213,7 +217,8 @@ def fnc_vpn():
 			meddas=mm+def_titi+" [ CONNECTED VPN] [ "+str(int_used)+" ] : [ "+ random_vpn  +" ] \n"+"|| [ IP ] : [ "+ ac_ip+" ] || [ TIME_Z ] : ["+ tz+" ]"+"\n"
 			# " [ "+url_1+" ]"
 			append_to_l0g(meddas)
-			vpn_sql.update_to_db_as_used(random_vpn,typ0)
+			# vpn_sql.update_to_db_as_used(random_vpn,typ0)
+			api_mysql.update_conf_nord_api(id_config)
 			print(meddas)
 			cnf_bvb.ap_2_l0g(meddas)
 			cnf_bvb.alias_send_msg(meddas)
@@ -258,3 +263,4 @@ def fnc_vpn():
 #cnf_bvb.testt()
 # fnc_vpn ()
 # get_random_vpn()
+# fnc_vpn()
