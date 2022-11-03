@@ -198,7 +198,7 @@ def fnc_vpn():
 	print ("OK !!!!!")
 	print("\n")
 	print("STARTING VPN " , end="")
-	x = subprocess.Popen(['openvpn','--dev tun0', '--auth-nocache', '--config',final_vpn , '--log' , '/var/log/openvpn/openvpn.log'])
+	x = subprocess.Popen(['openvpn','--dev','tun0', '--auth-nocache', '--config',final_vpn , '--log' , '/var/log/openvpn/openvpn.log'])
 	# remove_from_list_running(random_vpn)
 	print("["+random_vpn+"]" , end="")
 	time.sleep(18)
