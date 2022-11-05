@@ -66,15 +66,17 @@ def alias_send_msg(text):
 def send_msg_dock(text):
 
 	msg_telegram="[ "+hostname_os +" ]"+text
-	token = "5261450305:AAEROP9j6569RV4rKsE_tStXCdnLSX7Gz1Y"
+	# 5609508648:AAHp0XxaFsL66wNE6AxEJX2qI8Xr6AZ4Q2g
+	# 5609508648
+	token = "5609508648:AAHp0XxaFsL66wNE6AxEJX2qI8Xr6AZ4Q2g"
 	# chat_id = "-643828126"
-	chat_id = "-615987943"
+	chat_id = "-895535637"
 	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
 	results = requests.get(url_req)
-	print(results.json())
+	# print(results.json())
 	
 ###############################################################################################################################
-
+send_msg_dock("text")
 
 def extract_pof():
 	os.system('rm -rf tmp/'+g00g_acc)
@@ -846,6 +848,7 @@ new_driver_path = '/usr/bin/geckodriver22'
 def random_fir():
 	# firefox_version=['97.0.1']
 	firefox_version=['57.0.1','58.0.1','59.0.1','60.0.1esr']
+	
 	random_firefox_version=random.choice(firefox_version)
 	print("[ "+random_firefox_version +" ]", end=" ")
 	new_binary_path="/root/EXTRAT/firefox-"+random_firefox_version+"/firefox/firefox"
@@ -870,3 +873,4 @@ def random_fir():
 #visibility="visible=1"
 #
 #p_vpn_g="/root/OUOIO/project_04_a_ads/NORD_CONFIG/ovpn_tcp/"
+# alias_send_msg("rrrr")

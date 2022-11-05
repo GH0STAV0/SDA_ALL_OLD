@@ -33,7 +33,7 @@ telrgram_text=[]
 
 
 email=cnf_bvb.g00g_acc
-cnf_bvb.extact_gc_profile()
+# cnf_bvb.extact_gc_profile()
 # email=""
 # email=""
 # email=""
@@ -283,7 +283,7 @@ def starting_tasks():
 		# mod_vpn2.fnc_vpn ()
 		cnf_bvb.extact_gc_profile()
 		visible_v=cnf_bvb.visible_v
-		# display = Display(visible=visible_v, size=(width,height)).start()
+		display = Display(visible=visible_v, size=(width,height)).start()
 		driver=mod_driver2.build_driver(width ,height)
 		lets_play(driver)
 

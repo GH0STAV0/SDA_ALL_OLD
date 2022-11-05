@@ -4,7 +4,8 @@ url_1="https://shell.cloud.google.com/?cloudshell=true&show=terminal"
 
 # vovanvonvowe garmiyashour
 
-comp=["olamadobano","laminewalter7","kawadurki","vovanvonvowe","gorgegofin","abouichrine"]
+comp=["olamadobano","0ct0pusx01xandrow","kawadurki","vovanvonvowe","gorgegofin","abouichrine"]
+# comp=["olamadobano","laminewalter7","kawadurki","vovanvonvowe","gorgegofin","abouichrine"]
 # comp=["garmiyashour","loftbloom","vovanvonvowe","gorgegofin","abouichrine"]
 
 # comp=["vovanvonvowe","azfounmondilla"]

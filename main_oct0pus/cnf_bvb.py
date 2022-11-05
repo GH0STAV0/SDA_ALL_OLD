@@ -2,7 +2,7 @@ import random , os ,requests
 import json
 import socket
 import socket
-import sql_gc_get
+import api_mysql
 hostname_os=socket.getfqdn()
 goog="/root/g00g"
 pwd = os.path.dirname(os.path.realpath( __file__ ))
@@ -25,7 +25,8 @@ print(read_current_acc_goo())
 # g00g_acc=read_current_acc_goo()
 # g00g_acc="garmiyashour"
 # g00g_acc="garmiyashour"
-g00g_acc= sql_gc_get.get_actif_account()
+g00g_id,g00g_acc= api_mysql.get_active_goo()
+print(g00g_acc)
 # g00g_acc= "garmiyashour"
 # 
 # erogomayke
@@ -55,13 +56,14 @@ def change_gc_acc():
 
 def send_msg_dock(text):
 	msg_telegram="[ "+hostname_os +" ]"+text
-	token = "5261450305:AAEROP9j6569RV4rKsE_tStXCdnLSX7Gz1Y"
+	token = "5609508648:AAHp0XxaFsL66wNE6AxEJX2qI8Xr6AZ4Q2g"
 	# chat_id = "-643828126" L0G_NICH
-	chat_id = "-615987943"
+	chat_id = "-895535637"
 	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
 	results = requests.get(url_req)
-	print(results.json())
-	
+	# print(results.json())
+
+# send_msg_dock("text")
 ###############################################################################################################################
 
 def extact_gc_profile():
@@ -743,7 +745,7 @@ def send_msg(text):
 	results = requests.get(url_req)
 	# print(results.json())
 
-
+# send_msg("text")
 
 def testt():
 	print("this is imported def")
