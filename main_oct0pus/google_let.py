@@ -259,6 +259,7 @@ def ads_class(driver):
 			print(staage)
 			cnf_bvb.send_msg_dock(staage)
 			open_login_button.click()
+			print("clickkkkkkkkkk")
 			open_login_button.send_keys("sudo su",Keys.ENTER)
 			time.sleep(10)
 			open_login_button.send_keys("clear && docker ps",Keys.ENTER)
@@ -270,7 +271,7 @@ def ads_class(driver):
 			print(e+" errrrrrrrro1") 
 
 	except Exception as e:
-		print("ads error")
+		print("ads error"+e)
 	# driver.delete_all_cookies()
 	
 ######################USER AGENT ###################################################

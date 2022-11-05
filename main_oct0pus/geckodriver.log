@@ -1,38 +1,12 @@
-1667623708168	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-59.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKBElA5"
-1667624004351	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-58.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBXF0BS"
-1667624043808	Marionette	INFO	Enabled via --marionette
-1667624106066	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVd4ROn"
-1667624133494	addons.xpi	WARN	Not converting unknown addon type undefined
-1667624133521	addons.xpi	WARN	Not converting unknown addon type undefined
-1667624133521	addons.xpi	WARN	Not converting unknown addon type undefined
-1667624133521	addons.xpi	WARN	Not converting unknown addon type undefined
-1667624133522	addons.xpi	WARN	Not converting unknown addon type undefined
-1667624133522	addons.xpi	WARN	Not converting unknown addon type undefined
-1667624133523	addons.xpi	WARN	Not converting unknown addon type undefined
-1667624133523	addons.xpi	WARN	Not converting unknown addon type undefined
-1667624133524	addons.xpi	WARN	Not converting unknown addon type undefined
-1667624137605	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1667624137607	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1667624137608	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1667624137609	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1667624138422	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1667624138423	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1667624138424	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1667624138424	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
-[Child 29484, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
-[Child 29481, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
-Exiting due to channel error.
-Exiting due to channel error.
-1667624727422	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-59.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilef6kRmq"
-1667625255900	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-57.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemH4rhk"
-1667625277276	Marionette	INFO	Enabled via --marionette
-1667625298022	Marionette	INFO	Listening on port 11111
-1667625298084	Marionette	WARN	TLS certificate errors will be ignored for this session
-1667625298213	Marionette	DEBUG	Register listener.js for window 2147483649
-1667625308683	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1667625309975	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1667625309978	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-1667625316243	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://shell.cloud.google.com/?cloudshell=true&show=terminal"
-1667625317309	Marionette	DEBUG	Received DOM event "pageshow" for "https://shell.cloud.google.com/?cloudshell=true&show=terminal"
-1667625429341	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1667674551162	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-57.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMzdBfs"
+1667674562993	Marionette	INFO	Enabled via --marionette
+1667674569322	Marionette	INFO	Listening on port 30049
+1667674569379	Marionette	WARN	TLS certificate errors will be ignored for this session
+1667674569528	Marionette	DEBUG	Register listener.js for window 2147483649
+1667674577618	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1667674589903	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1667674589904	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1667674592991	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://shell.cloud.google.com/?cloudshell=true&show=terminal"
+1667674597021	Marionette	DEBUG	Received DOM event "pageshow" for "https://shell.cloud.google.com/?cloudshell=true&show=terminal"
+1667674731875	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1667674833288	Marionette	DEBUG	Canceled page load listener because no navigation has been detected

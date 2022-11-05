@@ -200,17 +200,20 @@ def ads_class(driver):
 			time.sleep(10)
 			print(" OK")
 			check_profile_validity(driver)
-			
 
+			# 
 
-			# /html/body/cloud-shell-root/div/stand-alone/div[1]/div/loading-screen/div/div/div[2]/div[1]/div/div/div/div
 			open_login_button=WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
 			# input('google loginAAAAAAAAAyAAA')
 			print("we are here")
 			staage="OK XTEMINAL ACTIVATED [ "+cnf_bvb.g00g_acc+" ]"
 			print(staage)
 			cnf_bvb.send_msg_dock(staage)
+			time.sleep(13)
+			# input('google loginAAAAAAAAAyAAA')
 			open_login_button.click()
+			time.sleep(3)
+			print("0000000 we are here")
 			open_login_button.send_keys("sudo su",Keys.ENTER)
 			time.sleep(10)
 			open_login_button.send_keys("clear && docker ps",Keys.ENTER)
@@ -223,7 +226,7 @@ def ads_class(driver):
 			print(e+" errrrrrrrro1")
 
 	except Exception as e:
-		print("ads error")
+		print("ads error"+e)
 		cnf_bvb.send_msg_dock("ERROR ")
 	# driver.delete_all_cookies()
 ###########################################################################
@@ -260,6 +263,14 @@ def check_profile_validity(driver):
 	print(" ",etat)
 	msg="etat : "+etat
 	cnf_bvb.alias_send_msg(msg)
+
+	try:
+		dissmi=WebDriverWait(driver, 65).until(EC.presence_of_element_located((By.XPATH, '/html/body/cloud-shell-root/div/stand-alone/div[1]/div/horizontal-split/div[2]/devshell/terminal-container/terminal-status-bar/status-message/mat-toolbar/button')))
+		# input('google loginAAAAAAAAAyAAA')
+		dissmi.click()
+		print('ok')
+	except :
+		print('no dissmissed')
 
 def deconected_prof(driver):
 	# 
