@@ -4,14 +4,14 @@ url_1="https://shell.cloud.google.com/?cloudshell=true&show=terminal"
 
 # vovanvonvowe garmiyashour
 
-comp=["olamadobano","0ct0pusx01xandrow","kawadurki","vovanvonvowe","gorgegofin","abouichrine"]
+comp=["andromialwatid","0ct0pusx01xandrow","andersonandr0w00","vovanvonvowe","gorgegofin","abouichrine"]
 # comp=["olamadobano","laminewalter7","kawadurki","vovanvonvowe","gorgegofin","abouichrine"]
 # comp=["garmiyashour","loftbloom","vovanvonvowe","gorgegofin","abouichrine"]
 
 # comp=["vovanvonvowe","azfounmondilla"]
 
 
-email=comp[1]
+email=comp[2]
 paxx="g0ping0*"
 # paxx="g0ping0**"
 # paxx="agoon007"
