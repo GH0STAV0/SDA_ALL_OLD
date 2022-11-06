@@ -211,7 +211,7 @@ def ads_class(driver):
 			cnf_bvb.send_msg_dock(staage)
 			time.sleep(13)
 			# input('google loginAAAAAAAAAyAAA')
-			open_login_button.click()
+			# open_login_button.click()
 			time.sleep(3)
 			print("0000000 we are here")
 			open_login_button.send_keys("sudo su",Keys.ENTER)
