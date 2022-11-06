@@ -268,9 +268,10 @@ def check_profile_validity(driver):
 		dissmi=WebDriverWait(driver, 65).until(EC.presence_of_element_located((By.XPATH, '/html/body/cloud-shell-root/div/stand-alone/div[1]/div/horizontal-split/div[2]/devshell/terminal-container/terminal-status-bar/status-message/mat-toolbar/button')))
 		# input('google loginAAAAAAAAAyAAA')
 		dissmi.click()
-		print('ok')
+		time.sleep(3)
+		print('ok Dissmissed')
 	except :
-		print('no dissmissed')
+		print('no Dissmissed')
 
 def deconected_prof(driver):
 	# 
@@ -318,7 +319,7 @@ def starting_tasks():
 		stage_1()### CLEAR
 		# mod_vpn2.fnc_vpn ()
 		visible_v=cnf_bvb.visible_v
-		display = Display(visible=visible_v, size=(width,height)).start()
+		# display = Display(visible=visible_v, size=(width,height)).start()
 		driver=mod_driver2.build_driver(width ,height)
 		lets_play(driver)
 		display.stop()
