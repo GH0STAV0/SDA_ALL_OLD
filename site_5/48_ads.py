@@ -126,7 +126,8 @@ def lets_play(driver) :
 ###################################################################################################
 
 	lines=read_current_l0g()
-	cnf_bvb.send_msg(str(lines))
+	# cnf_bvb.send_msg(str(lines))
+	cnf_bvb.telegrame_api_send_chanel(str(lines))
 	# print("CHECK THE getLink_button WEB-SITE ...... ",end='')
 
 ###################################################################################################

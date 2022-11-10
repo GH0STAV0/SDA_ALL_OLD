@@ -64,8 +64,18 @@ parssed_url_2=urllib.parse.urlparse(url_site_2).netloc
 # parssed_url_2=parssed_url_2
 print(parssed_url_2)
 
+def telegrame_api_send_chanel(text):
+	msg_telegram="[ "+hostname_os +" ]"+text
+	token="5709466868:AAFyu--iaWHFtB9V7HzjiOQk8S2g1O5VD1s"
+	chat_id = "-1001351891755"
+	# token = "5261450305:AAEROP9j6569RV4rKsE_tStXCdnLSX7Gz1Y"
+	# chat_id = "-615987943"
 
-
+	# chat_id = "-643828126" L0G_NICH
+	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
+	results = requests.get(url_req)
+	# print(results.json())
+# telegrame_api_send_chanel("text")
 def send_msg_dock(text):
 	msg_telegram="[ "+hostname_os +" ]"+text
 	token="5086890807:AAEEM2OhQaR9mB7KUZvwkE60mHvoSY4BhOQ"
