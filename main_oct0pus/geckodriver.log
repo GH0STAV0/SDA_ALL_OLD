@@ -57,3 +57,12 @@ Exiting due to channel error.
 1668208108527	Marionette	INFO	Enabled via --marionette
 1668208112375	Marionette	INFO	Listening on port 22663
 1668208112473	Marionette	WARN	TLS certificate errors will be ignored for this session
+1668208297707	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-59.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebUlCLr"
+1668208301554	Marionette	INFO	Enabled via --marionette
+1668208306350	Marionette	INFO	Listening on port 12607
+1668208306392	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 17781, Chrome_ChildThread] WARNING: pipe error (39): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 17844, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 17781, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 17781, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353

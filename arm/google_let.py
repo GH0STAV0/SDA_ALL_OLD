@@ -265,7 +265,7 @@ def check_profile_validity(driver):
 	cnf_bvb.alias_send_msg(msg)
 
 	try:
-		dissmi=WebDriverWait(driver, 65).until(EC.presence_of_element_located((By.XPATH, '/html/body/cloud-shell-root/div/stand-alone/div[1]/div/horizontal-split/div[2]/devshell/terminal-container/terminal-status-bar/status-message/mat-toolbar/button')))
+		dissmi=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '/html/body/cloud-shell-root/div/stand-alone/div[1]/div/horizontal-split/div[2]/devshell/terminal-container/terminal-status-bar/status-message/mat-toolbar/button')))
 		# input('google loginAAAAAAAAAyAAA')
 		dissmi.click()
 		time.sleep(3)
