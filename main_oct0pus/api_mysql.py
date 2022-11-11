@@ -19,13 +19,13 @@ def get_active_goo():
 	# d2=d2[1].replace('}',"")
 	# d3=d2.replace(' ',"")
 	# count_left_count = d3
-	# print(data_id,data_name_acc)
+	print(data_id,data_name_acc)
 
 
 	return data_id , data_name_acc
 
 # count_left_api()
-# get_active_goo()
+get_active_goo()
 
 #////////  count_left_api ////////////////////////////////////////////////////////
 

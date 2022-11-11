@@ -10,3 +10,50 @@
 1667674597021	Marionette	DEBUG	Received DOM event "pageshow" for "https://shell.cloud.google.com/?cloudshell=true&show=terminal"
 1667674731875	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
 1667674833288	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1668207506107	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-59.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFHRfRE"
+1668207523412	Marionette	INFO	Enabled via --marionette
+1668207530190	Marionette	INFO	Listening on port 30029
+1668207530272	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+1668207690705	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-58.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFcAkR3"
+1668207696044	Marionette	INFO	Enabled via --marionette
+1668207701882	Marionette	INFO	Listening on port 22843
+1668207701953	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 16626, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1668207900826	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileW3Fzi4"
+1668207907844	addons.xpi	WARN	Not converting unknown addon type undefined
+1668207907845	addons.xpi	WARN	Not converting unknown addon type undefined
+1668207907845	addons.xpi	WARN	Not converting unknown addon type undefined
+1668207907845	addons.xpi	WARN	Not converting unknown addon type undefined
+1668207907846	addons.xpi	WARN	Not converting unknown addon type undefined
+1668207907846	addons.xpi	WARN	Not converting unknown addon type undefined
+1668207907847	addons.xpi	WARN	Not converting unknown addon type undefined
+1668207907847	addons.xpi	WARN	Not converting unknown addon type undefined
+1668207907848	addons.xpi	WARN	Not converting unknown addon type undefined
+1668207907848	addons.xpi	WARN	Not converting unknown addon type undefined
+1668207909630	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1668207909631	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1668207909632	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1668207909633	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1668207909952	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1668207909952	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1668207909952	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1668207909953	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://70d08f31-d176-4bcd-8538-2c3e6e3254a8/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+1668207923555	Marionette	INFO	Listening on port 31043
+1668207923664	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 17088, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 17065, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+1668208106005	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-58.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepvZMZF"
+1668208108527	Marionette	INFO	Enabled via --marionette
+1668208112375	Marionette	INFO	Listening on port 22663
+1668208112473	Marionette	WARN	TLS certificate errors will be ignored for this session
