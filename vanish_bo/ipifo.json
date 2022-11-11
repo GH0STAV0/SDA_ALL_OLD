@@ -1,12 +1,12 @@
 {
-  "ip": "216.131.114.108",
-  "hostname": "216-131-114-108.fra.as54203.net",
-  "city": "Frankfurt am Main",
-  "region": "Hesse",
-  "country": "DE",
-  "loc": "50.1137,8.7119",
+  "ip": "64.145.76.68",
+  "hostname": "64-145-76-68.lax.as54203.net",
+  "city": "Los Angeles",
+  "region": "California",
+  "country": "US",
+  "loc": "34.0614,-118.2385",
   "org": "AS54203 Strong Technology, LLC.",
-  "postal": "60314",
-  "timezone": "Europe/Berlin",
+  "postal": "90012",
+  "timezone": "America/Los_Angeles",
   "readme": "https://ipinfo.io/missingauth"
 }
