@@ -3,6 +3,7 @@
 import os ,random ,subprocess,time 
 import vpn_sql
 import cnf_bvb
+import api_mysql
 
 l05_00='l05_00'
 retry_count=[]
@@ -140,7 +141,10 @@ def remove_from_list_running(vpn_name):
 
 def get_random_vpn():
 	fresh_config,int_used=vpn_sql.get_fresh_config(typ0)
-	print(fresh_config,int_used)
+	
+	# data_id,data_cnf_names,data_used
+	# print(fresh_config,int_used)
+	print(data_id,data_cnf_names,data_used)
 	# check_list_vpn_lengh()
 	# arry_vv=read_current_list_vpn()
 	# random_vpn=random.choice(arry_vv)
