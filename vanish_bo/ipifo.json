@@ -1,12 +1,11 @@
 {
-  "ip": "64.145.76.68",
-  "hostname": "64-145-76-68.lax.as54203.net",
-  "city": "Los Angeles",
-  "region": "California",
+  "ip": "198.181.163.53",
+  "city": "Boston",
+  "region": "Massachusetts",
   "country": "US",
-  "loc": "34.0614,-118.2385",
-  "org": "AS54203 Strong Technology, LLC.",
-  "postal": "90012",
-  "timezone": "America/Los_Angeles",
+  "loc": "42.3584,-71.0598",
+  "org": "AS174 Cogent Communications",
+  "postal": "02133",
+  "timezone": "America/New_York",
   "readme": "https://ipinfo.io/missingauth"
 }
