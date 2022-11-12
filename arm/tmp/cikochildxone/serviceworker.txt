@@ -1,0 +1,11 @@
+8
+
+https://shell.cloud.google.com/
+https://shell.cloud.google.com/sw.js
+true
+{85e118bf-0581-4c16-9d04-3b91ee4d9f00}
+0
+1668196806017924
+1668196806044631
+1668196802953826
+#
