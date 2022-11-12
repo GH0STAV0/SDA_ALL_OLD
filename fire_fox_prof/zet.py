@@ -14,7 +14,7 @@ comp=["cikox0xmain","cikochildxone","cikochildxtow","cikochildxthree","cikochild
 # comp=["vovanvonvowe","azfounmondilla"]
 
 
-email=comp[3]
+email=comp[2]
 paxx="g0ping0*"
 # paxx="g0ping0**"
 # paxx="agoon007"
