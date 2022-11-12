@@ -838,3 +838,3316 @@ Sandbox: unsupported fd-relative fstatat(53, "", 0x7FFE305F1060, 4096)
 Sandbox: seccomp sandbox violation: pid 15037, tid 15037, syscall 262, args 53 140525988915034 140729709957216 4096 1 63.
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
 [Child 15089, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1668223008774	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-58.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile99WO2F"
+1668223022993	Marionette	INFO	Enabled via --marionette
+[Parent 32574, Gecko_IOThread] WARNING: pipe error (64): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 32574, Gecko_IOThread] WARNING: pipe error (62): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0040,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150081,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0040,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0040,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C00FE,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150062,name=PBrowser::Msg_UpdateDimensions) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150062,name=PBrowser::Msg_UpdateDimensions) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150085,name=PBrowser::Msg_SetDocShellIsActive) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150063,name=PBrowser::Msg_SizeModeChanged) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150064,name=PBrowser::Msg_ParentActivated) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150062,name=PBrowser::Msg_UpdateDimensions) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150084,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1668223046856	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePZ4a1Z"
+1668223054328	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1668223054329	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1668223054330	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1668223054330	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Parent 32755, Gecko_IOThread] WARNING: pipe error (93): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 32755, Gecko_IOThread] WARNING: pipe error (88): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 32755, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35005F,name=PContent::Msg_SetPluginList) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350055,name=PContent::Msg_GMPsChanged) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+[Parent 32755, Gecko_IOThread] WARNING: pipe error (100): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 32755, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+[Parent 32755, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+[Parent 32755, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+[Parent 32755, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+[Parent 32755, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+[Parent 32755, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+[Parent 32755, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+JavaScript error: resource://gre/modules/RemoteWebNavigation.jsm, line 133: TypeError: this._browser.frameLoader.remoteTab is null
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+[Parent 32755, Gecko_IOThread] WARNING: pipe error (108): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 32755, Gecko_IOThread] WARNING: pipe error (103): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+[Parent 32755, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: chrome://browser/content/browser.js, line 8762: TypeError: browser.messageManager is null
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  SessionStore: flushing all windows
+          Phase: quit-application-granted
+          State: {"total":-1,"current":-1}
+WARNING: TypeError: mm is null
+WARNING: flush@resource:///modules/sessionstore/TabStateFlusher.jsm:97:5
+flushWindow@resource:///modules/sessionstore/TabStateFlusher.jsm:127:28
+flushWindow@resource:///modules/sessionstore/TabStateFlusher.jsm:31:36
+flushAllWindowsAsync@resource:///modules/sessionstore/SessionStore.jsm:1872:50
+ssi_onQuitApplicationGranted/<@resource:///modules/sessionstore/SessionStore.jsm:1796:32
+trigger@resource://gre/modules/AsyncShutdown.jsm:725:23
+_wait@resource://gre/modules/AsyncShutdown.jsm:877:15
+wait@resource://gre/modules/AsyncShutdown.jsm:858:34
+observe@resource://gre/modules/AsyncShutdown.jsm:533:10
+observe@resource:///modules/ContentCrashHandlers.jsm:182:28
+
+JavaScript error: resource:///modules/sessionstore/TabStateFlusher.jsm, line 97: TypeError: mm is null
+1668223066595	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223066596	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223066598	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668223066784	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223066785	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223066787	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668223067151	Marionette	INFO	Listening on port 34969
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 173: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code."
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+JavaScript error: chrome://marionette/content/server.js, line 105: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIServerSocket.close]
+1668223081255	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-59.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileq73rtk"
+1668223085690	Marionette	INFO	Enabled via --marionette
+[Parent 33002, Gecko_IOThread] WARNING: pipe error (64): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 33002, Gecko_IOThread] WARNING: pipe error (62): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+[Parent 33002, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150080,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0104,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0104,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0104,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 33002, Gecko_IOThread] WARNING: pipe error (83): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 33002, Gecko_IOThread] WARNING: pipe error (81): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+console.error: 
+  Message: Error: Connection closed before committing the transaction.
+  Stack:
+    executeTransaction/promise</transactionPromise<@resource://gre/modules/Sqlite.jsm:617:19
+observe@resource://gre/modules/AsyncShutdown.jsm:535:9
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1668223109385	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-58.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileoW1tZ8"
+1668223112097	Marionette	INFO	Enabled via --marionette
+[Parent 33220, Gecko_IOThread] WARNING: pipe error (64): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 33220, Gecko_IOThread] WARNING: pipe error (62): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0040,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150081,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0040,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0040,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C00FE,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150084,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1668223173417	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-57.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiler1ssle"
+1668223177731	Marionette	INFO	Enabled via --marionette
+[Parent 33414, Gecko_IOThread] WARNING: pipe error (57): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 33414, Gecko_IOThread] WARNING: pipe error (55): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24003F,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150080,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24003F,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24003F,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2400FA,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150063,name=PBrowser::Msg_ParentActivated) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150061,name=PBrowser::Msg_UpdateDimensions) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150083,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 341: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1668223204637	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-57.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledbLIBb"
+1668223206014	Marionette	INFO	Enabled via --marionette
+[Parent 33602, Gecko_IOThread] WARNING: pipe error (55): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 33602, Gecko_IOThread] WARNING: pipe error (53): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24003F,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150080,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24003F,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24003F,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2400FA,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+[Parent 33602, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+[Parent 33602, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+[Parent 33602, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150083,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 341: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+JavaScript error: resource://shield-recipe-client/lib/ShieldRecipeClient.jsm, line 70: TypeError: log is undefined
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1668223245578	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileaJHfgY"
+1668223247042	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1668223247042	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1668223247043	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1668223247044	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Parent 33776, Gecko_IOThread] WARNING: pipe error (93): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 33776, Gecko_IOThread] WARNING: pipe error (88): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+[Parent 33776, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+[Parent 33776, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+[Parent 33776, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+[Parent 33776, Gecko_IOThread] WARNING: pipe error (106): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 33776, Gecko_IOThread] WARNING: pipe error (101): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350049,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 33776, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 33776, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 33776, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 33776, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+[Parent 33776, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1668223250975	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223250976	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223250979	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668223251097	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223251098	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223251099	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668223251150	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223251152	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223251162	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668223251288	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223251289	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223251290	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668223251344	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223251345	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223251346	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668223251411	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223251452	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223251453	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+[Parent 33776, Gecko_IOThread] WARNING: pipe error (100): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 33776, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350098,name=PContent::Reply_CreateAudioIPCConnection) Channel error: cannot send/recv
+
+[Parent 33776, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+[Parent 33776, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1668223251785	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223251786	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223251787	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1668223271864	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-57.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesIgnEx"
+1668223273530	Marionette	INFO	Enabled via --marionette
+[Parent 34016, Gecko_IOThread] WARNING: pipe error (56): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 34016, Gecko_IOThread] WARNING: pipe error (54): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24003F,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150080,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24003F,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24003F,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2400FA,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x24001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+[Parent 34016, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+[Parent 34016, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+[Parent 34016, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150083,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 341: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+JavaScript error: resource://shield-recipe-client/lib/ShieldRecipeClient.jsm, line 70: TypeError: log is undefined
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1668223336659	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileP3atSz"
+1668223338710	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1668223338710	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1668223338711	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1668223338711	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Parent 34317, Gecko_IOThread] WARNING: pipe error (93): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 34317, Gecko_IOThread] WARNING: pipe error (88): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+[Parent 34317, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+[Parent 34317, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+[Parent 34317, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+[Parent 34317, Gecko_IOThread] WARNING: pipe error (106): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 34317, Gecko_IOThread] WARNING: pipe error (101): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350098,name=PContent::Reply_CreateAudioIPCConnection) Channel error: cannot send/recv
+
+[Parent 34317, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+[Parent 34317, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1668223344941	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223344942	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223344944	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668223345037	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223345038	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223345040	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668223345089	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223345090	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223345091	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668223345142	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223345143	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223345144	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668223345184	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223345184	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223345185	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668223345220	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223345221	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223345222	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668223345424	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223345425	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668223345427	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+[Parent 34317, Gecko_IOThread] WARNING: pipe error (98): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 34317, Gecko_IOThread] WARNING: pipe error (93): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1668223537047	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-59.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCYskCi"
+1668223540034	Marionette	INFO	Enabled via --marionette
+[Parent 34777, Gecko_IOThread] WARNING: pipe error (64): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 34777, Gecko_IOThread] WARNING: pipe error (63): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15007F,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150060,name=PBrowser::Msg_UpdateDimensions) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150080,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0104,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0104,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0104,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1668223547336	addons.manager	ERROR	Failure during AddonRepository shutdown: Error: The object has been already finalized. (resource://gre/modules/DeferredTask.jsm:244:13) JS Stack trace: finalize@DeferredTask.jsm:244:13 < shutdown@AddonRepository.jsm:1521:19 < shutdown@AddonRepository.jsm:513:12 < shutdownManager@AddonManager.jsm:1141:13 < observe@AsyncShutdown.jsm:535:9
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  AddonManager: shutting down.
+          Phase: profile-before-change
+          State: [{"name":"AddonRepository: async shutdown","state":"in progress"}]
+WARNING: Error: The object has been already finalized.
+WARNING: finalize@resource://gre/modules/DeferredTask.jsm:244:13
+shutdown@resource://gre/modules/addons/AddonRepository.jsm:1521:19
+shutdown@resource://gre/modules/addons/AddonRepository.jsm:513:12
+shutdownManager@resource://gre/modules/AddonManager.jsm:1141:13
+observe@resource://gre/modules/AsyncShutdown.jsm:535:9
+
+JavaScript error: resource://gre/modules/DeferredTask.jsm, line 244: Error: The object has been already finalized.
+console.error: 
+  Message: Error: Connection closed before committing the transaction.
+  Stack:
+    executeTransaction/promise</transactionPromise<@resource://gre/modules/Sqlite.jsm:617:19
+observe@resource://gre/modules/AsyncShutdown.jsm:535:9
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1668243218801	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileplTvnw"
+1668243220172	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1668243220173	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1668243220173	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1668243220174	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Parent 40075, Gecko_IOThread] WARNING: pipe error (93): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 40075, Gecko_IOThread] WARNING: pipe error (88): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 40075, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35005F,name=PContent::Msg_SetPluginList) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350055,name=PContent::Msg_GMPsChanged) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+[Parent 40075, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+[Parent 40075, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+[Parent 40075, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+[Parent 40075, Gecko_IOThread] WARNING: pipe error (81): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 40075, Gecko_IOThread] WARNING: pipe error (100): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 40075, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 40075, Gecko_IOThread] WARNING: pipe error (84): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+JavaScript error: resource://gre/modules/RemoteWebNavigation.jsm, line 133: TypeError: this._browser.frameLoader.remoteTab is null
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+[Parent 40075, Gecko_IOThread] WARNING: pipe error (100): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 40075, Gecko_IOThread] WARNING: pipe error (116): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 40075, Gecko_IOThread] WARNING: pipe error (111): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 40075, Gecko_IOThread] WARNING: pipe error (103): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: chrome://browser/content/browser.js, line 8762: TypeError: browser.messageManager is null
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  SessionStore: flushing all windows
+          Phase: quit-application-granted
+          State: {"total":-1,"current":-1}
+WARNING: TypeError: mm is null
+WARNING: flush@resource:///modules/sessionstore/TabStateFlusher.jsm:97:5
+flushWindow@resource:///modules/sessionstore/TabStateFlusher.jsm:127:28
+flushWindow@resource:///modules/sessionstore/TabStateFlusher.jsm:31:36
+flushAllWindowsAsync@resource:///modules/sessionstore/SessionStore.jsm:1872:50
+ssi_onQuitApplicationGranted/<@resource:///modules/sessionstore/SessionStore.jsm:1796:32
+trigger@resource://gre/modules/AsyncShutdown.jsm:725:23
+_wait@resource://gre/modules/AsyncShutdown.jsm:877:15
+wait@resource://gre/modules/AsyncShutdown.jsm:858:34
+observe@resource://gre/modules/AsyncShutdown.jsm:533:10
+observe@resource:///modules/ContentCrashHandlers.jsm:182:28
+
+JavaScript error: resource:///modules/sessionstore/TabStateFlusher.jsm, line 97: TypeError: mm is null
+1668243226665	Marionette	INFO	Listening on port 19737
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+console.log: "RemoteSettingsWorker error: AbortError: A request was aborted, for example through a call to IDBTransaction.abort."
+JavaScript error: chrome://marionette/content/server.js, line 105: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIServerSocket.close]
+1668243250961	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-59.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejLsJI0"
+1668243252224	Marionette	INFO	Enabled via --marionette
+[Parent 40308, Gecko_IOThread] WARNING: pipe error (64): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 40308, Gecko_IOThread] WARNING: pipe error (62): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15007F,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0104,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+[Parent 40308, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150080,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: resource://shield-recipe-client/lib/ShieldRecipeClient.jsm, line 70: TypeError: log is undefined
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1668243347061	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCzPHiG"
+1668243348446	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1668243348446	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1668243348447	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1668243348447	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Parent 40636, Gecko_IOThread] WARNING: pipe error (93): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 40636, Gecko_IOThread] WARNING: pipe error (88): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 40636, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35005F,name=PContent::Msg_SetPluginList) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350055,name=PContent::Msg_GMPsChanged) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+[Parent 40636, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+[Parent 40636, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+[Parent 40636, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+[Parent 40636, Gecko_IOThread] WARNING: pipe error (100): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 40636, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 40636, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 40636, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 40636, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+JavaScript error: resource://gre/modules/RemoteWebNavigation.jsm, line 133: TypeError: this._browser.frameLoader.remoteTab is null
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350049,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 40636, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 40636, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 40636, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 40636, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1668243352391	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243352391	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243352393	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668243352493	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243352493	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243352495	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668243352543	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243352544	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243352545	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668243352592	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243352593	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243352594	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668243352634	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243352634	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243352635	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668243352674	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243352675	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243352676	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668243352836	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243352837	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243352839	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+[Parent 40636, Gecko_IOThread] WARNING: pipe error (100): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 40636, Gecko_IOThread] WARNING: pipe error (93): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1668243398022	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilec4W7ka"
+1668243399288	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1668243399288	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1668243399289	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1668243399289	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Parent 40897, Gecko_IOThread] WARNING: pipe error (93): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 40897, Gecko_IOThread] WARNING: pipe error (88): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 40897, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35005F,name=PContent::Msg_SetPluginList) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350055,name=PContent::Msg_GMPsChanged) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+[Parent 40897, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+[Parent 40897, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+[Parent 40897, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+[Parent 40897, Gecko_IOThread] WARNING: pipe error (100): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 40897, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008E,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 40897, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 40897, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 40897, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+JavaScript error: resource://gre/modules/RemoteWebNavigation.jsm, line 133: TypeError: this._browser.frameLoader.remoteTab is null
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350049,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 40897, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 40897, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 40897, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 40897, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1668243402555	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243402555	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243402557	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668243402643	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243402643	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243402645	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668243402691	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243402691	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243402693	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668243402732	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243402732	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243402733	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668243402785	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243402785	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243402787	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668243402827	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243402828	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243402829	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668243402940	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243402941	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243402942	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+[Parent 40897, Gecko_IOThread] WARNING: pipe error (101): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 40897, Gecko_IOThread] WARNING: pipe error (94): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1668243464014	geckodriver	INFO	Listening on 127.0.0.1:57555
+1668243464948	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "--marionette" "--width=1366" "--height=768" "-no-remote" "-profile" "/tmp/rust_mozprofile87V0oD"
+1668243466279	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1668243466279	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1668243466280	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1668243466280	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Parent 41146, Gecko_IOThread] WARNING: pipe error (91): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 41146, Gecko_IOThread] WARNING: pipe error (86): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 41146, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35005F,name=PContent::Msg_SetPluginList) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350055,name=PContent::Msg_GMPsChanged) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+[Parent 41146, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+[Parent 41146, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+[Parent 41146, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+[Parent 41146, Gecko_IOThread] WARNING: pipe error (98): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 41146, Gecko_IOThread] WARNING: pipe error (93): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 41146, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 41146, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 41146, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350049,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 41146, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 41146, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 41146, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 41146, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1668243469574	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243469575	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243469576	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668243469665	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243469665	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243469666	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668243469718	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243469719	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243469721	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668243469764	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243469764	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243469765	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668243469807	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243469807	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243469808	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668243469845	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243469846	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243469847	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668243469952	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243469952	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243469953	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+[Parent 41146, Gecko_IOThread] WARNING: pipe error (99): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 41146, Gecko_IOThread] WARNING: pipe error (92): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1668243662762	geckodriver	INFO	Listening on 127.0.0.1:48995
+1668243663780	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "--marionette" "--width=1366" "--height=768" "-no-remote" "-profile" "/tmp/rust_mozprofile53mZiy"
+1668243665180	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1668243665181	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1668243665182	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1668243665182	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Parent 41583, Gecko_IOThread] WARNING: pipe error (91): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 41583, Gecko_IOThread] WARNING: pipe error (86): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 41583, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35005F,name=PContent::Msg_SetPluginList) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350055,name=PContent::Msg_GMPsChanged) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+[Parent 41583, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+[Parent 41583, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+[Parent 41583, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+[Parent 41583, Gecko_IOThread] WARNING: pipe error (98): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 41583, Gecko_IOThread] WARNING: pipe error (93): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 41583, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 41583, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 41583, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350049,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 41583, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 41583, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 41583, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 41583, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1668243668358	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243668359	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243668361	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668243668441	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243668442	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243668443	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668243668491	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243668492	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243668493	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668243668544	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243668544	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243668546	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668243668586	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243668587	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243668588	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668243668627	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243668628	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243668629	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668243668738	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243668738	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668243668740	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+[Parent 41583, Gecko_IOThread] WARNING: pipe error (98): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 41583, Gecko_IOThread] WARNING: pipe error (91): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1668243723112	geckodriver	INFO	Listening on 127.0.0.1:62239
+1668243724139	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-59.0.1/firefox/firefox" "--marionette" "--width=1366" "--height=768" "-no-remote" "-profile" "/tmp/rust_mozprofile3PD4g5"
+1668243725604	Marionette	INFO	Enabled via --marionette
+[Parent 41813, Gecko_IOThread] WARNING: pipe error (63): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 41813, Gecko_IOThread] WARNING: pipe error (61): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0104,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0104,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15007F,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0104,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+[Parent 41813, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150080,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: resource://shield-recipe-client/lib/ShieldRecipeClient.jsm, line 70: TypeError: log is undefined
+console.error: 
+  Message: Error: Connection closed before committing the transaction.
+  Stack:
+    executeTransaction/promise</transactionPromise<@resource://gre/modules/Sqlite.jsm:617:19
+observe@resource://gre/modules/AsyncShutdown.jsm:535:9
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1668244025952	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJ0iWqs"
+[Parent 42379, Gecko_IOThread] WARNING: pipe error (72): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 42379, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15007E,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0105,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+[Parent 42379, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15007F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+console.error: (new Error("Connection closed before committing the transaction.", "resource://gre/modules/Sqlite.jsm", 614))
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1668244184304	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileAcMbDi"
+[Parent 42798, Gecko_IOThread] WARNING: pipe error (71): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 42798, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15007E,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0105,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+[Parent 42798, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+[Parent 42798, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+[Parent 42798, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15007F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1668244200217	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejKmOCm"
+[Parent 42956, Gecko_IOThread] WARNING: pipe error (71): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 42956, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15007E,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0105,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+[Parent 42956, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+[Parent 42956, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+[Parent 42956, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15007F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1668244223626	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegiGpWG"
+[Parent 43117, Gecko_IOThread] WARNING: pipe error (71): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 43117, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15007E,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0105,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+[Parent 43117, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+[Parent 43117, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+[Parent 43117, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15007F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1668244398332	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4u07L7"
+[Parent 43518, Gecko_IOThread] WARNING: pipe error (71): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 43518, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15007E,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0105,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+[Parent 43518, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+[Parent 43518, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+[Parent 43518, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15007F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1668244532083	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehmJyDt"
+1668244547362	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1668244547362	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1668244547363	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1668244547363	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Parent 43967, Gecko_IOThread] WARNING: pipe error (94): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 43967, Gecko_IOThread] WARNING: pipe error (89): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+[Parent 43967, Gecko_IOThread] WARNING: pipe error (106): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 43967, Gecko_IOThread] WARNING: pipe error (101): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 43967, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 43967, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 43967, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002F,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 43967, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350020,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+[Parent 43967, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1668244551167	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668244551168	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668244551170	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668244551286	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668244551287	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668244551289	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668244551352	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668244551353	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668244551355	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668244551416	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668244551417	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668244551418	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668244551474	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668244551474	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668244551475	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668244551518	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668244551519	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668244551520	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+1668244551642	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+makeAddonVisible@XPIDatabase.jsm:2286:10
+addToDatabase@XPIDatabase.jsm:2213:12
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668244551643	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+addToDatabase@XPIDatabase.jsm:2216:10
+install@XPIInstall.jsm:4344:27
+_activateAddon@XPIInstall.jsm:4371:7
+1668244551644	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+syncWithDB@XPIProvider.jsm:671:25
+addAddon@XPIProvider.jsm:807:14
+addAddon@XPIProvider.jsm:1603:21
+install@XPIInstall.jsm:4349:17
+_activateAddon@XPIInstall.jsm:4371:7
+[Parent 43967, Gecko_IOThread] WARNING: pipe error (101): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 43967, Gecko_IOThread] WARNING: pipe error (96): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+console.log: "RemoteSettingsWorker error: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code."
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.

@@ -15,7 +15,7 @@ import random,datetime,string , os ,time ,subprocess , sys , requests ,re
 from selenium.webdriver import ActionChains
 import json
 # import pickle
-# xamiramogdan 
+# xamiramogdan
 telrgram_text=[]
 # email="xamiramogdan"
 # email="almidaopo"
@@ -27,8 +27,8 @@ telrgram_text=[]
 # email="xamiramogdan"
 # email="xamiramogdan"
 # email="abouichrine"
-email="youcefshalhoub"
-paxx="g0ping0**"
+email="vanishmainxxone"
+paxx="g0ping0*"
 
 ###########global urls_BVB
 # urls_BVB=cnf_bvb.random_url
@@ -79,10 +79,9 @@ def clean_up():
 
 
 def lets_play(driver) :
-	
 	time.sleep(1)
 	try:
-		ads_class(driver)	
+		ads_class(driver)
 	except Exception as error:
 		print(str(error))
 
@@ -125,8 +124,8 @@ def stage_1():
 	try:
 		#print (url_1)
 		init_fire()
-		os.system("rm -rf /tmp/*") 
-		os.system("clear && sleep 1") 
+		os.system("rm -rf /tmp/*")
+		os.system("clear && sleep 1")
 		print ( "-------------------------------------------------------")
 		print(emoji.emojize("Website    : "+url_1+' :check_mark_button: :alien:'))
 		print("System     : "+sys_use_agent)
@@ -142,7 +141,7 @@ def check_reconect(driver):
 		reconnect_button.click()
 		print("syeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee!!!!!!")
 		starting_tasks()
-		
+
 	except Exception as e:
 		print("still  not  fucking  reconect!!!!!!")
 		open_login_button=WebDriverWait(driver, 58).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
@@ -174,13 +173,12 @@ def ads_class(driver):
 		time.sleep(3)
 		# input('')
 
-		
 		driver.get("https://shell.cloud.google.com/?cloudshell=true&show=terminal")
 		time.sleep(25)
 		# input("")
 		# input('google loginAAAAAAAAAAAA')
 		open_login_button=WebDriverWait(driver, 58).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
-		open_login_button.click()
+		#open_login_button.click()
 		open_login_button.send_keys("sudo su",Keys.ENTER)
 		time.sleep(10)
 		open_login_button.send_keys("clear && docker ps",Keys.ENTER)
@@ -201,7 +199,7 @@ def ads_class(driver):
 		# action = ActionChains(driver)
 		# action.move_to_element(getLink_button)# .perform()
 		# time.sleep(25)
-		
+
 		# getLink_button.click()
 
 
@@ -216,8 +214,7 @@ def ads_class(driver):
 	except Exception as e:
 		print(e)
 	# driver.delete_all_cookies()
-	
-		
+
 def starting_tasks():
 	width ,height=cnf_bvb.resolution_func()
 
