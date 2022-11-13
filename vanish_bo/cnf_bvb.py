@@ -161,7 +161,13 @@ alias_send_msg(mp)
 
 
 
-
+def send_msg_dock_2(text):
+	msg_telegram="[ "+hostname_os +" ]"+text
+	token = "5609508648:AAHp0XxaFsL66wNE6AxEJX2qI8Xr6AZ4Q2g"
+	# chat_id = "-643828126" L0G_NICH
+	chat_id = "-895535637"
+	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
+	results = requests.get(url_req)
 
 
 

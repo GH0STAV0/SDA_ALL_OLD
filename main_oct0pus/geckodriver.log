@@ -164,3 +164,13 @@ JavaScript error: moz-extension://00e9e9f4-e401-4be9-89a3-a8c61fbe1d7d/lib/pictu
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1668308387304	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-57.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiley31s0Y"
+1668308391511	Marionette	INFO	Enabled via --marionette
+1668308398308	Marionette	INFO	Listening on port 11737
+1668308398653	Marionette	WARN	TLS certificate errors will be ignored for this session
+1668308398837	Marionette	DEBUG	Register listener.js for window 2147483649
+1668308404224	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1668308405044	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1668308405045	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1668308407018	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://shell.cloud.google.com/?cloudshell=true&show=terminal"
+1668308407660	Marionette	DEBUG	Received DOM event "pageshow" for "https://shell.cloud.google.com/?cloudshell=true&show=terminal"
