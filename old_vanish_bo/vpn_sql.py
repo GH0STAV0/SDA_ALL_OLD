@@ -302,8 +302,8 @@ def oop_fresh_sql_table():
 	# os.system("mysql -h remotemysql.com -u f6V3kVwxvH -psOVnW1130i f6V3kVwxvH < nord_list2.sql")
 	# print("[ SUCCED ] ")
 	# alias_send_msg(dt_string)
-# check_connect_mysql()
-# counting_left()
+check_connect_mysql()
+counting_left()
 
 # check_tb_exist()
 # drop_sql_table()

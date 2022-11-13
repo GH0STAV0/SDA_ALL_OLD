@@ -62,7 +62,6 @@ def clean_up():
 	os.system("rm geckodriver.log > /dev/null 2>&1 && rm ipifo.json > /dev/null 2>&1")
 	os.system("rm -rf  __pycache__/ ")
 	os.system("service openvpn restart")
-	os.system("rm -rf /tmp/* && rm  l05_00 ipifo.json > /dev/null 2>&1") 
 
 	init_fire()
 
@@ -71,7 +70,7 @@ def stage_1():
 	try:
 		#print (url_1)
 		init_fire()
-		os.system("rm -rf /tmp/* && rm  l05_00 ipifo.json > /dev/null 2>&1") 
+		os.system("rm -rf /tmp/* && rm l05_00 > /dev/null 2>&1") 
 		# os.system("clear && sleep 1") 
 		# print ( "-------------------------------------------------------")
 		# print(emoji.emojize("Website    : "+url_1+' :check_mark_button: :alien:'))
@@ -356,7 +355,7 @@ def starting_tasks():
 		lets_play(driver)
 		#driver.delete_all_cookies()
 		display.stop()
-
+		
 
 	except Exception as error:
 		print (str(error))
@@ -364,7 +363,7 @@ def starting_tasks():
 
 
 
-
+os.system("rm -rf /tmp/*")
 
 
 
@@ -372,8 +371,6 @@ def starting_tasks():
 
 def main():
 	starting_tasks()
-	clean_up()
-	os.system("rm -rf /tmp/*")
 	# append_to_l0g("text_add")
 
 

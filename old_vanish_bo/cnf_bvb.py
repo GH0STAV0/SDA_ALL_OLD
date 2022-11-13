@@ -6,7 +6,7 @@ import emoji , os
 import  u_a
 
 os.system("clear && sleep 1") 
-os.system("rm l05_00 ipifo.json ") 
+
 print("#######################***  CONFIGURATION ; ) ****############################\n")
 
 vpn_type="V"
@@ -21,7 +21,7 @@ if "LOOKE3" in hostname_os:
 
 
 total_l0g=[]
-vversion="SITE_5.0_io/IMG=_xm0uray-site_5|-API-_VANISH_FIX_5"
+vversion="SITE_5.0 io/IMG= xm0uray-site_5 | VANISH +NEW+ renew FIX 2.0.1S"
 telegram_tokens_bot=["0","5036803152:AAGs0ES1OmEdy86MNJDp7mp19BB5IQhcVHU","5099462819:AAEndTxvXaSqBQ6E_EpiCN02a81ROGPMgr0","5001651751:AAGzzbUfJXWHZz-FKJyLSUxzg-JiRMO5v-Q","5041058138:AAFRher-cMwnRI476iW24tT6Kt8lvC0bmLc","5051743922:AAEOHJTRzv2WIxZ8bR-VrVYNA6io6qB1Ltw"]
 
 

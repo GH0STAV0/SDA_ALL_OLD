@@ -3,7 +3,6 @@
 import os ,random ,subprocess,time 
 import vpn_sql
 import cnf_bvb
-import api_mysql
 
 l05_00='l05_00'
 retry_count=[]
@@ -139,7 +138,7 @@ def remove_from_list_running(vpn_name):
 
 
 
-def old_get_random_vpn():
+def get_random_vpn():
 	fresh_config,int_used=vpn_sql.get_fresh_config(typ0)
 	print(fresh_config,int_used)
 	# check_list_vpn_lengh()
@@ -150,28 +149,6 @@ def old_get_random_vpn():
 	# print(random_vpn)
 	log_vpn_too.extend((final_vpn, random_vpn,int_used))
 	return final_vpn , random_vpn ,int_used ,log_vpn_too
-
-##############################################################
-##############################################################
-
-
-
-def get_random_vpn():
-	# fresh_config,int_used=vpn_sql.get_fresh_config(typ0)
-	# fresh_config,int_used=vpn_sql.get_fresh_config(typ0)
-	# print(fresh_config,int_used)
-	data_id,data_cnf_names,data_used,van_config_left = api_mysql.get_random_api_van()
-	print(data_id,data_cnf_names,data_used,van_config_left)
-	# check_list_vpn_lengh()
-	# arry_vv=read_current_list_vpn()
-	# random_vpn=random.choice(arry_vv)
-	random_vpn=data_cnf_names
-	final_vpn=vpn_folder+random_vpn
-	# print(random_vpn)
-	log_vpn_too.extend((final_vpn, random_vpn,van_config_left))
-	return final_vpn , random_vpn ,data_id , van_config_left
-# final_vpn , random_vpn ,data_id , van_config_left=api_mysql.get_random_api_van()
-# print(final_vpn , random_vpn ,data_id , van_config_left)
 
 ##############################################################
 
@@ -186,10 +163,7 @@ def fnc_vpn():
 	print("################################  FNC_VPN  ###################################")
 	os.system("echo '' > /var/log/openvpn/openvpn.log")
 	# print(log_vpn_too)
-	# final_vpn,random_vpn,int_used,log_vpn_too=get_random_vpn()
-	# int_used=api_mysql.count_left_api()
-	final_vpn,random_vpn,id_config,int_used=get_random_vpn()
-	print(int_used)
+	final_vpn,random_vpn,int_used,log_vpn_too=get_random_vpn()
 	# print("KILLING OPENVPN ....",end=' ')
 	os.system("ps aux | grep  openvpn | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 	def_tz=read_default_timezone()
@@ -226,8 +200,7 @@ def fnc_vpn():
 			meddas=mm+def_titi+" [ CONNECTED VPN] [ "+str(int_used)+" ] : [ "+ random_vpn  +" ] \n"+"|| [ IP ] : [ "+ ac_ip+" ] || [ TIME_Z ] : ["+ tz+" ]"+"\n"
 			# " [ "+url_1+" ]"
 			append_to_l0g(meddas)
-			# vpn_sql.update_to_db_as_used(random_vpn,typ0)
-			api_mysql.update_conf_van_api(id_config)
+			vpn_sql.update_to_db_as_used(random_vpn,typ0)
 			# print(meddas)
 			cnf_bvb.ap_2_l0g(meddas)
 			cnf_bvb.alias_send_msg(meddas)
@@ -278,4 +251,3 @@ def fnc_vpn():
 #cnf_bvb.testt()
 # fnc_vpn ()
 # get_random_vpn()
-# fnc_vpn()
