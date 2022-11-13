@@ -16,14 +16,14 @@ from selenium.webdriver import ActionChains
 import json
 import drive_md_chrom
 import u_a
-# import pickle
+
 
 telrgram_text=[]
 
-###########global urls_BVB
+
 
 url_1=cnf_bvb.url_1
-# print (url_1)
+
 url_site_2=cnf_bvb.url_site_4
 second_2_visit=cnf_bvb.second_2_visit
 url_6=cnf_bvb.url_6
@@ -69,14 +69,8 @@ def clean_up():
 
 def stage_1():
 	try:
-		#print (url_1)
 		init_fire()
 		os.system("rm -rf /tmp/* && rm  l05_00 ipifo.json > /dev/null 2>&1") 
-		# os.system("clear && sleep 1") 
-		# print ( "-------------------------------------------------------")
-		# print(emoji.emojize("Website    : "+url_1+' :check_mark_button: :alien:'))
-		# print("System     : "+sys_use_agent)
-		# print ( "-------------------------------------------------------")
 		os.system("ps aux | grep -i openvpn | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 		os.system("service openvpn restart")
 		time.sleep(5)
@@ -84,21 +78,7 @@ def stage_1():
 		print (str(error))
 
 
-
-
-
-
-
-
-
-	#starting_tasks()
-############################################################################################
-
-#####################################
-
 def init_fire():
-	# print("############################################################")
-	# print("INIT TASKS ..... ", end='')
 	try:
 		os.system("ps aux | grep -i firefox | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 		#
@@ -111,7 +91,6 @@ def init_fire():
 		os.system("rm /var/log/openvpn/openvpn.log > /dev/null 2>&1")
 		#
 		time.sleep(5)
-		# print(" OK !!!")
 	except:
 		print(" NO  some_Error init_fire")
 
@@ -121,15 +100,10 @@ def lets_play(driver) :
 		ads_class(driver)
 	except Exception as error:
 		print(str(error))
-
-
-
 ###################################################################################################
-
 	lines=read_current_l0g()
-	cnf_bvb.send_msg(str(lines))
-	# print("CHECK THE getLink_button WEB-SITE ...... ",end='')
-
+	cnf_bvb.telegrame_api_send_chanel(str(lines))
+	# cnf_bvb.send_msg(str(lines))
 ###################################################################################################
 
 	try:
