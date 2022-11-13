@@ -1,12 +1,12 @@
 {
-  "ip": "216.131.79.168",
-  "hostname": "216-131-79-168.dal.as62651.net",
-  "city": "Dallas",
-  "region": "Texas",
+  "ip": "216.131.80.71",
+  "hostname": "216-131-80-71.lax.as62651.net",
+  "city": "Los Angeles",
+  "region": "California",
   "country": "US",
-  "loc": "32.7939,-96.8319",
+  "loc": "34.0522,-118.2437",
   "org": "AS62651 Strong Technology, LLC.",
-  "postal": "75207",
-  "timezone": "America/Chicago",
+  "postal": "90076",
+  "timezone": "America/Los_Angeles",
   "readme": "https://ipinfo.io/missingauth"
 }

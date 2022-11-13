@@ -160,9 +160,6 @@ def lets_play(driver) :
 	except Exception as error:
 		print(str(error))
 
-	# print("CHECK THE getLink_button WEB-SITE ...... ",end='')
-
-
 	try:
 		print("Close Firefox ...... ",end='')
 		driver.quit()
@@ -194,20 +191,23 @@ def stage_1():
 def check_reconect(driver):
 	print("CHECK TEMINAL DISPONIBILITY ..... ",end='',flush=True)
 	try:
+		print("check")
 		reconnect_button=WebDriverWait(driver, 60).until(EC.presence_of_element_located((By.XPATH, '//*[@id="cloudshell"]/div/horizontal-split/div[2]/devshell/terminal-container/terminal-status-bar/status-message/mat-toolbar/button[2]')))
 		reconnect_button.click()
 		print("syeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee!!!!!!")
 		starting_tasks()
-		
 	except Exception as e:
+		print("no")
+	try:
 		print("still  not  fucking  reconect!!!!!!")
-		open_login_button=WebDriverWait(driver, 58).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
-		# open_login_button.click()
+		open_login_button=WebDriverWait(driver, 120).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
 		open_login_button.send_keys("clear && docker ps",Keys.ENTER)
+		cnf_bvb.send_msg_dock("still  not  fucking  reconect!!!!!!")
 		time.sleep(300)
-		# driver.save_screenshot("scr.png")
 		print("OK XTERMINAL FOUND !!!!!!")
 		check_reconect(driver)
+	except Exception as e:
+		print("no2")
 
 def check_recovery(driver):
 	print("CHECK RECOVERY MAIL !!!!!!")
