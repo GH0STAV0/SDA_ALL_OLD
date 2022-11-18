@@ -215,7 +215,7 @@ def ads_class(driver):
 		# SUCCESS_MSG_BUTTON.click()
 		# time.sleep(7)
 	time.sleep(12)
-	driver.get("https://youtu.be/9dgydVy_8xU")
+	driver.get("https://youtu.be/3bMYY5mF83Y")
 	time.sleep(12)
 
 	append_to_l0g("VISITE WEB-SITE [ 2 ] : [ +second_2_visit+]  OK")
