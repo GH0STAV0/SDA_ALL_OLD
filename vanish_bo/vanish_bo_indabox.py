@@ -216,7 +216,7 @@ def ads_class(driver):
 		# time.sleep(7)
 	time.sleep(12)
 	driver.get("https://youtu.be/3bMYY5mF83Y")
-	time.sleep(12)
+	time.sleep(62)
 
 	append_to_l0g("VISITE WEB-SITE [ 2 ] : [ +second_2_visit+]  OK")
 		# time.sleep(2)
