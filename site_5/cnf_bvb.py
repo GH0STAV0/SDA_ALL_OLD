@@ -23,7 +23,9 @@ def ap_2_l0g(gms):
 
 
 #urls=["https://30m30m.nl.eu.org/"]
-urls=["https://disp0s0.nl.eu.org/"]
+# urls=["https://disp0s0.nl.eu.org/"]
+urls=["https://30m30m.nl.eu.org/"]
+
 # 
 url_6="https://www.bit-plazza.nl.eu.org/?m=0"
 
