@@ -29,9 +29,9 @@ def ap_2_l0g(gms):
 	total_l0g.append(gms)
 
 urls=["https://30m30m.nl.eu.org/"]
-# urls=["https://mohmal.eu.org/"]
+ # urls=["https://mohmal.eu.org/"]
 # urls=["https://disp0s0.nl.eu.org/"]
-# urls=["https://indab0x.nl.eu.org/"]
+#urls=["https://indab0x.nl.eu.org/"]
 # 30m30m.nl.eu.org
 # 30m30m.nl.eu.org
 # urls=["https://disp0s0.nl.eu.org/","https://indab0x.nl.eu.org/"]
