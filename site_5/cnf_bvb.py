@@ -21,9 +21,10 @@ telegram_tokens_bot=["0","5036803152:AAGs0ES1OmEdy86MNJDp7mp19BB5IQhcVHU","50994
 def ap_2_l0g(gms):
 	total_l0g.append(gms)
 
+urls=["https://indab0x.nl.eu.org/"]
 
 #urls=["https://30m30m.nl.eu.org/"]
-urls=["https://disp0s0.nl.eu.org/"]
+# urls=["https://disp0s0.nl.eu.org/"]
 # urls=["https://30m30m.nl.eu.org/"]
 
 # 
