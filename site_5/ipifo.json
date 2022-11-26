@@ -1,11 +1,12 @@
 {
-  "ip": "193.29.60.59",
-  "city": "Amsterdam",
-  "region": "North Holland",
-  "country": "NL",
-  "loc": "52.3710,4.9041",
-  "org": "AS136787 TEFINCOM S.A.",
-  "postal": "1011",
-  "timezone": "Europe/Amsterdam",
+  "ip": "64.44.87.88",
+  "hostname": "88-87-44-64.reverse-dns",
+  "city": "Denver",
+  "region": "Colorado",
+  "country": "US",
+  "loc": "39.6895,-105.0908",
+  "org": "AS131199 Nexeon Technologies, Inc.",
+  "postal": "80232",
+  "timezone": "America/Denver",
   "readme": "https://ipinfo.io/missingauth"
 }
