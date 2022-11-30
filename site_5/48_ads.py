@@ -224,7 +224,9 @@ def ads_class(driver):
 			driver.switch_to.frame(0)
 			time.sleep(2)
 
+			# SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/div/div[2]/div/span')))
 			SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/div/div[2]/div/span')))
+
 			print("peform1 : "+SUCCESS_MSG_BUTTON.text)
 			do0n="peform1 : "+SUCCESS_MSG_BUTTON.text
 			print(do0n)

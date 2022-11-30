@@ -1,12 +1,12 @@
 {
-  "ip": "64.44.87.88",
-  "hostname": "88-87-44-64.reverse-dns",
-  "city": "Denver",
-  "region": "Colorado",
+  "ip": "84.17.41.141",
+  "hostname": "unn-84-17-41-141.cdn77.com",
+  "city": "Seattle",
+  "region": "Washington",
   "country": "US",
-  "loc": "39.6895,-105.0908",
-  "org": "AS131199 Nexeon Technologies, Inc.",
-  "postal": "80232",
-  "timezone": "America/Denver",
+  "loc": "47.6062,-122.3321",
+  "org": "AS60068 Datacamp Limited",
+  "postal": "98101",
+  "timezone": "America/Los_Angeles",
   "readme": "https://ipinfo.io/missingauth"
 }
