@@ -11,6 +11,7 @@ api_url=para_m.url
 #////////  count_left_api ////////////////////////////////////////////////////////
 
 def count_left_api():
+	print(api_url)
 	response = requests.get(f'{api_url}/nor/count')
 	data = response.json() #.get('COUNT(*)')
 	d2=str(data[0]).split(":")
