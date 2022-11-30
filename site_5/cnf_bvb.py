@@ -29,7 +29,7 @@ urls=["https://baridi.nl.eu.org/"]
 #https://baridi.nl.eu.org/
 
 # 
-url_6="https://www.bit-plazza.nl.eu.org/?m=0"
+url_6=urls #"https://www.bit-plazza.nl.eu.org/?m=0"
 
 
 def set_url():
