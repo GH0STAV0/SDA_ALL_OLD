@@ -136,11 +136,11 @@ def ads_class(driver):
 		driver.get(url_1)
 		# input("pref1")
 		# /html/body/section/iframe
-		# SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/header/div/iframe')))
+		SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/header/div/iframe')))
 
 
 		
-		SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/section/iframe')))
+		# SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/section/iframe')))
 		action.move_to_element(SUCCESS_MSG_BUTTON)
 		action.perform()
 		print("peform")
@@ -187,8 +187,8 @@ def ads_class(driver):
 	driver.get(url_1)
 	action = ActionChains(driver)
 	time.sleep(2)
-	preform_tow=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/section/iframe')))
-	# preform_tow=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/header/div/iframe')))
+	# preform_tow=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/section/iframe')))
+	preform_tow=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/header/div/iframe')))
 	action.move_to_element(preform_tow)
 	action.perform()
 	print("peform")
@@ -225,9 +225,9 @@ def ads_class(driver):
 		# SUCCESS_MSG_BUTTON.click()
 		# time.sleep(7)
 	time.sleep(12)
-	driver.get("https://youtu.be/3bMYY5mF83Y")
+	# driver.get("https://youtu.be/3bMYY5mF83Y")
 	# input("tr")
-	time.sleep(62)
+	time.sleep(12)
 
 	append_to_l0g("VISITE WEB-SITE [ 2 ] : [ +second_2_visit+]  OK")
 		# time.sleep(2)

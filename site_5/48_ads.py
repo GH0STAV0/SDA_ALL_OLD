@@ -199,11 +199,11 @@ def ads_class(driver):
 		# driver.switch_to.window("tab2")
 
 		driver.get(url_1)
-		SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/section/iframe')))
+		# SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/section/iframe')))
 
 
 		
-		# SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/header/div/iframe')))
+		SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/header/div/iframe')))
 		action.move_to_element(SUCCESS_MSG_BUTTON)
 		action.perform()
 		print("peform 01")
@@ -261,9 +261,9 @@ def ads_class(driver):
 	action = ActionChains(driver)
 	time.sleep(2)
 	# SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/section/iframe')))
-	preform_tow=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/section/iframe')))
+	# preform_tow=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/section/iframe')))
 
-	# preform_tow=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/header/div/iframe')))
+	preform_tow=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/header/div/iframe')))
 	action.move_to_element(preform_tow)
 	action.perform()
 	print("peform")

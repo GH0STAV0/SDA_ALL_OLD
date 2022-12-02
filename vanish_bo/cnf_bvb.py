@@ -30,8 +30,8 @@ def ap_2_l0g(gms):
 
 # urls=["https://30m30m.nl.eu.org/"]
  # urls=["https://mohmal.eu.org/"]
-# urls=["https://disp0s0.nl.eu.org/"]
-urls=["https://baridi.nl.eu.org/"]
+urls=["https://disp0s0.nl.eu.org/"]
+# urls=["https://baridi.nl.eu.org/"]
 # urls=["https://indab0x.nl.eu.org/"]
 # 30m30m.nl.eu.org
 # 30m30m.nl.eu.org
