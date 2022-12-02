@@ -1,12 +1,11 @@
 {
-  "ip": "84.17.41.141",
-  "hostname": "unn-84-17-41-141.cdn77.com",
-  "city": "Seattle",
-  "region": "Washington",
-  "country": "US",
-  "loc": "47.6062,-122.3321",
-  "org": "AS60068 Datacamp Limited",
-  "postal": "98101",
-  "timezone": "America/Los_Angeles",
+  "ip": "86.48.10.19",
+  "city": "Singapore",
+  "region": "Singapore",
+  "country": "SG",
+  "loc": "1.3557,103.8237",
+  "org": "AS136787 TEFINCOM S.A.",
+  "postal": "574180",
+  "timezone": "Asia/Singapore",
   "readme": "https://ipinfo.io/missingauth"
 }
