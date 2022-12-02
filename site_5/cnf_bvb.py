@@ -22,11 +22,13 @@ def ap_2_l0g(gms):
 	total_l0g.append(gms)
 
 # urls=["https://indab0x.nl.eu.org/"]
-urls=["https://disp0s0.nl.eu.org/"]
+# urls=["https://disp0s0.nl.eu.org/"]
 #urls=["https://30m30m.nl.eu.org/"]
 # urls=["https://baridi.nl.eu.org/"]
 # urls=["https://30m30m.nl.eu.org/"]
 #https://baridi.nl.eu.org/
+# urls=""
+urls=["https://mohmal.eu.org/"]
 
 # 
 url_6=urls #"https://www.bit-plazza.nl.eu.org/?m=0"
