@@ -134,14 +134,18 @@ def ads_class(driver):
 
 
 		driver.get(url_1)
+		# input("pref1")
+		# /html/body/section/iframe
+		# SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/header/div/iframe')))
+
 
 		
-		SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/header/div/iframe')))
+		SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/section/iframe')))
 		action.move_to_element(SUCCESS_MSG_BUTTON)
 		action.perform()
 		print("peform")
 		time.sleep(7)
-		# input("pref1")
+		# input("pref2222")
 
 		try:
 
@@ -183,7 +187,8 @@ def ads_class(driver):
 	driver.get(url_1)
 	action = ActionChains(driver)
 	time.sleep(2)
-	preform_tow=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/header/div/iframe')))
+	preform_tow=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/section/iframe')))
+	# preform_tow=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/header/div/iframe')))
 	action.move_to_element(preform_tow)
 	action.perform()
 	print("peform")
